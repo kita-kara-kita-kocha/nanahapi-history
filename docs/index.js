@@ -37,6 +37,7 @@ let talentColors = {};
 
 // アーカイブファイルのリスト
 const archiveFiles = [
+    'archives_@7_hapi_.json',
     'archives_@amanosakatu.json',
     'archives_@JabiDevi.json',
     'archives_@kirihuda_ataru.json',
@@ -46,6 +47,7 @@ const archiveFiles = [
     'archives_@memoa_923.json',
     'archives_@mimic_teionvo.json',
     'archives_@nekono_chiyuru.json',
+    'archives_@nicola_aldin.json',
     'archives_@pieceofpudding3.json',
     'archives_@rinka__angel.json',
     'archives_@Toworu_.json'
@@ -91,40 +93,19 @@ function normalizeString(str) {
 async function loadTalentInfo() {
     try {
         const response = await fetch('src/talent_info.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
         talentInfo = await response.json();
         
-        // YouTube IDからタレント名へのマッピングを作成（正規化を適用）
-        talentInfo.forEach(talent => {
-            const normalizedName = normalizeString(talent.name);
-            const normalizedColor = normalizeString(talent.color);
-            talentNameMap[talent.yt] = normalizedName;
-            talentColors[talent.yt] = normalizedColor;
-        });
-    } catch (error) {
-        console.error('Error loading talent info:', error);
-        // フォールバック: 既存のマッピングを使用（正規化を適用）
-        const fallbackMapping = {
-            '@amanosakatu': 'まどろみ姉さん',
-            '@JabiDevi': '蛇火',
-            '@kirihuda_ataru': '切札アタル',
-            '@kokoroninonno': 'ココロニ・ノンノ',
-            '@koyuchan_': '星降こゆ',
-            '@mel_samui': '花鹿める',
-            '@memoa_923': 'めもあ',
-            '@mimic_teionvo': 'みみっく＝わんだぁぼっくす',
-            '@nekono_chiyuru': '猫野ちゆる',
-            '@pieceofpudding3': 'ルシア・アラモード',
-            '@rinka__angel': 'リンカ=エンジェルズシェア',
-            '@Toworu_': '楠木トヲル'
-        };
-        
+        // タレント名のマッピングを作成
         talentNameMap = {};
-        Object.entries(fallbackMapping).forEach(([key, value]) => {
-            talentNameMap[key] = normalizeString(value);
+        talentColors = {};
+        talentInfo.forEach(talent => {
+            console.log(`Loading talent: ${talent.yt} : ${talent.name}`);
+            talentNameMap[talent.yt] = talent.name;
+            talentColors[talent.yt] = talent.color;
         });
+        // populateTalentFilter関数はloadAllVideos内で呼び出される
+    } catch (error) {
+        console.error('タレント情報の読み込みに失敗しました:', error);
     }
 }
 
@@ -188,6 +169,7 @@ function populateTalentFilter(talentNames) {
     // タレントボタンを生成
     talentButtonsElement.innerHTML = '';
     sortedTalentNames.forEach((talentName, index) => {
+        console.log(`Creating button for talent: ${talentName}`);
         const button = document.createElement('button');
         button.className = 'talent-btn';
         button.textContent = talentName;
