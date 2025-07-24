@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ななはぴアーカイブ タイムライン</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🌸 ななはぴアーカイブ タイムライン 🌸</h1>
+            <p>ななはぴメンバーの動画を時系列で表示</p>
+            <nav class="page-nav">
+                <a href="index.html" class="nav-link active">タイムライン表示</a>
+                <a href="calendar.html" class="nav-link">カレンダー表示</a>
+            </nav>
+        </header>
+
+        <div class="filters">
+            <div class="talent-filter-section">
+                <label>タレント絞り込み:</label>
+                <div class="talent-buttons" id="talentButtons">
+                    <!-- タレントボタンがここに動的に追加されます -->
+                </div>
+                <div class="filter-info">
+                    <span id="selectedCount">選択中: 0人</span>
+                    <button class="clear-all-btn" id="clearAllBtn">全て選択解除</button>
+                </div>
+            </div>
+            
+            <div class="sort-section">
+                <label for="dateSort">並び順:</label>
+                <select id="dateSort">
+                    <option value="desc">新しい順</option>
+                    <option value="asc">古い順</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>動画を読み込み中...</p>
+        </div>
+
+        <div class="filter-results" id="filterResults" style="display: none;">
+            <!-- フィルタリング結果の詳細がここに表示されます -->
+        </div>
+
+        <div class="timeline" id="timeline">
+            <!-- 動画アイテムがここに動的に追加されます -->
+        </div>
+
+        <div class="load-more-container">
+            <button id="loadMore" class="load-more-btn" style="display: none;">
+                さらに読み込む
+            </button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

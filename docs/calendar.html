@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ななはぴアーカイブ カレンダー</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🗓️ ななはぴアーカイブ カレンダー 🗓️</h1>
+            <p>ななはぴメンバーの動画をカレンダー形式で表示</p>
+            <nav class="page-nav">
+                <a href="index.html" class="nav-link">タイムライン表示</a>
+                <a href="calendar.html" class="nav-link active">カレンダー表示</a>
+            </nav>
+        </header>
+
+        <div class="filters">
+            <div class="talent-filter-section">
+                <label>タレント絞り込み:</label>
+                <div class="talent-buttons" id="talentButtons">
+                    <!-- タレントボタンがここに動的に追加されます -->
+                </div>
+                <div class="filter-info">
+                    <span id="selectedCount">選択中: 0人</span>
+                    <button class="clear-all-btn" id="clearAllBtn">全て選択解除</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="calendar-controls">
+            <button id="prevMonth" class="nav-btn">« 前月</button>
+            <div class="current-month">
+                <span id="currentMonth"></span>
+            </div>
+            <button id="nextMonth" class="nav-btn">次月 »</button>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>動画を読み込み中...</p>
+        </div>
+
+        <div class="calendar-container">
+            <div class="calendar" id="calendar">
+                <!-- カレンダーがここに動的に生成されます -->
+            </div>
+        </div>
+
+        <div class="video-details" id="videoDetails" style="display: none;">
+            <div class="details-header">
+                <h3>選択した日の動画</h3>
+                <button id="closeDetails" class="close-btn">×</button>
+            </div>
+            <div class="details-date" id="detailsDate"></div>
+            <div class="details-videos" id="detailsVideos">
+                <!-- 選択した日の動画一覧がここに表示されます -->
+            </div>
+        </div>
+    </div>
+
+    <script src="calendar.js"></script>
+</body>
+</html>
