@@ -84,12 +84,204 @@ body {
     margin-bottom: 20px;
 }
 
+.tag-filter-section {
+    margin-bottom: 20px;
+}
+
+.date-filter-section {
+    margin-bottom: 20px;
+}
+
+.date-filter-section > label,
 .talent-filter-section > label,
+.tag-filter-section > label,
 .sort-section > label {
     display: block;
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
+}
+
+.date-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: end;
+}
+
+.date-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.date-input-group label {
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+}
+
+.date-input {
+    padding: 8px 12px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background: white;
+    min-width: 150px;
+}
+
+.date-input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.clear-date-btn {
+    background: linear-gradient(45deg, #ffc107, #ffb300);
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.clear-date-btn:hover {
+    background: linear-gradient(45deg, #ffb300, #ff8f00);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255, 193, 7, 0.3);
+}
+
+/* タグフィルター */
+.tag-search-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.tag-search-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 14px;
+    background: white;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.tag-search-input:focus {
+    border-color: #667eea;
+}
+
+.tag-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 2px solid #667eea;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tag-suggestion {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tag-suggestion:hover {
+    background: #f8f9fa;
+}
+
+.tag-suggestion:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+.tag-suggestion-name {
+    font-weight: 500;
+}
+
+.tag-suggestion-count {
+    font-size: 0.8em;
+    color: #666;
+    background: #e9ecef;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.selected-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+    min-height: 20px;
+}
+
+.selected-tag {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.selected-tag:hover {
+    background: linear-gradient(45deg, #5a67d8, #6b46c1);
+    transform: translateY(-1px);
+}
+
+.selected-tag-remove {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: white;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+
+.selected-tag-remove:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.clear-tags-btn {
+    background: linear-gradient(45deg, #ffc107, #ffb300);
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.clear-tags-btn:hover {
+    background: linear-gradient(45deg, #ffb300, #ff8f00);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255, 193, 7, 0.3);
 }
 
 .talent-buttons {
@@ -377,6 +569,13 @@ body {
     border-radius: 12px;
     font-size: 0.8em;
     font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tag:hover {
+    background: linear-gradient(45deg, #5a67d8, #6b46c1);
+    transform: translateY(-1px);
 }
 
 .video-description {
@@ -435,6 +634,23 @@ body {
     
     .talent-filter-section {
         margin-bottom: 15px;
+    }
+    
+    .tag-filter-section {
+        margin-bottom: 15px;
+    }
+    
+    .date-filter-section {
+        margin-bottom: 15px;
+    }
+    
+    .date-inputs {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .date-input {
+        min-width: 100%;
     }
     
     .sort-section {

@@ -129,15 +129,25 @@ function createTalentButtons() {
 
 // タレント選択の切り替え
 function toggleTalent(talentId, button) {
+    const talentColor = talentColors[talentId] || '#ccc';
+    
     if (selectedTalents.has(talentId)) {
         selectedTalents.delete(talentId);
         button.classList.remove('active');
-        button.style.backgroundColor = '';
+        // 選択解除時は元の境界線色に戻す
+        button.style.background = '';
+        button.style.borderColor = talentColor;
         button.style.color = '';
     } else {
         selectedTalents.add(talentId);
         button.classList.add('active');
-        button.style.backgroundColor = talentColors[talentId] || '#5a67d8';
+        // 選択時はグラデーション背景を設定
+        let gradientColorB = (parseInt(talentColor.slice(1), 16) - 0x1222222);
+        if (gradientColorB < 0) {
+            gradientColorB = 0;
+        }
+        button.style.background = `linear-gradient(45deg, ${talentColor}, #${gradientColorB.toString(16).padStart(6, '0')})`;
+        button.style.borderColor = talentColor;
         button.style.color = 'white';
     }
     
@@ -152,8 +162,15 @@ function setupEventListeners() {
         selectedTalents.clear();
         document.querySelectorAll('.talent-btn').forEach(btn => {
             btn.classList.remove('active');
-            btn.style.backgroundColor = '';
+            // 背景スタイルもリセット
+            btn.style.background = '';
             btn.style.color = '';
+            // 境界線色は元の色に戻す
+            const talentName = btn.textContent;
+            const talent = talentInfo.find(t => t.name === talentName);
+            if (talent) {
+                btn.style.borderColor = talentColors[talent.yt] || '#ccc';
+            }
         });
         applyFilters();
         renderCalendar();

@@ -6,6 +6,7 @@ let currentPage = 0;
 const videosPerPage = 20;
 let talentInfo = [];
 let talentNameMap = {};
+let allTags = new Map(); // タグ名とその使用回数を保存
 
 // DOM要素
 const timelineElement = document.getElementById('timeline');
@@ -16,9 +17,23 @@ const selectedCountElement = document.getElementById('selectedCount');
 const filterResultsElement = document.getElementById('filterResults');
 const dateSortElement = document.getElementById('dateSort');
 const loadMoreButton = document.getElementById('loadMore');
+const dateFromElement = document.getElementById('dateFrom');
+const dateToElement = document.getElementById('dateTo');
+const clearDateBtnElement = document.getElementById('clearDateBtn');
+const tagSearchElement = document.getElementById('tagSearch');
+const tagSuggestionsElement = document.getElementById('tagSuggestions');
+const selectedTagsElement = document.getElementById('selectedTags');
+const selectedTagCountElement = document.getElementById('selectedTagCount');
+const clearTagsBtnElement = document.getElementById('clearTagsBtn');
 
 // 選択されたタレント
 let selectedTalents = new Set();
+
+// 選択されたタグ
+let selectedTags = new Set();
+
+// タレントカラーマップ
+let talentColors = {};
 
 // アーカイブファイルのリスト
 const archiveFiles = [
@@ -44,11 +59,13 @@ async function init() {
     
     // 選択状態を確実にクリア
     selectedTalents.clear();
+    selectedTags.clear();
     
     await loadTalentInfo();
     await loadAllVideos();
     setupEventListeners();
     updateSelectedCount();
+    updateSelectedTagCount();
     applyFilters();
     showLoading(false);
 }
@@ -82,8 +99,9 @@ async function loadTalentInfo() {
         // YouTube IDからタレント名へのマッピングを作成（正規化を適用）
         talentInfo.forEach(talent => {
             const normalizedName = normalizeString(talent.name);
+            const normalizedColor = normalizeString(talent.color);
             talentNameMap[talent.yt] = normalizedName;
-            talentColors[talent.yt] = talent.color;
+            talentColors[talent.yt] = normalizedColor;
         });
     } catch (error) {
         console.error('Error loading talent info:', error);
@@ -117,6 +135,7 @@ async function loadAllVideos() {
     
     allVideos = [];
     const talentNames = new Set();
+    allTags.clear();
     
     results.forEach((data, index) => {
         if (data && data.items) {
@@ -131,6 +150,14 @@ async function loadAllVideos() {
                     talentId: talentId,
                     talentName: talentName
                 });
+                
+                // タグを収集
+                if (video.tags && Array.isArray(video.tags)) {
+                    video.tags.forEach(tag => {
+                        const normalizedTag = normalizeString(tag);
+                        allTags.set(normalizedTag, (allTags.get(normalizedTag) || 0) + 1);
+                    });
+                }
             });
         }
     });
@@ -164,7 +191,10 @@ function populateTalentFilter(talentNames) {
         const button = document.createElement('button');
         button.className = 'talent-btn';
         button.textContent = talentName;
-        button.style.borderColor = talentColors[talent.yt] || '#ccc';
+        
+        // タレント名からIDを逆引き
+        const talentId = Object.keys(talentNameMap).find(id => talentNameMap[id] === talentName);
+        button.style.borderColor = talentColors[talentId] || '#ccc';
         button.dataset.talent = talentName;
         button.addEventListener('click', () => {
             toggleTalentSelection(talentName, button);
@@ -188,12 +218,28 @@ function toggleTalentSelection(talentName, buttonElement) {
     // タレント名を正規化（ボタンのテキストも正規化済みのはずだが、念のため）
     const normalizedTalentName = normalizeString(talentName);
     
+    // タレント名からIDを逆引きして色を取得
+    const talentId = Object.keys(talentNameMap).find(id => talentNameMap[id] === normalizedTalentName);
+    const talentColor = talentColors[talentId] || '#ccc';
+    
     if (selectedTalents.has(normalizedTalentName)) {
         selectedTalents.delete(normalizedTalentName);
         buttonElement.classList.remove('selected');
+        // 選択解除時は元の境界線色に戻す
+        buttonElement.style.background = '';
+        buttonElement.style.borderColor = talentColor;
     } else {
         selectedTalents.add(normalizedTalentName);
         buttonElement.classList.add('selected');
+        // 選択時はグラデーション背景を設定
+        // 16進数talentColorから10進数200を引き、10進数で取得
+        let gradientColorB = (parseInt(talentColor.slice(1), 16) - 0x1222222);
+        if (gradientColorB < 0) {
+            gradientColorB = 0;
+        }
+        console.log(`Gradient colors: ${talentColor}, ${gradientColorB.toString(16)}`);
+        buttonElement.style.background = `linear-gradient(45deg, ${talentColor}, #${gradientColorB.toString(16).padStart(6, '0')})`;
+        buttonElement.style.borderColor = talentColor;
     }
     
     updateSelectedCount();
@@ -206,10 +252,123 @@ function clearAllSelections() {
     const allButtons = talentButtonsElement.querySelectorAll('.talent-btn');
     allButtons.forEach(button => {
         button.classList.remove('selected');
+        // 背景スタイルもリセット
+        button.style.background = '';
+        // 境界線色は元の色に戻す
+        const talentName = button.textContent;
+        const talentId = Object.keys(talentNameMap).find(id => talentNameMap[id] === talentName);
+        const talentColor = talentColors[talentId] || '#ccc';
+        button.style.borderColor = talentColor;
     });
     
     updateSelectedCount();
     applyFilters();
+}
+
+// 日付フィルターをクリア
+function clearDateFilter() {
+    dateFromElement.value = '';
+    dateToElement.value = '';
+    applyFilters();
+}
+
+// タグ検索機能
+function filterTagSuggestions() {
+    const searchTerm = tagSearchElement.value.toLowerCase().trim();
+    
+    if (searchTerm === '') {
+        tagSuggestionsElement.style.display = 'none';
+        return;
+    }
+    
+    const filteredTags = Array.from(allTags.entries())
+        .filter(([tag, count]) => 
+            tag.toLowerCase().includes(searchTerm) && !selectedTags.has(tag)
+        )
+        .sort((a, b) => b[1] - a[1]) // 使用回数の多い順
+        .slice(0, 10); // 最大10個
+    
+    if (filteredTags.length === 0) {
+        tagSuggestionsElement.style.display = 'none';
+        return;
+    }
+    
+    tagSuggestionsElement.innerHTML = filteredTags
+        .map(([tag, count]) => 
+            `<div class="tag-suggestion" data-tag="${escapeHtml(tag)}">
+                <span class="tag-suggestion-name">${escapeHtml(tag)}</span>
+                <span class="tag-suggestion-count">${count}件</span>
+            </div>`
+        ).join('');
+    
+    tagSuggestionsElement.style.display = 'block';
+    
+    // タグ選択のイベントリスナーを追加
+    tagSuggestionsElement.querySelectorAll('.tag-suggestion').forEach(suggestion => {
+        suggestion.addEventListener('click', () => {
+            const tag = suggestion.dataset.tag;
+            addTag(tag);
+            tagSearchElement.value = '';
+            tagSuggestionsElement.style.display = 'none';
+        });
+    });
+}
+
+// タグを追加
+function addTag(tag) {
+    if (!selectedTags.has(tag)) {
+        selectedTags.add(tag);
+        updateSelectedTagsDisplay();
+        updateSelectedTagCount();
+        applyFilters();
+    }
+}
+
+// タグを削除
+function removeTag(tag) {
+    selectedTags.delete(tag);
+    updateSelectedTagsDisplay();
+    updateSelectedTagCount();
+    applyFilters();
+}
+
+// 選択されたタグの表示を更新
+function updateSelectedTagsDisplay() {
+    if (selectedTags.size === 0) {
+        selectedTagsElement.innerHTML = '';
+        return;
+    }
+    
+    selectedTagsElement.innerHTML = Array.from(selectedTags)
+        .map(tag => 
+            `<div class="selected-tag">
+                <span>${escapeHtml(tag)}</span>
+                <button class="selected-tag-remove" onclick="removeTag('${escapeHtml(tag)}')" title="削除">×</button>
+            </div>`
+        ).join('');
+}
+
+// 選択されたタグ数の表示を更新
+function updateSelectedTagCount() {
+    const count = selectedTags.size;
+    if (count === 0) {
+        selectedTagCountElement.textContent = '選択中: 0個';
+    } else {
+        selectedTagCountElement.textContent = `選択中: ${count}個`;
+    }
+}
+
+// 全タグ選択を解除
+function clearAllTags() {
+    selectedTags.clear();
+    updateSelectedTagsDisplay();
+    updateSelectedTagCount();
+    applyFilters();
+}
+
+// 動画のタグをクリックしたときの処理
+function handleTagClick(tag) {
+    addTag(tag);
 }
 
 // イベントリスナーの設定
@@ -217,20 +376,81 @@ function setupEventListeners() {
     clearAllBtnElement.addEventListener('click', clearAllSelections);
     dateSortElement.addEventListener('change', applyFilters);
     loadMoreButton.addEventListener('click', loadMoreVideos);
+    dateFromElement.addEventListener('change', applyFilters);
+    dateToElement.addEventListener('change', applyFilters);
+    clearDateBtnElement.addEventListener('click', clearDateFilter);
+    
+    // タグフィルター関連
+    tagSearchElement.addEventListener('input', filterTagSuggestions);
+    tagSearchElement.addEventListener('focus', filterTagSuggestions);
+    clearTagsBtnElement.addEventListener('click', clearAllTags);
+    
+    // タグ候補の外側をクリックしたら非表示
+    document.addEventListener('click', (e) => {
+        if (!tagSearchElement.contains(e.target) && !tagSuggestionsElement.contains(e.target)) {
+            tagSuggestionsElement.style.display = 'none';
+        }
+    });
 }
 
 // フィルターを適用
 function applyFilters() {
     const sortOrder = dateSortElement.value;
+    const dateFrom = dateFromElement.value;
+    const dateTo = dateToElement.value;
     
-    if (selectedTalents.size === 0) {
-        filteredVideos = [...allVideos];
-    } else {
-        filteredVideos = allVideos.filter(video => {
+    // タレントフィルターを適用
+    let videos = allVideos;
+    if (selectedTalents.size > 0) {
+        videos = videos.filter(video => {
             const normalizedVideoTalentName = normalizeString(video.talentName);
             return selectedTalents.has(normalizedVideoTalentName);
         });
     }
+    
+    // タグフィルターを適用
+    if (selectedTags.size > 0) {
+        videos = videos.filter(video => {
+            if (!video.tags || !Array.isArray(video.tags)) return false;
+            
+            return Array.from(selectedTags).every(selectedTag => {
+                return video.tags.some(videoTag => 
+                    normalizeString(videoTag) === selectedTag
+                );
+            });
+        });
+    }
+    
+    // 日付フィルターを適用
+    if (dateFrom || dateTo) {
+        videos = videos.filter(video => {
+            const videoDate = new Date(video.upload_date);
+            
+            // 無効な日付の場合は除外
+            if (isNaN(videoDate.getTime())) {
+                return false;
+            }
+            
+            // 日付を日単位で比較するため、時間をリセット
+            const videoDateOnly = new Date(videoDate.getFullYear(), videoDate.getMonth(), videoDate.getDate());
+            
+            let passesFilter = true;
+            
+            if (dateFrom) {
+                const fromDate = new Date(dateFrom);
+                passesFilter = passesFilter && videoDateOnly >= fromDate;
+            }
+            
+            if (dateTo) {
+                const toDate = new Date(dateTo);
+                passesFilter = passesFilter && videoDateOnly <= toDate;
+            }
+            
+            return passesFilter;
+        });
+    }
+    
+    filteredVideos = videos;
     
     // フィルタリング結果の詳細を表示
     showFilterResults();
@@ -271,7 +491,13 @@ function applyFilters() {
 
 // フィルタリング結果の詳細を表示
 function showFilterResults() {
-    if (selectedTalents.size === 0) {
+    const dateFrom = dateFromElement.value;
+    const dateTo = dateToElement.value;
+    const hasDateFilter = dateFrom || dateTo;
+    const hasTalentFilter = selectedTalents.size > 0;
+    const hasTagFilter = selectedTags.size > 0;
+    
+    if (!hasDateFilter && !hasTalentFilter && !hasTagFilter) {
         filterResultsElement.style.display = 'none';
         return;
     }
@@ -285,24 +511,64 @@ function showFilterResults() {
     
     // 結果表示を構築
     const totalCount = filteredVideos.length;
-    const selectedTalentList = Array.from(selectedTalents);
     
+    let filterDescription = '';
+    
+    // 日付フィルターの説明
+    if (hasDateFilter) {
+        const formatDateForDisplay = (dateStr) => {
+            if (!dateStr) return '';
+            const date = new Date(dateStr);
+            return `${date.getFullYear()}/${String(date.getMonth() + 1).padStart(2, '0')}/${String(date.getDate()).padStart(2, '0')}`;
+        };
+        
+        if (dateFrom && dateTo) {
+            filterDescription += `📅 期間: ${formatDateForDisplay(dateFrom)} ～ ${formatDateForDisplay(dateTo)}`;
+        } else if (dateFrom) {
+            filterDescription += `📅 ${formatDateForDisplay(dateFrom)} 以降`;
+        } else if (dateTo) {
+            filterDescription += `📅 ${formatDateForDisplay(dateTo)} 以前`;
+        }
+        
+        if (hasTalentFilter || hasTagFilter) {
+            filterDescription += '<br>';
+        }
+    }
+    
+    // タレントフィルターの説明
+    if (hasTalentFilter) {
+        const selectedTalentList = Array.from(selectedTalents);
+        filterDescription += `👥 選択中のタレント: ${selectedTalentList.join('、')}`;
+        
+        if (hasTagFilter) {
+            filterDescription += '<br>';
+        }
+    }
+    
+    // タグフィルターの説明
+    if (hasTagFilter) {
+        const selectedTagList = Array.from(selectedTags);
+        filterDescription += `🏷️ 選択中のタグ: ${selectedTagList.join('、')}`;
+    }
+    
+    // タレント別の動画数内訳
     let breakdownHtml = '';
-    selectedTalentList.forEach(talent => {
-        const count = talentCounts[talent] || 0;
-        breakdownHtml += `<span class="talent-count">${talent}: ${count}件</span>`;
-    });
+    if (hasTalentFilter) {
+        const selectedTalentList = Array.from(selectedTalents);
+        selectedTalentList.forEach(talent => {
+            const count = talentCounts[talent] || 0;
+            breakdownHtml += `<span class="talent-count">${talent}: ${count}件</span>`;
+        });
+    }
     
     filterResultsElement.innerHTML = `
         <h4>📊 フィルタリング結果</h4>
         <div class="result-summary">
-            選択中のタレント: ${selectedTalentList.join('、')}
+            ${filterDescription}
             <br>
             表示される動画数: <strong>${totalCount}件</strong>
         </div>
-        <div class="talent-breakdown">
-            ${breakdownHtml}
-        </div>
+        ${breakdownHtml ? `<div class="talent-breakdown">${breakdownHtml}</div>` : ''}
     `;
     
     filterResultsElement.style.display = 'block';
@@ -359,12 +625,24 @@ function createVideoElement(video) {
             </div>
             ${video.tags && video.tags.length > 0 ? 
                 `<div class="video-tags">
-                    ${video.tags.map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}
+                    ${video.tags.map(tag => `<span class="tag" data-tag="${escapeHtml(normalizeString(tag))}">${escapeHtml(tag)}</span>`).join('')}
                 </div>` : ''
             }
             <p class="video-description">${escapeHtml(video.description || '')}</p>
         </div>
     `;
+    
+    // タグのクリックイベントを追加
+    if (video.tags && video.tags.length > 0) {
+        const tagElements = videoItem.querySelectorAll('.tag');
+        tagElements.forEach(tagElement => {
+            tagElement.addEventListener('click', (e) => {
+                e.preventDefault();
+                const tagName = tagElement.dataset.tag;
+                handleTagClick(tagName);
+            });
+        });
+    }
     
     return videoItem;
 }

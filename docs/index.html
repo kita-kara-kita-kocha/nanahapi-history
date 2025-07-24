@@ -29,6 +29,36 @@
                 </div>
             </div>
             
+            <div class="tag-filter-section">
+                <label>タグ絞り込み:</label>
+                <div class="tag-search-container">
+                    <input type="text" id="tagSearch" class="tag-search-input" placeholder="タグを検索..." autocomplete="off">
+                    <div class="tag-suggestions" id="tagSuggestions" style="display: none;"></div>
+                </div>
+                <div class="selected-tags" id="selectedTags">
+                    <!-- 選択されたタグがここに表示されます -->
+                </div>
+                <div class="filter-info">
+                    <span id="selectedTagCount">選択中: 0個</span>
+                    <button class="clear-tags-btn" id="clearTagsBtn">タグクリア</button>
+                </div>
+            </div>
+            
+            <div class="date-filter-section">
+                <label>日付範囲で絞り込み:</label>
+                <div class="date-inputs">
+                    <div class="date-input-group">
+                        <label for="dateFrom">開始日:</label>
+                        <input type="date" id="dateFrom" class="date-input">
+                    </div>
+                    <div class="date-input-group">
+                        <label for="dateTo">終了日:</label>
+                        <input type="date" id="dateTo" class="date-input">
+                    </div>
+                    <button class="clear-date-btn" id="clearDateBtn">日付クリア</button>
+                </div>
+            </div>
+            
             <div class="sort-section">
                 <label for="dateSort">並び順:</label>
                 <select id="dateSort">
