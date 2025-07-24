@@ -376,7 +376,7 @@ function createVideoDetailItem(video) {
         video.tags.forEach(tag => {
             const tagElement = document.createElement('span');
             tagElement.className = 'video-tag';
-            tagElement.textContent = `#${tag}`;
+            tagElement.textContent = `${tag}`;
             tags.appendChild(tagElement);
         });
         
