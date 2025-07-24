@@ -172,14 +172,10 @@ def get_thumbnail_url(video_info, video_id):
         # サムネイルが存在する場合
         thumbnails = video_info['thumbnails']
         # "resolution": "640x480"のサムネイルを優先的に取得
-        for thumnail in thumbnails:
-            if 'resolution' in thumnail.keys():
-                if debug_flag:
-                    print(f"  → サムネイル解像度確認: {thumnail['resolution']}")
-                if thumnail['resolution'] == '640x480':
-                    if debug_flag:
-                        print(f"  → 640x480のサムネイルを取得: {thumnail.get('url')}")
-                    return thumnail.get('url')
+        for thumbnail in thumbnails:
+            if 'resolution' in thumbnail.keys():
+                if thumbnail['resolution'] == '640x480':
+                    return thumbnail.get('url')
     # サムネイルが存在しない場合や640x480のサムネイルが見つからない場合は、最大解像度のサムネイルを取得
     return thumbnails[-1].get('url', f"https://i.ytimg.com/vi/{video_id}/maxresdefault.jpg")
 
@@ -207,7 +203,7 @@ def create_video_data_from_detailed_info(video_info, video_id):
         "videoId": video_id,
         "video_url": f"https://www.youtube.com/watch?v={video_id}",
         "tags": tags,
-        "upload_date": to_update_timestamp(video_info.get('release_timestamp', '')),
+        "upload_date": to_update_timestamp(video_info.get('release_timestamp', video_info.get('epoch', ''))),
     }
 
 def create_video_data_from_basic_info(entry):
@@ -263,6 +259,8 @@ def process_video_entry(entry, ydl_opts):
         print(f"動画ID {video_id} の詳細情報を取得中...")
         
         video_info = get_detailed_video_info(video_id, ydl_opts)
+        if debug_flag:
+            debug_videos.append(video_info)  # デバッグ用動画情報を追加
 
         # 動画情報を整形
         video_data = create_video_data_from_detailed_info(video_info, video_id)
@@ -480,7 +478,7 @@ def main():
     """
     global debug_flag
     global debug_videos
-    CHANNEL_URL = f"https://www.youtube.com/{sys.argv[1]}/streams"
+    CHANNEL_URL = f"https://www.youtube.com/{sys.argv[1]}"
     OUTPUT_FILE = f"docs/src/archives_{sys.argv[1]}.json"
 
     get_length = None  # デフォルトの取得動画数
@@ -512,7 +510,10 @@ def main():
     
     # 動画情報を取得
     print(f"🔍 チャンネル '{CHANNEL_URL}' から動画情報を取得します...")
-    videos = get_video_info(CHANNEL_URL, get_length)
+    videos = []
+    videos.extend(get_video_info(f'{CHANNEL_URL}/streams', get_length))
+    videos.extend(get_video_info(f'{CHANNEL_URL}/videos', get_length))
+    videos.extend(get_video_info(f'{CHANNEL_URL}/shorts', get_length))
 
     if videos:
         # JSONファイルに保存
