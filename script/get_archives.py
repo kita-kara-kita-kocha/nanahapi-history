@@ -2,6 +2,9 @@
 #  - yt-dlpを利用
 #  - アーカイブで取得する情報は{video_title, video_url, thumbnail_url, upload_date}
 
+# 動画ごとの情報取得確認用
+# yt-dlp https://www.youtube.com/watch?v={video_id} --skip-download --print-json | jq > tmp.json
+
 import sys
 import json
 import yt_dlp
@@ -194,6 +197,9 @@ def create_video_data_from_detailed_info(video_info, video_id):
     title = video_info.get('title', '')
     # 「#」で始まるタグを抽出
     tags = imprecise_tags(title)
+    upload_date = video_info.get('release_timestamp', '')
+    if upload_date is None or upload_date == '':
+        upload_date = video_info.get('timestamp', 0)
 
     return {
         "title": title,
@@ -203,7 +209,7 @@ def create_video_data_from_detailed_info(video_info, video_id):
         "videoId": video_id,
         "video_url": f"https://www.youtube.com/watch?v={video_id}",
         "tags": tags,
-        "upload_date": to_update_timestamp(video_info.get('release_timestamp', video_info.get('epoch', ''))),
+        "upload_date": to_update_timestamp(upload_date),
     }
 
 def create_video_data_from_basic_info(entry):
