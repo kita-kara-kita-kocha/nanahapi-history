@@ -1,6 +1,7 @@
 # 🌸 ななはぴアーカイブ タイムライン
 
 ななはぴメンバーのYouTube動画アーカイブを収集・表示するプロジェクトです。
+https://kita-kara-kita-kocha.github.io/nanahapi-history/
 
 ## 📋 概要
 
