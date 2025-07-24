@@ -5,6 +5,7 @@ let talentInfo = [];
 let talentNameMap = {};
 let currentDate = new Date();
 let selectedTalents = new Set();
+let archiveFiles = []; // アーカイブファイルのリスト
 
 // DOM要素
 const calendarElement = document.getElementById('calendar');
@@ -20,22 +21,6 @@ const detailsDateElement = document.getElementById('detailsDate');
 const detailsVideosElement = document.getElementById('detailsVideos');
 const closeDetailsButton = document.getElementById('closeDetails');
 
-// アーカイブファイルのリスト
-const archiveFiles = [
-    'archives_@amanosakatu.json',
-    'archives_@JabiDevi.json',
-    'archives_@kirihuda_ataru.json',
-    'archives_@kokoroninonno.json',
-    'archives_@koyuchan_.json',
-    'archives_@mel_samui.json',
-    'archives_@memoa_923.json',
-    'archives_@mimic_teionvo.json',
-    'archives_@nekono_chiyuru.json',
-    'archives_@pieceofpudding3.json',
-    'archives_@rinka__angel.json',
-    'archives_@Toworu_.json'
-];
-
 // 初期化
 async function init() {
     showLoading(true);
@@ -44,6 +29,7 @@ async function init() {
     selectedTalents.clear();
     
     await loadTalentInfo();
+    await getArchiveFilePaths();
     await loadAllVideos();
     setupEventListeners();
     
@@ -61,15 +47,26 @@ async function loadTalentInfo() {
         // タレント名のマッピングを作成
         talentNameMap = {};
         talentColors = {};
+        talentYtList = [];
         talentInfo.forEach(talent => {
             talentNameMap[talent.yt] = talent.name;
             talentColors[talent.yt] = talent.color;
+            talentYtList.push(talent.yt);
         });
-        
+
         createTalentButtons();
     } catch (error) {
         console.error('タレント情報の読み込みに失敗しました:', error);
     }
+}
+
+async function getArchiveFilePaths() {
+    talentYtList.forEach(yt => {
+        const fileName = `archives_${yt}.json`;
+        if (!archiveFiles.includes(fileName)) {
+            archiveFiles.push(fileName);
+        }
+    });
 }
 
 // 全動画データを読み込み

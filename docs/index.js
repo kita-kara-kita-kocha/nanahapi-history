@@ -7,6 +7,9 @@ const videosPerPage = 20;
 let talentInfo = [];
 let talentNameMap = {};
 let allTags = new Map(); // タグ名とその使用回数を保存
+let archiveFiles = []; // アーカイブファイルのリスト
+let talentColors = {}; // タレントごとの色を保存
+let talentYtList = []; // タレントのYTリスト
 
 // DOM要素
 const timelineElement = document.getElementById('timeline');
@@ -32,29 +35,6 @@ let selectedTalents = new Set();
 // 選択されたタグ
 let selectedTags = new Set();
 
-// タレントカラーマップ
-let talentColors = {};
-
-// アーカイブファイルのリスト
-const archiveFiles = [
-    'archives_@7_hapi_.json',
-    'archives_@amanosakatu.json',
-    'archives_@JabiDevi.json',
-    'archives_@kirihuda_ataru.json',
-    'archives_@kokoroninonno.json',
-    'archives_@koyuchan_.json',
-    'archives_@mel_samui.json',
-    'archives_@memoa_923.json',
-    'archives_@mimic_teionvo.json',
-    'archives_@nekono_chiyuru.json',
-    'archives_@nicola_aldin.json',
-    'archives_@pieceofpudding3.json',
-    'archives_@rinka__angel.json',
-    'archives_@Toworu_.json'
-];
-
-// タレント名の表示用マッピング（削除される - talent_info.jsonから読み込み）
-
 // 初期化
 async function init() {
     showLoading(true);
@@ -64,12 +44,22 @@ async function init() {
     selectedTags.clear();
     
     await loadTalentInfo();
+    await getArchiveFilePaths();
     await loadAllVideos();
     setupEventListeners();
     updateSelectedCount();
     updateSelectedTagCount();
     applyFilters();
     showLoading(false);
+}
+
+async function getArchiveFilePaths() {
+    talentYtList.forEach(yt => {
+        const fileName = `archives_${yt}.json`;
+        if (!archiveFiles.includes(fileName)) {
+            archiveFiles.push(fileName);
+        }
+    });
 }
 
 // ローディング表示の切り替え
@@ -98,10 +88,13 @@ async function loadTalentInfo() {
         // タレント名のマッピングを作成
         talentNameMap = {};
         talentColors = {};
+        talentYtList = [];
         talentInfo.forEach(talent => {
-            console.log(`Loading talent: ${talent.yt} : ${talent.name}`);
             talentNameMap[talent.yt] = talent.name;
+            // 正規化されたタレント名でも逆引きできるようにする
+            talentNameMap[normalizeString(talent.name)] = talent.yt;
             talentColors[talent.yt] = talent.color;
+            talentYtList.push(talent.yt);
         });
         // populateTalentFilter関数はloadAllVideos内で呼び出される
     } catch (error) {
@@ -163,19 +156,17 @@ async function loadArchiveFile(fileName) {
 
 // タレントフィルターの選択肢を設定
 function populateTalentFilter(talentNames) {
-    // タレント名をソート
-    const sortedTalentNames = talentNames.sort();
     
     // タレントボタンを生成
     talentButtonsElement.innerHTML = '';
-    sortedTalentNames.forEach((talentName, index) => {
-        console.log(`Creating button for talent: ${talentName}`);
+    talentNames.forEach((talentName, index) => {
         const button = document.createElement('button');
         button.className = 'talent-btn';
         button.textContent = talentName;
         
-        // タレント名からIDを逆引き
-        const talentId = Object.keys(talentNameMap).find(id => talentNameMap[id] === talentName);
+        // 正規化されたタレント名からIDを逆引き
+        const normalizedTalentName = normalizeString(talentName);
+        const talentId = talentNameMap[normalizedTalentName];
         button.style.borderColor = talentColors[talentId] || '#ccc';
         button.dataset.talent = talentName;
         button.addEventListener('click', () => {
@@ -200,8 +191,8 @@ function toggleTalentSelection(talentName, buttonElement) {
     // タレント名を正規化（ボタンのテキストも正規化済みのはずだが、念のため）
     const normalizedTalentName = normalizeString(talentName);
     
-    // タレント名からIDを逆引きして色を取得
-    const talentId = Object.keys(talentNameMap).find(id => talentNameMap[id] === normalizedTalentName);
+    // 正規化されたタレント名からIDを逆引きして色を取得
+    const talentId = talentNameMap[normalizedTalentName];
     const talentColor = talentColors[talentId] || '#ccc';
     
     if (selectedTalents.has(normalizedTalentName)) {
@@ -238,7 +229,8 @@ function clearAllSelections() {
         button.style.background = '';
         // 境界線色は元の色に戻す
         const talentName = button.textContent;
-        const talentId = Object.keys(talentNameMap).find(id => talentNameMap[id] === talentName);
+        const normalizedTalentName = normalizeString(talentName);
+        const talentId = talentNameMap[normalizedTalentName];
         const talentColor = talentColors[talentId] || '#ccc';
         button.style.borderColor = talentColor;
     });
