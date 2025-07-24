@@ -1,12 +1,14 @@
 .PHONY: all clean help get-archives setup check-venv show-talents get-single
 
 # デフォルトターゲット
-all: get-archives
+all: get-archives-all
+30: get-archives-30
 
 # ヘルプメッセージ
 help:
 	@echo "利用可能なターゲット:"
 	@echo " make all              - 全てのタレントの全アーカイブを取得"
+	@echo " make 30               - 全てのタレントの最新30件のアーカイブを取得"
 	@echo " make get-archives-all - 全てのタレントの全アーカイブを取得"
 	@echo " make get-archives-30  - 全てのタレントの最新30件のアーカイブを取得"
 	@echo " make setup            - 依存関係をインストール"
