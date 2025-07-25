@@ -45,25 +45,25 @@ make setup
 |---------|-----|
 | `make help` | 利用可能なコマンド一覧を表示 |
 | `make all` | 全タレントの全アーカイブを取得 |
-| `make 30` | 全タレントの最新30件のアーカイブを取得 |
+| `make 10` | 全タレントの最新10件のアーカイブを取得 |
 | `make get-archives-all` | 全タレントの全アーカイブを取得 |
-| `make get-archives-30` | 全タレントの最新30件のアーカイブを取得 |
+| `make get-archives-10` | 全タレントの最新10件のアーカイブを取得 |
 | `make setup` | 依存関係をインストール |
 | `make check-venv` | 仮想環境の状態を確認 |
 | `make show-talents` | 登録されているタレント一覧を表示 |
 | `make get-single-all TALENT="@ユーザー名"` | 特定タレントの全アーカイブを取得 |
-| `make get-single-30 TALENT="@ユーザー名"` | 特定タレントの最新30件のアーカイブを取得 |
+| `make get-single-10 TALENT="@ユーザー名"` | 特定タレントの最新10件のアーカイブを取得 |
 
 ### 基本的な使用例
 
 1. 全タレントの最新アーカイブを取得
 ```bash
-make get-archives-30
+make get-archives-10
 ```
 
 2. 特定のタレントのアーカイブを取得
 ```bash
-make get-single-30 TALENT="@koyuchan_"
+make get-single-10 TALENT="@koyuchan_"
 ```
 
 3. タレント一覧を確認
@@ -76,8 +76,8 @@ make show-talents
 # 全アーカイブ更新
 ./run.sh
 
-# 最新30件のみ更新
-./run30.sh
+# 最新10件のみ更新
+./run10.sh
 ```
 
 ### 自動更新スクリプト
@@ -92,32 +92,32 @@ make show-talents
 3. **変更検出**: `docs/src/archives_@*.json`ファイルの変更を確認
 4. **Git操作**: 変更されたファイルを自動でコミット&プッシュ
 
-#### run30.sh（最新30件更新）
-`run30.sh`は軽量版の更新スクリプトです：
+#### run10.sh（最新10件更新）
+`run10.sh`は軽量版の更新スクリプトです：
 
 1. **仮想環境の確認**: `make check-venv`でPython環境をチェック
-2. **アーカイブ取得**: `make 30`で全タレントの最新30件のみ更新
+2. **アーカイブ取得**: `make 10`で全タレントの最新10件のみ更新
 3. **変更検出**: `docs/src/archives_@*.json`ファイルの変更を確認
 4. **Git操作**: 変更されたファイルを自動でコミット&プッシュ
 
 **使用方法:**
 ```bash
 # スクリプトを実行可能にする（初回のみ）
-chmod +x run.sh run30.sh
+chmod +x run.sh run10.sh
 
 # 全アーカイブ更新（時間がかかる）
 ./run.sh
 
-# 最新30件のみ更新（高速）
-./run30.sh
+# 最新10件のみ更新（高速）
+./run10.sh
 ```
 
 **特徴:**
-- 📝 詳細なログを`/tmp/nanahapi-update-YYYYMMDD-HHMMSS.log`（run.sh）または`/tmp/nanahapi-update30-YYYYMMDD-HHMMSS.log`（run30.sh）に保存
+- 📝 詳細なログを`/tmp/nanahapi-update-YYYYMMDD-HHMMSS.log`（run.sh）または`/tmp/nanahapi-update10-YYYYMMDD-HHMMSS.log`（run10.sh）に保存
 - 🔍 変更されたファイルがない場合は何もコミットしない
 - 📊 統計情報付きのコミットメッセージを自動生成
 - ⚠️ エラー時は適切なメッセージを表示して終了
-- ⚡ run30.shは高速で、定期実行に適している
+- ⚡ run10.shは高速で、定期実行に適している
 
 ### Webページの表示
 
@@ -149,9 +149,9 @@ chmod +x run.sh run30.sh
    
    以下のいずれかの設定を追加してください：
 
-   **run30.shスクリプトを使用する場合（推奨・高速）:**
+   **run10.shスクリプトを使用する場合（推奨・高速）:**
    ```cron
-   0 */3 * * * cd /home/username/nanahapi-history && ./run30.sh >> /tmp/nanahapi-cron.log 2>&1
+   0 */3 * * * cd /home/username/nanahapi-history && ./run10.sh >> /tmp/nanahapi-cron.log 2>&1
    ```
 
    **run.shスクリプトを使用する場合（全アーカイブ更新）:**
@@ -159,29 +159,29 @@ chmod +x run.sh run30.sh
    0 6 * * * cd /home/username/nanahapi-history && ./run.sh >> /tmp/nanahapi-cron.log 2>&1
    ```
 
-   **make 30のみを実行する場合:**
+   **make 10のみを実行する場合:**
    ```cron
-   0 */3 * * * cd /home/username/nanahapi-history && make 30 >> /tmp/nanahapi-cron.log 2>&1
+   0 */3 * * * cd /home/username/nanahapi-history && make 10 >> /tmp/nanahapi-cron.log 2>&1
    ```
 
    **その他のスケジュール例:**
 
-   **平日の午前6時にrun30.shを実行する場合：**
+   **平日の午前6時にrun10.shを実行する場合：**
    ```cron
-   0 6 * * 1-5 cd /home/username/nanahapi-history && ./run30.sh >> /tmp/nanahapi-cron.log 2>&1
+   0 6 * * 1-5 cd /home/username/nanahapi-history && ./run10.sh >> /tmp/nanahapi-cron.log 2>&1
    ```
 
-   **1日2回run30.shを実行する場合：**
+   **1日2回run10.shを実行する場合：**
    ```cron
-   0 9,21 * * * cd /home/username/nanahapi-history && ./run30.sh >> /tmp/nanahapi-cron.log 2>&1
+   0 9,21 * * * cd /home/username/nanahapi-history && ./run10.sh >> /tmp/nanahapi-cron.log 2>&1
    ```
 
    **週1回全アーカイブ更新 + 毎日軽量更新の組み合わせ：**
    ```cron
    # 日曜日午前2時に全アーカイブ更新
    0 2 * * 0 cd /home/username/nanahapi-history && ./run.sh >> /tmp/nanahapi-cron.log 2>&1
-   # 平日午前6時に最新30件更新
-   0 6 * * 1-6 cd /home/username/nanahapi-history && ./run30.sh >> /tmp/nanahapi-cron.log 2>&1
+   # 平日午前6時に最新10件更新
+   0 6 * * 1-6 cd /home/username/nanahapi-history && ./run10.sh >> /tmp/nanahapi-cron.log 2>&1
    ```
 
 ### Cron設定の注意点
@@ -265,7 +265,7 @@ nanahapi-history/
 ├── README.md              # プロジェクトの説明
 ├── Makefile              # ビルド・実行用のMakefile
 ├── run.sh                # 自動更新スクリプト（全アーカイブ取得→Git操作）
-├── run30.sh              # 自動更新スクリプト（最新30件取得→Git操作）
+├── run10.sh              # 自動更新スクリプト（最新10件取得→Git操作）
 ├── script/               # スクリプトディレクトリ
 │   └── get_archives.py   # アーカイブ取得スクリプト
 ├── docs/                 # Webページディレクトリ

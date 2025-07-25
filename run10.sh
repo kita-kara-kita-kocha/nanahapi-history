@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# ななはぴアーカイブ自動更新スクリプト（最新30件版）
-# make 30を実行し、変更されたアーカイブファイルをGitでコミット&プッシュします
+# ななはぴアーカイブ自動更新スクリプト（最新10件版）
+# make 10を実行し、変更されたアーカイブファイルをGitでコミット&プッシュします
 
 set -e  # エラーが発生したら即座に終了
 
@@ -10,11 +10,11 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 # ログファイルの設定
-LOG_FILE="/tmp/nanahapi-update30-$(date +%Y%m%d-%H%M%S).log"
+LOG_FILE="/tmp/nanahapi-update10-$(date +%Y%m%d-%H%M%S).log"
 exec > >(tee -a "$LOG_FILE")
 exec 2>&1
 
-echo "🌸 ななはぴアーカイブ自動更新開始（最新30件）: $(date)"
+echo "🌸 ななはぴアーカイブ自動更新開始（最新10件）: $(date)"
 echo "📁 作業ディレクトリ: $SCRIPT_DIR"
 echo "📝 ログファイル: $LOG_FILE"
 echo "=================================================="
@@ -49,13 +49,13 @@ echo "📊 アーカイブ取得前の状態を記録中..."
 BEFORE_FILES=$(find docs/src -name "archives_@*.json" -type f | wc -l)
 echo "📄 既存のアーカイブファイル数: $BEFORE_FILES"
 
-# make 30を実行
-echo "🎬 アーカイブ取得開始（最新30件）: $(date)"
-if ! make 30; then
-    echo "❌ make 30の実行に失敗しました"
+# make 10を実行
+echo "🎬 アーカイブ取得開始（最新10件）: $(date)"
+if ! make 10; then
+    echo "❌ make 10の実行に失敗しました"
     exit 1
 fi
-echo "✅ アーカイブ取得完了（最新30件）: $(date)"
+echo "✅ アーカイブ取得完了（最新10件）: $(date)"
 
 # アーカイブ取得後の状態を記録
 AFTER_FILES=$(find docs/src -name "archives_@*.json" -type f | wc -l)
@@ -92,7 +92,7 @@ fi
 
 # コミットメッセージの生成
 COMMIT_DATE=$(date "+%Y-%m-%d %H:%M:%S")
-COMMIT_MSG="🤖 自動更新: アーカイブデータ更新（最新30件）($COMMIT_DATE)
+COMMIT_MSG="🤖 自動更新: アーカイブデータ更新（最新10件）($COMMIT_DATE)
 
 📊 統計:
 - 変更ファイル数: ${CHANGED_FILES}個
@@ -100,7 +100,7 @@ COMMIT_MSG="🤖 自動更新: アーカイブデータ更新（最新30件）($
 - 修正ファイル: ${MODIFIED_FILES}個
 - 総アーカイブ数: ${AFTER_FILES}個
 
-🎬 実行コマンド: make 30 (最新30件更新)
+🎬 実行コマンド: make 10 (最新10件更新)
 ⏰ 実行時刻: $COMMIT_DATE"
 
 # コミット実行
@@ -122,12 +122,12 @@ echo "✅ プッシュ完了"
 
 # 完了メッセージ
 echo "=================================================="
-echo "🎉 ななはぴアーカイブ自動更新完了（最新30件）: $(date)"
+echo "🎉 ななはぴアーカイブ自動更新完了（最新10件）: $(date)"
 echo "📊 処理結果:"
 echo "  - アーカイブファイル: $BEFORE_FILES → $AFTER_FILES個"
 echo "  - 変更ファイル: ${CHANGED_FILES}個をコミット&プッシュ"
 echo "  - ブランチ: $CURRENT_BRANCH"
-echo "  - 更新モード: 最新30件更新"
+echo "  - 更新モード: 最新10件更新"
 echo "📝 ログファイル: $LOG_FILE"
 echo "🌸 ななはぴメンバーのアーカイブが更新されました！"
 
