@@ -320,7 +320,10 @@ function showDayDetails(date, videos) {
     
     detailsVideosElement.innerHTML = '';
     
-    videos.forEach(video => {
+    // 動画を時系列順（投稿時刻順）にソート
+    const sortedVideos = [...videos].sort((a, b) => a.upload_date_obj - b.upload_date_obj);
+    
+    sortedVideos.forEach(video => {
         const videoItem = createVideoDetailItem(video);
         detailsVideosElement.appendChild(videoItem);
     });
