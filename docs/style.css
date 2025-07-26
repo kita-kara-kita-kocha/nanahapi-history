@@ -154,6 +154,31 @@ body {
     box-shadow: 0 4px 12px rgba(255, 193, 7, 0.3);
 }
 
+/* pr クラスの div タグを画面左上に表示 */
+.pr {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    font-size: 0.9em;
+    opacity: 0; /* 初期状態で非表示 */
+    animation: fadeInOut 10s ease-in-out infinite; /* アニメーションをループ */
+    animation-delay: 5s; /* 5秒後に表示 */
+}
+
+.pr a {
+    color: #bb4bac;
+    text-decoration: none;
+}
+
+.pr a:hover {
+    text-decoration: underline;
+}
+
 /* タグフィルター */
 .tag-search-container {
     position: relative;
@@ -706,5 +731,14 @@ body {
     .timeline::before {
         left: 10px;
         width: 2px;
+    }
+}
+
+@keyframes fadeInOut {
+    15%, 50% {
+        opacity: 1; /* 表示状態 */
+    }
+    25%, 75% {
+        opacity: 0; /* 非表示状態 */
     }
 }
