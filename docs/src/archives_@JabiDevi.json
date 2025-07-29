@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "title": "【 #歌ってみた 】プレイ/Giga Gigaさんの曲みんなは何が好き？#vtuber #多声類",
+      "image": "https://i.ytimg.com/vi/hHuf2f9JvRU/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLCKW3pAKNSMvJCWU5YFKxa8hTbcnQ",
+      "alt": "【 #歌ってみた 】プレイ/Giga Gigaさんの曲みんなは何が好き？#vtuber #多声類",
+      "description": "説明なし",
+      "videoId": "hHuf2f9JvRU",
+      "video_url": "https://www.youtube.com/watch?v=hHuf2f9JvRU",
+      "tags": [
+        "#vtuber",
+        "#多声類",
+        "#歌ってみた"
+      ],
+      "upload_date": "2025-07-29T17:30:33"
+    },
+    {
       "title": "【#モンハンワイルズ /#コラボ 】#グレンハイマ といざ！夏イベントクエストへ！！【蛇火/ななはぴ】",
       "image": "https://i.ytimg.com/vi/epNhDuboH58/sddefault.jpg?v=68871ab2",
       "alt": "【#モンハンワイルズ /#コラボ 】#グレンハイマ といざ！夏イベントクエストへ！！【蛇火/ななはぴ】",
@@ -5719,8 +5733,8 @@
     "#ななはぴ",
     "#蛇火",
     "#歌枠",
-    "#karaoke",
     "#vtuber",
+    "#karaoke",
     "#雑談",
     "#新人vtuber",
     "#shorts",
@@ -5893,6 +5907,6 @@
     "#ななはぴリクエスト歌枠リレー",
     "#癒し"
   ],
-  "last_updated": "2025-07-29T01:43:42.034588",
-  "total_videos": 428
+  "last_updated": "2025-07-29T19:43:54.241671",
+  "total_videos": 429
 }
