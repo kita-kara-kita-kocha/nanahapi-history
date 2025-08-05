@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "title": "【#雑談】最近なにかあったっけなあ",
+      "image": "https://i.ytimg.com/vi/Ewe3LBNSLcQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCn1qggmHvuFxUZH5o0SCYN7uzHbw",
+      "alt": "【#雑談】最近なにかあったっけなあ",
+      "description": "雑な談\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/k...",
+      "videoId": "Ewe3LBNSLcQ",
+      "video_url": "https://www.youtube.com/watch?v=Ewe3LBNSLcQ",
+      "tags": [
+        "#雑談"
+      ],
+      "upload_date": "2025-08-05T20:00:00"
+    },
+    {
       "title": "【#第1回りぽまつり】ななはぴREPO部大会練習【R.E.P.O.】",
       "image": "https://i.ytimg.com/vi/TDQESx5n63s/sddefault.jpg?v=688e56e2",
       "alt": "【#第1回りぽまつり】ななはぴREPO部大会練習【R.E.P.O.】",
@@ -154,20 +166,6 @@
         "#男性vtuber"
       ],
       "upload_date": "2025-07-15T18:00:39"
-    },
-    {
-      "title": "IN_MY_HEAD/なとり(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
-      "image": "https://i.ytimg.com/vi/CHZOK-LrM0Q/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYViBdKGUwDw==&rs=AOn4CLB1RavpqMRSu44fL1rryH4eme-Z7A",
-      "alt": "IN_MY_HEAD/なとり(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
-      "description": "教えてもらって一目惚れした曲\n\n▼本家さま / なとり 様\nhttps://www.youtube.com/watch?v=49tyOkJ0uLs\n\n=================\n\n▼Twitt...",
-      "videoId": "CHZOK-LrM0Q",
-      "video_url": "https://www.youtube.com/watch?v=CHZOK-LrM0Q",
-      "tags": [
-        "#shorts",
-        "#歌ってみた",
-        "#男性vtuber"
-      ],
-      "upload_date": "2025-07-14T18:00:26"
     },
     {
       "title": "【R.E.P.O.】26Lv~ 日本一をめざしてソロ攻略【#男性Vtuber】",
@@ -4515,6 +4513,20 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
+      "title": "IN_MY_HEAD/なとり(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
+      "image": "https://i.ytimg.com/vi/CHZOK-LrM0Q/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYViBdKGUwDw==&rs=AOn4CLB1RavpqMRSu44fL1rryH4eme-Z7A",
+      "alt": "IN_MY_HEAD/なとり(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
+      "description": "教えてもらって一目惚れした曲\n\n▼本家さま / なとり 様\nhttps://www.youtube.com/watch?v=49tyOkJ0uLs\n\n=================\n\n▼Twitt...",
+      "videoId": "CHZOK-LrM0Q",
+      "video_url": "https://www.youtube.com/watch?v=CHZOK-LrM0Q",
+      "tags": [
+        "#shorts",
+        "#歌ってみた",
+        "#男性vtuber"
+      ],
+      "upload_date": ""
+    },
+    {
       "title": "【メン限】ざつだんしよう【新人Vtuber3年目】",
       "image": "https://i.ytimg.com/vi/qiEnumY7Z6E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMzfP2K9HEZPPMiI_f8eTSiWEEjg",
       "alt": "【メン限】ざつだんしよう【新人Vtuber3年目】",
@@ -4599,6 +4611,7 @@
     "#splatoon3",
     "#狂気山脈",
     "#ハモリチャレンジ",
+    "#雑談",
     "#藤川まゆ",
     "#西乃うるり",
     "#雀魂",
@@ -4608,7 +4621,6 @@
     "#8",
     "#7",
     "#第1回りぽまつり",
-    "#雑談",
     "#vrc",
     "#vrchat",
     "#ななはぴサマーフェスタ",
@@ -4641,6 +4653,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-05T18:40:13.506666",
-  "total_videos": 401
+  "last_updated": "2025-08-05T19:40:08.361343",
+  "total_videos": 402
 }
