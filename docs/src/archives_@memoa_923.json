@@ -848,16 +848,6 @@
       "upload_date": "2025-04-25T19:01:41"
     },
     {
-      "title": "【耳がとろける】ガチで可愛い『アニマル』歌ってみた🐾",
-      "image": "https://i.ytimg.com/vi/Xd3gyZKnhDs/sddefault.jpg",
-      "alt": "【耳がとろける】ガチで可愛い『アニマル』歌ってみた🐾",
-      "description": "本家様：https://youtu.be/HtBqK6xsQ9k?si=lzgE507QxN1UUNdQ\n＃アニマル ＃DECO27 #歌ってみた\n------------\nめもあ公式X：https:...",
-      "videoId": "Xd3gyZKnhDs",
-      "video_url": "https://www.youtube.com/watch?v=Xd3gyZKnhDs",
-      "tags": [],
-      "upload_date": "2025-04-24T19:01:01"
-    },
-    {
       "title": "【夜に聴いて】優しさ100%の歌声で『真生活』を届けます",
       "image": "https://i.ytimg.com/vi/whRA9qvYoc8/sddefault.jpg",
       "alt": "【夜に聴いて】優しさ100%の歌声で『真生活』を届けます",
@@ -2236,6 +2226,16 @@
       "video_url": "https://www.youtube.com/watch?v=RC4nnjt3RoE",
       "tags": [],
       "upload_date": "2022-03-01T20:30:12"
+    },
+    {
+      "title": "【耳がとろける】ガチで可愛い『アニマル』歌ってみた🐾",
+      "image": "https://i.ytimg.com/vi/Xd3gyZKnhDs/sddefault.jpg",
+      "alt": "【耳がとろける】ガチで可愛い『アニマル』歌ってみた🐾",
+      "description": "本家様：https://youtu.be/HtBqK6xsQ9k?si=lzgE507QxN1UUNdQ\n＃アニマル ＃DECO27 #歌ってみた\n------------\nめもあ公式X：https:...",
+      "videoId": "Xd3gyZKnhDs",
+      "video_url": "https://www.youtube.com/watch?v=Xd3gyZKnhDs",
+      "tags": [],
+      "upload_date": ""
     }
   ],
   "tags": [
@@ -2330,6 +2330,6 @@
     "#Vtuberと秋デートしませんか",
     "#2"
   ],
-  "last_updated": "2025-08-06T13:40:58.824446",
+  "last_updated": "2025-08-06T14:40:53.397279",
   "total_videos": 182
 }
