@@ -980,6 +980,16 @@
       "upload_date": "2024-04-25T21:02:39"
     },
     {
+      "title": "【MV】Just for you / めもあ【Vsinger / オリジナル曲】",
+      "image": "https://i.ytimg.com/vi/d4sU3VaU6N4/sddefault.jpg?v=661fbd0f",
+      "alt": "【MV】Just for you / めもあ【Vsinger / オリジナル曲】",
+      "description": "VSinger めもあ\nParty Popper参加ボーカル曲『Just for you 』\n\n▼booth / DL & Streaming\nhttps://booth.pm/ja/items/42...",
+      "videoId": "d4sU3VaU6N4",
+      "video_url": "https://www.youtube.com/watch?v=d4sU3VaU6N4",
+      "tags": [],
+      "upload_date": "2024-04-22T22:00:07"
+    },
+    {
       "title": "【 ＃記念配信 】皆んなのおかげで2周年！いっぱいありがとう！【 めもあ / Vsinger 】＃めも遊び ＃めもあ2周年",
       "image": "https://i.ytimg.com/vi/NjiYEiYPi1E/sddefault.jpg?v=661fad3e",
       "alt": "【 ＃記念配信 】皆んなのおかげで2周年！いっぱいありがとう！【 めもあ / Vsinger 】＃めも遊び ＃めもあ2周年",
@@ -2226,16 +2236,6 @@
       "video_url": "https://www.youtube.com/watch?v=RC4nnjt3RoE",
       "tags": [],
       "upload_date": "2022-03-01T20:30:12"
-    },
-    {
-      "title": "【MV】Just for you / めもあ【Vsinger / オリジナル曲】",
-      "image": "https://i.ytimg.com/vi/d4sU3VaU6N4/sddefault.jpg?v=661fbd0f",
-      "alt": "【MV】Just for you / めもあ【Vsinger / オリジナル曲】",
-      "description": "VSinger めもあ\nParty Popper参加ボーカル曲『Just for you 』\n\n▼booth / DL & Streaming\nhttps://booth.pm/ja/items/42...",
-      "videoId": "d4sU3VaU6N4",
-      "video_url": "https://www.youtube.com/watch?v=d4sU3VaU6N4",
-      "tags": [],
-      "upload_date": ""
     }
   ],
   "tags": [
@@ -2330,6 +2330,6 @@
     "#Vtuberと秋デートしませんか",
     "#2"
   ],
-  "last_updated": "2025-08-06T10:40:43.639634",
+  "last_updated": "2025-08-06T11:41:08.182793",
   "total_videos": 182
 }
