@@ -97,18 +97,6 @@
       "upload_date": "2025-08-07T17:00:00"
     },
     {
-      "title": "【なつもん！】コロポックルとにんげんの\"なつやすみ\"を学びましょうか #14【ココロニ・ノンノ/ななはぴ】",
-      "image": "https://i.ytimg.com/vi/-FXIkPBkSFQ/sddefault.jpg?v=6892a32e",
-      "alt": "【なつもん！】コロポックルとにんげんの\"なつやすみ\"を学びましょうか #14【ココロニ・ノンノ/ななはぴ】",
-      "description": "📺 ＜今年こそ夏を終わらせますよ～～～～！！！\n📋 29日目\n📚 https://youtube.com/playlist?list=PLcty_JrFtfqqMZwxUxZStsb6VkCja1_P...",
-      "videoId": "-FXIkPBkSFQ",
-      "video_url": "https://www.youtube.com/watch?v=-FXIkPBkSFQ",
-      "tags": [
-        "#14"
-      ],
-      "upload_date": "2025-08-06T16:00:07"
-    },
-    {
       "title": "【朝活】いらんからぷて！50人のにんげんさんを数えます【ココロニ・ノンノ/ななはぴ】",
       "image": "https://i.ytimg.com/vi/layfn5r_oHU/sddefault.jpg?v=68928f2d",
       "alt": "【朝活】いらんからぷて！50人のにんげんさんを数えます【ココロニ・ノンノ/ななはぴ】",
@@ -8468,6 +8456,18 @@
       "upload_date": "2021-05-03T21:01:02"
     },
     {
+      "title": "【なつもん！】コロポックルとにんげんの\"なつやすみ\"を学びましょうか #14【ココロニ・ノンノ/ななはぴ】",
+      "image": "https://i.ytimg.com/vi/-FXIkPBkSFQ/sddefault.jpg?v=6892a32e",
+      "alt": "【なつもん！】コロポックルとにんげんの\"なつやすみ\"を学びましょうか #14【ココロニ・ノンノ/ななはぴ】",
+      "description": "📺 ＜今年こそ夏を終わらせますよ～～～～！！！\n📋 29日目\n📚 https://youtube.com/playlist?list=PLcty_JrFtfqqMZwxUxZStsb6VkCja1_P...",
+      "videoId": "-FXIkPBkSFQ",
+      "video_url": "https://www.youtube.com/watch?v=-FXIkPBkSFQ",
+      "tags": [
+        "#14"
+      ],
+      "upload_date": ""
+    },
+    {
       "title": "【メン限】令和７年７月の蕗主総会🌱【ココロニ・ノンノ/ななはぴ】",
       "image": "https://i.ytimg.com/vi/ULBY0so0Z2M/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_qyu31pNVvuYAkhfROPGtYwBImA",
       "alt": "【メン限】令和７年７月の蕗主総会🌱【ココロニ・ノンノ/ななはぴ】",
@@ -10534,8 +10534,8 @@
     "#ルアロニー",
     "#新人Vtuber",
     "#第1回りぽまつり",
-    "#14",
     "#リドクラ",
+    "#14",
     "#11",
     "#9",
     "#うたたね人狼部ルーキー",
@@ -10686,6 +10686,6 @@
     "#新人vtuber",
     "#Vtuber博識王決定戦チーム分けを見守ります"
   ],
-  "last_updated": "2025-08-07T04:35:32.510875",
+  "last_updated": "2025-08-07T05:35:16.614985",
   "total_videos": 941
 }
