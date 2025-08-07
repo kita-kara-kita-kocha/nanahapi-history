@@ -11,6 +11,18 @@
       "upload_date": "2025-08-10T12:00:00"
     },
     {
+      "title": "【雑談】もっとリアイベが楽しみになる配信 ＃めも遊び #マリみ",
+      "image": "https://i.ytimg.com/vi/kcuKK2N0Hes/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8Z3JYTcWPBuHqcvelnzduvBLIuw",
+      "alt": "【雑談】もっとリアイベが楽しみになる配信 ＃めも遊び #マリみ",
+      "description": "------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh.com/memoa/\n------------\n[Hashta...",
+      "videoId": "kcuKK2N0Hes",
+      "video_url": "https://www.youtube.com/watch?v=kcuKK2N0Hes",
+      "tags": [
+        "#マリみ"
+      ],
+      "upload_date": "2025-08-08T23:00:00"
+    },
+    {
       "title": "🍀ななはぴサマーフェスタ2025グッズ販売中🌈2025年8月3日(日)23:59まで",
       "image": "https://i.ytimg.com/vi/6xfmj8vop48/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqU7MeXFRkNsC7EBAse8IvgK6eNA",
       "alt": "🍀ななはぴサマーフェスタ2025グッズ販売中🌈2025年8月3日(日)23:59まで",
@@ -803,6 +815,19 @@
         "#パジャマボイス"
       ],
       "upload_date": "2025-04-29T19:00:15"
+    },
+    {
+      "title": "【#歌枠/#KARAOKE】 活動再開うたうよ♩今日は絶対可愛い日【めもあ】",
+      "image": "https://i.ytimg.com/vi/yHyR4pbk1Cs/sddefault.jpg?v=6810a500",
+      "alt": "【#歌枠/#KARAOKE】 活動再開うたうよ♩今日は絶対可愛い日【めもあ】",
+      "description": "------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh.com/memoa/\n------------\n[Hashta...",
+      "videoId": "yHyR4pbk1Cs",
+      "video_url": "https://www.youtube.com/watch?v=yHyR4pbk1Cs",
+      "tags": [
+        "#KARAOKE",
+        "#歌枠"
+      ],
+      "upload_date": "2025-04-29T18:08:29"
     },
     {
       "title": "透き通る歌声で魅せるVsingerめもあの『アイ to アイ』｜新マクロス課題曲カバー",
@@ -2223,19 +2248,6 @@
       "video_url": "https://www.youtube.com/watch?v=RC4nnjt3RoE",
       "tags": [],
       "upload_date": "2022-03-01T20:30:12"
-    },
-    {
-      "title": "【#歌枠/#KARAOKE】 活動再開うたうよ♩今日は絶対可愛い日【めもあ】",
-      "image": "https://i.ytimg.com/vi/yHyR4pbk1Cs/sddefault.jpg?v=6810a500",
-      "alt": "【#歌枠/#KARAOKE】 活動再開うたうよ♩今日は絶対可愛い日【めもあ】",
-      "description": "------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh.com/memoa/\n------------\n[Hashta...",
-      "videoId": "yHyR4pbk1Cs",
-      "video_url": "https://www.youtube.com/watch?v=yHyR4pbk1Cs",
-      "tags": [
-        "#KARAOKE",
-        "#歌枠"
-      ],
-      "upload_date": ""
     }
   ],
   "tags": [
@@ -2264,6 +2276,7 @@
     "#ビビデバ",
     "#記念配信",
     "#ラップバトル",
+    "#マリみ",
     "#gettingoverit",
     "#ななはぴサマーフェスタ",
     "#Live2D",
@@ -2330,6 +2343,6 @@
     "#Vtuberと秋デートしませんか",
     "#2"
   ],
-  "last_updated": "2025-08-08T01:40:31.251071",
-  "total_videos": 182
+  "last_updated": "2025-08-08T02:40:30.951884",
+  "total_videos": 183
 }
