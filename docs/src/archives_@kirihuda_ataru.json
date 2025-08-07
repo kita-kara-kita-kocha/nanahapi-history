@@ -1,18 +1,6 @@
 {
   "items": [
     {
-      "title": "【R.E.P.O.】ななはぴR.E.P.O.初コラボ!切札アタル視点【#ななはぴ 】",
-      "image": "https://i.ytimg.com/vi/wHLpTcTyQpg/sddefault.jpg?v=689340cb",
-      "alt": "【R.E.P.O.】ななはぴR.E.P.O.初コラボ!切札アタル視点【#ななはぴ 】",
-      "description": "⚪︎とりあえず俺に賭けてみる？⚪︎\n\n★Vtuber最強のカードゲーマーであり、最凶のギャンブラー★\n\n\n■■□―――――――――――――――――――□■■\n\n▼切札アタル\nhttps://x.com...",
-      "videoId": "wHLpTcTyQpg",
-      "video_url": "https://www.youtube.com/watch?v=wHLpTcTyQpg",
-      "tags": [
-        "#ななはぴ"
-      ],
-      "upload_date": "2025-08-06T21:02:51"
-    },
-    {
       "title": "【7-0全勝!】前寄せロイヤルで100名大会優勝!最強デッキを解説!【#シャドバWB 】",
       "image": "https://i.ytimg.com/vi/BMlief24BQc/sddefault.jpg",
       "alt": "【7-0全勝!】前寄せロイヤルで100名大会優勝!最強デッキを解説!【#シャドバWB 】",
@@ -247,6 +235,18 @@
         "#連勝"
       ],
       "upload_date": "2025-07-08T22:08:11"
+    },
+    {
+      "title": "【6-1で準優勝!?】ランプドラゴンにまさかのカード採用で128名大会準優勝！【 #シャドバwb 】",
+      "image": "https://i.ytimg.com/vi/NTeuRTPQZNY/sddefault.jpg",
+      "alt": "【6-1で準優勝!?】ランプドラゴンにまさかのカード採用で128名大会準優勝！【 #シャドバwb 】",
+      "description": "第一回アタル杯予選②で準優勝したNekoxileさんのゴブリンの襲撃入りランプドラゴンを解説します！\nまさかすぎるカードが大活躍のデッキです！\n\n■■□―――――――――――――――――――□■■\n月...",
+      "videoId": "NTeuRTPQZNY",
+      "video_url": "https://www.youtube.com/watch?v=NTeuRTPQZNY",
+      "tags": [
+        "#シャドバwb"
+      ],
+      "upload_date": "2025-07-08T20:00:40"
     },
     {
       "title": "【脅威の7-0優勝!?】エーデルワイス2枚採用スペルウィッチが強すぎて全勝優勝したので解説します【#シャドバwb 】",
@@ -4554,14 +4554,14 @@
       "upload_date": "2024-05-24T18:00:48"
     },
     {
-      "title": "【6-1で準優勝!?】ランプドラゴンにまさかのカード採用で128名大会準優勝！【 #シャドバwb 】",
-      "image": "https://i.ytimg.com/vi/NTeuRTPQZNY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAbdDOYfI9Zk_WLop4o5WZbbM05zQ",
-      "alt": "【6-1で準優勝!?】ランプドラゴンにまさかのカード採用で128名大会準優勝！【 #シャドバwb 】",
-      "description": "第一回アタル杯予選②で準優勝したNekoxileさんのゴブリンの襲撃入りランプドラゴンを解説します！\nまさかすぎるカードが大活躍のデッキです！......",
-      "videoId": "NTeuRTPQZNY",
-      "video_url": "https://www.youtube.com/watch?v=NTeuRTPQZNY",
+      "title": "【R.E.P.O.】ななはぴR.E.P.O.初コラボ!切札アタル視点【#ななはぴ 】",
+      "image": "https://i.ytimg.com/vi/wHLpTcTyQpg/sddefault.jpg?v=689340cb",
+      "alt": "【R.E.P.O.】ななはぴR.E.P.O.初コラボ!切札アタル視点【#ななはぴ 】",
+      "description": "⚪︎とりあえず俺に賭けてみる？⚪︎\n\n★Vtuber最強のカードゲーマーであり、最凶のギャンブラー★\n\n\n■■□―――――――――――――――――――□■■\n\n▼切札アタル\nhttps://x.com...",
+      "videoId": "wHLpTcTyQpg",
+      "video_url": "https://www.youtube.com/watch?v=wHLpTcTyQpg",
       "tags": [
-        "#シャドバwb"
+        "#ななはぴ"
       ],
       "upload_date": ""
     }
@@ -4631,6 +4631,6 @@
     "#ワンピースカード",
     "#デュエマ"
   ],
-  "last_updated": "2025-08-08T03:45:21.375266",
+  "last_updated": "2025-08-08T04:44:55.084234",
   "total_videos": 353
 }
