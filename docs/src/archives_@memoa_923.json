@@ -805,6 +805,19 @@
       "upload_date": "2025-04-29T19:00:15"
     },
     {
+      "title": "【#歌枠/#KARAOKE】 活動再開うたうよ♩今日は絶対可愛い日【めもあ】",
+      "image": "https://i.ytimg.com/vi/yHyR4pbk1Cs/sddefault.jpg?v=6810a500",
+      "alt": "【#歌枠/#KARAOKE】 活動再開うたうよ♩今日は絶対可愛い日【めもあ】",
+      "description": "------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh.com/memoa/\n------------\n[Hashta...",
+      "videoId": "yHyR4pbk1Cs",
+      "video_url": "https://www.youtube.com/watch?v=yHyR4pbk1Cs",
+      "tags": [
+        "#KARAOKE",
+        "#歌枠"
+      ],
+      "upload_date": "2025-04-29T18:08:29"
+    },
+    {
       "title": "透き通る歌声で魅せるVsingerめもあの『アイ to アイ』｜新マクロス課題曲カバー",
       "image": "https://i.ytimg.com/vi/P6PmXGlMFpE/sddefault.jpg",
       "alt": "透き通る歌声で魅せるVsingerめもあの『アイ to アイ』｜新マクロス課題曲カバー",
@@ -813,6 +826,16 @@
       "video_url": "https://www.youtube.com/watch?v=P6PmXGlMFpE",
       "tags": [],
       "upload_date": "2025-04-27T19:00:30"
+    },
+    {
+      "title": "【想像以上】可愛い見た目でロック全開にしてみた｜マーシャル・マキシマイザー",
+      "image": "https://i.ytimg.com/vi/lo7pg5s5ua0/sddefault.jpg",
+      "alt": "【想像以上】可愛い見た目でロック全開にしてみた｜マーシャル・マキシマイザー",
+      "description": "本家様：https://youtu.be/jMKPYg0uhCI?si=YU9J0g55EXHjJUTC\n＃マーシャルマキシマイザー ＃柊マグネタイト #歌ってみた\n------------\nめもあ公...",
+      "videoId": "lo7pg5s5ua0",
+      "video_url": "https://www.youtube.com/watch?v=lo7pg5s5ua0",
+      "tags": [],
+      "upload_date": "2025-04-26T19:01:08"
     },
     {
       "title": "【涙腺注意】言葉がまっすぐ刺さる『黄色』を歌ってみた",
@@ -2213,29 +2236,6 @@
       "video_url": "https://www.youtube.com/watch?v=RC4nnjt3RoE",
       "tags": [],
       "upload_date": "2022-03-01T20:30:12"
-    },
-    {
-      "title": "【#歌枠/#KARAOKE】 活動再開うたうよ♩今日は絶対可愛い日【めもあ】",
-      "image": "https://i.ytimg.com/vi/yHyR4pbk1Cs/sddefault.jpg?v=6810a500",
-      "alt": "【#歌枠/#KARAOKE】 活動再開うたうよ♩今日は絶対可愛い日【めもあ】",
-      "description": "------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh.com/memoa/\n------------\n[Hashta...",
-      "videoId": "yHyR4pbk1Cs",
-      "video_url": "https://www.youtube.com/watch?v=yHyR4pbk1Cs",
-      "tags": [
-        "#KARAOKE",
-        "#歌枠"
-      ],
-      "upload_date": ""
-    },
-    {
-      "title": "【想像以上】可愛い見た目でロック全開にしてみた｜マーシャル・マキシマイザー",
-      "image": "https://i.ytimg.com/vi/lo7pg5s5ua0/sddefault.jpg",
-      "alt": "【想像以上】可愛い見た目でロック全開にしてみた｜マーシャル・マキシマイザー",
-      "description": "本家様：https://youtu.be/jMKPYg0uhCI?si=YU9J0g55EXHjJUTC\n＃マーシャルマキシマイザー ＃柊マグネタイト #歌ってみた\n------------\nめもあ公...",
-      "videoId": "lo7pg5s5ua0",
-      "video_url": "https://www.youtube.com/watch?v=lo7pg5s5ua0",
-      "tags": [],
-      "upload_date": ""
     }
   ],
   "tags": [
@@ -2330,6 +2330,6 @@
     "#Vtuberと秋デートしませんか",
     "#2"
   ],
-  "last_updated": "2025-08-07T10:41:13.281837",
+  "last_updated": "2025-08-07T11:40:42.621752",
   "total_videos": 182
 }
