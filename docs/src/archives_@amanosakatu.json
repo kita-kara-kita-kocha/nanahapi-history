@@ -1462,16 +1462,6 @@
       "upload_date": "2025-01-09T22:00:34"
     },
     {
-      "title": "【ASMR動画】歯磨きしながら録音してみた※手元映像なし【Vtuber】",
-      "image": "https://i.ytimg.com/vi/Mx0P37oqa8U/sddefault.jpg",
-      "alt": "【ASMR動画】歯磨きしながら録音してみた※手元映像なし【Vtuber】",
-      "description": "リアルに歯磨きをする音を録ってみました\nASMRは配信多めなのでこちらもよろしくお願いします\nhttps://www.youtube.com/playlist?list=PLpOZchMyHopX6N...",
-      "videoId": "Mx0P37oqa8U",
-      "video_url": "https://www.youtube.com/watch?v=Mx0P37oqa8U",
-      "tags": [],
-      "upload_date": "2025-01-08T20:00:34"
-    },
-    {
       "title": "【朝食ASMR】新年最初の朝活配信！！ #縦型配信 #まどろみ酒場 【Vtuber】",
       "image": "https://i.ytimg.com/vi/flI7p6vNj2Y/sddefault.jpg?v=677bb083",
       "alt": "【朝食ASMR】新年最初の朝活配信！！ #縦型配信 #まどろみ酒場 【Vtuber】",
@@ -11265,6 +11255,16 @@
       "upload_date": "2019-10-30T18:16:50"
     },
     {
+      "title": "【ASMR動画】歯磨きしながら録音してみた※手元映像なし【Vtuber】",
+      "image": "https://i.ytimg.com/vi/Mx0P37oqa8U/sddefault.jpg",
+      "alt": "【ASMR動画】歯磨きしながら録音してみた※手元映像なし【Vtuber】",
+      "description": "リアルに歯磨きをする音を録ってみました\nASMRは配信多めなのでこちらもよろしくお願いします\nhttps://www.youtube.com/playlist?list=PLpOZchMyHopX6N...",
+      "videoId": "Mx0P37oqa8U",
+      "video_url": "https://www.youtube.com/watch?v=Mx0P37oqa8U",
+      "tags": [],
+      "upload_date": ""
+    },
+    {
       "title": "【メンシ限定】5,6,7月振り返り配信 #まどろみ酒場  【振り返り配信】",
       "image": "https://i.ytimg.com/vi/xwckAFUYjAs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOgCa6eZNJ38s_-Cnp8frg3fhiKg",
       "alt": "【メンシ限定】5,6,7月振り返り配信 #まどろみ酒場  【振り返り配信】",
@@ -11963,6 +11963,6 @@
     "#12",
     "#11"
   ],
-  "last_updated": "2025-08-08T22:33:01.921264",
+  "last_updated": "2025-08-08T23:33:12.432045",
   "total_videos": 1026
 }
