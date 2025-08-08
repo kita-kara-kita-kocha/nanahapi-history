@@ -1438,18 +1438,6 @@
       "upload_date": "2025-01-16T07:06:00"
     },
     {
-      "title": "【Vtuber事務所箱内コラボ】ななはぴ忘年会（闇）鍋パーティー！～鍋をつつきながら交流を深めよう2024～【 #ななはぴ 】",
-      "image": "https://i.ytimg.com/vi/SHlsV6B7sEY/sddefault.jpg",
-      "alt": "【Vtuber事務所箱内コラボ】ななはぴ忘年会（闇）鍋パーティー！～鍋をつつきながら交流を深めよう2024～【 #ななはぴ 】",
-      "description": "2024年の鍋パ忘年会オフコラボの様子です！\nゆるゆるワイワイしてる様を楽しんでください✨\n\n🌈参加メンバー🍀\nまどろみ姉さん @amanosakatu \nココロニ・ノンノ @kokoroninonn...",
-      "videoId": "SHlsV6B7sEY",
-      "video_url": "https://www.youtube.com/watch?v=SHlsV6B7sEY",
-      "tags": [
-        "#ななはぴ"
-      ],
-      "upload_date": "2025-01-14T22:00:40"
-    },
-    {
       "title": "【ELDEN RING】建物たくさんだ！探索し甲斐があるなぁ！エルデンリング実況配信第12回 #まどろみ酒場  【Vtuber】",
       "image": "https://i.ytimg.com/vi/AqSHEUC5rvg/sddefault.jpg?v=677c76a8",
       "alt": "【ELDEN RING】建物たくさんだ！探索し甲斐があるなぁ！エルデンリング実況配信第12回 #まどろみ酒場  【Vtuber】",
@@ -11265,6 +11253,18 @@
       "upload_date": "2019-10-30T18:16:50"
     },
     {
+      "title": "【Vtuber事務所箱内コラボ】ななはぴ忘年会（闇）鍋パーティー！～鍋をつつきながら交流を深めよう2024～【 #ななはぴ 】",
+      "image": "https://i.ytimg.com/vi/SHlsV6B7sEY/sddefault.jpg",
+      "alt": "【Vtuber事務所箱内コラボ】ななはぴ忘年会（闇）鍋パーティー！～鍋をつつきながら交流を深めよう2024～【 #ななはぴ 】",
+      "description": "2024年の鍋パ忘年会オフコラボの様子です！\nゆるゆるワイワイしてる様を楽しんでください✨\n\n🌈参加メンバー🍀\nまどろみ姉さん @amanosakatu \nココロニ・ノンノ @kokoroninonn...",
+      "videoId": "SHlsV6B7sEY",
+      "video_url": "https://www.youtube.com/watch?v=SHlsV6B7sEY",
+      "tags": [
+        "#ななはぴ"
+      ],
+      "upload_date": ""
+    },
+    {
       "title": "【メンシ限定】5,6,7月振り返り配信 #まどろみ酒場  【振り返り配信】",
       "image": "https://i.ytimg.com/vi/xwckAFUYjAs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOgCa6eZNJ38s_-Cnp8frg3fhiKg",
       "alt": "【メンシ限定】5,6,7月振り返り配信 #まどろみ酒場  【振り返り配信】",
@@ -11870,11 +11870,11 @@
     "#Vtuber",
     "#vtuber",
     "#歌枠",
-    "#ななはぴ",
     "#ラブランニング",
     "#KARAOKE",
     "#ロボットアニメオンリー歌枠リレー熱唱祭",
     "#ほろよいラヂオ",
+    "#ななはぴ",
     "#4",
     "#3",
     "#2",
@@ -11963,6 +11963,6 @@
     "#12",
     "#11"
   ],
-  "last_updated": "2025-08-08T13:32:44.474853",
+  "last_updated": "2025-08-08T14:32:44.317214",
   "total_videos": 1026
 }
