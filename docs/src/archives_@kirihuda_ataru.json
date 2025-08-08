@@ -189,18 +189,6 @@
       "upload_date": "2025-07-24T23:01:41"
     },
     {
-      "title": "【やはりこれが最強】アグロに負けるわけなし純正秘術ウィッチ【 #シャドバwb 】",
-      "image": "https://i.ytimg.com/vi/owj2vnBx_Fg/sddefault.jpg",
-      "alt": "【やはりこれが最強】アグロに負けるわけなし純正秘術ウィッチ【 #シャドバwb 】",
-      "description": "最強デッキ筆頭候補！\nやはり一周回って環境を制覇するデッキか！？\n\n■■□―――――――――――――――――――□■■\n月～木 毎日23:00から配信中\n\n▼切札アタル\nhttps://x.com/k...",
-      "videoId": "owj2vnBx_Fg",
-      "video_url": "https://www.youtube.com/watch?v=owj2vnBx_Fg",
-      "tags": [
-        "#シャドバwb"
-      ],
-      "upload_date": "2025-07-23T19:01:18"
-    },
-    {
       "title": "【5期生コラボ】はなきりんか with ココロニ・ノンノ&楠木トヲルでGartic Phone【切札アタル】",
       "image": "https://i.ytimg.com/vi/P5XF9Pv5-3A/sddefault.jpg?v=687c5819",
       "alt": "【5期生コラボ】はなきりんか with ココロニ・ノンノ&楠木トヲルでGartic Phone【切札アタル】",
@@ -784,6 +772,19 @@
         "#ポケモン"
       ],
       "upload_date": "2025-05-16T20:01:20"
+    },
+    {
+      "title": "【#ポケモン 】毎日10連生活15日目【#ポケポケ開封チャレンジ 】",
+      "image": "https://i.ytimg.com/vi/UIXKecuwaIY/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AYwCgALgA4oCDAgAEAEYUiBZKGUwDw==&rs=AOn4CLBIp_aOSSR3Q8ZH3dq7yr7WT043-Q",
+      "alt": "【#ポケモン 】毎日10連生活15日目【#ポケポケ開封チャレンジ 】",
+      "description": "説明なし",
+      "videoId": "UIXKecuwaIY",
+      "video_url": "https://www.youtube.com/watch?v=UIXKecuwaIY",
+      "tags": [
+        "#ポケポケ開封チャレンジ",
+        "#ポケモン"
+      ],
+      "upload_date": "2025-05-15T20:00:50"
     },
     {
       "title": "【#ポケモン 】毎日10連生活14日目【#ポケポケ開封チャレンジ 】",
@@ -4565,15 +4566,14 @@
       "upload_date": "2024-05-24T18:00:48"
     },
     {
-      "title": "【#ポケモン 】毎日10連生活15日目【#ポケポケ開封チャレンジ 】",
-      "image": "https://i.ytimg.com/vi/UIXKecuwaIY/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AYwCgALgA4oCDAgAEAEYUiBZKGUwDw==&rs=AOn4CLBIp_aOSSR3Q8ZH3dq7yr7WT043-Q",
-      "alt": "【#ポケモン 】毎日10連生活15日目【#ポケポケ開封チャレンジ 】",
-      "description": "説明なし",
-      "videoId": "UIXKecuwaIY",
-      "video_url": "https://www.youtube.com/watch?v=UIXKecuwaIY",
+      "title": "【やはりこれが最強】アグロに負けるわけなし純正秘術ウィッチ【 #シャドバwb 】",
+      "image": "https://i.ytimg.com/vi/owj2vnBx_Fg/sddefault.jpg",
+      "alt": "【やはりこれが最強】アグロに負けるわけなし純正秘術ウィッチ【 #シャドバwb 】",
+      "description": "最強デッキ筆頭候補！\nやはり一周回って環境を制覇するデッキか！？\n\n■■□―――――――――――――――――――□■■\n月～木 毎日23:00から配信中\n\n▼切札アタル\nhttps://x.com/k...",
+      "videoId": "owj2vnBx_Fg",
+      "video_url": "https://www.youtube.com/watch?v=owj2vnBx_Fg",
       "tags": [
-        "#ポケポケ開封チャレンジ",
-        "#ポケモン"
+        "#シャドバwb"
       ],
       "upload_date": ""
     }
@@ -4643,6 +4643,6 @@
     "#ワンピースカード",
     "#デュエマ"
   ],
-  "last_updated": "2025-08-09T00:46:17.299053",
+  "last_updated": "2025-08-09T01:46:02.361810",
   "total_videos": 354
 }
