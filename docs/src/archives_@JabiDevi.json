@@ -169,20 +169,6 @@
       "upload_date": "2025-07-31T20:02:22"
     },
     {
-      "title": "【 #歌ってみた 】プレイ/Giga Gigaさんの曲みんなは何が好き？#vtuber #多声類",
-      "image": "https://i.ytimg.com/vi/hHuf2f9JvRU/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLCKW3pAKNSMvJCWU5YFKxa8hTbcnQ",
-      "alt": "【 #歌ってみた 】プレイ/Giga Gigaさんの曲みんなは何が好き？#vtuber #多声類",
-      "description": "説明なし",
-      "videoId": "hHuf2f9JvRU",
-      "video_url": "https://www.youtube.com/watch?v=hHuf2f9JvRU",
-      "tags": [
-        "#vtuber",
-        "#多声類",
-        "#歌ってみた"
-      ],
-      "upload_date": "2025-07-29T17:30:33"
-    },
-    {
       "title": "【#モンハンワイルズ /#コラボ 】#グレンハイマ といざ！夏イベントクエストへ！！【蛇火/ななはぴ】",
       "image": "https://i.ytimg.com/vi/epNhDuboH58/sddefault.jpg?v=68871ab2",
       "alt": "【#モンハンワイルズ /#コラボ 】#グレンハイマ といざ！夏イベントクエストへ！！【蛇火/ななはぴ】",
@@ -221,6 +207,20 @@
         "#雑談"
       ],
       "upload_date": "2025-07-28T00:35:49"
+    },
+    {
+      "title": "推しについて語ると長くなるよなぁ… #tomandjerry #トムとジェリー #推し活",
+      "image": "https://i.ytimg.com/vi/QtUKDr4oT0c/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AG2CIACgA-KAgwIABABGGYgZihmMA8=&rs=AOn4CLDjY0VBnFSNLTY4491iE4UCuyvqrw",
+      "alt": "推しについて語ると長くなるよなぁ… #tomandjerry #トムとジェリー #推し活",
+      "description": "説明なし",
+      "videoId": "QtUKDr4oT0c",
+      "video_url": "https://www.youtube.com/watch?v=QtUKDr4oT0c",
+      "tags": [
+        "#tomandjerry",
+        "#トムとジェリー",
+        "#推し活"
+      ],
+      "upload_date": "2025-07-27T21:30:53"
     },
     {
       "title": "【 #雑談  /#初見歓迎 】お前たちは夏休みなにすんだ？？？【蛇火/ななはぴ】",
@@ -5693,16 +5693,16 @@
       "upload_date": "2023-12-01T12:00:27"
     },
     {
-      "title": "推しについて語ると長くなるよなぁ… #tomandjerry #トムとジェリー #推し活",
-      "image": "https://i.ytimg.com/vi/QtUKDr4oT0c/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AG2CIACgA-KAgwIABABGGYgZihmMA8=&rs=AOn4CLDjY0VBnFSNLTY4491iE4UCuyvqrw",
-      "alt": "推しについて語ると長くなるよなぁ… #tomandjerry #トムとジェリー #推し活",
+      "title": "【 #歌ってみた 】プレイ/Giga Gigaさんの曲みんなは何が好き？#vtuber #多声類",
+      "image": "https://i.ytimg.com/vi/hHuf2f9JvRU/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCGAh9CTFlkgbb5vi0ASyc3jVrueA",
+      "alt": "【 #歌ってみた 】プレイ/Giga Gigaさんの曲みんなは何が好き？#vtuber #多声類",
       "description": "説明なし",
-      "videoId": "QtUKDr4oT0c",
-      "video_url": "https://www.youtube.com/watch?v=QtUKDr4oT0c",
+      "videoId": "hHuf2f9JvRU",
+      "video_url": "https://www.youtube.com/shorts/hHuf2f9JvRU",
       "tags": [
-        "#tomandjerry",
-        "#トムとジェリー",
-        "#推し活"
+        "#vtuber",
+        "#多声類",
+        "#歌ってみた"
       ],
       "upload_date": ""
     },
@@ -5968,6 +5968,9 @@
     "#ミラフェス",
     "#推し対",
     "#グレンハイマ",
+    "#tomandjerry",
+    "#トムとジェリー",
+    "#推し活",
     "#星見雅",
     "#ななはぴサマーフェスタ",
     "#ヒーローvsヴィラン歌枠リレー2",
@@ -6071,11 +6074,8 @@
     "#KARAOKE",
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー",
-    "#tomandjerry",
-    "#トムとジェリー",
-    "#推し活",
     "#癒し"
   ],
-  "last_updated": "2025-08-09T03:43:24.626392",
+  "last_updated": "2025-08-09T04:45:57.783985",
   "total_videos": 442
 }
