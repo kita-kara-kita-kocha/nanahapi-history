@@ -87,6 +87,16 @@
       "upload_date": "2022-12-30T20:00:11"
     },
     {
+      "title": "こちら、幸福安心委員会です。 / うたたP Covered by ニコラ・アルディン【歌ってみた / VTuber】",
+      "image": "https://i.ytimg.com/vi/mmQ0e3u4Fbg/sddefault.jpg",
+      "alt": "こちら、幸福安心委員会です。 / うたたP Covered by ニコラ・アルディン【歌ってみた / VTuber】",
+      "description": "『幸福なのは義務なんです。』\n\n＜Original / 本家様＞\n【Hatsune Miku/UtataP】こちら、幸福安心委員会です。【Original】\nhttps://youtu.be/kzUm...",
+      "videoId": "mmQ0e3u4Fbg",
+      "video_url": "https://www.youtube.com/watch?v=mmQ0e3u4Fbg",
+      "tags": [],
+      "upload_date": "2022-12-11T20:00:33"
+    },
+    {
       "title": "さよならだけが人生か / 傘村トータ Covered by ニコラ・アルディン【歌ってみた / Vtuber】",
       "image": "https://i.ytimg.com/vi/UTNdRJwoKmY/sddefault.jpg",
       "alt": "さよならだけが人生か / 傘村トータ Covered by ニコラ・アルディン【歌ってみた / Vtuber】",
@@ -295,16 +305,6 @@
       "video_url": "https://www.youtube.com/watch?v=rgk4ttevOE0",
       "tags": [],
       "upload_date": "2021-05-21T20:00:22"
-    },
-    {
-      "title": "こちら、幸福安心委員会です。 / うたたP Covered by ニコラ・アルディン【歌ってみた / VTuber】",
-      "image": "https://i.ytimg.com/vi/mmQ0e3u4Fbg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtZxYGPBsCK720sV40L27vpzRksw",
-      "alt": "こちら、幸福安心委員会です。 / うたたP Covered by ニコラ・アルディン【歌ってみた / VTuber】",
-      "description": "『幸福なのは義務なんです。』\n\n＜Original / 本家様＞\n【Hatsune Miku/UtataP】こちら、幸福安心委員会です。【Original】\nhttps://youtu.be/kzUm...",
-      "videoId": "mmQ0e3u4Fbg",
-      "video_url": "https://www.youtube.com/watch?v=mmQ0e3u4Fbg",
-      "tags": [],
-      "upload_date": ""
     }
   ],
   "tags": [
@@ -312,6 +312,6 @@
     "#ニコロニ",
     "#プラステ6"
   ],
-  "last_updated": "2025-08-08T11:49:24.477076",
+  "last_updated": "2025-08-08T12:48:32.779029",
   "total_videos": 30
 }
