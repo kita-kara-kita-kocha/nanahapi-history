@@ -291,16 +291,6 @@
       "upload_date": "2022-07-28T20:00:12"
     },
     {
-      "title": "みんなをHAPPYに！『ななはぴ』公式プロモーションムービー",
-      "image": "https://i.ytimg.com/vi/uZqifmAzQ4g/sddefault.jpg",
-      "alt": "みんなをHAPPYに！『ななはぴ』公式プロモーションムービー",
-      "description": "バーチャルタレントプロダクション「ななはぴ」🌈🍀\n\nななはぴとは、「HAPPY」をみんなに届けることはもちろん\n所属タレントも「HAPPY」になれるフィールドをサポートしています。\n\nまた、バーチャル...",
-      "videoId": "uZqifmAzQ4g",
-      "video_url": "https://www.youtube.com/watch?v=uZqifmAzQ4g",
-      "tags": [],
-      "upload_date": "2021-10-11T14:11:57"
-    },
-    {
       "title": "【合唱】Climax Jump - AAA DEN-O form【Covered by SeventhV / セブンスV】",
       "image": "https://i.ytimg.com/vi/hZ_5djzfLgY/sddefault.jpg?v=6013fc6b",
       "alt": "【合唱】Climax Jump - AAA DEN-O form【Covered by SeventhV / セブンスV】",
@@ -332,6 +322,16 @@
         "#セブンスVハーフアニバ"
       ],
       "upload_date": "2020-09-04T19:00:00"
+    },
+    {
+      "title": "みんなをHAPPYに！『ななはぴ』公式プロモーションムービー",
+      "image": "https://i.ytimg.com/vi/uZqifmAzQ4g/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJ7KiKbJwwK0mYzIgmLQjvtEzH_g",
+      "alt": "みんなをHAPPYに！『ななはぴ』公式プロモーションムービー",
+      "description": "バーチャルタレントプロダクション「ななはぴ」🌈🍀\n\nななはぴとは、「HAPPY」をみんなに届けることはもちろん\n所属タレントも「HAPPY」になれ......",
+      "videoId": "uZqifmAzQ4g",
+      "video_url": "https://www.youtube.com/watch?v=uZqifmAzQ4g",
+      "tags": [],
+      "upload_date": ""
     }
   ],
   "tags": [
@@ -344,6 +344,6 @@
     "#セブンスV",
     "#セブンスVハーフアニバ"
   ],
-  "last_updated": "2025-08-10T05:31:06.221560",
+  "last_updated": "2025-08-10T06:31:18.514670",
   "total_videos": 27
 }
