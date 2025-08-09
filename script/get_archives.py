@@ -194,7 +194,7 @@ def create_video_data_from_detailed_info(video_info, video_id):
         dict: 整形された動画データ
     """
     # タイトルからタグ情報を抽出
-    title = video_info.get('title', '')
+    title = video_info.get('title', 'タイトル不明')
     # 「#」で始まるタグを抽出
     tags = imprecise_tags(title)
     upload_date = video_info.get('release_timestamp', '')
@@ -204,7 +204,7 @@ def create_video_data_from_detailed_info(video_info, video_id):
     return {
         "title": title,
         "image": get_thumbnail_url(video_info, video_id),
-        "alt": video_info.get('title', 'タイトル不明'),
+        "alt": title,
         "description": video_info.get('description', '')[:100] + "..." if video_info.get('description') else "説明なし",
         "videoId": video_id,
         "video_url": f"https://www.youtube.com/watch?v={video_id}",
