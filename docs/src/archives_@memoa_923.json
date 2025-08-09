@@ -45,6 +45,18 @@
       "upload_date": "2025-07-21T13:00:20"
     },
     {
+      "title": "【歌枠】ゆったりお話と歌をしようじゃん♩＃めも遊び #ななはぴサマーフェスタ",
+      "image": "https://i.ytimg.com/vi/rlE8PBjSNCE/sddefault.jpg?v=687d476b",
+      "alt": "【歌枠】ゆったりお話と歌をしようじゃん♩＃めも遊び #ななはぴサマーフェスタ",
+      "description": "#ななはぴサマーフェスタ \n------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh.com/memoa/\n------...",
+      "videoId": "rlE8PBjSNCE",
+      "video_url": "https://www.youtube.com/watch?v=rlE8PBjSNCE",
+      "tags": [
+        "#ななはぴサマーフェスタ"
+      ],
+      "upload_date": "2025-07-19T22:00:41"
+    },
+    {
       "title": "【持ち物チェック】フェスの前ってそわそわするよね？ #めも遊び",
       "image": "https://i.ytimg.com/vi/N_aWNtXYkfU/sddefault.jpg?v=687a5606",
       "alt": "【持ち物チェック】フェスの前ってそわそわするよね？ #めも遊び",
@@ -856,6 +868,16 @@
       "video_url": "https://www.youtube.com/watch?v=Xd3gyZKnhDs",
       "tags": [],
       "upload_date": "2025-04-24T19:01:01"
+    },
+    {
+      "title": "【夜に聴いて】優しさ100%の歌声で『真生活』を届けます",
+      "image": "https://i.ytimg.com/vi/whRA9qvYoc8/sddefault.jpg",
+      "alt": "【夜に聴いて】優しさ100%の歌声で『真生活』を届けます",
+      "description": "本家様：https://youtu.be/_wJBZrmjaw4?si=WDLtGiQgDtm86uEw\n＃真生活 ＃案山子 ＃歌ってみた\n------------\nめもあ公式X：https://x....",
+      "videoId": "whRA9qvYoc8",
+      "video_url": "https://www.youtube.com/watch?v=whRA9qvYoc8",
+      "tags": [],
+      "upload_date": "2025-04-23T19:01:37"
     },
     {
       "title": "【1.6万回再生突破】あの話題のカバー曲、もう聴いた？｜ムーンライト",
@@ -2226,28 +2248,6 @@
       "video_url": "https://www.youtube.com/watch?v=RC4nnjt3RoE",
       "tags": [],
       "upload_date": "2022-03-01T20:30:12"
-    },
-    {
-      "title": "【歌枠】ゆったりお話と歌をしようじゃん♩＃めも遊び #ななはぴサマーフェスタ",
-      "image": "https://i.ytimg.com/vi/rlE8PBjSNCE/sddefault.jpg?v=687d476b",
-      "alt": "【歌枠】ゆったりお話と歌をしようじゃん♩＃めも遊び #ななはぴサマーフェスタ",
-      "description": "#ななはぴサマーフェスタ \n------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh.com/memoa/\n------...",
-      "videoId": "rlE8PBjSNCE",
-      "video_url": "https://www.youtube.com/watch?v=rlE8PBjSNCE",
-      "tags": [
-        "#ななはぴサマーフェスタ"
-      ],
-      "upload_date": ""
-    },
-    {
-      "title": "【夜に聴いて】優しさ100%の歌声で『真生活』を届けます",
-      "image": "https://i.ytimg.com/vi/whRA9qvYoc8/sddefault.jpg",
-      "alt": "【夜に聴いて】優しさ100%の歌声で『真生活』を届けます",
-      "description": "本家様：https://youtu.be/_wJBZrmjaw4?si=WDLtGiQgDtm86uEw\n＃真生活 ＃案山子 ＃歌ってみた\n------------\nめもあ公式X：https://x....",
-      "videoId": "whRA9qvYoc8",
-      "video_url": "https://www.youtube.com/watch?v=whRA9qvYoc8",
-      "tags": [],
-      "upload_date": ""
     }
   ],
   "tags": [
@@ -2278,6 +2278,7 @@
     "#ラップバトル",
     "#マリみ",
     "#gettingoverit",
+    "#ななはぴサマーフェスタ",
     "#Live2D",
     "#かわいいVtuber",
     "#寝起きVtuber",
@@ -2340,9 +2341,8 @@
     "#歌うまV歌枠リレー",
     "#朝活",
     "#Vtuberと秋デートしませんか",
-    "#2",
-    "#ななはぴサマーフェスタ"
+    "#2"
   ],
-  "last_updated": "2025-08-10T00:41:35.678785",
+  "last_updated": "2025-08-10T01:41:04.010179",
   "total_videos": 183
 }
