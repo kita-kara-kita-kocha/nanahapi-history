@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "title": "ゲリラ弾き語り",
+      "image": "https://i.ytimg.com/vi/JY9lP6QDxGQ/sddefault.jpg?v=68989981",
+      "alt": "ゲリラ弾き語り",
+      "description": "歌枠\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/ka...",
+      "videoId": "JY9lP6QDxGQ",
+      "video_url": "https://www.youtube.com/watch?v=JY9lP6QDxGQ",
+      "tags": [],
+      "upload_date": "2025-08-10T22:07:38"
+    },
+    {
       "title": "【#第1回りぽまつり】爪痕爪痕爪痕爪痕爪痕爪痕爪痕爪痕【R.E.P.O.】",
       "image": "https://i.ytimg.com/vi/jE-yoaWwBZk/sddefault.jpg?v=6896d290",
       "alt": "【#第1回りぽまつり】爪痕爪痕爪痕爪痕爪痕爪痕爪痕爪痕【R.E.P.O.】",
@@ -3861,16 +3871,6 @@
       "upload_date": "2022-08-31T20:05:37"
     },
     {
-      "title": "アサガオの散る頃に / じっぷす (covered by 楠木トヲル)",
-      "image": "https://i.ytimg.com/vi/GR1KWcyAvu4/sddefault.jpg?v=630cdd18",
-      "alt": "アサガオの散る頃に / じっぷす (covered by 楠木トヲル)",
-      "description": "夏が終わりますねぇ。\n\n◆本家さま / じっぷす  様\nhttps://www.youtube.com/watch?v=ugs4oVUNZ-o\n\n◆Illust / あめのじゃく 様\nhttps://...",
-      "videoId": "GR1KWcyAvu4",
-      "video_url": "https://www.youtube.com/watch?v=GR1KWcyAvu4",
-      "tags": [],
-      "upload_date": "2022-08-27T20:00:11"
-    },
-    {
       "title": "【マイクラ】孤島で暮らすMinecraft #2【新人Vtuber】",
       "image": "https://i.ytimg.com/vi/vCfnyOeEsu0/sddefault.jpg?v=631f0fc2",
       "alt": "【マイクラ】孤島で暮らすMinecraft #2【新人Vtuber】",
@@ -4563,12 +4563,12 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
-      "title": "ゲリラ弾き語り",
-      "image": "https://i.ytimg.com/vi/JY9lP6QDxGQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQ17o-qZsm5kzutfNpqxSxVm-4sw",
-      "alt": "ゲリラ弾き語り",
-      "description": "歌枠\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/ka...",
-      "videoId": "JY9lP6QDxGQ",
-      "video_url": "https://www.youtube.com/watch?v=JY9lP6QDxGQ",
+      "title": "アサガオの散る頃に / じっぷす (covered by 楠木トヲル)",
+      "image": "https://i.ytimg.com/vi/GR1KWcyAvu4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCh4-nNwH-a-83lkfuVwJ_jvi6pqQ",
+      "alt": "アサガオの散る頃に / じっぷす (covered by 楠木トヲル)",
+      "description": "夏が終わりますねぇ。\n\n◆本家さま / じっぷす  様\nhttps://www.youtube.com/watch?v=ugs4oVUNZ-o\n\n◆Illust / あめのじゃく 様\nhttps://...",
+      "videoId": "GR1KWcyAvu4",
+      "video_url": "https://www.youtube.com/watch?v=GR1KWcyAvu4",
       "tags": [],
       "upload_date": ""
     },
@@ -4699,6 +4699,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-11T07:39:45.986981",
+  "last_updated": "2025-08-11T08:41:39.266892",
   "total_videos": 406
 }
