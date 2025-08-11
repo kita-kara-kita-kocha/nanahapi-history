@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "title": "#repo おもろすぎたR.E.P.O.コラボでした#vtuber",
+      "image": "https://i.ytimg.com/vi/khBBVk5wuB0/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYfyBXKCUwDw==&rs=AOn4CLCBFAuSX9olEAdhF6gcR8cgvHK2ew",
+      "alt": "#repo おもろすぎたR.E.P.O.コラボでした#vtuber",
+      "description": "説明なし",
+      "videoId": "khBBVk5wuB0",
+      "video_url": "https://www.youtube.com/watch?v=khBBVk5wuB0",
+      "tags": [
+        "#repo",
+        "#vtuber"
+      ],
+      "upload_date": "2025-08-11T16:31:06"
+    },
+    {
       "title": "【#repo 】これを見ればもう慌てない‼R.E.P.O.敵紹介と敵ティア表！【蛇火/ななはぴ】",
       "image": "https://i.ytimg.com/vi/MqldP6HZKWY/sddefault.jpg?v=6898936a",
       "alt": "【#repo 】これを見ればもう慌てない‼R.E.P.O.敵紹介と敵ティア表！【蛇火/ななはぴ】",
@@ -5961,9 +5974,9 @@
     "#コラボ",
     "#作業配信",
     "#生歌",
+    "#repo",
     "#縦型配信",
     "#スプラトゥーン3",
-    "#repo",
     "#参加型",
     "#両声類",
     "#ウツロマユ",
@@ -6118,6 +6131,6 @@
     "#ななはぴリクエスト歌枠リレー",
     "#癒し"
   ],
-  "last_updated": "2025-08-11T17:44:26.140354",
-  "total_videos": 445
+  "last_updated": "2025-08-11T18:44:33.767625",
+  "total_videos": 446
 }
