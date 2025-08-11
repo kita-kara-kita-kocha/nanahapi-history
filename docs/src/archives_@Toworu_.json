@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "title": "ゲリラ弾き語り",
+      "image": "https://i.ytimg.com/vi/JY9lP6QDxGQ/sddefault.jpg?v=68989981",
+      "alt": "ゲリラ弾き語り",
+      "description": "歌枠\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/ka...",
+      "videoId": "JY9lP6QDxGQ",
+      "video_url": "https://www.youtube.com/watch?v=JY9lP6QDxGQ",
+      "tags": [],
+      "upload_date": "2025-08-10T22:07:38"
+    },
+    {
       "title": "【#第1回りぽまつり】爪痕爪痕爪痕爪痕爪痕爪痕爪痕爪痕【R.E.P.O.】",
       "image": "https://i.ytimg.com/vi/jE-yoaWwBZk/sddefault.jpg?v=6896d290",
       "alt": "【#第1回りぽまつり】爪痕爪痕爪痕爪痕爪痕爪痕爪痕爪痕【R.E.P.O.】",
@@ -3423,16 +3433,6 @@
       "upload_date": "2022-11-01T19:31:56"
     },
     {
-      "title": "回る空うさぎ / Orangestar (covered by 楠木トヲル)",
-      "image": "https://i.ytimg.com/vi/wGVzP48vugI/sddefault.jpg?v=6360efd7",
-      "alt": "回る空うさぎ / Orangestar (covered by 楠木トヲル)",
-      "description": "･\nこれは、僕の小さい頃のお話\n････････\n\n生まれる前から決められた宿命\n\nその願いを叶えるため、僕は走り続ける\nどんなに道が暗く険しくても…\n\n････････\n\n◆本家 / Oranges...",
-      "videoId": "wGVzP48vugI",
-      "video_url": "https://www.youtube.com/watch?v=wGVzP48vugI",
-      "tags": [],
-      "upload_date": "2022-11-01T19:00:07"
-    },
-    {
       "title": "【誕生日前夜】カウントダウンで誕生日を迎えよう【新人Vtuber】",
       "image": "https://i.ytimg.com/vi/KrU71AMVhRg/sddefault.jpg?v=63568fd0",
       "alt": "【誕生日前夜】カウントダウンで誕生日を迎えよう【新人Vtuber】",
@@ -4563,12 +4563,12 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
-      "title": "ゲリラ弾き語り",
-      "image": "https://i.ytimg.com/vi/JY9lP6QDxGQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQ17o-qZsm5kzutfNpqxSxVm-4sw",
-      "alt": "ゲリラ弾き語り",
-      "description": "歌枠\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/ka...",
-      "videoId": "JY9lP6QDxGQ",
-      "video_url": "https://www.youtube.com/watch?v=JY9lP6QDxGQ",
+      "title": "回る空うさぎ / Orangestar (covered by 楠木トヲル)",
+      "image": "https://i.ytimg.com/vi/wGVzP48vugI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCq_DcJFKmzcissbspEESrRoYjSHg",
+      "alt": "回る空うさぎ / Orangestar (covered by 楠木トヲル)",
+      "description": "･\nこれは、僕の小さい頃のお話\n････････\n\n生まれる前から決められた宿命\n\nその願いを叶えるため、僕は走り続ける\nどんなに道が暗く険......",
+      "videoId": "wGVzP48vugI",
+      "video_url": "https://www.youtube.com/watch?v=wGVzP48vugI",
       "tags": [],
       "upload_date": ""
     },
@@ -4699,6 +4699,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-11T10:41:49.227599",
+  "last_updated": "2025-08-11T11:40:25.059495",
   "total_videos": 406
 }
