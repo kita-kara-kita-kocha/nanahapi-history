@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "title": "ゲリラ弾き語り",
+      "image": "https://i.ytimg.com/vi/JY9lP6QDxGQ/sddefault.jpg?v=68989981",
+      "alt": "ゲリラ弾き語り",
+      "description": "歌枠\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/ka...",
+      "videoId": "JY9lP6QDxGQ",
+      "video_url": "https://www.youtube.com/watch?v=JY9lP6QDxGQ",
+      "tags": [],
+      "upload_date": "2025-08-10T22:07:38"
+    },
+    {
       "title": "【#第1回りぽまつり】爪痕爪痕爪痕爪痕爪痕爪痕爪痕爪痕【R.E.P.O.】",
       "image": "https://i.ytimg.com/vi/jE-yoaWwBZk/sddefault.jpg?v=6896d290",
       "alt": "【#第1回りぽまつり】爪痕爪痕爪痕爪痕爪痕爪痕爪痕爪痕【R.E.P.O.】",
@@ -138,6 +148,18 @@
         "#男性vtuber"
       ],
       "upload_date": "2025-07-23T18:01:31"
+    },
+    {
+      "title": "【#ななはぴサマーフェスタ】さいこうすぎたねほんとうに",
+      "image": "https://i.ytimg.com/vi/j8NmvDhJJQs/sddefault.jpg?v=687dc428",
+      "alt": "【#ななはぴサマーフェスタ】さいこうすぎたねほんとうに",
+      "description": "だれかを笑顔にすることがこんなに嬉しいなんておもわなかったよ\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカ...",
+      "videoId": "j8NmvDhJJQs",
+      "video_url": "https://www.youtube.com/watch?v=j8NmvDhJJQs",
+      "tags": [
+        "#ななはぴサマーフェスタ"
+      ],
+      "upload_date": "2025-07-21T21:02:26"
     },
     {
       "title": "林檎売りの泡沫少女/yukkedoluce(covered by 楠木トヲル) #歌ってみた #shorts",
@@ -4551,28 +4573,6 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
-      "title": "ゲリラ弾き語り",
-      "image": "https://i.ytimg.com/vi/JY9lP6QDxGQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQ17o-qZsm5kzutfNpqxSxVm-4sw",
-      "alt": "ゲリラ弾き語り",
-      "description": "歌枠\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/ka...",
-      "videoId": "JY9lP6QDxGQ",
-      "video_url": "https://www.youtube.com/watch?v=JY9lP6QDxGQ",
-      "tags": [],
-      "upload_date": ""
-    },
-    {
-      "title": "【#ななはぴサマーフェスタ】さいこうすぎたねほんとうに",
-      "image": "https://i.ytimg.com/vi/j8NmvDhJJQs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBl_bmzQHDQF3P5rdyo9-MfCK3Cuw",
-      "alt": "【#ななはぴサマーフェスタ】さいこうすぎたねほんとうに",
-      "description": "だれかを笑顔にすることがこんなに嬉しいなんておもわなかったよ\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカ...",
-      "videoId": "j8NmvDhJJQs",
-      "video_url": "https://www.youtube.com/watch?v=j8NmvDhJJQs",
-      "tags": [
-        "#ななはぴサマーフェスタ"
-      ],
-      "upload_date": ""
-    },
-    {
       "title": "【メン限】ざつだんしよう【新人Vtuber3年目】",
       "image": "https://i.ytimg.com/vi/qiEnumY7Z6E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMzfP2K9HEZPPMiI_f8eTSiWEEjg",
       "alt": "【メン限】ざつだんしよう【新人Vtuber3年目】",
@@ -4669,6 +4669,7 @@
     "#7",
     "#vrc",
     "#vrchat",
+    "#ななはぴサマーフェスタ",
     "#スーパーマリオパーティジャンボリー",
     "#MFP歌枠リレー",
     "#Superliminal",
@@ -4696,9 +4697,8 @@
     "#10",
     "#9",
     "#valorant男女対抗戦",
-    "#夏フェスv歌リレー",
-    "#ななはぴサマーフェスタ"
+    "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-12T02:41:24.196635",
+  "last_updated": "2025-08-12T03:39:54.653870",
   "total_videos": 406
 }
