@@ -781,16 +781,6 @@
       "upload_date": "2025-05-31T18:00:37"
     },
     {
-      "title": "鬼ノ宴 / 友成空 (covered by 楠木トヲル)",
-      "image": "https://i.ytimg.com/vi/UUI4tc2lkGw/sddefault.jpg?v=6838b28f",
-      "alt": "鬼ノ宴 / 友成空 (covered by 楠木トヲル)",
-      "description": "好きなもの丈　食べなはれ\n\n◆本家さま / 友成空 様\nhttps://www.youtube.com/watch?v=NFzyrPK9rtM\n\n◆Illust / 鈴ki 様\nhttps://twi...",
-      "videoId": "UUI4tc2lkGw",
-      "video_url": "https://www.youtube.com/watch?v=UUI4tc2lkGw",
-      "tags": [],
-      "upload_date": "2025-05-30T19:00:06"
-    },
-    {
       "title": "ラプンツェル/n-buna(covered by 楠木トヲル)#歌ってみた #男性vtuber #shorts",
       "image": "https://i.ytimg.com/vi/G6m3AQcANPo/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYWyBVKGUwDw==&rs=AOn4CLBO4WeV1sjbjCNxr0a70W5NeX3Hkg",
       "alt": "ラプンツェル/n-buna(covered by 楠木トヲル)#歌ってみた #男性vtuber #shorts",
@@ -4573,6 +4563,16 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
+      "title": "鬼ノ宴 / 友成空 (covered by 楠木トヲル)",
+      "image": "https://i.ytimg.com/vi/UUI4tc2lkGw/sddefault.jpg?v=6838b28f",
+      "alt": "鬼ノ宴 / 友成空 (covered by 楠木トヲル)",
+      "description": "好きなもの丈　食べなはれ\n\n◆本家さま / 友成空 様\nhttps://www.youtube.com/watch?v=NFzyrPK9rtM\n\n◆Illust / 鈴ki 様\nhttps://twi...",
+      "videoId": "UUI4tc2lkGw",
+      "video_url": "https://www.youtube.com/watch?v=UUI4tc2lkGw",
+      "tags": [],
+      "upload_date": ""
+    },
+    {
       "title": "【メン限】ざつだんしよう【新人Vtuber3年目】",
       "image": "https://i.ytimg.com/vi/qiEnumY7Z6E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMzfP2K9HEZPPMiI_f8eTSiWEEjg",
       "alt": "【メン限】ざつだんしよう【新人Vtuber3年目】",
@@ -4699,6 +4699,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-11T13:41:40.330541",
+  "last_updated": "2025-08-11T14:41:19.725163",
   "total_videos": 406
 }
