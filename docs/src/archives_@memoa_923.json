@@ -116,20 +116,6 @@
       "upload_date": "2025-07-11T07:00:00"
     },
     {
-      "title": "もう…むり…なあなたと一緒に深呼吸💭#vtuber #めもあ #ちいかわ みたいなやつ",
-      "image": "https://i.ytimg.com/vi/xq_fX3KBL3c/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYTyBeKGUwDw==&rs=AOn4CLDXBNSQuwMPnI2CZ0i0mi6elgXu4g",
-      "alt": "もう…むり…なあなたと一緒に深呼吸💭#vtuber #めもあ #ちいかわ みたいなやつ",
-      "description": "説明なし",
-      "videoId": "xq_fX3KBL3c",
-      "video_url": "https://www.youtube.com/watch?v=xq_fX3KBL3c",
-      "tags": [
-        "#vtuber",
-        "#ちいかわ",
-        "#めもあ"
-      ],
-      "upload_date": "2025-07-09T07:00:59"
-    },
-    {
       "title": "【簡単ver】このオリ曲ダンス、マネしやすくてかわいいよ♡ #shorts #踊ってみた #オリ曲 #簡単ダンス #Vtuber #かわいい #真似してね #振りコピ歓迎",
       "image": "https://i.ytimg.com/vi/JrA8ofcwebs/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYQSBUKGUwDw==&rs=AOn4CLAbpvTGLec_6n9SnP_oZT79B5_SmQ",
       "alt": "【簡単ver】このオリ曲ダンス、マネしやすくてかわいいよ♡ #shorts #踊ってみた #オリ曲 #簡単ダンス #Vtuber #かわいい #真似してね #振りコピ歓迎",
@@ -2248,6 +2234,20 @@
       "video_url": "https://www.youtube.com/watch?v=RC4nnjt3RoE",
       "tags": [],
       "upload_date": "2022-03-01T20:30:12"
+    },
+    {
+      "title": "もう…むり…なあなたと一緒に深呼吸💭#vtuber #めもあ #ちいかわ みたいなやつ",
+      "image": "https://i.ytimg.com/vi/xq_fX3KBL3c/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYTyBeKGUwDw==&rs=AOn4CLDXBNSQuwMPnI2CZ0i0mi6elgXu4g",
+      "alt": "もう…むり…なあなたと一緒に深呼吸💭#vtuber #めもあ #ちいかわ みたいなやつ",
+      "description": "説明なし",
+      "videoId": "xq_fX3KBL3c",
+      "video_url": "https://www.youtube.com/watch?v=xq_fX3KBL3c",
+      "tags": [
+        "#vtuber",
+        "#ちいかわ",
+        "#めもあ"
+      ],
+      "upload_date": ""
     }
   ],
   "tags": [
@@ -2285,7 +2285,6 @@
     "#ちいかわみたいなやつ",
     "#ふとんから出られない",
     "#共感したらコメントして",
-    "#ちいかわ",
     "#かわいい",
     "#振りコピ歓迎",
     "#真似してね",
@@ -2341,8 +2340,9 @@
     "#歌うまV歌枠リレー",
     "#朝活",
     "#Vtuberと秋デートしませんか",
-    "#2"
+    "#2",
+    "#ちいかわ"
   ],
-  "last_updated": "2025-08-11T12:43:33.125421",
+  "last_updated": "2025-08-11T13:43:15.437298",
   "total_videos": 183
 }
