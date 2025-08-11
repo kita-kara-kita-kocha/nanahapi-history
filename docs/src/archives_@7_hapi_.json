@@ -2,6 +2,16 @@
   "items": [
     {
       "title": "【ななはぴ4周年記念】 夏祭り/ Whiteberry【合唱 / 歌ってみた】",
+      "image": "https://i.ytimg.com/vi/0P09VWG-dTc/sddefault.jpg",
+      "alt": "【ななはぴ4周年記念】 夏祭り/ Whiteberry【合唱 / 歌ってみた】",
+      "description": "ななはぴ4周年、最高の夏をお届け！\n\n＜Original＞\nWhiteberry様 https://youtu.be/AZRR01YOKcM?si=FymICOSQlPsiEHTc\n\n＜Mix＞\nなな...",
+      "videoId": "0P09VWG-dTc",
+      "video_url": "https://www.youtube.com/watch?v=0P09VWG-dTc",
+      "tags": [],
+      "upload_date": "2025-08-01T12:00:01"
+    },
+    {
+      "title": "【ななはぴ4周年記念】 夏祭り/ Whiteberry【合唱 / 歌ってみた】",
       "image": "https://i.ytimg.com/vi/Ng_BIXWlQB8/sddefault.jpg?v=687dc893",
       "alt": "【ななはぴ4周年記念】 夏祭り/ Whiteberry【合唱 / 歌ってみた】",
       "description": "ななはぴ4周年、最高の夏をお届け！\n\n＜Original＞\nWhiteberry様 https://youtu.be/AZRR01YOKcM?si=FymICOSQlPsiEHTc\n\n＜Mix＞\nなな...",
@@ -322,16 +332,6 @@
         "#セブンスVハーフアニバ"
       ],
       "upload_date": "2020-09-04T19:00:00"
-    },
-    {
-      "title": "【ななはぴ4周年記念】 夏祭り/ Whiteberry【合唱 / 歌ってみた】",
-      "image": "https://i.ytimg.com/vi/0P09VWG-dTc/sddefault.jpg",
-      "alt": "【ななはぴ4周年記念】 夏祭り/ Whiteberry【合唱 / 歌ってみた】",
-      "description": "ななはぴ4周年、最高の夏をお届け！\n\n＜Original＞\nWhiteberry様 https://youtu.be/AZRR01YOKcM?si=FymICOSQlPsiEHTc\n\n＜Mix＞\nなな...",
-      "videoId": "0P09VWG-dTc",
-      "video_url": "https://www.youtube.com/watch?v=0P09VWG-dTc",
-      "tags": [],
-      "upload_date": ""
     }
   ],
   "tags": [
@@ -344,6 +344,6 @@
     "#セブンスV",
     "#セブンスVハーフアニバ"
   ],
-  "last_updated": "2025-08-11T20:31:18.107071",
+  "last_updated": "2025-08-11T21:31:17.796984",
   "total_videos": 27
 }
