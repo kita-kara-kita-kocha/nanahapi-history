@@ -840,16 +840,6 @@
       "upload_date": "2025-04-27T19:00:30"
     },
     {
-      "title": "【想像以上】可愛い見た目でロック全開にしてみた｜マーシャル・マキシマイザー",
-      "image": "https://i.ytimg.com/vi/lo7pg5s5ua0/sddefault.jpg",
-      "alt": "【想像以上】可愛い見た目でロック全開にしてみた｜マーシャル・マキシマイザー",
-      "description": "本家様：https://youtu.be/jMKPYg0uhCI?si=YU9J0g55EXHjJUTC\n＃マーシャルマキシマイザー ＃柊マグネタイト #歌ってみた\n------------\nめもあ公...",
-      "videoId": "lo7pg5s5ua0",
-      "video_url": "https://www.youtube.com/watch?v=lo7pg5s5ua0",
-      "tags": [],
-      "upload_date": "2025-04-26T19:01:08"
-    },
-    {
       "title": "【涙腺注意】言葉がまっすぐ刺さる『黄色』を歌ってみた",
       "image": "https://i.ytimg.com/vi/yQ1ArmNH7R0/sddefault.jpg",
       "alt": "【涙腺注意】言葉がまっすぐ刺さる『黄色』を歌ってみた",
@@ -990,16 +980,6 @@
         "#歌枠"
       ],
       "upload_date": "2024-04-25T21:02:39"
-    },
-    {
-      "title": "【MV】Just for you / めもあ【Vsinger / オリジナル曲】",
-      "image": "https://i.ytimg.com/vi/d4sU3VaU6N4/sddefault.jpg?v=661fbd0f",
-      "alt": "【MV】Just for you / めもあ【Vsinger / オリジナル曲】",
-      "description": "VSinger めもあ\nParty Popper参加ボーカル曲『Just for you 』\n\n▼booth / DL & Streaming\nhttps://booth.pm/ja/items/42...",
-      "videoId": "d4sU3VaU6N4",
-      "video_url": "https://www.youtube.com/watch?v=d4sU3VaU6N4",
-      "tags": [],
-      "upload_date": "2024-04-22T22:00:07"
     },
     {
       "title": "【 ＃記念配信 】皆んなのおかげで2周年！いっぱいありがとう！【 めもあ / Vsinger 】＃めも遊び ＃めもあ2周年",
@@ -2248,6 +2228,26 @@
       "video_url": "https://www.youtube.com/watch?v=RC4nnjt3RoE",
       "tags": [],
       "upload_date": "2022-03-01T20:30:12"
+    },
+    {
+      "title": "【想像以上】可愛い見た目でロック全開にしてみた｜マーシャル・マキシマイザー",
+      "image": "https://i.ytimg.com/vi/lo7pg5s5ua0/sddefault.jpg",
+      "alt": "【想像以上】可愛い見た目でロック全開にしてみた｜マーシャル・マキシマイザー",
+      "description": "本家様：https://youtu.be/jMKPYg0uhCI?si=YU9J0g55EXHjJUTC\n＃マーシャルマキシマイザー ＃柊マグネタイト #歌ってみた\n------------\nめもあ公...",
+      "videoId": "lo7pg5s5ua0",
+      "video_url": "https://www.youtube.com/watch?v=lo7pg5s5ua0",
+      "tags": [],
+      "upload_date": ""
+    },
+    {
+      "title": "【MV】Just for you / めもあ【Vsinger / オリジナル曲】",
+      "image": "https://i.ytimg.com/vi/d4sU3VaU6N4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAt0qtTUkbqpVoXVRGcr-Nolc6Ctg",
+      "alt": "【MV】Just for you / めもあ【Vsinger / オリジナル曲】",
+      "description": "VSinger めもあ\nParty Popper参加ボーカル曲『Just for you 』\n\n▼booth / DL & Streaming\nhttps://booth.pm/ja/items/42...",
+      "videoId": "d4sU3VaU6N4",
+      "video_url": "https://www.youtube.com/watch?v=d4sU3VaU6N4",
+      "tags": [],
+      "upload_date": ""
     }
   ],
   "tags": [
@@ -2343,6 +2343,6 @@
     "#Vtuberと秋デートしませんか",
     "#2"
   ],
-  "last_updated": "2025-08-11T09:41:10.185910",
+  "last_updated": "2025-08-11T10:43:22.141987",
   "total_videos": 183
 }
