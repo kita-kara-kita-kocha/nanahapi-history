@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "title": "【週間スケジュール】めもあ/memoa",
+      "image": "https://i.ytimg.com/vi/9xa0Weagh6g/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2MsWW6EFiRm4QNQq2lscOYGZ0GQ",
+      "alt": "【週間スケジュール】めもあ/memoa",
+      "description": "⑅୨୧ 8/11(月)〜8/17(日)週間スケジュール  ୨୧⑅ \n\n------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seven...",
+      "videoId": "9xa0Weagh6g",
+      "video_url": "https://www.youtube.com/watch?v=9xa0Weagh6g",
+      "tags": [],
+      "upload_date": "2026-04-22T18:00:00"
+    },
+    {
       "title": "【バニーグッズ販売中】『マリネdeみーと Vol.10』事後物販が開始！9/15 (月) 23：59まで",
       "image": "https://i.ytimg.com/vi/4JIpskv1LuU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwWyxywS9zzEe2CG3aNCQkcRRpYw",
       "alt": "【バニーグッズ販売中】『マリネdeみーと Vol.10』事後物販が開始！9/15 (月) 23：59まで",
@@ -9,6 +19,18 @@
       "video_url": "https://www.youtube.com/watch?v=4JIpskv1LuU",
       "tags": [],
       "upload_date": "2025-09-15T23:59:00"
+    },
+    {
+      "title": "【歌枠リレー】Jpop大好きパジャマvsingerのお気に入り曲TOP５＃オーディンフェス #めも遊び",
+      "image": "https://i.ytimg.com/vi/XNQuv8rE0bU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhqa_7opMyT0RtVoxcD_dHO2XUuw",
+      "alt": "【歌枠リレー】Jpop大好きパジャマvsingerのお気に入り曲TOP５＃オーディンフェス #めも遊び",
+      "description": "弾幕：🏠🤍🏠🤍🏠🤍🏠🤍🏠🤍\n応援合言葉：めもおい！めもおい！\n------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh....",
+      "videoId": "XNQuv8rE0bU",
+      "video_url": "https://www.youtube.com/watch?v=XNQuv8rE0bU",
+      "tags": [
+        "#めも遊び"
+      ],
+      "upload_date": "2025-08-23T19:00:00"
     },
     {
       "title": "【雑談】もっとリアイベが楽しみになる配信 ＃めも遊び #マリみ",
@@ -2343,6 +2365,6 @@
     "#Vtuberと秋デートしませんか",
     "#2"
   ],
-  "last_updated": "2025-08-11T23:43:00.866583",
-  "total_videos": 183
+  "last_updated": "2025-08-12T00:41:41.771835",
+  "total_videos": 185
 }
