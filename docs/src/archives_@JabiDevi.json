@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "title": "#歌ってみた #光が死んだ夏 #ひかなつ 観た⁉️めっちゃ面白いよな#anime #アニメ",
+      "image": "https://i.ytimg.com/vi/dFTfgTFYNDA/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYVSBdKGUwDw==&rs=AOn4CLDhjKFOqBzPo3yyGigDe4CeRYTUig",
+      "alt": "#歌ってみた #光が死んだ夏 #ひかなつ 観た⁉️めっちゃ面白いよな#anime #アニメ",
+      "description": "説明なし",
+      "videoId": "dFTfgTFYNDA",
+      "video_url": "https://www.youtube.com/watch?v=dFTfgTFYNDA",
+      "tags": [
+        "#anime",
+        "#ひかなつ",
+        "#アニメ",
+        "#光が死んだ夏",
+        "#歌ってみた"
+      ],
+      "upload_date": "2025-08-12T20:14:26"
+    },
+    {
       "title": "#repo おもろすぎたR.E.P.O.コラボでした#vtuber",
       "image": "https://i.ytimg.com/vi/khBBVk5wuB0/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYfyBXKCUwDw==&rs=AOn4CLCBFAuSX9olEAdhF6gcR8cgvHK2ew",
       "alt": "#repo おもろすぎたR.E.P.O.コラボでした#vtuber",
@@ -144,18 +160,6 @@
         "#歌枠"
       ],
       "upload_date": "2025-08-05T18:30:41"
-    },
-    {
-      "title": "【#repo 】ゲリラR.E.P.O.コラボ‼天咲スピカと遊ぼう！！【蛇火/ななはぴ】",
-      "image": "https://i.ytimg.com/vi/1qroECYaR7s/sddefault.jpg?v=6890ae32",
-      "alt": "【#repo 】ゲリラR.E.P.O.コラボ‼天咲スピカと遊ぼう！！【蛇火/ななはぴ】",
-      "description": "♰ 本日の客人 ♰\n天咲スピカ\nYouTube☞@Amazaki_Spica \nX☞ https://x.com/Amazaki_S_00\n\n+‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥+\n\n° ✞  𝟷𝚜𝚝...",
-      "videoId": "1qroECYaR7s",
-      "video_url": "https://www.youtube.com/watch?v=1qroECYaR7s",
-      "tags": [
-        "#repo"
-      ],
-      "upload_date": "2025-08-04T22:35:55"
     },
     {
       "title": "【 #歌枠 #karaoke ‖高評価100目標♰ 】Honey Worksしばり歌枠🎙【蛇火/ななはぴ】",
@@ -5761,6 +5765,18 @@
       "upload_date": "2023-12-01T12:00:27"
     },
     {
+      "title": "【#repo 】ゲリラR.E.P.O.コラボ‼天咲スピカと遊ぼう！！【蛇火/ななはぴ】",
+      "image": "https://i.ytimg.com/vi/1qroECYaR7s/sddefault.jpg?v=6890ae32",
+      "alt": "【#repo 】ゲリラR.E.P.O.コラボ‼天咲スピカと遊ぼう！！【蛇火/ななはぴ】",
+      "description": "♰ 本日の客人 ♰\n天咲スピカ\nYouTube☞@Amazaki_Spica \nX☞ https://x.com/Amazaki_S_00\n\n+‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥+\n\n° ✞  𝟷𝚜𝚝...",
+      "videoId": "1qroECYaR7s",
+      "video_url": "https://www.youtube.com/watch?v=1qroECYaR7s",
+      "tags": [
+        "#repo"
+      ],
+      "upload_date": ""
+    },
+    {
       "title": "【先行お披露目あり‼】魂火たちにアイコンをプレゼントする配信🎙【#蛇火  /#ななはぴ 】",
       "image": "https://i.ytimg.com/vi/DYYBFLDBz9c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCkZGCTLMiDrycrpH-9XSN5DPr5_A",
       "alt": "【先行お披露目あり‼】魂火たちにアイコンをプレゼントする配信🎙【#蛇火  /#ななはぴ 】",
@@ -5961,8 +5977,8 @@
     "#新人vtuber",
     "#shorts",
     "#ラジオ",
-    "#多声類",
     "#歌ってみた",
+    "#多声類",
     "#朝活",
     "#モンハンワイルズ",
     "#メン限",
@@ -6021,6 +6037,10 @@
     "#作業用",
     "#ミラフェス",
     "#推し対",
+    "#anime",
+    "#ひかなつ",
+    "#アニメ",
+    "#光が死んだ夏",
     "#おもしろ",
     "#グレンハイマ",
     "#tomandjerry",
@@ -6131,6 +6151,6 @@
     "#ななはぴリクエスト歌枠リレー",
     "#癒し"
   ],
-  "last_updated": "2025-08-12T19:44:45.332046",
-  "total_videos": 446
+  "last_updated": "2025-08-12T20:45:42.052597",
+  "total_videos": 447
 }

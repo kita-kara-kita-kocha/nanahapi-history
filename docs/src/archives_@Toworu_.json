@@ -150,18 +150,6 @@
       "upload_date": "2025-07-23T18:01:31"
     },
     {
-      "title": "【#ななはぴサマーフェスタ】さいこうすぎたねほんとうに",
-      "image": "https://i.ytimg.com/vi/j8NmvDhJJQs/sddefault.jpg?v=687dc428",
-      "alt": "【#ななはぴサマーフェスタ】さいこうすぎたねほんとうに",
-      "description": "だれかを笑顔にすることがこんなに嬉しいなんておもわなかったよ\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカ...",
-      "videoId": "j8NmvDhJJQs",
-      "video_url": "https://www.youtube.com/watch?v=j8NmvDhJJQs",
-      "tags": [
-        "#ななはぴサマーフェスタ"
-      ],
-      "upload_date": "2025-07-21T21:02:26"
-    },
-    {
       "title": "林檎売りの泡沫少女/yukkedoluce(covered by 楠木トヲル) #歌ってみた #shorts",
       "image": "https://i.ytimg.com/vi/ZdUKPkMs8bY/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYciBHKDkwDw==&rs=AOn4CLCvT4Hyc3uw2UtAS5nGBcwwgBUBmg",
       "alt": "林檎売りの泡沫少女/yukkedoluce(covered by 楠木トヲル) #歌ってみた #shorts",
@@ -4573,6 +4561,18 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
+      "title": "【#ななはぴサマーフェスタ】さいこうすぎたねほんとうに",
+      "image": "https://i.ytimg.com/vi/j8NmvDhJJQs/sddefault.jpg?v=687dc428",
+      "alt": "【#ななはぴサマーフェスタ】さいこうすぎたねほんとうに",
+      "description": "だれかを笑顔にすることがこんなに嬉しいなんておもわなかったよ\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカ...",
+      "videoId": "j8NmvDhJJQs",
+      "video_url": "https://www.youtube.com/watch?v=j8NmvDhJJQs",
+      "tags": [
+        "#ななはぴサマーフェスタ"
+      ],
+      "upload_date": ""
+    },
+    {
       "title": "【メン限】ざつだんしよう【新人Vtuber3年目】",
       "image": "https://i.ytimg.com/vi/qiEnumY7Z6E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMzfP2K9HEZPPMiI_f8eTSiWEEjg",
       "alt": "【メン限】ざつだんしよう【新人Vtuber3年目】",
@@ -4669,7 +4669,6 @@
     "#7",
     "#vrc",
     "#vrchat",
-    "#ななはぴサマーフェスタ",
     "#スーパーマリオパーティジャンボリー",
     "#MFP歌枠リレー",
     "#Superliminal",
@@ -4697,8 +4696,9 @@
     "#10",
     "#9",
     "#valorant男女対抗戦",
-    "#夏フェスv歌リレー"
+    "#夏フェスv歌リレー",
+    "#ななはぴサマーフェスタ"
   ],
-  "last_updated": "2025-08-12T19:40:31.772637",
+  "last_updated": "2025-08-12T20:41:03.519545",
   "total_videos": 406
 }
