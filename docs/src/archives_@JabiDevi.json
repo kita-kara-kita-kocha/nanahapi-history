@@ -226,20 +226,6 @@
       "upload_date": "2025-08-04T18:04:29"
     },
     {
-      "title": "【R.E.P.O.切り抜き】愉快な仲間たちが自由すぎる#shorts #repo #vtuber",
-      "image": "https://i.ytimg.com/vi/u_WCVjs0nl8/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBdKEUwDw==&rs=AOn4CLCC-As6Ftm37R8O7zXiKRU_IbCxyQ",
-      "alt": "【R.E.P.O.切り抜き】愉快な仲間たちが自由すぎる#shorts #repo #vtuber",
-      "description": "説明なし",
-      "videoId": "u_WCVjs0nl8",
-      "video_url": "https://www.youtube.com/watch?v=u_WCVjs0nl8",
-      "tags": [
-        "#repo",
-        "#shorts",
-        "#vtuber"
-      ],
-      "upload_date": "2025-08-02T21:31:06"
-    },
-    {
       "title": "【#repo 】初ソロR.E.P.O.！？目標レベル８！！【蛇火/ななはぴ】",
       "image": "https://i.ytimg.com/vi/92xNsFx85-U/sddefault.jpg?v=688cb484",
       "alt": "【#repo 】初ソロR.E.P.O.！？目標レベル８！！【蛇火/ななはぴ】",
@@ -595,6 +581,20 @@
         "#雑談"
       ],
       "upload_date": "2025-07-09T21:01:39"
+    },
+    {
+      "title": "#ゼンゼロ みなはどのキャラ推し！？コメントで教えてくれ！！#shorts #vtuber",
+      "image": "https://i.ytimg.com/vi/3OLUEvG6euI/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYfyATKBMwDw==&rs=AOn4CLAiw9DQFkLuBrPKRwDWhb9z1iNrzw",
+      "alt": "#ゼンゼロ みなはどのキャラ推し！？コメントで教えてくれ！！#shorts #vtuber",
+      "description": "蛇悪魔の女の子。\n好きなものは歌と辛い食べ物。\n歌で皆に夢と希望を与えることが夢。\n\n+‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥+\n\nX（旧Twitter）\nhttps://twitter.com/Jabi...",
+      "videoId": "3OLUEvG6euI",
+      "video_url": "https://www.youtube.com/watch?v=3OLUEvG6euI",
+      "tags": [
+        "#shorts",
+        "#vtuber",
+        "#ゼンゼロ"
+      ],
+      "upload_date": "2025-07-08T23:00:09"
     },
     {
       "title": "お前たちはハンドル握ると性格変わるタイプなのか…？#vtuber #shorts #多声類",
@@ -5802,16 +5802,16 @@
       "upload_date": "2023-12-01T12:00:27"
     },
     {
-      "title": "#ゼンゼロ みなはどのキャラ推し！？コメントで教えてくれ！！#shorts #vtuber",
-      "image": "https://i.ytimg.com/vi/3OLUEvG6euI/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDUHZCLgv2iuzp5zDvmIusemw8g4Q",
-      "alt": "#ゼンゼロ みなはどのキャラ推し！？コメントで教えてくれ！！#shorts #vtuber",
+      "title": "【R.E.P.O.切り抜き】愉快な仲間たちが自由すぎる#shorts #repo #vtuber",
+      "image": "https://i.ytimg.com/vi/u_WCVjs0nl8/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLD3tjvEde_rVIMXNHZo6Dgqqwx_lA",
+      "alt": "【R.E.P.O.切り抜き】愉快な仲間たちが自由すぎる#shorts #repo #vtuber",
       "description": "説明なし",
-      "videoId": "3OLUEvG6euI",
-      "video_url": "https://www.youtube.com/shorts/3OLUEvG6euI",
+      "videoId": "u_WCVjs0nl8",
+      "video_url": "https://www.youtube.com/shorts/u_WCVjs0nl8",
       "tags": [
+        "#repo",
         "#shorts",
-        "#vtuber",
-        "#ゼンゼロ"
+        "#vtuber"
       ],
       "upload_date": ""
     },
@@ -6191,6 +6191,6 @@
     "#ななはぴリクエスト歌枠リレー",
     "#癒し"
   ],
-  "last_updated": "2025-08-14T09:47:36.515899",
+  "last_updated": "2025-08-14T10:49:47.188174",
   "total_videos": 450
 }
