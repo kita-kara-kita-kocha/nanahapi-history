@@ -23,16 +23,6 @@
       "upload_date": "2023-05-22T20:00:23"
     },
     {
-      "title": "【歌ってみた】エライエライエライ！／キノシタ(kinoshita) 【covered by ニコラ・アルディン】",
-      "image": "https://i.ytimg.com/vi/HXXRVFMpQb4/sddefault.jpg",
-      "alt": "【歌ってみた】エライエライエライ！／キノシタ(kinoshita) 【covered by ニコラ・アルディン】",
-      "description": "＼ワタシ キミも 超 超 超 超 超天才！／\n\n初投稿の歌ってみたを２年ぶりに\n歌ってみました‼\n初投稿のものと良かったら聴き比べてみてね🌟\n\n🌟本家🌟\n https://www.youtube.co...",
-      "videoId": "HXXRVFMpQb4",
-      "video_url": "https://www.youtube.com/watch?v=HXXRVFMpQb4",
-      "tags": [],
-      "upload_date": "2023-05-21T20:00:20"
-    },
-    {
       "title": "【歌ってみた】ヒャダインのじょーじょーゆーじょー 【covered by ニコラ・アルディン＆ココロニ・ノンノ #ニコロニ】",
       "image": "https://i.ytimg.com/vi_webp/Krw8Th9EKrs/maxresdefault.webp",
       "alt": "【歌ってみた】ヒャダインのじょーじょーゆーじょー 【covered by ニコラ・アルディン＆ココロニ・ノンノ #ニコロニ】",
@@ -63,6 +53,18 @@
       "video_url": "https://www.youtube.com/watch?v=qsUIPcU72bc",
       "tags": [],
       "upload_date": "2023-02-16T19:00:10"
+    },
+    {
+      "title": "ノーザンクロス / ニコラ・アルディン【柚子花主催LIVE『-Planet Station- STAGE.6』2023/1/22 開催】#プラステ6",
+      "image": "https://i.ytimg.com/vi/515-m8ijc9Y/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGD8gPyhyMA8=&rs=AOn4CLDO8N_4IH45uxDMzzdyrpueapIVNg",
+      "alt": "ノーザンクロス / ニコラ・アルディン【柚子花主催LIVE『-Planet Station- STAGE.6』2023/1/22 開催】#プラステ6",
+      "description": "2023年1月22日に開催された\n柚子花さん主催LIVE「-Planet Station- STAGE.6」\nPR用に一部だけのライブ映像となっております。\n\n「ノーザンクロス / シェリル・ノーム ...",
+      "videoId": "515-m8ijc9Y",
+      "video_url": "https://www.youtube.com/watch?v=515-m8ijc9Y",
+      "tags": [
+        "#プラステ6"
+      ],
+      "upload_date": "2023-01-25T19:00:02"
     },
     {
       "title": "All Alone With You / EGOIST Covered by ニコラ・アルディン【歌ってみた / VTuber】",
@@ -295,15 +297,13 @@
       "upload_date": "2021-05-21T20:00:22"
     },
     {
-      "title": "ノーザンクロス / ニコラ・アルディン【柚子花主催LIVE『-Planet Station- STAGE.6』2023/1/22 開催】#プラステ6",
-      "image": "https://i.ytimg.com/vi/515-m8ijc9Y/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGD8gPyhyMA8=&rs=AOn4CLDO8N_4IH45uxDMzzdyrpueapIVNg",
-      "alt": "ノーザンクロス / ニコラ・アルディン【柚子花主催LIVE『-Planet Station- STAGE.6』2023/1/22 開催】#プラステ6",
-      "description": "2023年1月22日に開催された\n柚子花さん主催LIVE「-Planet Station- STAGE.6」\nPR用に一部だけのライブ映像となっております。\n\n「ノーザンクロス / シェリル・ノーム ...",
-      "videoId": "515-m8ijc9Y",
-      "video_url": "https://www.youtube.com/watch?v=515-m8ijc9Y",
-      "tags": [
-        "#プラステ6"
-      ],
+      "title": "【歌ってみた】エライエライエライ！／キノシタ(kinoshita) 【covered by ニコラ・アルディン】",
+      "image": "https://i.ytimg.com/vi/HXXRVFMpQb4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFT-sFATZRZQGcN44ghYdDXgLJMQ",
+      "alt": "【歌ってみた】エライエライエライ！／キノシタ(kinoshita) 【covered by ニコラ・アルディン】",
+      "description": "＼ワタシ キミも 超 超 超 超 超天才！／\n\n初投稿の歌ってみたを２年ぶりに\n歌ってみました‼\n初投稿のものと良かったら聴き比べてみてね🌟......",
+      "videoId": "HXXRVFMpQb4",
+      "video_url": "https://www.youtube.com/watch?v=HXXRVFMpQb4",
+      "tags": [],
       "upload_date": ""
     }
   ],
@@ -312,6 +312,6 @@
     "#ニコロニ",
     "#プラステ6"
   ],
-  "last_updated": "2025-08-14T08:52:52.571794",
+  "last_updated": "2025-08-14T09:53:13.542988",
   "total_videos": 30
 }
