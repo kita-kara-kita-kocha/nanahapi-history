@@ -1,16 +1,6 @@
 {
   "items": [
     {
-      "title": "ゲリラ弾き語り",
-      "image": "https://i.ytimg.com/vi/JY9lP6QDxGQ/sddefault.jpg?v=68989981",
-      "alt": "ゲリラ弾き語り",
-      "description": "歌枠\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/ka...",
-      "videoId": "JY9lP6QDxGQ",
-      "video_url": "https://www.youtube.com/watch?v=JY9lP6QDxGQ",
-      "tags": [],
-      "upload_date": "2025-08-10T22:07:38"
-    },
-    {
       "title": "【#第1回りぽまつり】爪痕爪痕爪痕爪痕爪痕爪痕爪痕爪痕【R.E.P.O.】",
       "image": "https://i.ytimg.com/vi/jE-yoaWwBZk/sddefault.jpg?v=6896d290",
       "alt": "【#第1回りぽまつり】爪痕爪痕爪痕爪痕爪痕爪痕爪痕爪痕【R.E.P.O.】",
@@ -173,19 +163,6 @@
         "#歌ってみた"
       ],
       "upload_date": "2025-07-20T18:00:56"
-    },
-    {
-      "title": "BRAIN/Kanaria(covered by 楠木トヲル) #歌ってみた #shorts",
-      "image": "https://i.ytimg.com/vi/p5u9XfLqIDA/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYfyATKBwwDw==&rs=AOn4CLCl7Feppaifx-BRkYP3O8Qw5w9QBA",
-      "alt": "BRAIN/Kanaria(covered by 楠木トヲル) #歌ってみた #shorts",
-      "description": "あまりにもかっこよい曲\n\n▼本家さま / Kanaria 様\nhttps://www.youtube.com/watch?v=h4HkXR3NSI4\n\n=================\n\n▼Twit...",
-      "videoId": "p5u9XfLqIDA",
-      "video_url": "https://www.youtube.com/watch?v=p5u9XfLqIDA",
-      "tags": [
-        "#shorts",
-        "#歌ってみた"
-      ],
-      "upload_date": "2025-07-18T18:01:29"
     },
     {
       "title": "【R.E.P.O.】1Lv~ 日本一をめざしてソロ攻略【#男性Vtuber】",
@@ -4573,6 +4550,29 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
+      "title": "ゲリラ弾き語り",
+      "image": "https://i.ytimg.com/vi/JY9lP6QDxGQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQ17o-qZsm5kzutfNpqxSxVm-4sw",
+      "alt": "ゲリラ弾き語り",
+      "description": "歌枠\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/ka...",
+      "videoId": "JY9lP6QDxGQ",
+      "video_url": "https://www.youtube.com/watch?v=JY9lP6QDxGQ",
+      "tags": [],
+      "upload_date": ""
+    },
+    {
+      "title": "BRAIN/Kanaria(covered by 楠木トヲル) #歌ってみた #shorts",
+      "image": "https://i.ytimg.com/vi/p5u9XfLqIDA/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBXQGmAAK6O25lEZbgCB2e6O4CkqA",
+      "alt": "BRAIN/Kanaria(covered by 楠木トヲル) #歌ってみた #shorts",
+      "description": "説明なし",
+      "videoId": "p5u9XfLqIDA",
+      "video_url": "https://www.youtube.com/shorts/p5u9XfLqIDA",
+      "tags": [
+        "#shorts",
+        "#歌ってみた"
+      ],
+      "upload_date": ""
+    },
+    {
       "title": "【メン限】ざつだんしよう【新人Vtuber3年目】",
       "image": "https://i.ytimg.com/vi/qiEnumY7Z6E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMzfP2K9HEZPPMiI_f8eTSiWEEjg",
       "alt": "【メン限】ざつだんしよう【新人Vtuber3年目】",
@@ -4699,6 +4699,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-15T05:40:15.197877",
+  "last_updated": "2025-08-15T06:43:52.757076",
   "total_videos": 406
 }
