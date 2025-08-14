@@ -678,16 +678,6 @@
       "upload_date": "2025-03-14T22:04:54"
     },
     {
-      "title": "【ASMR／KU100】みみっくからのホワイトデーの贈り物👀🗝✨【シチュエーションボイス】",
-      "image": "https://i.ytimg.com/vi/t1VoPqlDLKA/sddefault.jpg",
-      "alt": "【ASMR／KU100】みみっくからのホワイトデーの贈り物👀🗝✨【シチュエーションボイス】",
-      "description": "▼KU100で収録した高音質ASMRシチュボ販売中！▼\nhttp://official.creatia.cc/fanclubs/1663\n\nバイノーラルマイクを使用したASMRです。\nヘッドホンやイヤ...",
-      "videoId": "t1VoPqlDLKA",
-      "video_url": "https://www.youtube.com/watch?v=t1VoPqlDLKA",
-      "tags": [],
-      "upload_date": "2025-03-14T21:25:32"
-    },
-    {
       "title": "甘党イケオジが美味しいチョコを実食する！👀🗝🍫✨【みみっく=わんだぁぼっくす】【男性Vtuber】",
       "image": "https://i.ytimg.com/vi/j7E1bgwwglU/sddefault.jpg?v=67c307b5",
       "alt": "甘党イケオジが美味しいチョコを実食する！👀🗝🍫✨【みみっく=わんだぁぼっくす】【男性Vtuber】",
@@ -1538,6 +1528,18 @@
       "video_url": "https://www.youtube.com/watch?v=kwhdfOgPajw",
       "tags": [],
       "upload_date": "2024-08-25T00:38:13"
+    },
+    {
+      "title": "【＃9】寝る前に聞きたい、低音いい声3人組のおしゃべりラジオ「#ワン・モア・トーク！」【千夜イチヤ / エニグマ伯爵 / みみっく=わんだぁぼっくす】",
+      "image": "https://i.ytimg.com/vi/gUuan7feyXg/sddefault.jpg?v=66c1ba4e",
+      "alt": "【＃9】寝る前に聞きたい、低音いい声3人組のおしゃべりラジオ「#ワン・モア・トーク！」【千夜イチヤ / エニグマ伯爵 / みみっく=わんだぁぼっくす】",
+      "description": "隔週月曜日23時からお届け！\nいい声3人の各チャンネルをリレーして回るラジオ企画\n「ワン・モア・トーク！」をどうぞお楽しみください！\n\n▽パーソナリティ\n千夜イチヤ @senya_1ya \nエニグマ伯...",
+      "videoId": "gUuan7feyXg",
+      "video_url": "https://www.youtube.com/watch?v=gUuan7feyXg",
+      "tags": [
+        "#ワン"
+      ],
+      "upload_date": "2024-08-19T23:00:07"
     },
     {
       "title": "【Apex Legends】イケオジが新シーズンを実況！２丁拳銃でウキウキお散歩♪【みみっく=わんだぁぼっくす】【男性VTuber】",
@@ -8782,15 +8784,13 @@
       "upload_date": "2020-01-28T21:07:09"
     },
     {
-      "title": "【＃9】寝る前に聞きたい、低音いい声3人組のおしゃべりラジオ「#ワン・モア・トーク！」【千夜イチヤ / エニグマ伯爵 / みみっく=わんだぁぼっくす】",
-      "image": "https://i.ytimg.com/vi/gUuan7feyXg/sddefault.jpg?v=66c1ba4e",
-      "alt": "【＃9】寝る前に聞きたい、低音いい声3人組のおしゃべりラジオ「#ワン・モア・トーク！」【千夜イチヤ / エニグマ伯爵 / みみっく=わんだぁぼっくす】",
-      "description": "隔週月曜日23時からお届け！\nいい声3人の各チャンネルをリレーして回るラジオ企画\n「ワン・モア・トーク！」をどうぞお楽しみください！\n\n▽パーソナリティ\n千夜イチヤ @senya_1ya \nエニグマ伯...",
-      "videoId": "gUuan7feyXg",
-      "video_url": "https://www.youtube.com/watch?v=gUuan7feyXg",
-      "tags": [
-        "#ワン"
-      ],
+      "title": "【ASMR／KU100】みみっくからのホワイトデーの贈り物👀🗝✨【シチュエーションボイス】",
+      "image": "https://i.ytimg.com/vi/t1VoPqlDLKA/sddefault.jpg",
+      "alt": "【ASMR／KU100】みみっくからのホワイトデーの贈り物👀🗝✨【シチュエーションボイス】",
+      "description": "▼KU100で収録した高音質ASMRシチュボ販売中！▼\nhttp://official.creatia.cc/fanclubs/1663\n\nバイノーラルマイクを使用したASMRです。\nヘッドホンやイヤ...",
+      "videoId": "t1VoPqlDLKA",
+      "video_url": "https://www.youtube.com/watch?v=t1VoPqlDLKA",
+      "tags": [],
       "upload_date": ""
     },
     {
@@ -9333,6 +9333,6 @@
     "#35",
     "#女性向け"
   ],
-  "last_updated": "2025-08-14T14:34:35.326812",
+  "last_updated": "2025-08-14T15:34:37.479019",
   "total_videos": 835
 }
