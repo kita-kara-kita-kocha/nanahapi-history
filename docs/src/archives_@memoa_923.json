@@ -96,18 +96,6 @@
       "upload_date": "2025-07-19T22:00:41"
     },
     {
-      "title": "【持ち物チェック】フェスの前ってそわそわするよね？ #めも遊び",
-      "image": "https://i.ytimg.com/vi/N_aWNtXYkfU/sddefault.jpg?v=687a5606",
-      "alt": "【持ち物チェック】フェスの前ってそわそわするよね？ #めも遊び",
-      "description": "＃ななはぴサマーフェスタ\nhttps://t.livepocket.jp/e/h-6gw\n------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https...",
-      "videoId": "N_aWNtXYkfU",
-      "video_url": "https://www.youtube.com/watch?v=N_aWNtXYkfU",
-      "tags": [
-        "#めも遊び"
-      ],
-      "upload_date": "2025-07-19T00:01:36"
-    },
-    {
       "title": "【寝起きVtuber】起きたてでもかわいいって本当？🫧#shorts  #寝起きVtuber #かわいいVtuber #Live2D",
       "image": "https://i.ytimg.com/vi/Pw5zdYDEgxc/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBdKFswDw==&rs=AOn4CLCTdrKYOKpiZFS2e67UDpoXDcvUqA",
       "alt": "【寝起きVtuber】起きたてでもかわいいって本当？🫧#shorts  #寝起きVtuber #かわいいVtuber #Live2D",
@@ -867,16 +855,6 @@
         "#歌枠"
       ],
       "upload_date": "2025-04-29T18:08:29"
-    },
-    {
-      "title": "透き通る歌声で魅せるVsingerめもあの『アイ to アイ』｜新マクロス課題曲カバー",
-      "image": "https://i.ytimg.com/vi/P6PmXGlMFpE/sddefault.jpg",
-      "alt": "透き通る歌声で魅せるVsingerめもあの『アイ to アイ』｜新マクロス課題曲カバー",
-      "description": "曲：アイ to アイ\nマクロス×サンライズ「新マクロス」超時空歌姫オーディション課題曲\n------------\nシェリルに憧れて何度も何度もカラオケで曲を練習した日々が蘇ってきました。\nダイヤモンド...",
-      "videoId": "P6PmXGlMFpE",
-      "video_url": "https://www.youtube.com/watch?v=P6PmXGlMFpE",
-      "tags": [],
-      "upload_date": "2025-04-27T19:00:30"
     },
     {
       "title": "【想像以上】可愛い見た目でロック全開にしてみた｜マーシャル・マキシマイザー",
@@ -2287,6 +2265,28 @@
       "video_url": "https://www.youtube.com/watch?v=RC4nnjt3RoE",
       "tags": [],
       "upload_date": "2022-03-01T20:30:12"
+    },
+    {
+      "title": "【持ち物チェック】フェスの前ってそわそわするよね？ #めも遊び",
+      "image": "https://i.ytimg.com/vi/N_aWNtXYkfU/sddefault.jpg?v=687a5606",
+      "alt": "【持ち物チェック】フェスの前ってそわそわするよね？ #めも遊び",
+      "description": "＃ななはぴサマーフェスタ\nhttps://t.livepocket.jp/e/h-6gw\n------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https...",
+      "videoId": "N_aWNtXYkfU",
+      "video_url": "https://www.youtube.com/watch?v=N_aWNtXYkfU",
+      "tags": [
+        "#めも遊び"
+      ],
+      "upload_date": ""
+    },
+    {
+      "title": "透き通る歌声で魅せるVsingerめもあの『アイ to アイ』｜新マクロス課題曲カバー",
+      "image": "https://i.ytimg.com/vi/P6PmXGlMFpE/sddefault.jpg",
+      "alt": "透き通る歌声で魅せるVsingerめもあの『アイ to アイ』｜新マクロス課題曲カバー",
+      "description": "曲：アイ to アイ\nマクロス×サンライズ「新マクロス」超時空歌姫オーディション課題曲\n------------\nシェリルに憧れて何度も何度もカラオケで曲を練習した日々が蘇ってきました。\nダイヤモンド...",
+      "videoId": "P6PmXGlMFpE",
+      "video_url": "https://www.youtube.com/watch?v=P6PmXGlMFpE",
+      "tags": [],
+      "upload_date": ""
     }
   ],
   "tags": [
@@ -2383,6 +2383,6 @@
     "#Vtuberと秋デートしませんか",
     "#2"
   ],
-  "last_updated": "2025-08-15T06:45:41.610537",
+  "last_updated": "2025-08-15T07:41:39.816701",
   "total_videos": 186
 }
