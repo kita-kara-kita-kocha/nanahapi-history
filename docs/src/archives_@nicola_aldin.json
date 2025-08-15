@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "title": "一番の宝物 ～Yui final ver.～ - Girls Dead Monster STARRING LiSA 【covered by ニコラ・アルディン】",
+      "image": "https://i.ytimg.com/vi/KBgb1BChISo/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGC8gJSh_MA8=&rs=AOn4CLD4RbbKmqbz-RKdP_t8dzMlURjW6g",
+      "alt": "一番の宝物 ～Yui final ver.～ - Girls Dead Monster STARRING LiSA 【covered by ニコラ・アルディン】",
+      "description": "２年間の思い出と決意を込めて\n\n本家/一番の宝物 ～Yui final ver.～ - Girls Dead Monster STARRING LiSA \ninstrumental/さみゅ式*様@sa...",
+      "videoId": "KBgb1BChISo",
+      "video_url": "https://www.youtube.com/watch?v=KBgb1BChISo",
+      "tags": [],
+      "upload_date": "2023-06-30T20:00:07"
+    },
+    {
       "title": "桜のあと (all quartets lead to the?) / ニコラ・アルディン【遠坂ユラ主催LIVE『MEMENTO U 2nd』2023/5/7 開催】#MEMENTO_U2nd",
       "image": "https://i.ytimg.com/vi/K2BVyjZuSeM/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gJShrMA8=&rs=AOn4CLDspixBdDi4mYsLqoQjTXgCWVp64g",
       "alt": "桜のあと (all quartets lead to the?) / ニコラ・アルディン【遠坂ユラ主催LIVE『MEMENTO U 2nd』2023/5/7 開催】#MEMENTO_U2nd",
@@ -33,16 +43,6 @@
         "#ニコロニ"
       ],
       "upload_date": "2023-05-03T20:00:08"
-    },
-    {
-      "title": "エイプリルと恋日記 / msyマスイ Covered by ニコラ・アルディン【歌ってみた / Vtuber】",
-      "image": "https://i.ytimg.com/vi/x1zQSoxkYfI/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVShdMA8=&rs=AOn4CLCVqw3mrFiiYyKe2efcWhe5h67Lyw",
-      "alt": "エイプリルと恋日記 / msyマスイ Covered by ニコラ・アルディン【歌ってみた / Vtuber】",
-      "description": "春は大切なものが旅立って行く季節ですね\n『嘘つきバカ野郎』もう泣かないよ。\n\n＜Original / 本家様＞\n「エイプリルと恋日記」 msyマスイ\nhttps://www.youtube.com/w...",
-      "videoId": "x1zQSoxkYfI",
-      "video_url": "https://www.youtube.com/watch?v=x1zQSoxkYfI",
-      "tags": [],
-      "upload_date": "2023-04-02T19:00:44"
     },
     {
       "title": "虹いろ・クマクマ / ランカ・リー＝中島愛 Covered by ニコラ・アルディン【歌ってみた / Vtuber】",
@@ -297,12 +297,12 @@
       "upload_date": "2021-05-21T20:00:22"
     },
     {
-      "title": "一番の宝物 ～Yui final ver.～ - Girls Dead Monster STARRING LiSA 【covered by ニコラ・アルディン】",
-      "image": "https://i.ytimg.com/vi/KBgb1BChISo/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGC8gJSh_MA8=&rs=AOn4CLD4RbbKmqbz-RKdP_t8dzMlURjW6g",
-      "alt": "一番の宝物 ～Yui final ver.～ - Girls Dead Monster STARRING LiSA 【covered by ニコラ・アルディン】",
-      "description": "２年間の思い出と決意を込めて\n\n本家/一番の宝物 ～Yui final ver.～ - Girls Dead Monster STARRING LiSA \ninstrumental/さみゅ式*様@sa...",
-      "videoId": "KBgb1BChISo",
-      "video_url": "https://www.youtube.com/watch?v=KBgb1BChISo",
+      "title": "エイプリルと恋日記 / msyマスイ Covered by ニコラ・アルディン【歌ってみた / Vtuber】",
+      "image": "https://i.ytimg.com/vi/x1zQSoxkYfI/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVShdMA8=&rs=AOn4CLCVqw3mrFiiYyKe2efcWhe5h67Lyw",
+      "alt": "エイプリルと恋日記 / msyマスイ Covered by ニコラ・アルディン【歌ってみた / Vtuber】",
+      "description": "春は大切なものが旅立って行く季節ですね\n『嘘つきバカ野郎』もう泣かないよ。\n\n＜Original / 本家様＞\n「エイプリルと恋日記」 msyマスイ\nhttps://www.youtube.com/w...",
+      "videoId": "x1zQSoxkYfI",
+      "video_url": "https://www.youtube.com/watch?v=x1zQSoxkYfI",
       "tags": [],
       "upload_date": ""
     }
@@ -312,6 +312,6 @@
     "#ニコロニ",
     "#プラステ6"
   ],
-  "last_updated": "2025-08-15T17:49:40.613620",
+  "last_updated": "2025-08-15T18:49:43.728910",
   "total_videos": 30
 }
