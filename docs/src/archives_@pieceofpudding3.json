@@ -1,18 +1,6 @@
 {
   "items": [
     {
-      "title": "#アメトーーク【同時視聴】限界オタクと見る”仮面ライダー芸人”回【ルシア・アラモード】",
-      "image": "https://i.ytimg.com/vi/nyTSQWrdqBY/sddefault.jpg?v=689f1b93",
-      "alt": "#アメトーーク【同時視聴】限界オタクと見る”仮面ライダー芸人”回【ルシア・アラモード】",
-      "description": "今回8年ぶりらしいです仮面ライダー回！\n今回はティーバーで見ます👀\nこちらのリンクから見れます↓↓\nhttps://tver.jp/episodes/epx9ppge9v\n\n\n🍮☀️Twitch配信始...",
-      "videoId": "nyTSQWrdqBY",
-      "video_url": "https://www.youtube.com/watch?v=nyTSQWrdqBY",
-      "tags": [
-        "#アメトーーク"
-      ],
-      "upload_date": "2025-08-15T21:01:31"
-    },
-    {
       "title": "#仮面ライダークウガ【限界オタクは語りたい】超クウガ展に行ってきました👍👍【ルシア・アラモード】",
       "image": "https://i.ytimg.com/vi/9mhz5PliUCY/sddefault.jpg?v=689dcef8",
       "alt": "#仮面ライダークウガ【限界オタクは語りたい】超クウガ展に行ってきました👍👍【ルシア・アラモード】",
@@ -8800,6 +8788,18 @@
       "upload_date": "2021-08-28T21:00:14"
     },
     {
+      "title": "#アメトーーク【同時視聴】限界オタクと見る”仮面ライダー芸人”回【ルシア・アラモード】",
+      "image": "https://i.ytimg.com/vi/nyTSQWrdqBY/sddefault.jpg?v=689f1b93",
+      "alt": "#アメトーーク【同時視聴】限界オタクと見る”仮面ライダー芸人”回【ルシア・アラモード】",
+      "description": "今回8年ぶりらしいです仮面ライダー回！\n今回はティーバーで見ます👀\nこちらのリンクから見れます↓↓\nhttps://tver.jp/episodes/epx9ppge9v\n\n\n🍮☀️Twitch配信始...",
+      "videoId": "nyTSQWrdqBY",
+      "video_url": "https://www.youtube.com/watch?v=nyTSQWrdqBY",
+      "tags": [
+        "#アメトーーク"
+      ],
+      "upload_date": ""
+    },
+    {
       "title": "メン限【雑談】すぐ終わりそうな雑談配信です【ルシア・アラモード】",
       "image": "https://i.ytimg.com/vi/q88R_tWRdjQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBc7PqbzlRANRXjrjMh7DJfpdELqQ",
       "alt": "メン限【雑談】すぐ終わりそうな雑談配信です【ルシア・アラモード】",
@@ -9698,7 +9698,6 @@
     "#フォールガイズ",
     "#仮面ライダーギーツ",
     "#開封の儀",
-    "#アメトーーク",
     "#フィニアスとファーブ",
     "#限界オタク",
     "#お片付け",
@@ -9775,10 +9774,11 @@
     "#6",
     "#5",
     "#4",
+    "#アメトーーク",
     "#卒業式",
     "#くしゃみ",
     "#メンヘラ"
   ],
-  "last_updated": "2025-08-16T05:38:05.530354",
+  "last_updated": "2025-08-16T06:41:14.021121",
   "total_videos": 848
 }
