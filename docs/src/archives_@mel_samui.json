@@ -393,18 +393,6 @@
       "upload_date": "2025-07-10T20:02:20"
     },
     {
-      "title": "永遠の花園 - AfterMoon Tea / #Vocaduo2025",
-      "image": "https://i.ytimg.com/vi/5YFAqVq7A4s/sddefault.jpg?v=686bbd2c",
-      "alt": "永遠の花園 - AfterMoon Tea / #Vocaduo2025",
-      "description": "#vocaduo2025 \n\n\n\n━━━わたしだけの光でいてね、　\n\n\nこの作品をより楽しむため、字幕機能をONにしてご覧下さい。\n\nオリジナル作品：枯れない少女と永遠の花園\nhttps://x.co...",
-      "videoId": "5YFAqVq7A4s",
-      "video_url": "https://www.youtube.com/watch?v=5YFAqVq7A4s",
-      "tags": [
-        "#Vocaduo2025"
-      ],
-      "upload_date": "2025-07-07T21:30:06"
-    },
-    {
       "title": "R.E.P.O.⌇Lv.1- ななはぴメンバーで富豪になりましょう💎👻   ̖́- #花鹿める / ななはぴ",
       "image": "https://i.ytimg.com/vi/nv1ZWcUGYGo/sddefault.jpg?v=686a5d79",
       "alt": "R.E.P.O.⌇Lv.1- ななはぴメンバーで富豪になりましょう💎👻   ̖́- #花鹿める / ななはぴ",
@@ -3227,20 +3215,6 @@
       "upload_date": "2024-09-14T21:00:56"
     },
     {
-      "title": "︎✿ メランコリック～練習中のウクレレを添えて～ ︎✿ #歌ってみた #vtuber #cover",
-      "image": "https://i.ytimg.com/vi/txB_tDbsq0g/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLB58p06lpfalAIG3_1tKLLJwzveHg",
-      "alt": "︎✿ メランコリック～練習中のウクレレを添えて～ ︎✿ #歌ってみた #vtuber #cover",
-      "description": "説明なし",
-      "videoId": "txB_tDbsq0g",
-      "video_url": "https://www.youtube.com/watch?v=txB_tDbsq0g",
-      "tags": [
-        "#cover",
-        "#vtuber",
-        "#歌ってみた"
-      ],
-      "upload_date": "2024-09-03T19:05:04"
-    },
-    {
       "title": "🕯深昏睡 - 春野 covered by 花鹿める",
       "image": "https://i.ytimg.com/vi/dWSfo0rcinY/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLCHIo-kR_1ns9RmfsUFDKSQAjdwvQ",
       "alt": "🕯深昏睡 - 春野 covered by 花鹿める",
@@ -3288,6 +3262,32 @@
       "videoId": "03Xi5QbXmHY",
       "video_url": "https://www.youtube.com/watch?v=03Xi5QbXmHY",
       "tags": [],
+      "upload_date": "2024-06-09T19:00:01"
+    },
+    {
+      "title": "永遠の花園 - AfterMoon Tea / #Vocaduo2025",
+      "image": "https://i.ytimg.com/vi/5YFAqVq7A4s/sddefault.jpg?v=686bbd2c",
+      "alt": "永遠の花園 - AfterMoon Tea / #Vocaduo2025",
+      "description": "#vocaduo2025 \n\n\n\n━━━わたしだけの光でいてね、　\n\n\nこの作品をより楽しむため、字幕機能をONにしてご覧下さい。\n\nオリジナル作品：枯れない少女と永遠の花園\nhttps://x.co...",
+      "videoId": "5YFAqVq7A4s",
+      "video_url": "https://www.youtube.com/watch?v=5YFAqVq7A4s",
+      "tags": [
+        "#Vocaduo2025"
+      ],
+      "upload_date": ""
+    },
+    {
+      "title": "︎✿ メランコリック～練習中のウクレレを添えて～ ︎✿ #歌ってみた #vtuber #cover",
+      "image": "https://i.ytimg.com/vi/txB_tDbsq0g/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLB58p06lpfalAIG3_1tKLLJwzveHg",
+      "alt": "︎✿ メランコリック～練習中のウクレレを添えて～ ︎✿ #歌ってみた #vtuber #cover",
+      "description": "説明なし",
+      "videoId": "txB_tDbsq0g",
+      "video_url": "https://www.youtube.com/watch?v=txB_tDbsq0g",
+      "tags": [
+        "#cover",
+        "#vtuber",
+        "#歌ってみた"
+      ],
       "upload_date": ""
     },
     {
@@ -3487,7 +3487,6 @@
     "#02",
     "#01",
     "#ななはぴサマーフェスタ",
-    "#Vocaduo2025",
     "#花唄オフコラボ",
     "#花で繋がる歌枠リレー5th",
     "#アニメ推し語り歌枠リレー",
@@ -3511,9 +3510,10 @@
     "#2",
     "#１",
     "#初配信",
+    "#Vocaduo2025",
     "#cover",
     "#歌ってみた"
   ],
-  "last_updated": "2025-08-15T22:47:23.146206",
+  "last_updated": "2025-08-15T23:48:25.675876",
   "total_videos": 266
 }

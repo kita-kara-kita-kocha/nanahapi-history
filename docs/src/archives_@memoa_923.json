@@ -36,6 +36,18 @@
       "upload_date": "2025-08-23T19:00:00"
     },
     {
+      "title": "【岩おじ】初心者が90分でてっぺんいただき！？ ＃めも遊び #TheGameofSisyphus",
+      "image": "https://i.ytimg.com/vi/1oluee75F_s/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA09z_Ukw6UYlcfIRLbFMCLvmInIw",
+      "alt": "【岩おじ】初心者が90分でてっぺんいただき！？ ＃めも遊び #TheGameofSisyphus",
+      "description": "＃岩おじ  #TheGameofSisyphus\n\n🐰めもあバニーグッズ販売中🐰\n「マリネ de みーと Vol.10」限定アイテム✨♡\n\n受付〆：9/15(日) 23:59\n\n・バニーアクリルパ.....",
+      "videoId": "1oluee75F_s",
+      "video_url": "https://www.youtube.com/watch?v=1oluee75F_s",
+      "tags": [
+        "#TheGameofSisyphus"
+      ],
+      "upload_date": "2025-08-16T12:00:00"
+    },
+    {
       "title": "【歌枠】癒されてとろける☁ジブリ曲公開順に歌う🍃 #めも遊び #vtuber #karaoke",
       "image": "https://i.ytimg.com/vi/nT_oDNztGS8/sddefault.jpg?v=689e0efb",
       "alt": "【歌枠】癒されてとろける☁ジブリ曲公開順に歌う🍃 #めも遊び #vtuber #karaoke",
@@ -106,6 +118,21 @@
         "#めも遊び"
       ],
       "upload_date": "2025-07-19T00:01:36"
+    },
+    {
+      "title": "【寝起きVtuber】起きたてでもかわいいって本当？🫧#shorts  #寝起きVtuber #かわいいVtuber #Live2D",
+      "image": "https://i.ytimg.com/vi/Pw5zdYDEgxc/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBdKFswDw==&rs=AOn4CLCTdrKYOKpiZFS2e67UDpoXDcvUqA",
+      "alt": "【寝起きVtuber】起きたてでもかわいいって本当？🫧#shorts  #寝起きVtuber #かわいいVtuber #Live2D",
+      "description": "説明なし",
+      "videoId": "Pw5zdYDEgxc",
+      "video_url": "https://www.youtube.com/watch?v=Pw5zdYDEgxc",
+      "tags": [
+        "#Live2D",
+        "#shorts",
+        "#かわいいVtuber",
+        "#寝起きVtuber"
+      ],
+      "upload_date": "2025-07-13T07:00:24"
     },
     {
       "title": "ふとんから出たパジャマが寝起きでゆらゆらしてみた #shorts #Vtuber #踊ってみた #めもあ",
@@ -2272,21 +2299,6 @@
       "video_url": "https://www.youtube.com/watch?v=RC4nnjt3RoE",
       "tags": [],
       "upload_date": "2022-03-01T20:30:12"
-    },
-    {
-      "title": "【寝起きVtuber】起きたてでもかわいいって本当？🫧#shorts  #寝起きVtuber #かわいいVtuber #Live2D",
-      "image": "https://i.ytimg.com/vi/Pw5zdYDEgxc/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBdKFswDw==&rs=AOn4CLCTdrKYOKpiZFS2e67UDpoXDcvUqA",
-      "alt": "【寝起きVtuber】起きたてでもかわいいって本当？🫧#shorts  #寝起きVtuber #かわいいVtuber #Live2D",
-      "description": "説明なし",
-      "videoId": "Pw5zdYDEgxc",
-      "video_url": "https://www.youtube.com/watch?v=Pw5zdYDEgxc",
-      "tags": [
-        "#Live2D",
-        "#shorts",
-        "#かわいいVtuber",
-        "#寝起きVtuber"
-      ],
-      "upload_date": ""
     }
   ],
   "tags": [
@@ -2317,9 +2329,13 @@
     "#記念配信",
     "#ラップバトル",
     "#オーディンフェス2025",
+    "#TheGameofSisyphus",
     "#マリみ",
     "#gettingoverit",
     "#ななはぴサマーフェスタ",
+    "#Live2D",
+    "#かわいいVtuber",
+    "#寝起きVtuber",
     "#ちいかわみたいなやつ",
     "#ふとんから出られない",
     "#共感したらコメントして",
@@ -2378,11 +2394,8 @@
     "#歌うまV歌枠リレー",
     "#朝活",
     "#Vtuberと秋デートしませんか",
-    "#2",
-    "#Live2D",
-    "#かわいいVtuber",
-    "#寝起きVtuber"
+    "#2"
   ],
-  "last_updated": "2025-08-15T22:43:01.573362",
-  "total_videos": 186
+  "last_updated": "2025-08-15T23:43:53.582246",
+  "total_videos": 187
 }
