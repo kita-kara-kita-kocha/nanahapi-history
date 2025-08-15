@@ -3675,16 +3675,6 @@
       "upload_date": "2022-09-28T20:23:22"
     },
     {
-      "title": "夜明けと蛍 / n-buna (covered by 楠木トヲル)",
-      "image": "https://i.ytimg.com/vi/wtdFkhNNdoA/sddefault.jpg?v=63303bba",
-      "alt": "夜明けと蛍 / n-buna (covered by 楠木トヲル)",
-      "description": "大好きな曲です。\n\n◆本家さま / n-buna 様\nhttps://www.youtube.com/watch?v=EpFxTXgElLA\n\n◆Illust / 秘色 様\nhttps://twitt...",
-      "videoId": "wtdFkhNNdoA",
-      "video_url": "https://www.youtube.com/watch?v=wtdFkhNNdoA",
-      "tags": [],
-      "upload_date": "2022-09-25T20:00:11"
-    },
-    {
       "title": "【マイクラ】孤島で暮らすMinecraft #15【新人Vtuber】",
       "image": "https://i.ytimg.com/vi/6HlQoXlff4k/sddefault.jpg?v=632fcf41",
       "alt": "【マイクラ】孤島で暮らすMinecraft #15【新人Vtuber】",
@@ -4573,6 +4563,16 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
+      "title": "夜明けと蛍 / n-buna (covered by 楠木トヲル)",
+      "image": "https://i.ytimg.com/vi/wtdFkhNNdoA/sddefault.jpg?v=63303bba",
+      "alt": "夜明けと蛍 / n-buna (covered by 楠木トヲル)",
+      "description": "大好きな曲です。\n\n◆本家さま / n-buna 様\nhttps://www.youtube.com/watch?v=EpFxTXgElLA\n\n◆Illust / 秘色 様\nhttps://twitt...",
+      "videoId": "wtdFkhNNdoA",
+      "video_url": "https://www.youtube.com/watch?v=wtdFkhNNdoA",
+      "tags": [],
+      "upload_date": ""
+    },
+    {
       "title": "【メン限】ざつだんしよう【新人Vtuber3年目】",
       "image": "https://i.ytimg.com/vi/qiEnumY7Z6E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMzfP2K9HEZPPMiI_f8eTSiWEEjg",
       "alt": "【メン限】ざつだんしよう【新人Vtuber3年目】",
@@ -4699,6 +4699,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-15T20:40:51.717100",
+  "last_updated": "2025-08-15T21:41:02.968894",
   "total_videos": 406
 }
