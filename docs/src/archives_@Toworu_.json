@@ -97,18 +97,6 @@
       "upload_date": "2025-07-29T21:02:11"
     },
     {
-      "title": "【R.E.P.O.】3Lv~ 日本一をめざしてソロ攻略【#男性Vtuber】",
-      "image": "https://i.ytimg.com/vi/adTBt6p1caY/sddefault.jpg?v=6884af34",
-      "alt": "【R.E.P.O.】3Lv~ 日本一をめざしてソロ攻略【#男性Vtuber】",
-      "description": "レポかと思いきやリポらしい\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twi...",
-      "videoId": "adTBt6p1caY",
-      "video_url": "https://www.youtube.com/watch?v=adTBt6p1caY",
-      "tags": [
-        "#男性Vtuber"
-      ],
-      "upload_date": "2025-07-26T20:03:16"
-    },
-    {
       "title": "【#雑談】雑な談【ざつだん】【おしゃべり】",
       "image": "https://i.ytimg.com/vi/ohy2NHk_TA8/sddefault.jpg?v=68837408",
       "alt": "【#雑談】雑な談【ざつだん】【おしゃべり】",
@@ -3871,6 +3859,16 @@
       "upload_date": "2022-08-31T20:05:37"
     },
     {
+      "title": "アサガオの散る頃に / じっぷす (covered by 楠木トヲル)",
+      "image": "https://i.ytimg.com/vi/GR1KWcyAvu4/sddefault.jpg?v=630cdd18",
+      "alt": "アサガオの散る頃に / じっぷす (covered by 楠木トヲル)",
+      "description": "夏が終わりますねぇ。\n\n◆本家さま / じっぷす  様\nhttps://www.youtube.com/watch?v=ugs4oVUNZ-o\n\n◆Illust / あめのじゃく 様\nhttps://...",
+      "videoId": "GR1KWcyAvu4",
+      "video_url": "https://www.youtube.com/watch?v=GR1KWcyAvu4",
+      "tags": [],
+      "upload_date": "2022-08-27T20:00:11"
+    },
+    {
       "title": "【マイクラ】孤島で暮らすMinecraft #2【新人Vtuber】",
       "image": "https://i.ytimg.com/vi/vCfnyOeEsu0/sddefault.jpg?v=631f0fc2",
       "alt": "【マイクラ】孤島で暮らすMinecraft #2【新人Vtuber】",
@@ -4563,13 +4561,15 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
-      "title": "アサガオの散る頃に / じっぷす (covered by 楠木トヲル)",
-      "image": "https://i.ytimg.com/vi/GR1KWcyAvu4/sddefault.jpg?v=630cdd18",
-      "alt": "アサガオの散る頃に / じっぷす (covered by 楠木トヲル)",
-      "description": "夏が終わりますねぇ。\n\n◆本家さま / じっぷす  様\nhttps://www.youtube.com/watch?v=ugs4oVUNZ-o\n\n◆Illust / あめのじゃく 様\nhttps://...",
-      "videoId": "GR1KWcyAvu4",
-      "video_url": "https://www.youtube.com/watch?v=GR1KWcyAvu4",
-      "tags": [],
+      "title": "【R.E.P.O.】3Lv~ 日本一をめざしてソロ攻略【#男性Vtuber】",
+      "image": "https://i.ytimg.com/vi/adTBt6p1caY/sddefault.jpg?v=6884af34",
+      "alt": "【R.E.P.O.】3Lv~ 日本一をめざしてソロ攻略【#男性Vtuber】",
+      "description": "レポかと思いきやリポらしい\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twi...",
+      "videoId": "adTBt6p1caY",
+      "video_url": "https://www.youtube.com/watch?v=adTBt6p1caY",
+      "tags": [
+        "#男性Vtuber"
+      ],
       "upload_date": ""
     },
     {
@@ -4699,6 +4699,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-16T00:40:45.759072",
+  "last_updated": "2025-08-16T01:40:22.884079",
   "total_videos": 406
 }
