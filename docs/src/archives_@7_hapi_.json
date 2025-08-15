@@ -65,20 +65,6 @@
       "upload_date": "2024-06-21T20:00:33"
     },
     {
-      "title": "【アリ？ナシ？】恋愛について鈍感すぎるアルバ #shorts #vtuber #切り抜き",
-      "image": "https://i.ytimg.com/vi/hB_O3ysTVhw/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYYCBbKGUwDw==&rs=AOn4CLCk5K5qYyoOdl05luTR0eSIPAXUXg",
-      "alt": "【アリ？ナシ？】恋愛について鈍感すぎるアルバ #shorts #vtuber #切り抜き",
-      "description": "@alba_mofu...",
-      "videoId": "hB_O3ysTVhw",
-      "video_url": "https://www.youtube.com/watch?v=hB_O3ysTVhw",
-      "tags": [
-        "#shorts",
-        "#vtuber",
-        "#切り抜き"
-      ],
-      "upload_date": "2023-10-20T18:00:26"
-    },
-    {
       "title": "【大はしゃぎ】封印を望むココロニ・ノンノ#shorts #vtuber #切り抜き",
       "image": "https://i.ytimg.com/vi/oZvLQXwU-Sw/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYVCBiKGUwDw==&rs=AOn4CLBuVG3rwFTmNWNiXaPIX7DGjxysbw",
       "alt": "【大はしゃぎ】封印を望むココロニ・ノンノ#shorts #vtuber #切り抜き",
@@ -311,8 +297,32 @@
       "upload_date": "2021-01-30T16:00:10"
     },
     {
+      "title": "ソーシャルディスタンス動画【GoToV店舗】店舗内でのお願い",
+      "image": "https://i.ytimg.com/vi/-WAe9nsiZD4/sddefault.jpg",
+      "alt": "ソーシャルディスタンス動画【GoToV店舗】店舗内でのお願い",
+      "description": "▼プロジェクトコンセプト▼\n\n「Vtuber×リアル店舗 Go To Project」は、新型コロナウイルス感染拡大の影響により\n厳しい状況に置かれているリアル店舗の応援と認知拡散を目的としたプロジェ...",
+      "videoId": "-WAe9nsiZD4",
+      "video_url": "https://www.youtube.com/watch?v=-WAe9nsiZD4",
+      "tags": [],
+      "upload_date": "2020-12-21T18:00:01"
+    },
+    {
+      "title": "【アリ？ナシ？】恋愛について鈍感すぎるアルバ #shorts #vtuber #切り抜き",
+      "image": "https://i.ytimg.com/vi/hB_O3ysTVhw/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA7DO9qYKfs-HJFpFj8udmzwku54Q",
+      "alt": "【アリ？ナシ？】恋愛について鈍感すぎるアルバ #shorts #vtuber #切り抜き",
+      "description": "説明なし",
+      "videoId": "hB_O3ysTVhw",
+      "video_url": "https://www.youtube.com/shorts/hB_O3ysTVhw",
+      "tags": [
+        "#shorts",
+        "#vtuber",
+        "#切り抜き"
+      ],
+      "upload_date": ""
+    },
+    {
       "title": "【#セブンスVハーフアニバ】半年記念配信【#セブンスV／箱配信】",
-      "image": "https://i.ytimg.com/vi/attxW1Tva_E/sddefault.jpg",
+      "image": "https://i.ytimg.com/vi/attxW1Tva_E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQW6tCxvjYe1Zo_3t9pNCZ-HiIYw",
       "alt": "【#セブンスVハーフアニバ】半年記念配信【#セブンスV／箱配信】",
       "description": "2020年8月9日（日）SHOWROOMにて行われた\nセブンスV発足から半年を記念とした初の箱配信のアーカイブです。\n\nSHOWROOM：https://www.showroom-live.com/s...",
       "videoId": "attxW1Tva_E",
@@ -321,16 +331,6 @@
         "#セブンスV",
         "#セブンスVハーフアニバ"
       ],
-      "upload_date": "2020-09-04T19:00:00"
-    },
-    {
-      "title": "ソーシャルディスタンス動画【GoToV店舗】店舗内でのお願い",
-      "image": "https://i.ytimg.com/vi/-WAe9nsiZD4/sddefault.jpg",
-      "alt": "ソーシャルディスタンス動画【GoToV店舗】店舗内でのお願い",
-      "description": "▼プロジェクトコンセプト▼\n\n「Vtuber×リアル店舗 Go To Project」は、新型コロナウイルス感染拡大の影響により\n厳しい状況に置かれているリアル店舗の応援と認知拡散を目的としたプロジェ...",
-      "videoId": "-WAe9nsiZD4",
-      "video_url": "https://www.youtube.com/watch?v=-WAe9nsiZD4",
-      "tags": [],
       "upload_date": ""
     }
   ],
@@ -344,6 +344,6 @@
     "#セブンスV",
     "#セブンスVハーフアニバ"
   ],
-  "last_updated": "2025-08-16T07:31:09.889764",
+  "last_updated": "2025-08-16T08:31:40.857638",
   "total_videos": 27
 }
