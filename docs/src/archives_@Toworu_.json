@@ -2820,16 +2820,6 @@
       "upload_date": "2023-04-08T20:02:17"
     },
     {
-      "title": "セイシュンライナー / 蝶々P / 一之瀬ユウ (covered by 楠木トヲル)",
-      "image": "https://i.ytimg.com/vi/rzXHUEJTGAI/sddefault.jpg?v=6426c043",
-      "alt": "セイシュンライナー / 蝶々P / 一之瀬ユウ (covered by 楠木トヲル)",
-      "description": "そのたった一言を伝えるために生まれてきたのかもね\n\n=================\n\n動画を担当してくださったらいり様の自主制作のモデルとしてお声がけいただき実現した動画です！！！めでたい！！！ら...",
-      "videoId": "rzXHUEJTGAI",
-      "video_url": "https://www.youtube.com/watch?v=rzXHUEJTGAI",
-      "tags": [],
-      "upload_date": "2023-03-31T20:00:11"
-    },
-    {
       "title": "【一周年記念】デビューして1年たったらしいよ【新人Vtuber】",
       "image": "https://i.ytimg.com/vi/ErjMEbfvWck/sddefault.jpg?v=64158151",
       "alt": "【一周年記念】デビューして1年たったらしいよ【新人Vtuber】",
@@ -3673,6 +3663,16 @@
         "#16"
       ],
       "upload_date": "2022-09-28T20:23:22"
+    },
+    {
+      "title": "夜明けと蛍 / n-buna (covered by 楠木トヲル)",
+      "image": "https://i.ytimg.com/vi/wtdFkhNNdoA/sddefault.jpg?v=63303bba",
+      "alt": "夜明けと蛍 / n-buna (covered by 楠木トヲル)",
+      "description": "大好きな曲です。\n\n◆本家さま / n-buna 様\nhttps://www.youtube.com/watch?v=EpFxTXgElLA\n\n◆Illust / 秘色 様\nhttps://twitt...",
+      "videoId": "wtdFkhNNdoA",
+      "video_url": "https://www.youtube.com/watch?v=wtdFkhNNdoA",
+      "tags": [],
+      "upload_date": "2022-09-25T20:00:11"
     },
     {
       "title": "【マイクラ】孤島で暮らすMinecraft #15【新人Vtuber】",
@@ -4563,12 +4563,12 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
-      "title": "夜明けと蛍 / n-buna (covered by 楠木トヲル)",
-      "image": "https://i.ytimg.com/vi/wtdFkhNNdoA/sddefault.jpg?v=63303bba",
-      "alt": "夜明けと蛍 / n-buna (covered by 楠木トヲル)",
-      "description": "大好きな曲です。\n\n◆本家さま / n-buna 様\nhttps://www.youtube.com/watch?v=EpFxTXgElLA\n\n◆Illust / 秘色 様\nhttps://twitt...",
-      "videoId": "wtdFkhNNdoA",
-      "video_url": "https://www.youtube.com/watch?v=wtdFkhNNdoA",
+      "title": "セイシュンライナー / 蝶々P / 一之瀬ユウ (covered by 楠木トヲル)",
+      "image": "https://i.ytimg.com/vi/rzXHUEJTGAI/sddefault.jpg?v=6426c043",
+      "alt": "セイシュンライナー / 蝶々P / 一之瀬ユウ (covered by 楠木トヲル)",
+      "description": "そのたった一言を伝えるために生まれてきたのかもね\n\n=================\n\n動画を担当してくださったらいり様の自主制作のモデルとしてお声がけいただき実現した動画です！！！めでたい！！！ら...",
+      "videoId": "rzXHUEJTGAI",
+      "video_url": "https://www.youtube.com/watch?v=rzXHUEJTGAI",
       "tags": [],
       "upload_date": ""
     },
@@ -4699,6 +4699,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-15T21:41:02.968894",
+  "last_updated": "2025-08-15T22:41:30.062365",
   "total_videos": 406
 }
