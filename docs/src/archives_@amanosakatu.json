@@ -1487,6 +1487,16 @@
       "upload_date": "2025-01-09T22:00:34"
     },
     {
+      "title": "【ASMR動画】歯磨きしながら録音してみた※手元映像なし【Vtuber】",
+      "image": "https://i.ytimg.com/vi/Mx0P37oqa8U/sddefault.jpg",
+      "alt": "【ASMR動画】歯磨きしながら録音してみた※手元映像なし【Vtuber】",
+      "description": "リアルに歯磨きをする音を録ってみました\nASMRは配信多めなのでこちらもよろしくお願いします\nhttps://www.youtube.com/playlist?list=PLpOZchMyHopX6N...",
+      "videoId": "Mx0P37oqa8U",
+      "video_url": "https://www.youtube.com/watch?v=Mx0P37oqa8U",
+      "tags": [],
+      "upload_date": "2025-01-08T20:00:34"
+    },
+    {
       "title": "【朝食ASMR】新年最初の朝活配信！！ #縦型配信 #まどろみ酒場 【Vtuber】",
       "image": "https://i.ytimg.com/vi/flI7p6vNj2Y/sddefault.jpg?v=677bb083",
       "alt": "【朝食ASMR】新年最初の朝活配信！！ #縦型配信 #まどろみ酒場 【Vtuber】",
@@ -2261,16 +2271,6 @@
         "#まどろみ酒場"
       ],
       "upload_date": "2024-09-17T22:01:00"
-    },
-    {
-      "title": "【ガンダムブレイカー4】ガンダム好きVtuberのガンブレ４実況その２【Tiktok配信アーカイブ】",
-      "image": "https://i.ytimg.com/vi/5MllvUS4tos/sddefault.jpg",
-      "alt": "【ガンダムブレイカー4】ガンダム好きVtuberのガンブレ４実況その２【Tiktok配信アーカイブ】",
-      "description": "Tiktokでの配信アーカイブになります！\nよかったらTiktokもフォローお願いします✨\nhttps://www.tiktok.com/@madoromineesan\n\n★☆★☆★☆★☆★☆★☆★☆...",
-      "videoId": "5MllvUS4tos",
-      "video_url": "https://www.youtube.com/watch?v=5MllvUS4tos",
-      "tags": [],
-      "upload_date": "2024-09-16T20:00:11"
     },
     {
       "title": "【ガンダムブレイカー4】ガンダム好きVtuberのガンブレ４実況【Tiktok配信アーカイブ】",
@@ -11280,12 +11280,12 @@
       "upload_date": "2019-10-30T18:16:50"
     },
     {
-      "title": "【ASMR動画】歯磨きしながら録音してみた※手元映像なし【Vtuber】",
-      "image": "https://i.ytimg.com/vi/Mx0P37oqa8U/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABDNDY-eZe9Vdc9mEGycfhtwSaXw",
-      "alt": "【ASMR動画】歯磨きしながら録音してみた※手元映像なし【Vtuber】",
-      "description": "リアルに歯磨きをする音を録ってみました\nASMRは配信多めなのでこちらもよろしくお願いします\nhttps://www.youtube.com/playlist?list=PLpOZchMyHopX6N...",
-      "videoId": "Mx0P37oqa8U",
-      "video_url": "https://www.youtube.com/watch?v=Mx0P37oqa8U",
+      "title": "【ガンダムブレイカー4】ガンダム好きVtuberのガンブレ４実況その２【Tiktok配信アーカイブ】",
+      "image": "https://i.ytimg.com/vi/5MllvUS4tos/sddefault.jpg",
+      "alt": "【ガンダムブレイカー4】ガンダム好きVtuberのガンブレ４実況その２【Tiktok配信アーカイブ】",
+      "description": "Tiktokでの配信アーカイブになります！\nよかったらTiktokもフォローお願いします✨\nhttps://www.tiktok.com/@madoromineesan\n\n★☆★☆★☆★☆★☆★☆★☆...",
+      "videoId": "5MllvUS4tos",
+      "video_url": "https://www.youtube.com/watch?v=5MllvUS4tos",
       "tags": [],
       "upload_date": ""
     },
@@ -11988,6 +11988,6 @@
     "#12",
     "#11"
   ],
-  "last_updated": "2025-08-17T06:33:35.058456",
+  "last_updated": "2025-08-17T07:32:40.538125",
   "total_videos": 1028
 }
