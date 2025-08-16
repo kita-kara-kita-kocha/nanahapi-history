@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "title": "ゲリラ弾き語り",
+      "image": "https://i.ytimg.com/vi/JY9lP6QDxGQ/sddefault.jpg?v=68989981",
+      "alt": "ゲリラ弾き語り",
+      "description": "歌枠\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/ka...",
+      "videoId": "JY9lP6QDxGQ",
+      "video_url": "https://www.youtube.com/watch?v=JY9lP6QDxGQ",
+      "tags": [],
+      "upload_date": "2025-08-10T22:07:38"
+    },
+    {
       "title": "【#第1回りぽまつり】爪痕爪痕爪痕爪痕爪痕爪痕爪痕爪痕【R.E.P.O.】",
       "image": "https://i.ytimg.com/vi/jE-yoaWwBZk/sddefault.jpg?v=6896d290",
       "alt": "【#第1回りぽまつり】爪痕爪痕爪痕爪痕爪痕爪痕爪痕爪痕【R.E.P.O.】",
@@ -407,16 +417,6 @@
         "#2"
       ],
       "upload_date": "2025-06-28T20:02:17"
-    },
-    {
-      "title": "夜もすがら君想ふ / 西沢さんP (covered by 楠木トヲル)",
-      "image": "https://i.ytimg.com/vi/bEi9YaRd6dY/sddefault.jpg?v=685d923d",
-      "alt": "夜もすがら君想ふ / 西沢さんP (covered by 楠木トヲル)",
-      "description": "時代柄暗い話題が街行けど。\n\n◆本家さま / TOKOTOKO（西沢さんP） 様\nhttps://www.youtube.com/watch?v=sFhKP57Nk1U\n\n◆Illust / 白湯 様...",
-      "videoId": "bEi9YaRd6dY",
-      "video_url": "https://www.youtube.com/watch?v=bEi9YaRd6dY",
-      "tags": [],
-      "upload_date": "2025-06-27T20:00:06"
     },
     {
       "title": "新衣装初の歌枠",
@@ -2988,16 +2988,6 @@
       "upload_date": "2022-12-24T20:12:42"
     },
     {
-      "title": "Booo! / TOKOTOKO (西沢さんP) covered by 楠木トヲル",
-      "image": "https://i.ytimg.com/vi/ZHIYNcb1nlE/sddefault.jpg?v=63a7aea9",
-      "alt": "Booo! / TOKOTOKO (西沢さんP) covered by 楠木トヲル",
-      "description": "かわいいでしょ？かわいいって言え\n\n=================\n\n◆本家 / TOKOTOKO (西沢さんP) 様\nhttps://www.youtube.com/watch?v=PcoWIZ...",
-      "videoId": "ZHIYNcb1nlE",
-      "video_url": "https://www.youtube.com/watch?v=ZHIYNcb1nlE",
-      "tags": [],
-      "upload_date": "2022-12-24T20:00:11"
-    },
-    {
       "title": "【#KC案件紹介】コラボコーヒーギフトを試飲試食していく【新人Vtuber】",
       "image": "https://i.ytimg.com/vi/eetnc1FF8EU/sddefault.jpg?v=63a40f9a",
       "alt": "【#KC案件紹介】コラボコーヒーギフトを試飲試食していく【新人Vtuber】",
@@ -4563,12 +4553,22 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
-      "title": "ゲリラ弾き語り",
-      "image": "https://i.ytimg.com/vi/JY9lP6QDxGQ/sddefault.jpg?v=68989981",
-      "alt": "ゲリラ弾き語り",
-      "description": "歌枠\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/ka...",
-      "videoId": "JY9lP6QDxGQ",
-      "video_url": "https://www.youtube.com/watch?v=JY9lP6QDxGQ",
+      "title": "夜もすがら君想ふ / 西沢さんP (covered by 楠木トヲル)",
+      "image": "https://i.ytimg.com/vi/bEi9YaRd6dY/sddefault.jpg?v=685d923d",
+      "alt": "夜もすがら君想ふ / 西沢さんP (covered by 楠木トヲル)",
+      "description": "時代柄暗い話題が街行けど。\n\n◆本家さま / TOKOTOKO（西沢さんP） 様\nhttps://www.youtube.com/watch?v=sFhKP57Nk1U\n\n◆Illust / 白湯 様...",
+      "videoId": "bEi9YaRd6dY",
+      "video_url": "https://www.youtube.com/watch?v=bEi9YaRd6dY",
+      "tags": [],
+      "upload_date": ""
+    },
+    {
+      "title": "Booo! / TOKOTOKO (西沢さんP) covered by 楠木トヲル",
+      "image": "https://i.ytimg.com/vi/ZHIYNcb1nlE/sddefault.jpg?v=63a7aea9",
+      "alt": "Booo! / TOKOTOKO (西沢さんP) covered by 楠木トヲル",
+      "description": "かわいいでしょ？かわいいって言え\n\n=================\n\n◆本家 / TOKOTOKO (西沢さんP) 様\nhttps://www.youtube.com/watch?v=PcoWIZ...",
+      "videoId": "ZHIYNcb1nlE",
+      "video_url": "https://www.youtube.com/watch?v=ZHIYNcb1nlE",
       "tags": [],
       "upload_date": ""
     },
@@ -4699,6 +4699,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-16T19:40:03.199156",
+  "last_updated": "2025-08-16T20:40:50.473892",
   "total_videos": 406
 }
