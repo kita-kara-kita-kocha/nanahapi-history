@@ -79,16 +79,6 @@
       "upload_date": "2025-08-03T22:09:14"
     },
     {
-      "title": "【マナーチェック】配信をご視聴いただくときのお約束を一緒に確認コーナー！👀🗝💬✨【みみっく=わんだぁぼっくす】【男性Vtuber】",
-      "image": "https://i.ytimg.com/vi/tFRFQt-Ubms/sddefault.jpg?v=688483bd",
-      "alt": "【マナーチェック】配信をご視聴いただくときのお約束を一緒に確認コーナー！👀🗝💬✨【みみっく=わんだぁぼっくす】【男性Vtuber】",
-      "description": "▼KU100で収録した高音質ASMRシチュボ販売中！▼\nhttp://official.creatia.cc/fanclubs/1663\n\n▼メンバーシップ登録(月額490円)▼\nhttps://ww...",
-      "videoId": "tFRFQt-Ubms",
-      "video_url": "https://www.youtube.com/watch?v=tFRFQt-Ubms",
-      "tags": [],
-      "upload_date": "2025-07-28T22:05:40"
-    },
-    {
       "title": "#30【逆転裁判123】声優Vの超アテレコ実況！👀🗝🎙🔥ウェイトレスは見た！！ネタバレ注意！【みみっく=わんだぁぼっくす】【男性Vtuber】",
       "image": "https://i.ytimg.com/vi/E45oqF54tNQ/sddefault.jpg?v=688365b9",
       "alt": "#30【逆転裁判123】声優Vの超アテレコ実況！👀🗝🎙🔥ウェイトレスは見た！！ネタバレ注意！【みみっく=わんだぁぼっくす】【男性Vtuber】",
@@ -1910,6 +1900,16 @@
       "video_url": "https://www.youtube.com/watch?v=t2Za9rixtuM",
       "tags": [],
       "upload_date": "2024-05-19T00:30:49"
+    },
+    {
+      "title": "イケオジ魂の叫び【ASMR】",
+      "image": "https://i.ytimg.com/vi/PSS_CtFojJ0/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBEKEQwDw==&rs=AOn4CLCzjIHHcHIb2rNXEZzAIYJMGyHPxg",
+      "alt": "イケオジ魂の叫び【ASMR】",
+      "description": "#shorts \n動画を気に入っていただけましたらチャンネル登録、高評価をお願いいたします👀🗝🎵\n\n切り抜き動画制作：さらしな様（https://twitter.com/p_qsara ）\nBGM:M...",
+      "videoId": "PSS_CtFojJ0",
+      "video_url": "https://www.youtube.com/watch?v=PSS_CtFojJ0",
+      "tags": [],
+      "upload_date": "2024-05-15T22:31:24"
     },
     {
       "title": "【食レポ】コンビニスイーツ第２弾！前回のみかん牛乳寒天を超えられるのか！？【男性VTuber】",
@@ -8794,12 +8794,12 @@
       "upload_date": "2020-01-28T21:07:09"
     },
     {
-      "title": "イケオジ魂の叫び【ASMR】",
-      "image": "https://i.ytimg.com/vi/PSS_CtFojJ0/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBEKEQwDw==&rs=AOn4CLCzjIHHcHIb2rNXEZzAIYJMGyHPxg",
-      "alt": "イケオジ魂の叫び【ASMR】",
-      "description": "#shorts \n動画を気に入っていただけましたらチャンネル登録、高評価をお願いいたします👀🗝🎵\n\n切り抜き動画制作：さらしな様（https://twitter.com/p_qsara ）\nBGM:M...",
-      "videoId": "PSS_CtFojJ0",
-      "video_url": "https://www.youtube.com/watch?v=PSS_CtFojJ0",
+      "title": "【マナーチェック】配信をご視聴いただくときのお約束を一緒に確認コーナー！👀🗝💬✨【みみっく=わんだぁぼっくす】【男性Vtuber】",
+      "image": "https://i.ytimg.com/vi/tFRFQt-Ubms/sddefault.jpg?v=688483bd",
+      "alt": "【マナーチェック】配信をご視聴いただくときのお約束を一緒に確認コーナー！👀🗝💬✨【みみっく=わんだぁぼっくす】【男性Vtuber】",
+      "description": "▼KU100で収録した高音質ASMRシチュボ販売中！▼\nhttp://official.creatia.cc/fanclubs/1663\n\n▼メンバーシップ登録(月額490円)▼\nhttps://ww...",
+      "videoId": "tFRFQt-Ubms",
+      "video_url": "https://www.youtube.com/watch?v=tFRFQt-Ubms",
       "tags": [],
       "upload_date": ""
     },
@@ -9343,6 +9343,6 @@
     "#35",
     "#女性向け"
   ],
-  "last_updated": "2025-08-16T15:34:23.196797",
+  "last_updated": "2025-08-16T16:34:40.459265",
   "total_videos": 836
 }
