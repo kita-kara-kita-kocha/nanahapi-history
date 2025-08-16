@@ -98,6 +98,18 @@
       "upload_date": "2025-08-03T23:59:00"
     },
     {
+      "title": "【壺おじRTA】1時間以内にクリア出来なきゃ2周目突入！？ ＃めも遊び #gettingoverit",
+      "image": "https://i.ytimg.com/vi/UrqHwG8WF7s/sddefault.jpg?v=687d38f6",
+      "alt": "【壺おじRTA】1時間以内にクリア出来なきゃ2周目突入！？ ＃めも遊び #gettingoverit",
+      "description": "＃壺おじ #gettingoverit \n\n🌟コラボグッズ販売中🌟\n壺焼き芋ほっこり様コラボ「カトラリー＆ランチボックスセット」\n\n∇お店情報\nhttps://www.instagram.com/ho...",
+      "videoId": "UrqHwG8WF7s",
+      "video_url": "https://www.youtube.com/watch?v=UrqHwG8WF7s",
+      "tags": [
+        "#gettingoverit"
+      ],
+      "upload_date": "2025-07-21T13:00:20"
+    },
+    {
       "title": "【歌枠】ゆったりお話と歌をしようじゃん♩＃めも遊び #ななはぴサマーフェスタ",
       "image": "https://i.ytimg.com/vi/rlE8PBjSNCE/sddefault.jpg?v=687d476b",
       "alt": "【歌枠】ゆったりお話と歌をしようじゃん♩＃めも遊び #ななはぴサマーフェスタ",
@@ -881,16 +893,6 @@
         "#歌枠"
       ],
       "upload_date": "2025-04-29T18:08:29"
-    },
-    {
-      "title": "透き通る歌声で魅せるVsingerめもあの『アイ to アイ』｜新マクロス課題曲カバー",
-      "image": "https://i.ytimg.com/vi/P6PmXGlMFpE/sddefault.jpg",
-      "alt": "透き通る歌声で魅せるVsingerめもあの『アイ to アイ』｜新マクロス課題曲カバー",
-      "description": "曲：アイ to アイ\nマクロス×サンライズ「新マクロス」超時空歌姫オーディション課題曲\n------------\nシェリルに憧れて何度も何度もカラオケで曲を練習した日々が蘇ってきました。\nダイヤモンド...",
-      "videoId": "P6PmXGlMFpE",
-      "video_url": "https://www.youtube.com/watch?v=P6PmXGlMFpE",
-      "tags": [],
-      "upload_date": "2025-04-27T19:00:30"
     },
     {
       "title": "【想像以上】可愛い見た目でロック全開にしてみた｜マーシャル・マキシマイザー",
@@ -2303,15 +2305,13 @@
       "upload_date": "2022-03-01T20:30:12"
     },
     {
-      "title": "【壺おじRTA】1時間以内にクリア出来なきゃ2周目突入！？ ＃めも遊び #gettingoverit",
-      "image": "https://i.ytimg.com/vi/UrqHwG8WF7s/sddefault.jpg?v=687d38f6",
-      "alt": "【壺おじRTA】1時間以内にクリア出来なきゃ2周目突入！？ ＃めも遊び #gettingoverit",
-      "description": "＃壺おじ #gettingoverit \n\n🌟コラボグッズ販売中🌟\n壺焼き芋ほっこり様コラボ「カトラリー＆ランチボックスセット」\n\n∇お店情報\nhttps://www.instagram.com/ho...",
-      "videoId": "UrqHwG8WF7s",
-      "video_url": "https://www.youtube.com/watch?v=UrqHwG8WF7s",
-      "tags": [
-        "#gettingoverit"
-      ],
+      "title": "透き通る歌声で魅せるVsingerめもあの『アイ to アイ』｜新マクロス課題曲カバー",
+      "image": "https://i.ytimg.com/vi/P6PmXGlMFpE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQTD9mILmLB7wf000LuVl5A3nteA",
+      "alt": "透き通る歌声で魅せるVsingerめもあの『アイ to アイ』｜新マクロス課題曲カバー",
+      "description": "曲：アイ to アイ\nマクロス×サンライズ「新マクロス」超時空歌姫オーディション課題曲\n------------\nシェリルに憧れて何度も何度もカラオケで曲を......",
+      "videoId": "P6PmXGlMFpE",
+      "video_url": "https://www.youtube.com/watch?v=P6PmXGlMFpE",
+      "tags": [],
       "upload_date": ""
     }
   ],
@@ -2345,6 +2345,7 @@
     "#オーディンフェス2025",
     "#TheGameofSisyphus",
     "#マリみ",
+    "#gettingoverit",
     "#ななはぴサマーフェスタ",
     "#Live2D",
     "#かわいいVtuber",
@@ -2407,9 +2408,8 @@
     "#歌うまV歌枠リレー",
     "#朝活",
     "#Vtuberと秋デートしませんか",
-    "#2",
-    "#gettingoverit"
+    "#2"
   ],
-  "last_updated": "2025-08-17T02:41:06.904199",
+  "last_updated": "2025-08-17T03:41:58.831176",
   "total_videos": 188
 }
