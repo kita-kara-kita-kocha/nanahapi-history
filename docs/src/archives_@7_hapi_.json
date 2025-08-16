@@ -297,16 +297,6 @@
       "upload_date": "2021-01-30T16:00:10"
     },
     {
-      "title": "ソーシャルディスタンス動画【GoToV店舗】店舗内でのお願い",
-      "image": "https://i.ytimg.com/vi/-WAe9nsiZD4/sddefault.jpg",
-      "alt": "ソーシャルディスタンス動画【GoToV店舗】店舗内でのお願い",
-      "description": "▼プロジェクトコンセプト▼\n\n「Vtuber×リアル店舗 Go To Project」は、新型コロナウイルス感染拡大の影響により\n厳しい状況に置かれているリアル店舗の応援と認知拡散を目的としたプロジェ...",
-      "videoId": "-WAe9nsiZD4",
-      "video_url": "https://www.youtube.com/watch?v=-WAe9nsiZD4",
-      "tags": [],
-      "upload_date": "2020-12-21T18:00:01"
-    },
-    {
       "title": "【#セブンスVハーフアニバ】半年記念配信【#セブンスV／箱配信】",
       "image": "https://i.ytimg.com/vi/attxW1Tva_E/sddefault.jpg",
       "alt": "【#セブンスVハーフアニバ】半年記念配信【#セブンスV／箱配信】",
@@ -318,6 +308,16 @@
         "#セブンスVハーフアニバ"
       ],
       "upload_date": "2020-09-04T19:00:00"
+    },
+    {
+      "title": "ソーシャルディスタンス動画【GoToV店舗】店舗内でのお願い",
+      "image": "https://i.ytimg.com/vi/-WAe9nsiZD4/sddefault.jpg",
+      "alt": "ソーシャルディスタンス動画【GoToV店舗】店舗内でのお願い",
+      "description": "▼プロジェクトコンセプト▼\n\n「Vtuber×リアル店舗 Go To Project」は、新型コロナウイルス感染拡大の影響により\n厳しい状況に置かれているリアル店舗の応援と認知拡散を目的としたプロジェ...",
+      "videoId": "-WAe9nsiZD4",
+      "video_url": "https://www.youtube.com/watch?v=-WAe9nsiZD4",
+      "tags": [],
+      "upload_date": ""
     },
     {
       "title": "リスナー呼び捨て企画で意外な名前が...?【まどろみ姉さん】#shorts #vtuber #ななはぴ",
@@ -344,6 +344,6 @@
     "#セブンスV",
     "#セブンスVハーフアニバ"
   ],
-  "last_updated": "2025-08-17T00:31:22.530835",
+  "last_updated": "2025-08-17T01:31:14.889239",
   "total_videos": 27
 }
