@@ -2820,16 +2820,6 @@
       "upload_date": "2023-04-08T20:02:17"
     },
     {
-      "title": "セイシュンライナー / 蝶々P / 一之瀬ユウ (covered by 楠木トヲル)",
-      "image": "https://i.ytimg.com/vi/rzXHUEJTGAI/sddefault.jpg?v=6426c043",
-      "alt": "セイシュンライナー / 蝶々P / 一之瀬ユウ (covered by 楠木トヲル)",
-      "description": "そのたった一言を伝えるために生まれてきたのかもね\n\n=================\n\n動画を担当してくださったらいり様の自主制作のモデルとしてお声がけいただき実現した動画です！！！めでたい！！！ら...",
-      "videoId": "rzXHUEJTGAI",
-      "video_url": "https://www.youtube.com/watch?v=rzXHUEJTGAI",
-      "tags": [],
-      "upload_date": "2023-03-31T20:00:11"
-    },
-    {
       "title": "【一周年記念】デビューして1年たったらしいよ【新人Vtuber】",
       "image": "https://i.ytimg.com/vi/ErjMEbfvWck/sddefault.jpg?v=64158151",
       "alt": "【一周年記念】デビューして1年たったらしいよ【新人Vtuber】",
@@ -3431,6 +3421,16 @@
       "video_url": "https://www.youtube.com/watch?v=ACLJt-zd89c",
       "tags": [],
       "upload_date": "2022-11-01T19:31:56"
+    },
+    {
+      "title": "回る空うさぎ / Orangestar (covered by 楠木トヲル)",
+      "image": "https://i.ytimg.com/vi/wGVzP48vugI/sddefault.jpg?v=6360efd7",
+      "alt": "回る空うさぎ / Orangestar (covered by 楠木トヲル)",
+      "description": "･\nこれは、僕の小さい頃のお話\n････････\n\n生まれる前から決められた宿命\n\nその願いを叶えるため、僕は走り続ける\nどんなに道が暗く険しくても…\n\n････････\n\n◆本家 / Oranges...",
+      "videoId": "wGVzP48vugI",
+      "video_url": "https://www.youtube.com/watch?v=wGVzP48vugI",
+      "tags": [],
+      "upload_date": "2022-11-01T19:00:07"
     },
     {
       "title": "【誕生日前夜】カウントダウンで誕生日を迎えよう【新人Vtuber】",
@@ -4563,12 +4563,12 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
-      "title": "回る空うさぎ / Orangestar (covered by 楠木トヲル)",
-      "image": "https://i.ytimg.com/vi/wGVzP48vugI/sddefault.jpg?v=6360efd7",
-      "alt": "回る空うさぎ / Orangestar (covered by 楠木トヲル)",
-      "description": "･\nこれは、僕の小さい頃のお話\n････････\n\n生まれる前から決められた宿命\n\nその願いを叶えるため、僕は走り続ける\nどんなに道が暗く険しくても…\n\n････････\n\n◆本家 / Oranges...",
-      "videoId": "wGVzP48vugI",
-      "video_url": "https://www.youtube.com/watch?v=wGVzP48vugI",
+      "title": "セイシュンライナー / 蝶々P / 一之瀬ユウ (covered by 楠木トヲル)",
+      "image": "https://i.ytimg.com/vi/rzXHUEJTGAI/sddefault.jpg?v=6426c043",
+      "alt": "セイシュンライナー / 蝶々P / 一之瀬ユウ (covered by 楠木トヲル)",
+      "description": "そのたった一言を伝えるために生まれてきたのかもね\n\n=================\n\n動画を担当してくださったらいり様の自主制作のモデルとしてお声がけいただき実現した動画です！！！めでたい！！！ら...",
+      "videoId": "rzXHUEJTGAI",
+      "video_url": "https://www.youtube.com/watch?v=rzXHUEJTGAI",
       "tags": [],
       "upload_date": ""
     },
@@ -4699,6 +4699,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-16T13:40:04.053025",
+  "last_updated": "2025-08-16T14:40:06.069490",
   "total_videos": 406
 }

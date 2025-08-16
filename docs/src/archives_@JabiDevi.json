@@ -454,19 +454,6 @@
       "upload_date": "2025-07-24T20:31:51"
     },
     {
-      "title": "#ゼンゼロ #星見雅 復刻ガチャ引いてみた‼️みんなは引いた？",
-      "image": "https://i.ytimg.com/vi/W93jRMMqX1s/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLDG3KY18kBZSnqlJZCl_tch7hDGEA",
-      "alt": "#ゼンゼロ #星見雅 復刻ガチャ引いてみた‼️みんなは引いた？",
-      "description": "説明なし",
-      "videoId": "W93jRMMqX1s",
-      "video_url": "https://www.youtube.com/watch?v=W93jRMMqX1s",
-      "tags": [
-        "#ゼンゼロ",
-        "#星見雅"
-      ],
-      "upload_date": "2025-07-24T19:01:07"
-    },
-    {
       "title": "【#ゼンゼロ /#ゼンレスゾーンゼロ 】新キャラの浮波柚葉が強いらしい！？PV鑑賞もするぞ‼【蛇火/ななはぴ】",
       "image": "https://i.ytimg.com/vi/yHBx43vWknU/sddefault.jpg?v=687e0e1a",
       "alt": "【#ゼンゼロ /#ゼンレスゾーンゼロ 】新キャラの浮波柚葉が強いらしい！？PV鑑賞もするぞ‼【蛇火/ななはぴ】",
@@ -5856,6 +5843,19 @@
       "upload_date": "2023-12-01T12:00:27"
     },
     {
+      "title": "#ゼンゼロ #星見雅 復刻ガチャ引いてみた‼️みんなは引いた？",
+      "image": "https://i.ytimg.com/vi/W93jRMMqX1s/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLDG3KY18kBZSnqlJZCl_tch7hDGEA",
+      "alt": "#ゼンゼロ #星見雅 復刻ガチャ引いてみた‼️みんなは引いた？",
+      "description": "説明なし",
+      "videoId": "W93jRMMqX1s",
+      "video_url": "https://www.youtube.com/watch?v=W93jRMMqX1s",
+      "tags": [
+        "#ゼンゼロ",
+        "#星見雅"
+      ],
+      "upload_date": ""
+    },
+    {
       "title": "【先行お披露目あり‼】魂火たちにアイコンをプレゼントする配信🎙【#蛇火  /#ななはぴ 】",
       "image": "https://i.ytimg.com/vi/DYYBFLDBz9c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCkZGCTLMiDrycrpH-9XSN5DPr5_A",
       "alt": "【先行お披露目あり‼】魂火たちにアイコンをプレゼントする配信🎙【#蛇火  /#ななはぴ 】",
@@ -6127,7 +6127,6 @@
     "#tomandjerry",
     "#トムとジェリー",
     "#推し活",
-    "#星見雅",
     "#ななはぴサマーフェスタ",
     "#ヒーローvsヴィラン歌枠リレー2",
     "#ヒロヴィラ2ヴィラン推し",
@@ -6230,8 +6229,9 @@
     "#KARAOKE",
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー",
+    "#星見雅",
     "#癒し"
   ],
-  "last_updated": "2025-08-16T13:44:10.159510",
+  "last_updated": "2025-08-16T14:44:09.993503",
   "total_videos": 453
 }
