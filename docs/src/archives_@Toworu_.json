@@ -47,18 +47,6 @@
       "upload_date": "2025-08-06T21:02:26"
     },
     {
-      "title": "【#雑談】最近なにかあったっけなあ",
-      "image": "https://i.ytimg.com/vi/Ewe3LBNSLcQ/sddefault.jpg?v=6891d9a1",
-      "alt": "【#雑談】最近なにかあったっけなあ",
-      "description": "雑な談\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/k...",
-      "videoId": "Ewe3LBNSLcQ",
-      "video_url": "https://www.youtube.com/watch?v=Ewe3LBNSLcQ",
-      "tags": [
-        "#雑談"
-      ],
-      "upload_date": "2025-08-05T20:02:43"
-    },
-    {
       "title": "【#第1回りぽまつり】ななはぴREPO部大会練習【R.E.P.O.】",
       "image": "https://i.ytimg.com/vi/TDQESx5n63s/sddefault.jpg?v=688e56e2",
       "alt": "【#第1回りぽまつり】ななはぴREPO部大会練習【R.E.P.O.】",
@@ -198,6 +186,20 @@
         "#男性Vtuber"
       ],
       "upload_date": "2025-07-17T20:03:11"
+    },
+    {
+      "title": "Calc./ジミーサムP(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
+      "image": "https://i.ytimg.com/vi/PJ4lALXRzms/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYDyBlKF8wDw==&rs=AOn4CLAbZuDr7-1kX8M8fA4RxD64wol2Jw",
+      "alt": "Calc./ジミーサムP(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
+      "description": "悲しみを紛らわせるほど　僕は強くないから \n\n▼本家さま / ジミーサムＰ 様\nhttps://www.nicovideo.jp/watch/sm12050471\n\n=================...",
+      "videoId": "PJ4lALXRzms",
+      "video_url": "https://www.youtube.com/watch?v=PJ4lALXRzms",
+      "tags": [
+        "#shorts",
+        "#歌ってみた",
+        "#男性vtuber"
+      ],
+      "upload_date": "2025-07-15T18:00:39"
     },
     {
       "title": "IN_MY_HEAD/なとり(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
@@ -4559,16 +4561,14 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
-      "title": "Calc./ジミーサムP(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
-      "image": "https://i.ytimg.com/vi/PJ4lALXRzms/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLATrKDKQ-_ThzgyGBN3hNilC_oseA",
-      "alt": "Calc./ジミーサムP(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
-      "description": "説明なし",
-      "videoId": "PJ4lALXRzms",
-      "video_url": "https://www.youtube.com/shorts/PJ4lALXRzms",
+      "title": "【#雑談】最近なにかあったっけなあ",
+      "image": "https://i.ytimg.com/vi/Ewe3LBNSLcQ/sddefault.jpg?v=6891d9a1",
+      "alt": "【#雑談】最近なにかあったっけなあ",
+      "description": "雑な談\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/k...",
+      "videoId": "Ewe3LBNSLcQ",
+      "video_url": "https://www.youtube.com/watch?v=Ewe3LBNSLcQ",
       "tags": [
-        "#shorts",
-        "#歌ってみた",
-        "#男性vtuber"
+        "#雑談"
       ],
       "upload_date": ""
     },
@@ -4699,6 +4699,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-18T06:43:18.896893",
+  "last_updated": "2025-08-18T07:39:44.951179",
   "total_videos": 406
 }
