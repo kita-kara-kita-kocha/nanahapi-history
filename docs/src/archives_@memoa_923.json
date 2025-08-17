@@ -273,6 +273,22 @@
       "upload_date": "2025-06-25T20:00:06"
     },
     {
+      "title": "【#踊ってみた】キューにストップできません！ #shorts #Vtuber #dance #きゅーすと",
+      "image": "https://i.ytimg.com/vi/-jsnsxiGoAw/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLBppANc62xXrZ6YiiVMjRf7l8SYsw",
+      "alt": "【#踊ってみた】キューにストップできません！ #shorts #Vtuber #dance #きゅーすと",
+      "description": "説明なし",
+      "videoId": "-jsnsxiGoAw",
+      "video_url": "https://www.youtube.com/watch?v=-jsnsxiGoAw",
+      "tags": [
+        "#Vtuber",
+        "#dance",
+        "#shorts",
+        "#きゅーすと",
+        "#踊ってみた"
+      ],
+      "upload_date": "2025-06-24T07:00:00"
+    },
+    {
       "title": "膝曲げ選手権…??? #shorts #Vtuber #めもあ",
       "image": "https://i.ytimg.com/vi/WLkC9Twi5KE/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYTyBeKGUwDw==&rs=AOn4CLBCinLH0qj3s6BdZuy9QMDGsxGkhw",
       "alt": "膝曲げ選手権…??? #shorts #Vtuber #めもあ",
@@ -927,6 +943,16 @@
       "video_url": "https://www.youtube.com/watch?v=whRA9qvYoc8",
       "tags": [],
       "upload_date": "2025-04-23T19:01:37"
+    },
+    {
+      "title": "【1.6万回再生突破】あの話題のカバー曲、もう聴いた？｜ムーンライト",
+      "image": "https://i.ytimg.com/vi/IEPjdO4qLQg/sddefault.jpg?v=67ff05a3",
+      "alt": "【1.6万回再生突破】あの話題のカバー曲、もう聴いた？｜ムーンライト",
+      "description": "Original：ムーンライト / 星街すいせい\nhttps://youtu.be/UmN7Fr_Kf-8?si=XcHghgKamhRjI26u\n\nIllustrator：みゃーこ\nhttps://...",
+      "videoId": "IEPjdO4qLQg",
+      "video_url": "https://www.youtube.com/watch?v=IEPjdO4qLQg",
+      "tags": [],
+      "upload_date": "2025-04-22T18:00:06"
     },
     {
       "title": "【お知らせ】活動再開します！新しい“めもあ”もよろしくね！",
@@ -2287,32 +2313,6 @@
       "video_url": "https://www.youtube.com/watch?v=RC4nnjt3RoE",
       "tags": [],
       "upload_date": "2022-03-01T20:30:12"
-    },
-    {
-      "title": "【#踊ってみた】キューにストップできません！ #shorts #Vtuber #dance #きゅーすと",
-      "image": "https://i.ytimg.com/vi/-jsnsxiGoAw/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLBppANc62xXrZ6YiiVMjRf7l8SYsw",
-      "alt": "【#踊ってみた】キューにストップできません！ #shorts #Vtuber #dance #きゅーすと",
-      "description": "説明なし",
-      "videoId": "-jsnsxiGoAw",
-      "video_url": "https://www.youtube.com/watch?v=-jsnsxiGoAw",
-      "tags": [
-        "#Vtuber",
-        "#dance",
-        "#shorts",
-        "#きゅーすと",
-        "#踊ってみた"
-      ],
-      "upload_date": ""
-    },
-    {
-      "title": "【1.6万回再生突破】あの話題のカバー曲、もう聴いた？｜ムーンライト",
-      "image": "https://i.ytimg.com/vi/IEPjdO4qLQg/sddefault.jpg?v=67ff05a3",
-      "alt": "【1.6万回再生突破】あの話題のカバー曲、もう聴いた？｜ムーンライト",
-      "description": "Original：ムーンライト / 星街すいせい\nhttps://youtu.be/UmN7Fr_Kf-8?si=XcHghgKamhRjI26u\n\nIllustrator：みゃーこ\nhttps://...",
-      "videoId": "IEPjdO4qLQg",
-      "video_url": "https://www.youtube.com/watch?v=IEPjdO4qLQg",
-      "tags": [],
-      "upload_date": ""
     }
   ],
   "tags": [
@@ -2333,8 +2333,8 @@
     "#星街すいせい",
     "#ラップ",
     "#dance",
-    "#宝鐘マリン",
     "#きゅーすと",
+    "#宝鐘マリン",
     "#ネタ",
     "#めもりあるそんぐ",
     "#おはようめもあ",
@@ -2410,6 +2410,6 @@
     "#Vtuberと秋デートしませんか",
     "#2"
   ],
-  "last_updated": "2025-08-17T13:41:39.711020",
+  "last_updated": "2025-08-17T14:42:04.376746",
   "total_videos": 188
 }
