@@ -245,6 +245,18 @@
       "upload_date": "2023-07-07T18:00:43"
     },
     {
+      "title": "【切り抜き】私たち、ななはぴと申します！【#ななはぴ】",
+      "image": "https://i.ytimg.com/vi/iHM9DBumn38/sddefault.jpg",
+      "alt": "【切り抜き】私たち、ななはぴと申します！【#ななはぴ】",
+      "description": "#ななはぴ #ななはぴきりぬき\n【所属タレント一覧】\n▶天酒津不惑微睡美命（あまのさかつまどわずまどろみのみこと）※まどろみ姉さん\nTwitter：https://twitter.com/amanos...",
+      "videoId": "iHM9DBumn38",
+      "video_url": "https://www.youtube.com/watch?v=iHM9DBumn38",
+      "tags": [
+        "#ななはぴ"
+      ],
+      "upload_date": "2023-06-23T18:00:24"
+    },
+    {
       "title": "【閉会式＆結果発表】新春！『FallGuys大運動会』ななはぴ杯【#ななはぴ杯FG】",
       "image": "https://i.ytimg.com/vi/YgeFbZQ52rw/sddefault.jpg?v=63c92635",
       "alt": "【閉会式＆結果発表】新春！『FallGuys大運動会』ななはぴ杯【#ななはぴ杯FG】",
@@ -289,16 +301,6 @@
       "upload_date": "2021-10-11T14:11:57"
     },
     {
-      "title": "【合唱】Climax Jump - AAA DEN-O form【Covered by SeventhV / セブンスV】",
-      "image": "https://i.ytimg.com/vi/hZ_5djzfLgY/sddefault.jpg?v=6013fc6b",
-      "alt": "【合唱】Climax Jump - AAA DEN-O form【Covered by SeventhV / セブンスV】",
-      "description": "「クライマックスのその先へ－－－」🚄\n\n---------------------------------------------------------\n🌈Original：Climax Jump ...",
-      "videoId": "hZ_5djzfLgY",
-      "video_url": "https://www.youtube.com/watch?v=hZ_5djzfLgY",
-      "tags": [],
-      "upload_date": "2021-01-30T16:00:10"
-    },
-    {
       "title": "ソーシャルディスタンス動画【GoToV店舗】店舗内でのお願い",
       "image": "https://i.ytimg.com/vi/-WAe9nsiZD4/sddefault.jpg",
       "alt": "ソーシャルディスタンス動画【GoToV店舗】店舗内でのお願い",
@@ -322,15 +324,13 @@
       "upload_date": "2020-09-04T19:00:00"
     },
     {
-      "title": "【切り抜き】私たち、ななはぴと申します！【#ななはぴ】",
-      "image": "https://i.ytimg.com/vi/iHM9DBumn38/sddefault.jpg",
-      "alt": "【切り抜き】私たち、ななはぴと申します！【#ななはぴ】",
-      "description": "#ななはぴ #ななはぴきりぬき\n【所属タレント一覧】\n▶天酒津不惑微睡美命（あまのさかつまどわずまどろみのみこと）※まどろみ姉さん\nTwitter：https://twitter.com/amanos...",
-      "videoId": "iHM9DBumn38",
-      "video_url": "https://www.youtube.com/watch?v=iHM9DBumn38",
-      "tags": [
-        "#ななはぴ"
-      ],
+      "title": "【合唱】Climax Jump - AAA DEN-O form【Covered by SeventhV / セブンスV】",
+      "image": "https://i.ytimg.com/vi/hZ_5djzfLgY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDv_Fn82ppWkbC7ZD1b2ao4Sdm-nw",
+      "alt": "【合唱】Climax Jump - AAA DEN-O form【Covered by SeventhV / セブンスV】",
+      "description": "「クライマックスのその先へ－－－」🚄\n\n---------------------------------------------------------\n🌈Original：Climax Jump ...",
+      "videoId": "hZ_5djzfLgY",
+      "video_url": "https://www.youtube.com/watch?v=hZ_5djzfLgY",
+      "tags": [],
       "upload_date": ""
     }
   ],
@@ -344,6 +344,6 @@
     "#セブンスV",
     "#セブンスVハーフアニバ"
   ],
-  "last_updated": "2025-08-18T07:31:10.596984",
+  "last_updated": "2025-08-18T08:31:40.800057",
   "total_videos": 27
 }

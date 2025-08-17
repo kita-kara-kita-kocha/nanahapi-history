@@ -536,20 +536,6 @@
       "upload_date": "2025-07-20T13:10:21"
     },
     {
-      "title": "#repo #vtuber #shorts 【アヒル騒動】",
-      "image": "https://i.ytimg.com/vi/sxkD4FI1g64/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYfyAUKBMwDw==&rs=AOn4CLAPKJ9O-HwzpwvQ5CBT9mtTVJJ0hw",
-      "alt": "#repo #vtuber #shorts 【アヒル騒動】",
-      "description": "蛇悪魔の女の子。\n好きなものは歌と辛い食べ物。\n歌で皆に夢と希望を与えることが夢。\n\n+‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥+\n\nX（旧Twitter）\nhttps://twitter.com/Jabi...",
-      "videoId": "sxkD4FI1g64",
-      "video_url": "https://www.youtube.com/watch?v=sxkD4FI1g64",
-      "tags": [
-        "#repo",
-        "#shorts",
-        "#vtuber"
-      ],
-      "upload_date": "2025-07-18T20:01:58"
-    },
-    {
       "title": "【#ゼンゼロ /#ゼンレスゾーンゼロ 】強いと聞く星見雅復刻キターーー！！【蛇火/ななはぴ】",
       "image": "https://i.ytimg.com/vi/CQ3u9GvZwp8/sddefault.jpg?v=6877b4fe",
       "alt": "【#ゼンゼロ /#ゼンレスゾーンゼロ 】強いと聞く星見雅復刻キターーー！！【蛇火/ななはぴ】",
@@ -5863,12 +5849,26 @@
     },
     {
       "title": "【自己紹介】初めまして。歌う悪魔です。【蛇火 / 新人VTuber】",
-      "image": "https://i.ytimg.com/vi/q6RcFCuYTEA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAZRKfdrqisI__7EgP-dkVX2JIiw",
+      "image": "https://i.ytimg.com/vi/q6RcFCuYTEA/sddefault.jpg",
       "alt": "【自己紹介】初めまして。歌う悪魔です。【蛇火 / 新人VTuber】",
-      "description": "やぁ、人間！ 我の名は蛇火(じゃび)\n\n+‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥+\n\n蛇悪魔の女の子。\n好きなものは歌と辛い食べ物。\n歌で皆に夢と希望......",
+      "description": "やぁ、人間！ 我の名は蛇火(じゃび)\n\n+‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥+\n\n蛇悪魔の女の子。\n好きなものは歌と辛い食べ物。\n歌で皆に夢と希望を与えることが夢。\n\n+‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥...",
       "videoId": "q6RcFCuYTEA",
       "video_url": "https://www.youtube.com/watch?v=q6RcFCuYTEA",
       "tags": [],
+      "upload_date": "2023-12-01T12:00:27"
+    },
+    {
+      "title": "#repo #vtuber #shorts 【アヒル騒動】",
+      "image": "https://i.ytimg.com/vi/sxkD4FI1g64/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBKEFtGfzzLruRk2N7Bs7DqhV0-Gg",
+      "alt": "#repo #vtuber #shorts 【アヒル騒動】",
+      "description": "説明なし",
+      "videoId": "sxkD4FI1g64",
+      "video_url": "https://www.youtube.com/shorts/sxkD4FI1g64",
+      "tags": [
+        "#repo",
+        "#shorts",
+        "#vtuber"
+      ],
       "upload_date": ""
     },
     {
@@ -6248,6 +6248,6 @@
     "#ななはぴリクエスト歌枠リレー",
     "#癒し"
   ],
-  "last_updated": "2025-08-18T07:44:02.082099",
+  "last_updated": "2025-08-18T08:48:58.868379",
   "total_videos": 454
 }

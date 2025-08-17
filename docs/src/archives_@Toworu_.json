@@ -1,16 +1,6 @@
 {
   "items": [
     {
-      "title": "ゲリラ弾き語り",
-      "image": "https://i.ytimg.com/vi/JY9lP6QDxGQ/sddefault.jpg?v=68989981",
-      "alt": "ゲリラ弾き語り",
-      "description": "歌枠\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/ka...",
-      "videoId": "JY9lP6QDxGQ",
-      "video_url": "https://www.youtube.com/watch?v=JY9lP6QDxGQ",
-      "tags": [],
-      "upload_date": "2025-08-10T22:07:38"
-    },
-    {
       "title": "【#第1回りぽまつり】爪痕爪痕爪痕爪痕爪痕爪痕爪痕爪痕【R.E.P.O.】",
       "image": "https://i.ytimg.com/vi/jE-yoaWwBZk/sddefault.jpg?v=6896d290",
       "alt": "【#第1回りぽまつり】爪痕爪痕爪痕爪痕爪痕爪痕爪痕爪痕【R.E.P.O.】",
@@ -45,6 +35,18 @@
         "#男性Vtuber"
       ],
       "upload_date": "2025-08-06T21:02:26"
+    },
+    {
+      "title": "【#雑談】最近なにかあったっけなあ",
+      "image": "https://i.ytimg.com/vi/Ewe3LBNSLcQ/sddefault.jpg?v=6891d9a1",
+      "alt": "【#雑談】最近なにかあったっけなあ",
+      "description": "雑な談\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/k...",
+      "videoId": "Ewe3LBNSLcQ",
+      "video_url": "https://www.youtube.com/watch?v=Ewe3LBNSLcQ",
+      "tags": [
+        "#雑談"
+      ],
+      "upload_date": "2025-08-05T20:02:43"
     },
     {
       "title": "【#第1回りぽまつり】ななはぴREPO部大会練習【R.E.P.O.】",
@@ -252,20 +254,6 @@
         "#男性vtuber"
       ],
       "upload_date": "2025-07-11T18:01:08"
-    },
-    {
-      "title": "ヲズワルド/煮ル果実(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
-      "image": "https://i.ytimg.com/vi/RQXP8S7fMRE/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYQyBRKGUwDw==&rs=AOn4CLCCrIJzUeWJcK2CBXVGFt71YOgpTg",
-      "alt": "ヲズワルド/煮ル果実(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
-      "description": "4年前の音源を引っ張り出してきたやつ\n\n▼本家さま / 煮ル果実 様\nhttps://www.youtube.com/watch?v=mVjyVppveGY\n\n=================\n\n▼...",
-      "videoId": "RQXP8S7fMRE",
-      "video_url": "https://www.youtube.com/watch?v=RQXP8S7fMRE",
-      "tags": [
-        "#shorts",
-        "#歌ってみた",
-        "#男性vtuber"
-      ],
-      "upload_date": "2025-07-10T18:00:39"
     },
     {
       "title": "【雑談】雑談配信があまりにも久々すぎる男",
@@ -4561,14 +4549,26 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
-      "title": "【#雑談】最近なにかあったっけなあ",
-      "image": "https://i.ytimg.com/vi/Ewe3LBNSLcQ/sddefault.jpg?v=6891d9a1",
-      "alt": "【#雑談】最近なにかあったっけなあ",
-      "description": "雑な談\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/k...",
-      "videoId": "Ewe3LBNSLcQ",
-      "video_url": "https://www.youtube.com/watch?v=Ewe3LBNSLcQ",
+      "title": "ゲリラ弾き語り",
+      "image": "https://i.ytimg.com/vi/JY9lP6QDxGQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQ17o-qZsm5kzutfNpqxSxVm-4sw",
+      "alt": "ゲリラ弾き語り",
+      "description": "歌枠\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/ka...",
+      "videoId": "JY9lP6QDxGQ",
+      "video_url": "https://www.youtube.com/watch?v=JY9lP6QDxGQ",
+      "tags": [],
+      "upload_date": ""
+    },
+    {
+      "title": "ヲズワルド/煮ル果実(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
+      "image": "https://i.ytimg.com/vi/RQXP8S7fMRE/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBQTFgZK5N448tGCTBRWjMQecRGdg",
+      "alt": "ヲズワルド/煮ル果実(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
+      "description": "説明なし",
+      "videoId": "RQXP8S7fMRE",
+      "video_url": "https://www.youtube.com/shorts/RQXP8S7fMRE",
       "tags": [
-        "#雑談"
+        "#shorts",
+        "#歌ってみた",
+        "#男性vtuber"
       ],
       "upload_date": ""
     },
@@ -4699,6 +4699,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-18T07:39:44.951179",
+  "last_updated": "2025-08-18T08:43:27.439185",
   "total_videos": 406
 }
