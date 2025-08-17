@@ -3227,6 +3227,20 @@
       "upload_date": "2024-09-14T21:00:56"
     },
     {
+      "title": "︎✿ メランコリック～練習中のウクレレを添えて～ ︎✿ #歌ってみた #vtuber #cover",
+      "image": "https://i.ytimg.com/vi/txB_tDbsq0g/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLB58p06lpfalAIG3_1tKLLJwzveHg",
+      "alt": "︎✿ メランコリック～練習中のウクレレを添えて～ ︎✿ #歌ってみた #vtuber #cover",
+      "description": "説明なし",
+      "videoId": "txB_tDbsq0g",
+      "video_url": "https://www.youtube.com/watch?v=txB_tDbsq0g",
+      "tags": [
+        "#cover",
+        "#vtuber",
+        "#歌ってみた"
+      ],
+      "upload_date": "2024-09-03T19:05:04"
+    },
+    {
       "title": "🕯深昏睡 - 春野 covered by 花鹿める",
       "image": "https://i.ytimg.com/vi/dWSfo0rcinY/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLCHIo-kR_1ns9RmfsUFDKSQAjdwvQ",
       "alt": "🕯深昏睡 - 春野 covered by 花鹿める",
@@ -3275,20 +3289,6 @@
       "video_url": "https://www.youtube.com/watch?v=03Xi5QbXmHY",
       "tags": [],
       "upload_date": "2024-06-09T19:00:01"
-    },
-    {
-      "title": "︎✿ メランコリック～練習中のウクレレを添えて～ ︎✿ #歌ってみた #vtuber #cover",
-      "image": "https://i.ytimg.com/vi/txB_tDbsq0g/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLB58p06lpfalAIG3_1tKLLJwzveHg",
-      "alt": "︎✿ メランコリック～練習中のウクレレを添えて～ ︎✿ #歌ってみた #vtuber #cover",
-      "description": "説明なし",
-      "videoId": "txB_tDbsq0g",
-      "video_url": "https://www.youtube.com/watch?v=txB_tDbsq0g",
-      "tags": [
-        "#cover",
-        "#vtuber",
-        "#歌ってみた"
-      ],
-      "upload_date": ""
     },
     {
       "title": "同時視聴⌇今話題のバックドラフトみる配信🔥   ̖́- #花鹿める / ななはぴ",
@@ -3514,6 +3514,6 @@
     "#cover",
     "#歌ってみた"
   ],
-  "last_updated": "2025-08-17T14:46:00.749230",
+  "last_updated": "2025-08-17T15:46:07.673704",
   "total_videos": 266
 }
