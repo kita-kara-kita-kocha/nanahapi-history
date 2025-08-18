@@ -41,7 +41,7 @@ async function init() {
 // タレント情報を読み込み
 async function loadTalentInfo() {
     try {
-        const response = await fetch('src/talent_info.json');
+        const response = await fetch(`src/talent_info.json?v=${Date.now()}`);
         talentInfo = await response.json();
         
         // タレント名のマッピングを作成
@@ -75,7 +75,7 @@ async function loadAllVideos() {
     
     for (const file of archiveFiles) {
         try {
-            const response = await fetch(`src/${file}`);
+            const response = await fetch(`src/${file}?v=${Date.now()}`);
             const data = await response.json();
             
             if (data.items && Array.isArray(data.items)) {

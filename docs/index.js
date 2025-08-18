@@ -82,7 +82,7 @@ function normalizeString(str) {
 // タレント情報を読み込み
 async function loadTalentInfo() {
     try {
-        const response = await fetch('src/talent_info.json');
+        const response = await fetch(`src/talent_info.json?v=${Date.now()}`);
         talentInfo = await response.json();
         
         // タレント名のマッピングを作成
@@ -143,7 +143,7 @@ async function loadAllVideos() {
 // 個別のアーカイブファイルを読み込み
 async function loadArchiveFile(fileName) {
     try {
-        const response = await fetch(`src/${fileName}`);
+        const response = await fetch(`src/${fileName}?v=${Date.now()}`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
