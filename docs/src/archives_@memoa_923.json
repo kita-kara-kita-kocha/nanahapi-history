@@ -915,16 +915,6 @@
       "upload_date": "2025-04-26T19:01:08"
     },
     {
-      "title": "【涙腺注意】言葉がまっすぐ刺さる『黄色』を歌ってみた",
-      "image": "https://i.ytimg.com/vi/yQ1ArmNH7R0/sddefault.jpg",
-      "alt": "【涙腺注意】言葉がまっすぐ刺さる『黄色』を歌ってみた",
-      "description": "本家様：https://youtu.be/EMYa07zHC9w?si=VWYQbBuKqFn4yEgu\n＃黄色 ＃backnumber ＃歌ってみた\n------------\nめもあ公式X：http...",
-      "videoId": "yQ1ArmNH7R0",
-      "video_url": "https://www.youtube.com/watch?v=yQ1ArmNH7R0",
-      "tags": [],
-      "upload_date": "2025-04-25T19:01:41"
-    },
-    {
       "title": "【耳がとろける】ガチで可愛い『アニマル』歌ってみた🐾",
       "image": "https://i.ytimg.com/vi/Xd3gyZKnhDs/sddefault.jpg",
       "alt": "【耳がとろける】ガチで可愛い『アニマル』歌ってみた🐾",
@@ -2313,6 +2303,16 @@
       "video_url": "https://www.youtube.com/watch?v=RC4nnjt3RoE",
       "tags": [],
       "upload_date": "2022-03-01T20:30:12"
+    },
+    {
+      "title": "【涙腺注意】言葉がまっすぐ刺さる『黄色』を歌ってみた",
+      "image": "https://i.ytimg.com/vi/yQ1ArmNH7R0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBA7-PW1jFulBsFJ0-eM410ZY2JIQ",
+      "alt": "【涙腺注意】言葉がまっすぐ刺さる『黄色』を歌ってみた",
+      "description": "本家様：https://youtu.be/EMYa07zHC9w?si=VWYQbBuKqFn4yEgu\n＃黄色 ＃backnumber ＃歌ってみた\n------------\nめもあ公式X：http...",
+      "videoId": "yQ1ArmNH7R0",
+      "video_url": "https://www.youtube.com/watch?v=yQ1ArmNH7R0",
+      "tags": [],
+      "upload_date": ""
     }
   ],
   "tags": [
@@ -2410,6 +2410,6 @@
     "#Vtuberと秋デートしませんか",
     "#2"
   ],
-  "last_updated": "2025-08-19T03:41:11.964564",
+  "last_updated": "2025-08-19T04:45:01.449634",
   "total_videos": 188
 }
