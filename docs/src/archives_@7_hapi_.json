@@ -43,18 +43,6 @@
       "upload_date": "2024-07-19T22:34:58"
     },
     {
-      "title": "【開会式＆大会説明】三周年記念「Fall Guys 大運動会」ななはぴ杯vol.2【#ななはぴ杯2FG】",
-      "image": "https://i.ytimg.com/vi/ATMHuP4Yobo/sddefault.jpg?v=66875f69",
-      "alt": "【開会式＆大会説明】三周年記念「Fall Guys 大運動会」ななはぴ杯vol.2【#ななはぴ杯2FG】",
-      "description": "🌈三周年記念「Fall Guys 大運動会」ななはぴ杯vol.2🍀\n\n※本イベントは Epic Games, Inc とは一切関連がございません。\n\nリスナーさんやVTuberさんも歓迎🚩\n視聴者参加...",
-      "videoId": "ATMHuP4Yobo",
-      "video_url": "https://www.youtube.com/watch?v=ATMHuP4Yobo",
-      "tags": [
-        "#ななはぴ杯2FG"
-      ],
-      "upload_date": "2024-07-19T19:58:18"
-    },
-    {
       "title": "ななはぴ学力テスト　～おバカ王は誰だ2024～",
       "image": "https://i.ytimg.com/vi/UXYKTCwEvho/sddefault.jpg?v=6666da74",
       "alt": "ななはぴ学力テスト　～おバカ王は誰だ2024～",
@@ -63,20 +51,6 @@
       "video_url": "https://www.youtube.com/watch?v=UXYKTCwEvho",
       "tags": [],
       "upload_date": "2024-06-21T20:00:33"
-    },
-    {
-      "title": "【アリ？ナシ？】恋愛について鈍感すぎるアルバ #shorts #vtuber #切り抜き",
-      "image": "https://i.ytimg.com/vi/hB_O3ysTVhw/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYYCBbKGUwDw==&rs=AOn4CLCk5K5qYyoOdl05luTR0eSIPAXUXg",
-      "alt": "【アリ？ナシ？】恋愛について鈍感すぎるアルバ #shorts #vtuber #切り抜き",
-      "description": "@alba_mofu...",
-      "videoId": "hB_O3ysTVhw",
-      "video_url": "https://www.youtube.com/watch?v=hB_O3ysTVhw",
-      "tags": [
-        "#shorts",
-        "#vtuber",
-        "#切り抜き"
-      ],
-      "upload_date": "2023-10-20T18:00:26"
     },
     {
       "title": "【大はしゃぎ】封印を望むココロニ・ノンノ#shorts #vtuber #切り抜き",
@@ -332,6 +306,32 @@
         "#セブンスVハーフアニバ"
       ],
       "upload_date": "2020-09-04T19:00:00"
+    },
+    {
+      "title": "【開会式＆大会説明】三周年記念「Fall Guys 大運動会」ななはぴ杯vol.2【#ななはぴ杯2FG】",
+      "image": "https://i.ytimg.com/vi/ATMHuP4Yobo/sddefault.jpg?v=66875f69",
+      "alt": "【開会式＆大会説明】三周年記念「Fall Guys 大運動会」ななはぴ杯vol.2【#ななはぴ杯2FG】",
+      "description": "🌈三周年記念「Fall Guys 大運動会」ななはぴ杯vol.2🍀\n\n※本イベントは Epic Games, Inc とは一切関連がございません。\n\nリスナーさんやVTuberさんも歓迎🚩\n視聴者参加...",
+      "videoId": "ATMHuP4Yobo",
+      "video_url": "https://www.youtube.com/watch?v=ATMHuP4Yobo",
+      "tags": [
+        "#ななはぴ杯2FG"
+      ],
+      "upload_date": ""
+    },
+    {
+      "title": "【アリ？ナシ？】恋愛について鈍感すぎるアルバ #shorts #vtuber #切り抜き",
+      "image": "https://i.ytimg.com/vi/hB_O3ysTVhw/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYYCBbKGUwDw==&rs=AOn4CLCk5K5qYyoOdl05luTR0eSIPAXUXg",
+      "alt": "【アリ？ナシ？】恋愛について鈍感すぎるアルバ #shorts #vtuber #切り抜き",
+      "description": "@alba_mofu...",
+      "videoId": "hB_O3ysTVhw",
+      "video_url": "https://www.youtube.com/watch?v=hB_O3ysTVhw",
+      "tags": [
+        "#shorts",
+        "#vtuber",
+        "#切り抜き"
+      ],
+      "upload_date": ""
     }
   ],
   "tags": [
@@ -344,6 +344,6 @@
     "#セブンスV",
     "#セブンスVハーフアニバ"
   ],
-  "last_updated": "2025-08-19T19:31:17.188685",
+  "last_updated": "2025-08-19T20:31:22.119314",
   "total_videos": 27
 }

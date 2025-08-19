@@ -110,18 +110,6 @@
       "upload_date": "2025-07-21T13:00:20"
     },
     {
-      "title": "【歌枠】ゆったりお話と歌をしようじゃん♩＃めも遊び #ななはぴサマーフェスタ",
-      "image": "https://i.ytimg.com/vi/rlE8PBjSNCE/sddefault.jpg?v=687d476b",
-      "alt": "【歌枠】ゆったりお話と歌をしようじゃん♩＃めも遊び #ななはぴサマーフェスタ",
-      "description": "#ななはぴサマーフェスタ \n------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh.com/memoa/\n------...",
-      "videoId": "rlE8PBjSNCE",
-      "video_url": "https://www.youtube.com/watch?v=rlE8PBjSNCE",
-      "tags": [
-        "#ななはぴサマーフェスタ"
-      ],
-      "upload_date": "2025-07-19T22:00:41"
-    },
-    {
       "title": "【持ち物チェック】フェスの前ってそわそわするよね？ #めも遊び",
       "image": "https://i.ytimg.com/vi/N_aWNtXYkfU/sddefault.jpg?v=687a5606",
       "alt": "【持ち物チェック】フェスの前ってそわそわするよね？ #めも遊び",
@@ -2313,6 +2301,18 @@
       "video_url": "https://www.youtube.com/watch?v=RC4nnjt3RoE",
       "tags": [],
       "upload_date": "2022-03-01T20:30:12"
+    },
+    {
+      "title": "【歌枠】ゆったりお話と歌をしようじゃん♩＃めも遊び #ななはぴサマーフェスタ",
+      "image": "https://i.ytimg.com/vi/rlE8PBjSNCE/sddefault.jpg?v=687d476b",
+      "alt": "【歌枠】ゆったりお話と歌をしようじゃん♩＃めも遊び #ななはぴサマーフェスタ",
+      "description": "#ななはぴサマーフェスタ \n------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh.com/memoa/\n------...",
+      "videoId": "rlE8PBjSNCE",
+      "video_url": "https://www.youtube.com/watch?v=rlE8PBjSNCE",
+      "tags": [
+        "#ななはぴサマーフェスタ"
+      ],
+      "upload_date": ""
     }
   ],
   "tags": [
@@ -2346,7 +2346,6 @@
     "#TheGameofSisyphus",
     "#マリみ",
     "#gettingoverit",
-    "#ななはぴサマーフェスタ",
     "#Live2D",
     "#かわいいVtuber",
     "#寝起きVtuber",
@@ -2408,8 +2407,9 @@
     "#歌うまV歌枠リレー",
     "#朝活",
     "#Vtuberと秋デートしませんか",
-    "#2"
+    "#2",
+    "#ななはぴサマーフェスタ"
   ],
-  "last_updated": "2025-08-19T19:41:45.588553",
+  "last_updated": "2025-08-19T20:42:20.812247",
   "total_videos": 188
 }
