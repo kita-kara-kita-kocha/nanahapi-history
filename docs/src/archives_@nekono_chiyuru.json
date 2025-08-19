@@ -452,26 +452,6 @@
       "upload_date": "2025-07-17T20:00:06"
     },
     {
-      "title": "【切り抜き】おじさん #shorts #repo #ゲーム #切り抜き #japanesevtuber #Vtuber #ななはぴ #猫野ちゆる #発条テクト",
-      "image": "https://i.ytimg.com/vi/dfJwXGN40ug/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYciBhKEEwDw==&rs=AOn4CLBsn8eP8bcJK-4plT32RWqQ8Hrtug",
-      "alt": "【切り抜き】おじさん #shorts #repo #ゲーム #切り抜き #japanesevtuber #Vtuber #ななはぴ #猫野ちゆる #発条テクト",
-      "description": "説明なし",
-      "videoId": "dfJwXGN40ug",
-      "video_url": "https://www.youtube.com/watch?v=dfJwXGN40ug",
-      "tags": [
-        "#Vtuber",
-        "#japanesevtuber",
-        "#repo",
-        "#shorts",
-        "#ななはぴ",
-        "#ゲーム",
-        "#切り抜き",
-        "#猫野ちゆる",
-        "#発条テクト"
-      ],
-      "upload_date": "2025-07-16T18:01:04"
-    },
-    {
       "title": "【 #splatoon3 #コラボ 】くらやみ杯の顔合わせ！【 #猫野ちゆる  / #Vtuber 】",
       "image": "https://i.ytimg.com/vi/4ItMAmGEoFU/sddefault.jpg?v=68763951",
       "alt": "【 #splatoon3 #コラボ 】くらやみ杯の顔合わせ！【 #猫野ちゆる  / #Vtuber 】",
@@ -5312,6 +5292,26 @@
       "upload_date": "2023-12-01T12:00:14"
     },
     {
+      "title": "【切り抜き】おじさん #shorts #repo #ゲーム #切り抜き #japanesevtuber #Vtuber #ななはぴ #猫野ちゆる #発条テクト",
+      "image": "https://i.ytimg.com/vi/dfJwXGN40ug/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYciBhKEEwDw==&rs=AOn4CLBsn8eP8bcJK-4plT32RWqQ8Hrtug",
+      "alt": "【切り抜き】おじさん #shorts #repo #ゲーム #切り抜き #japanesevtuber #Vtuber #ななはぴ #猫野ちゆる #発条テクト",
+      "description": "説明なし",
+      "videoId": "dfJwXGN40ug",
+      "video_url": "https://www.youtube.com/watch?v=dfJwXGN40ug",
+      "tags": [
+        "#Vtuber",
+        "#japanesevtuber",
+        "#repo",
+        "#shorts",
+        "#ななはぴ",
+        "#ゲーム",
+        "#切り抜き",
+        "#猫野ちゆる",
+        "#発条テクト"
+      ],
+      "upload_date": ""
+    },
+    {
       "title": "【 #splatoon3 #くらやみ杯 】Teamパッション博物館！いくぞ~！【 #猫野ちゆる  / #Vtuber 】",
       "image": "https://i.ytimg.com/vi/9YxFRc_YbRc/sddefault.jpg?v=688ca0a8",
       "alt": "【 #splatoon3 #くらやみ杯 】Teamパッション博物館！いくぞ~！【 #猫野ちゆる  / #Vtuber 】",
@@ -5438,10 +5438,10 @@
     "#p丸様",
     "#だいすき",
     "#ゲーム実況",
-    "#ゲーム",
     "#8",
     "#tiktok",
     "#葛西美空",
+    "#ゲーム",
     "#解説",
     "#VTIPS麻雀オープン大会",
     "#ストリーマーグラセフ",
@@ -5464,8 +5464,6 @@
     "#10",
     "#shortvideo",
     "#紫虎墨杯",
-    "#repo",
-    "#発条テクト",
     "#お笑い",
     "#情報屋",
     "#9",
@@ -5581,9 +5579,11 @@
     "#KARAOKE",
     "#ななはぴリクエスト歌枠リレー",
     "#オーバーウォッチ2",
+    "#repo",
+    "#発条テクト",
     "#くらやみ杯",
     "#overwatch2"
   ],
-  "last_updated": "2025-08-19T18:43:13.892035",
+  "last_updated": "2025-08-19T19:43:12.544817",
   "total_videos": 354
 }
