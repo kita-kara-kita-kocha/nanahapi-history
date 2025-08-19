@@ -33,18 +33,6 @@
       "upload_date": "2023-05-21T20:00:20"
     },
     {
-      "title": "【歌ってみた】ヒャダインのじょーじょーゆーじょー 【covered by ニコラ・アルディン＆ココロニ・ノンノ #ニコロニ】",
-      "image": "https://i.ytimg.com/vi_webp/Krw8Th9EKrs/maxresdefault.webp",
-      "alt": "【歌ってみた】ヒャダインのじょーじょーゆーじょー 【covered by ニコラ・アルディン＆ココロニ・ノンノ #ニコロニ】",
-      "description": "ニコロニの友情は永久不滅！！！！！！\n\n🌟本家🌟\nhttps://youtu.be/1Xxnp0Q1GYQ\n\nMIX：kuma / 三輪智也 様\nhttps://twitter.com/kuma_t\n...",
-      "videoId": "Krw8Th9EKrs",
-      "video_url": "https://www.youtube.com/watch?v=Krw8Th9EKrs",
-      "tags": [
-        "#ニコロニ"
-      ],
-      "upload_date": "2023-05-03T20:00:08"
-    },
-    {
       "title": "エイプリルと恋日記 / msyマスイ Covered by ニコラ・アルディン【歌ってみた / Vtuber】",
       "image": "https://i.ytimg.com/vi/x1zQSoxkYfI/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVShdMA8=&rs=AOn4CLCVqw3mrFiiYyKe2efcWhe5h67Lyw",
       "alt": "エイプリルと恋日記 / msyマスイ Covered by ニコラ・アルディン【歌ってみた / Vtuber】",
@@ -305,13 +293,25 @@
       "video_url": "https://www.youtube.com/watch?v=rgk4ttevOE0",
       "tags": [],
       "upload_date": "2021-05-21T20:00:22"
+    },
+    {
+      "title": "【歌ってみた】ヒャダインのじょーじょーゆーじょー 【covered by ニコラ・アルディン＆ココロニ・ノンノ #ニコロニ】",
+      "image": "https://i.ytimg.com/vi_webp/Krw8Th9EKrs/maxresdefault.webp",
+      "alt": "【歌ってみた】ヒャダインのじょーじょーゆーじょー 【covered by ニコラ・アルディン＆ココロニ・ノンノ #ニコロニ】",
+      "description": "ニコロニの友情は永久不滅！！！！！！\n\n🌟本家🌟\nhttps://youtu.be/1Xxnp0Q1GYQ\n\nMIX：kuma / 三輪智也 様\nhttps://twitter.com/kuma_t\n...",
+      "videoId": "Krw8Th9EKrs",
+      "video_url": "https://www.youtube.com/watch?v=Krw8Th9EKrs",
+      "tags": [
+        "#ニコロニ"
+      ],
+      "upload_date": ""
     }
   ],
   "tags": [
     "#MEMENTO_U2nd",
-    "#ニコロニ",
-    "#プラステ6"
+    "#プラステ6",
+    "#ニコロニ"
   ],
-  "last_updated": "2025-08-19T12:48:13.452441",
+  "last_updated": "2025-08-19T13:48:22.432671",
   "total_videos": 30
 }
