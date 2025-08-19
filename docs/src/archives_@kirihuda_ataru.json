@@ -90,18 +90,6 @@
       "upload_date": "2025-08-06T21:02:51"
     },
     {
-      "title": "【7-0全勝!】前寄せロイヤルで100名大会優勝!最強デッキを解説!【#シャドバWB 】",
-      "image": "https://i.ytimg.com/vi/BMlief24BQc/sddefault.jpg",
-      "alt": "【7-0全勝!】前寄せロイヤルで100名大会優勝!最強デッキを解説!【#シャドバWB 】",
-      "description": "前寄せロイヤルが流行るとウィッチはちょっとやばそう・・・\n\nこちらのデッキは第二回アタル杯予選1優勝者の「にこ」選手のデッキとなります！\n\n■■□―――――――――――――――――――□■■\n月～木 ...",
-      "videoId": "BMlief24BQc",
-      "video_url": "https://www.youtube.com/watch?v=BMlief24BQc",
-      "tags": [
-        "#シャドバWB"
-      ],
-      "upload_date": "2025-08-05T20:00:30"
-    },
-    {
       "title": "【まさかのデッキで準優勝】オーディン搭載アミュレットガン積み守護ビショップで100名大会準優勝!最強デッキを解説!【#シャドバWB 】",
       "image": "https://i.ytimg.com/vi/8WmlBfVH7zg/sddefault.jpg",
       "alt": "【まさかのデッキで準優勝】オーディン搭載アミュレットガン積み守護ビショップで100名大会準優勝!最強デッキを解説!【#シャドバWB 】",
@@ -927,6 +915,19 @@
         "#ポケポケ開封チャレンジ"
       ],
       "upload_date": "2025-05-10T20:01:34"
+    },
+    {
+      "title": "【#ポケポケ 】1週間毎日10連生活9日目【#ポケポケ開封チャレンジ 】",
+      "image": "https://i.ytimg.com/vi/8tAnscOtz60/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AYwCgALgA4oCDAgAEAEYZSBGKFIwDw==&rs=AOn4CLBPOOU3PHvIH_fxjY6_6YOOCgfRHw",
+      "alt": "【#ポケポケ 】1週間毎日10連生活9日目【#ポケポケ開封チャレンジ 】",
+      "description": "説明なし",
+      "videoId": "8tAnscOtz60",
+      "video_url": "https://www.youtube.com/watch?v=8tAnscOtz60",
+      "tags": [
+        "#ポケポケ",
+        "#ポケポケ開封チャレンジ"
+      ],
+      "upload_date": "2025-05-09T20:00:12"
     },
     {
       "title": "【#ポケポケ】1週間毎日10連生活8日目【#ポケポケ開封チャレンジ 】",
@@ -4630,15 +4631,14 @@
       "upload_date": "2024-05-24T18:00:48"
     },
     {
-      "title": "【#ポケポケ 】1週間毎日10連生活9日目【#ポケポケ開封チャレンジ 】",
-      "image": "https://i.ytimg.com/vi/8tAnscOtz60/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AYwCgALgA4oCDAgAEAEYZSBGKFIwDw==&rs=AOn4CLBPOOU3PHvIH_fxjY6_6YOOCgfRHw",
-      "alt": "【#ポケポケ 】1週間毎日10連生活9日目【#ポケポケ開封チャレンジ 】",
-      "description": "説明なし",
-      "videoId": "8tAnscOtz60",
-      "video_url": "https://www.youtube.com/watch?v=8tAnscOtz60",
+      "title": "【7-0全勝!】前寄せロイヤルで100名大会優勝!最強デッキを解説!【#シャドバWB 】",
+      "image": "https://i.ytimg.com/vi/BMlief24BQc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNu2i7qzYJurPdw3wxAu6lNPa1hA",
+      "alt": "【7-0全勝!】前寄せロイヤルで100名大会優勝!最強デッキを解説!【#シャドバWB 】",
+      "description": "前寄せロイヤルが流行るとウィッチはちょっとやばそう・・・\n\nこちらのデッキは第二回アタル杯予選1優勝者の「にこ」選手のデッキとなります......",
+      "videoId": "BMlief24BQc",
+      "video_url": "https://www.youtube.com/watch?v=BMlief24BQc",
       "tags": [
-        "#ポケポケ",
-        "#ポケポケ開封チャレンジ"
+        "#シャドバWB"
       ],
       "upload_date": ""
     }
@@ -4708,6 +4708,6 @@
     "#ワンピースカード",
     "#デュエマ"
   ],
-  "last_updated": "2025-08-20T03:48:58.494615",
+  "last_updated": "2025-08-20T04:53:15.589739",
   "total_videos": 359
 }
