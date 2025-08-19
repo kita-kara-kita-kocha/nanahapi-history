@@ -2,16 +2,6 @@
   "items": [
     {
       "title": "【ななはぴ4周年記念】 夏祭り/ Whiteberry【合唱 / 歌ってみた】",
-      "image": "https://i.ytimg.com/vi/0P09VWG-dTc/sddefault.jpg",
-      "alt": "【ななはぴ4周年記念】 夏祭り/ Whiteberry【合唱 / 歌ってみた】",
-      "description": "ななはぴ4周年、最高の夏をお届け！\n\n＜Original＞\nWhiteberry様 https://youtu.be/AZRR01YOKcM?si=FymICOSQlPsiEHTc\n\n＜Mix＞\nなな...",
-      "videoId": "0P09VWG-dTc",
-      "video_url": "https://www.youtube.com/watch?v=0P09VWG-dTc",
-      "tags": [],
-      "upload_date": "2025-08-01T12:00:01"
-    },
-    {
-      "title": "【ななはぴ4周年記念】 夏祭り/ Whiteberry【合唱 / 歌ってみた】",
       "image": "https://i.ytimg.com/vi/Ng_BIXWlQB8/sddefault.jpg?v=687dc893",
       "alt": "【ななはぴ4周年記念】 夏祭り/ Whiteberry【合唱 / 歌ってみた】",
       "description": "ななはぴ4周年、最高の夏をお届け！\n\n＜Original＞\nWhiteberry様 https://youtu.be/AZRR01YOKcM?si=FymICOSQlPsiEHTc\n\n＜Mix＞\nなな...",
@@ -301,6 +291,16 @@
       "upload_date": "2021-10-11T14:11:57"
     },
     {
+      "title": "【合唱】Climax Jump - AAA DEN-O form【Covered by SeventhV / セブンスV】",
+      "image": "https://i.ytimg.com/vi/hZ_5djzfLgY/sddefault.jpg?v=6013fc6b",
+      "alt": "【合唱】Climax Jump - AAA DEN-O form【Covered by SeventhV / セブンスV】",
+      "description": "「クライマックスのその先へ－－－」🚄\n\n---------------------------------------------------------\n🌈Original：Climax Jump ...",
+      "videoId": "hZ_5djzfLgY",
+      "video_url": "https://www.youtube.com/watch?v=hZ_5djzfLgY",
+      "tags": [],
+      "upload_date": "2021-01-30T16:00:10"
+    },
+    {
       "title": "ソーシャルディスタンス動画【GoToV店舗】店舗内でのお願い",
       "image": "https://i.ytimg.com/vi/-WAe9nsiZD4/sddefault.jpg",
       "alt": "ソーシャルディスタンス動画【GoToV店舗】店舗内でのお願い",
@@ -324,12 +324,12 @@
       "upload_date": "2020-09-04T19:00:00"
     },
     {
-      "title": "【合唱】Climax Jump - AAA DEN-O form【Covered by SeventhV / セブンスV】",
-      "image": "https://i.ytimg.com/vi/hZ_5djzfLgY/sddefault.jpg?v=6013fc6b",
-      "alt": "【合唱】Climax Jump - AAA DEN-O form【Covered by SeventhV / セブンスV】",
-      "description": "「クライマックスのその先へ－－－」🚄\n\n---------------------------------------------------------\n🌈Original：Climax Jump ...",
-      "videoId": "hZ_5djzfLgY",
-      "video_url": "https://www.youtube.com/watch?v=hZ_5djzfLgY",
+      "title": "【ななはぴ4周年記念】 夏祭り/ Whiteberry【合唱 / 歌ってみた】",
+      "image": "https://i.ytimg.com/vi/0P09VWG-dTc/sddefault.jpg",
+      "alt": "【ななはぴ4周年記念】 夏祭り/ Whiteberry【合唱 / 歌ってみた】",
+      "description": "ななはぴ4周年、最高の夏をお届け！\n\n＜Original＞\nWhiteberry様 https://youtu.be/AZRR01YOKcM?si=FymICOSQlPsiEHTc\n\n＜Mix＞\nなな...",
+      "videoId": "0P09VWG-dTc",
+      "video_url": "https://www.youtube.com/watch?v=0P09VWG-dTc",
       "tags": [],
       "upload_date": ""
     }
@@ -344,6 +344,6 @@
     "#セブンスV",
     "#セブンスVハーフアニバ"
   ],
-  "last_updated": "2025-08-20T00:31:24.854870",
+  "last_updated": "2025-08-20T01:31:15.135809",
   "total_videos": 27
 }
