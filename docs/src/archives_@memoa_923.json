@@ -959,16 +959,6 @@
       "upload_date": "2025-04-23T19:01:37"
     },
     {
-      "title": "【1.6万回再生突破】あの話題のカバー曲、もう聴いた？｜ムーンライト",
-      "image": "https://i.ytimg.com/vi/IEPjdO4qLQg/sddefault.jpg?v=67ff05a3",
-      "alt": "【1.6万回再生突破】あの話題のカバー曲、もう聴いた？｜ムーンライト",
-      "description": "Original：ムーンライト / 星街すいせい\nhttps://youtu.be/UmN7Fr_Kf-8?si=XcHghgKamhRjI26u\n\nIllustrator：みゃーこ\nhttps://...",
-      "videoId": "IEPjdO4qLQg",
-      "video_url": "https://www.youtube.com/watch?v=IEPjdO4qLQg",
-      "tags": [],
-      "upload_date": "2025-04-22T18:00:06"
-    },
-    {
       "title": "【お知らせ】活動再開します！新しい“めもあ”もよろしくね！",
       "image": "https://i.ytimg.com/vi/z336odKT4GM/sddefault.jpg",
       "alt": "【お知らせ】活動再開します！新しい“めもあ”もよろしくね！",
@@ -2327,6 +2317,16 @@
       "video_url": "https://www.youtube.com/watch?v=RC4nnjt3RoE",
       "tags": [],
       "upload_date": "2022-03-01T20:30:12"
+    },
+    {
+      "title": "【1.6万回再生突破】あの話題のカバー曲、もう聴いた？｜ムーンライト",
+      "image": "https://i.ytimg.com/vi/IEPjdO4qLQg/sddefault.jpg?v=67ff05a3",
+      "alt": "【1.6万回再生突破】あの話題のカバー曲、もう聴いた？｜ムーンライト",
+      "description": "Original：ムーンライト / 星街すいせい\nhttps://youtu.be/UmN7Fr_Kf-8?si=XcHghgKamhRjI26u\n\nIllustrator：みゃーこ\nhttps://...",
+      "videoId": "IEPjdO4qLQg",
+      "video_url": "https://www.youtube.com/watch?v=IEPjdO4qLQg",
+      "tags": [],
+      "upload_date": ""
     }
   ],
   "tags": [
@@ -2424,6 +2424,6 @@
     "#Vtuberと秋デートしませんか",
     "#2"
   ],
-  "last_updated": "2025-08-20T04:45:32.754271",
+  "last_updated": "2025-08-20T05:41:30.759814",
   "total_videos": 189
 }
