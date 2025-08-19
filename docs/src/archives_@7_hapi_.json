@@ -175,20 +175,6 @@
       "upload_date": "2023-08-11T18:00:07"
     },
     {
-      "title": "【マリオメーカー2】ゲームが苦手なVTuber【めもあ】#shorts  #vtuber  #ななはぴ",
-      "image": "https://i.ytimg.com/vi/taeh64ExOPk/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYICByKBEwDw==&rs=AOn4CLCp2LUiH3tgfP35iDMo2lrI2u0O9w",
-      "alt": "【マリオメーカー2】ゲームが苦手なVTuber【めもあ】#shorts  #vtuber  #ななはぴ",
-      "description": "@memoa_923 \n▼元配信▼\n【マリオメーカー２】世界のコース10クリアするまで配信【めもあ/Vtuber】\nhttps://www.youtube.com/live/2NMwobCGbBQ?f...",
-      "videoId": "taeh64ExOPk",
-      "video_url": "https://www.youtube.com/watch?v=taeh64ExOPk",
-      "tags": [
-        "#shorts",
-        "#vtuber",
-        "#ななはぴ"
-      ],
-      "upload_date": "2023-08-04T18:00:42"
-    },
-    {
       "title": "【Q REMASTERED】自称IQ5億の赤子【星降こゆ】#shorts  #vtuber  #ななはぴ",
       "image": "https://i.ytimg.com/vi/VhBpYrn8BJ0/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBNKGIwDw==&rs=AOn4CLCTCR-Ya6reA7NIZZUWTOW0DcHf3g",
       "alt": "【Q REMASTERED】自称IQ5億の赤子【星降こゆ】#shorts  #vtuber  #ななはぴ",
@@ -332,6 +318,20 @@
         "#セブンスVハーフアニバ"
       ],
       "upload_date": "2020-09-04T19:00:00"
+    },
+    {
+      "title": "【マリオメーカー2】ゲームが苦手なVTuber【めもあ】#shorts  #vtuber  #ななはぴ",
+      "image": "https://i.ytimg.com/vi/taeh64ExOPk/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYICByKBEwDw==&rs=AOn4CLCp2LUiH3tgfP35iDMo2lrI2u0O9w",
+      "alt": "【マリオメーカー2】ゲームが苦手なVTuber【めもあ】#shorts  #vtuber  #ななはぴ",
+      "description": "@memoa_923 \n▼元配信▼\n【マリオメーカー２】世界のコース10クリアするまで配信【めもあ/Vtuber】\nhttps://www.youtube.com/live/2NMwobCGbBQ?f...",
+      "videoId": "taeh64ExOPk",
+      "video_url": "https://www.youtube.com/watch?v=taeh64ExOPk",
+      "tags": [
+        "#shorts",
+        "#vtuber",
+        "#ななはぴ"
+      ],
+      "upload_date": ""
     }
   ],
   "tags": [
@@ -344,6 +344,6 @@
     "#セブンスV",
     "#セブンスVハーフアニバ"
   ],
-  "last_updated": "2025-08-19T13:31:15.411801",
+  "last_updated": "2025-08-19T14:31:17.499617",
   "total_videos": 27
 }

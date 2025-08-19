@@ -214,6 +214,20 @@
       "upload_date": "2025-07-15T18:00:39"
     },
     {
+      "title": "IN_MY_HEAD/なとり(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
+      "image": "https://i.ytimg.com/vi/CHZOK-LrM0Q/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYViBdKGUwDw==&rs=AOn4CLB1RavpqMRSu44fL1rryH4eme-Z7A",
+      "alt": "IN_MY_HEAD/なとり(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
+      "description": "教えてもらって一目惚れした曲\n\n▼本家さま / なとり 様\nhttps://www.youtube.com/watch?v=49tyOkJ0uLs\n\n=================\n\n▼Twitt...",
+      "videoId": "CHZOK-LrM0Q",
+      "video_url": "https://www.youtube.com/watch?v=CHZOK-LrM0Q",
+      "tags": [
+        "#shorts",
+        "#歌ってみた",
+        "#男性vtuber"
+      ],
+      "upload_date": "2025-07-14T18:00:26"
+    },
+    {
       "title": "【R.E.P.O.】26Lv~ 日本一をめざしてソロ攻略【#男性Vtuber】",
       "image": "https://i.ytimg.com/vi/fcx7eKjD7oo/sddefault.jpg?v=68731031",
       "alt": "【R.E.P.O.】26Lv~ 日本一をめざしてソロ攻略【#男性Vtuber】",
@@ -1746,16 +1760,6 @@
       "video_url": "https://www.youtube.com/watch?v=t-Bkh0VC1Ms",
       "tags": [],
       "upload_date": "2024-09-03T20:32:17"
-    },
-    {
-      "title": "エンゼルフィッシュ / パトリチェフ (covered by 楠木トヲル)",
-      "image": "https://i.ytimg.com/vi/7nBUT_l6hAs/sddefault.jpg?v=66af5313",
-      "alt": "エンゼルフィッシュ / パトリチェフ (covered by 楠木トヲル)",
-      "description": "熱帯魚の飼育ってむずかしそうだよね\n\n◆本家さま / パトリチェフ 様\nhttps://www.youtube.com/watch?v=bBbnxPgsIJg\n\n◆Illust / mamep 様\nh...",
-      "videoId": "7nBUT_l6hAs",
-      "video_url": "https://www.youtube.com/watch?v=7nBUT_l6hAs",
-      "tags": [],
-      "upload_date": "2024-08-04T19:00:07"
     },
     {
       "title": "【Fall Guys】優勝するぞBチーム【#ななはぴ杯2FG】",
@@ -4559,17 +4563,13 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
-      "title": "IN_MY_HEAD/なとり(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
-      "image": "https://i.ytimg.com/vi/CHZOK-LrM0Q/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYViBdKGUwDw==&rs=AOn4CLB1RavpqMRSu44fL1rryH4eme-Z7A",
-      "alt": "IN_MY_HEAD/なとり(covered by 楠木トヲル) #歌ってみた #男性vtuber #shorts",
-      "description": "教えてもらって一目惚れした曲\n\n▼本家さま / なとり 様\nhttps://www.youtube.com/watch?v=49tyOkJ0uLs\n\n=================\n\n▼Twitt...",
-      "videoId": "CHZOK-LrM0Q",
-      "video_url": "https://www.youtube.com/watch?v=CHZOK-LrM0Q",
-      "tags": [
-        "#shorts",
-        "#歌ってみた",
-        "#男性vtuber"
-      ],
+      "title": "エンゼルフィッシュ / パトリチェフ (covered by 楠木トヲル)",
+      "image": "https://i.ytimg.com/vi/7nBUT_l6hAs/sddefault.jpg?v=66af5313",
+      "alt": "エンゼルフィッシュ / パトリチェフ (covered by 楠木トヲル)",
+      "description": "熱帯魚の飼育ってむずかしそうだよね\n\n◆本家さま / パトリチェフ 様\nhttps://www.youtube.com/watch?v=bBbnxPgsIJg\n\n◆Illust / mamep 様\nh...",
+      "videoId": "7nBUT_l6hAs",
+      "video_url": "https://www.youtube.com/watch?v=7nBUT_l6hAs",
+      "tags": [],
       "upload_date": ""
     },
     {
@@ -4699,6 +4699,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-19T13:40:07.170669",
+  "last_updated": "2025-08-19T14:40:10.083761",
   "total_videos": 406
 }
