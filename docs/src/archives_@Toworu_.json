@@ -135,21 +135,6 @@
       "upload_date": "2025-07-24T19:01:07"
     },
     {
-      "title": "プロポーズ/なとり 流行りのダンスしてみた #vtuber #男性vtuber #vrchat #vrc",
-      "image": "https://i.ytimg.com/vi/wSh2RooyN90/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYciBHKCQwDw==&rs=AOn4CLBZQ1h04Lci9oOb5IBKlqLeak4WeQ",
-      "alt": "プロポーズ/なとり 流行りのダンスしてみた #vtuber #男性vtuber #vrchat #vrc",
-      "description": "最後ゴーグルのケーブルがビンってなって絡まっててウケる\n\n▼本家さま / なとり 様\nhttps://www.youtube.com/watch?v=VDdLF1YubI0\n\n============...",
-      "videoId": "wSh2RooyN90",
-      "video_url": "https://www.youtube.com/watch?v=wSh2RooyN90",
-      "tags": [
-        "#vrc",
-        "#vrchat",
-        "#vtuber",
-        "#男性vtuber"
-      ],
-      "upload_date": "2025-07-23T18:01:31"
-    },
-    {
       "title": "【#ななはぴサマーフェスタ】さいこうすぎたねほんとうに",
       "image": "https://i.ytimg.com/vi/j8NmvDhJJQs/sddefault.jpg?v=687dc428",
       "alt": "【#ななはぴサマーフェスタ】さいこうすぎたねほんとうに",
@@ -1760,6 +1745,16 @@
       "video_url": "https://www.youtube.com/watch?v=t-Bkh0VC1Ms",
       "tags": [],
       "upload_date": "2024-09-03T20:32:17"
+    },
+    {
+      "title": "エンゼルフィッシュ / パトリチェフ (covered by 楠木トヲル)",
+      "image": "https://i.ytimg.com/vi/7nBUT_l6hAs/sddefault.jpg?v=66af5313",
+      "alt": "エンゼルフィッシュ / パトリチェフ (covered by 楠木トヲル)",
+      "description": "熱帯魚の飼育ってむずかしそうだよね\n\n◆本家さま / パトリチェフ 様\nhttps://www.youtube.com/watch?v=bBbnxPgsIJg\n\n◆Illust / mamep 様\nh...",
+      "videoId": "7nBUT_l6hAs",
+      "video_url": "https://www.youtube.com/watch?v=7nBUT_l6hAs",
+      "tags": [],
+      "upload_date": "2024-08-04T19:00:07"
     },
     {
       "title": "【Fall Guys】優勝するぞBチーム【#ななはぴ杯2FG】",
@@ -4563,13 +4558,18 @@
       "upload_date": "2022-03-19T22:01:07"
     },
     {
-      "title": "エンゼルフィッシュ / パトリチェフ (covered by 楠木トヲル)",
-      "image": "https://i.ytimg.com/vi/7nBUT_l6hAs/sddefault.jpg?v=66af5313",
-      "alt": "エンゼルフィッシュ / パトリチェフ (covered by 楠木トヲル)",
-      "description": "熱帯魚の飼育ってむずかしそうだよね\n\n◆本家さま / パトリチェフ 様\nhttps://www.youtube.com/watch?v=bBbnxPgsIJg\n\n◆Illust / mamep 様\nh...",
-      "videoId": "7nBUT_l6hAs",
-      "video_url": "https://www.youtube.com/watch?v=7nBUT_l6hAs",
-      "tags": [],
+      "title": "プロポーズ/なとり 流行りのダンスしてみた #vtuber #男性vtuber #vrchat #vrc",
+      "image": "https://i.ytimg.com/vi/wSh2RooyN90/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYciBHKCQwDw==&rs=AOn4CLBZQ1h04Lci9oOb5IBKlqLeak4WeQ",
+      "alt": "プロポーズ/なとり 流行りのダンスしてみた #vtuber #男性vtuber #vrchat #vrc",
+      "description": "最後ゴーグルのケーブルがビンってなって絡まっててウケる\n\n▼本家さま / なとり 様\nhttps://www.youtube.com/watch?v=VDdLF1YubI0\n\n============...",
+      "videoId": "wSh2RooyN90",
+      "video_url": "https://www.youtube.com/watch?v=wSh2RooyN90",
+      "tags": [
+        "#vrc",
+        "#vrchat",
+        "#vtuber",
+        "#男性vtuber"
+      ],
       "upload_date": ""
     },
     {
@@ -4644,8 +4644,8 @@
     "#ななクラV",
     "#アカペラ",
     "#1",
-    "#vtuber",
     "#3",
+    "#vtuber",
     "#5D鯖",
     "#バーチャルyoutuber",
     "#4",
@@ -4667,8 +4667,6 @@
     "#ポケモン",
     "#8",
     "#7",
-    "#vrc",
-    "#vrchat",
     "#ななはぴサマーフェスタ",
     "#スーパーマリオパーティジャンボリー",
     "#MFP歌枠リレー",
@@ -4697,8 +4695,10 @@
     "#10",
     "#9",
     "#valorant男女対抗戦",
-    "#夏フェスv歌リレー"
+    "#夏フェスv歌リレー",
+    "#vrc",
+    "#vrchat"
   ],
-  "last_updated": "2025-08-19T14:40:10.083761",
+  "last_updated": "2025-08-19T15:40:12.179151",
   "total_videos": 406
 }
