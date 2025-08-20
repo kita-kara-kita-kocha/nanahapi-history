@@ -12,6 +12,10 @@ import re
 import time
 from pathlib import Path
 from datetime import datetime
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 
 debug_flag = False  # デバッグフラグ
 debug_videos = []  # デバッグ用動画情報リスト
@@ -212,13 +216,14 @@ def create_video_data_from_detailed_info(video_info, video_id):
         "upload_date": to_update_timestamp(upload_date),
     }
 
-def create_video_data_from_basic_info(entry):
+def create_video_data_from_basic_info(entry, membership_frag):
     """
     基本的な動画情報から動画データを作成（詳細取得失敗時用）
     
     Args:
         entry (dict): 基本的な動画情報
-    
+        membership_frag (bool): メン限フラグ
+
     Returns:
         dict: 整形された動画データ
     """
@@ -235,16 +240,27 @@ def create_video_data_from_basic_info(entry):
     if availability == 'subscriber_only':
         tags.append('#メン限')
 
-    
+    video_url = entry.get('url', f"https://www.youtube.com/watch?v={video_id}")
+    if membership_frag:
+        # メンバー限定動画の場合、配信開始日時を取得
+        upload_date = to_update_timestamp(get_live_date_info(video_url))
+    else:
+        # 通常動画の場合はリリースタイムスタンプを使用
+        upload_date = to_update_timestamp(entry.get('release_timestamp', None))
+        if not upload_date:
+            print(f"  → ✗ 配信開始日時取得失敗: ID: {video_id}")
+            upload_date = "不明"
+    # デバック用に動画情報を表示
+    # print(json.dumps(entry, ensure_ascii=False, indent=2))
     return {
         "title": title,
         "image": get_thumbnail_url(entry, video_id),
         "alt": entry.get('title', 'タイトル不明'),
         "description": entry.get('description')[:100] + "..." if entry.get('description') else "説明なし",
         "videoId": video_id,
-        "video_url": entry.get('url', f"https://www.youtube.com/watch?v={video_id}"),
+        "video_url": video_url,
         "tags": tags,
-        "upload_date": to_update_timestamp(entry.get('release_timestamp', '')),
+        "upload_date": upload_date,
     }
 
 def process_video_entry(entry, ydl_opts):
@@ -277,17 +293,19 @@ def process_video_entry(entry, ydl_opts):
     except Exception as e: 
         # 個別動画の取得に失敗した場合は放送予定枠かメン限枠なので動画情報を整形する
         error_message = str(e)
-        
+        membership_frag = False
+
         # エラーメッセージから特定の状況を判定
-        if 'members-only' in error_message:
+        if entry.get('availability') == 'subscriber_only':
             print(f"  → ✓ メンバー限定動画: ID: {video_id} - 詳細情報の取得をスキップします")
+            membership_frag = True
         elif "This live event will" in error_message:
             print(f"  → ✓ 未放送枠: ID: {video_id} - 詳細情報の取得をスキップします")
         else:
             print(f"  → ✗ 詳細情報取得失敗: ID: {video_id} - {error_message}")
         print(f"    → 基本情報のみで処理を続行します")
-        
-        return create_video_data_from_basic_info(entry)
+
+        return create_video_data_from_basic_info(entry, membership_frag)
 
 def get_video_info(channel_url: str, get_length: int):
     """
@@ -372,6 +390,40 @@ def load_json(input_file):
     except Exception as e:
         print(f"❌ 不明なエラー: {str(e)}")
         return {}
+
+def get_live_date_info(video_url):
+    """
+    メンバー限定配信の開始日時はyt-dlpでは取得できないため、
+    youtube動画サイトにブラウジングして、配信開始日時を取得
+    セレクタは以下を利用(バクったら修正)
+    #watch7-content > span:nth-child(22) > meta:nth-child(2)
+    Args:
+        video_url (str): YouTube動画のURL
+    Returns:
+        str: 配信開始日時
+    """
+    # youtube動画サイト(video_url)にブラウジングアクセス
+    try:
+        print(f"メンバー限定配信の開始日時を取得中: {video_url}")
+        # SeleniumのWebDriverを使用してブラウジング
+        options = Options()
+        options.add_argument("--headless")  # ヘッドレスモードを使用
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        driver.get(video_url)
+
+        # 配信開始日時を取得
+        start_time_element = driver.find_element("css selector", "#watch7-content > span:nth-child(22) > meta:nth-child(2)")
+        start_time = start_time_element.get_attribute("content")
+
+        driver.quit()
+        return start_time
+
+    except Exception as e:
+        print(f"エラーが発生しました: {e}")
+        return None
 
 def save_to_json(videos, output_file):
     """
