@@ -78,6 +78,7 @@ def get_ydl_options():
         'max_sleep_interval': 15,  # 最大スリープ間隔
         'retries': 3,  # リトライ回数
         'fragment_retries': 3,  # フラグメントリトライ回数
+        'format': 'bestvideo+bestaudio/best',  # 最適なフォーマットを自動選択(エラー回避)
     }
 
 def get_detailed_video_info(video_id, ydl_opts):
@@ -201,10 +202,11 @@ def create_video_data_from_detailed_info(video_info, video_id):
     title = video_info.get('title', 'タイトル不明')
     # 「#」で始まるタグを抽出
     tags = imprecise_tags(title)
-    upload_date = video_info.get('release_timestamp', '')
-    if upload_date is None or upload_date == '':
+    upload_date = video_info.get('release_timestamp', None)
+    if upload_date is None:
         upload_date = video_info.get('timestamp', 0)
-
+        if upload_date is None:
+            upload_date = get_live_date_info(f"https://www.youtube.com/watch?v={video_id}")
     return {
         "title": title,
         "image": get_thumbnail_url(video_info, video_id),
@@ -216,7 +218,7 @@ def create_video_data_from_detailed_info(video_info, video_id):
         "upload_date": to_update_timestamp(upload_date),
     }
 
-def create_video_data_from_basic_info(entry, membership_frag):
+def create_video_data_from_basic_info(entry: dict, membership_frag: bool = False):
     """
     基本的な動画情報から動画データを作成（詳細取得失敗時用）
     
@@ -227,6 +229,7 @@ def create_video_data_from_basic_info(entry, membership_frag):
     Returns:
         dict: 整形された動画データ
     """
+
     video_id = entry['id']
     
     # availability情報の取得を試行
@@ -247,11 +250,8 @@ def create_video_data_from_basic_info(entry, membership_frag):
     else:
         # 通常動画の場合はリリースタイムスタンプを使用
         upload_date = to_update_timestamp(entry.get('release_timestamp', None))
-        if not upload_date:
-            print(f"  → ✗ 配信開始日時取得失敗: ID: {video_id}")
-            upload_date = "不明"
-    # デバック用に動画情報を表示
-    # print(json.dumps(entry, ensure_ascii=False, indent=2))
+        if not upload_date or upload_date == "":
+            upload_date = to_update_timestamp(get_live_date_info(video_url))
     return {
         "title": title,
         "image": get_thumbnail_url(entry, video_id),
@@ -275,44 +275,71 @@ def process_video_entry(entry, ydl_opts):
         dict: 処理された動画データ
     """
     video_id = entry['id']
+    video_info = None  # 詳細情報取得用の変数
     
     try:
         # 個別の動画情報を取得（エラーハンドリング強化）
-        print(f"動画ID {video_id} の詳細情報を取得中...")
-        
-        video_info = get_detailed_video_info(video_id, ydl_opts)
-        if debug_flag:
-            debug_videos.append(video_info)  # デバッグ用動画情報を追加
+        print(f"動画ID {video_id} の情報取得")
 
-        # 動画情報を整形
-        video_data = create_video_data_from_detailed_info(video_info, video_id)
+        if entry.get('availability') == 'subscriber_only':
+            print(f"  → ✓ メンバー限定動画: {entry.get('title', 'タイトル不明')} (ID: {video_id})")
+            return create_video_data_from_basic_info(entry, membership_frag = True)
         
-        print(f"  → ✓ 取得完了: {video_data.get('title', 'タイトル不明')} (ID: {video_id})")
-        return video_data
+
+        elif entry.get('release_timestamp', None) and time.time() < entry.get('release_timestamp'):
+            print(f"  → ✓ 未放送枠: {entry.get('title', 'タイトル不明')} (ID: {video_id})")
+            return create_video_data_from_basic_info(entry)
+        
+        else:
+            video_info = get_detailed_video_info(video_id, ydl_opts)
+            print(f"  → ✓ アーカイブ: {entry.get('title', 'タイトル不明')} (ID: {video_id})")
+            return create_video_data_from_detailed_info(video_info, video_id)
         
     except Exception as e: 
         # 個別動画の取得に失敗した場合は放送予定枠かメン限枠なので動画情報を整形する
         error_message = str(e)
-        membership_frag = False
 
-        # エラーメッセージから特定の状況を判定
-        if entry.get('availability') == 'subscriber_only':
-            print(f"  → ✓ メンバー限定動画: ID: {video_id} - 詳細情報の取得をスキップします")
-            membership_frag = True
-        elif "This live event will" in error_message:
-            print(f"  → ✓ 未放送枠: ID: {video_id} - 詳細情報の取得をスキップします")
+        # # 年齢認証の場合の特別処理
+        # if 'Sign in to confirm your age.' in error_message:
+        #     print(f"  → ✗ 年齢認証が必要: {entry.get('title', 'タイトル不明')} (ID: {video_id})")
+        #     upload_date = ""
+        #     # 特定の動画のアップロード日時
+        #     if video_id == 'JTUUYfSXWDg':
+        #         upload_date = "2020-08-15T05:00:10-07:00"
+        #     return {
+        #         "title": entry.get('title', 'タイトル不明'),
+        #         "image": get_thumbnail_url(entry, video_id),
+        #         "alt": entry.get('title', 'タイトル不明'),
+        #         "description": entry.get('description')[:100] + "..." if entry.get('description') else "説明なし",
+        #         "videoId": video_id,
+        #         "video_url": entry.get('url', f"https://www.youtube.com/watch?v={video_id}"),
+        #         "tags": [],
+        #         "upload_date": upload_date,
+        #     }
+
+        print(f"  → ✗ 情報取得失敗: {entry.get('title', 'タイトル不明')} (ID: {video_id}) - {error_message}")
+        if video_info:
+            print("video_info:")
+            print(json.dumps(video_info, ensure_ascii=False, indent=2))
         else:
-            print(f"  → ✗ 詳細情報取得失敗: ID: {video_id} - {error_message}")
-        print(f"    → 基本情報のみで処理を続行します")
+            print("entry:")
+            print(json.dumps(entry, ensure_ascii=False, indent=2))
+        try:
+            result = create_video_data_from_basic_info(entry, membership_frag = True)
+            print(f"   → ✓ 基本情報での動画データを作成")
+            return result
+        except Exception as e:
+            print(f"   → ✗ 基本情報での動画データ作成失敗: {str(e)}")
 
-        return create_video_data_from_basic_info(entry, membership_frag)
+            sys.exit(1)  # エラーが発生した場合はスクリプトを終了
 
-def get_video_info(channel_url: str, get_length: int):
+def get_video_info(channel_url: str, video_type: str, get_length: int):
     """
     YouTubeチャンネルから動画情報を取得
     
     Args:
         channel_url (str): YouTubeチャンネルのURL
+        video_type (str): 取得する動画の種類（例: 'streams', 'videos', 'shorts'）
         get_length (int): 取得する動画の最大数
     
     Returns:
@@ -325,11 +352,11 @@ def get_video_info(channel_url: str, get_length: int):
     
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            print(f"'{channel_url}' から動画情報を取得中...")
-            
+            print(f"'{channel_url}/{video_type}' から動画情報を取得中...")
+
             # チャンネルの動画一覧を取得
-            info = ydl.extract_info(channel_url, download=False)
-            
+            info = ydl.extract_info(f'{channel_url}/{video_type}', download=False)
+
             if 'entries' in info:
                 # 最大{get_length}件までの動画エントリを取得
                 entries = info['entries']
@@ -348,12 +375,13 @@ def get_video_info(channel_url: str, get_length: int):
                     entries = entries[:get_length]
                 # 各動画エントリを処理
                 print("更新動画数:", len(entries))
+                cnt = 0
                 for entry in entries:
                     if entry and 'id' in entry:
+                        cnt = cnt + 1
+                        print(f"No. {cnt}", end=' ::: ')
                         video_data = process_video_entry(entry, ydl_opts)
                         videos.append(video_data)
-                    
-
             else:
                 print("チャンネルに動画が見つかりませんでした。")
                 
@@ -391,39 +419,65 @@ def load_json(input_file):
         print(f"❌ 不明なエラー: {str(e)}")
         return {}
 
-def get_live_date_info(video_url):
+def get_live_date_info(video_url: str):
     """
     メンバー限定配信の開始日時はyt-dlpでは取得できないため、
     youtube動画サイトにブラウジングして、配信開始日時を取得
-    セレクタは以下を利用(バクったら修正)
+    どちらかのセレクタから取得
     #watch7-content > span:nth-child(22) > meta:nth-child(2)
+    #watch7-content > meta:nth-child(19)
     Args:
         video_url (str): YouTube動画のURL
     Returns:
         str: 配信開始日時
     """
     # youtube動画サイト(video_url)にブラウジングアクセス
-    try:
-        print(f"メンバー限定配信の開始日時を取得中: {video_url}")
-        # SeleniumのWebDriverを使用してブラウジング
-        options = Options()
-        options.add_argument("--headless")  # ヘッドレスモードを使用
-        options.add_argument("--no-sandbox")
-        options.add_argument("--disable-dev-shm-usage")
 
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-        driver.get(video_url)
+    # 想定されるセレクタリストを定義
+    selectors = [
+        "#watch7-content > span:nth-child(22) > meta:nth-child(2)",
+        "#watch7-content > span:nth-child(23) > meta:nth-child(2)",
+        "#watch7-content > meta:nth-child(19)",
+        "#watch7-content > meta:nth-child(20)",
+        "#watch7-content > meta:nth-child(21)",
+    ]
 
-        # 配信開始日時を取得
-        start_time_element = driver.find_element("css selector", "#watch7-content > span:nth-child(22) > meta:nth-child(2)")
-        start_time = start_time_element.get_attribute("content")
+    print(f"   → ✓ ブラウジングで開始日時を取得中: {video_url}")
+    # SeleniumのWebDriverを使用してブラウジング
+    options = Options()
+    options.add_argument("--headless")  # ヘッドレスモードを使用
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
 
-        driver.quit()
-        return start_time
+    for attempt in range(3):
+        try:
+            driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+            driver.get(video_url)
 
-    except Exception as e:
-        print(f"エラーが発生しました: {e}")
-        return None
+            # セレクタを順に試して配信開始日時を取得
+            for sel in selectors:
+                try:
+                    start_time_element = driver.find_element("css selector", sel)
+                    start_time = start_time_element.get_attribute("content")
+
+                    driver.quit()
+                    if not start_time:
+                        print(f"     ┣ セレクタ '{sel}' で配信開始日時が取得できませんでした。")
+                        continue
+                    print(f"    → ✓ セレクタ '{sel}' で配信開始日時を取得しました。")
+                    return start_time
+
+                except Exception as e:
+                    print(f"     ┣ セレクタ '{sel}' での取得に失敗しました。")
+            driver.quit()
+            print(f"❌ すべてのセレクタで配信開始日時の取得に失敗しました。")
+        except Exception as e:
+            print(f"   → ✗ ブラウジング試行 {attempt+1}/3 でエラー: {e}")
+        if attempt < 2:
+            print(f"   → リトライします... ({attempt+2}/3)")
+            time.sleep(2)
+    print("❌ 3回試行しても配信開始日時の取得に失敗しました。")
+    sys.exit(1)  # すべてのセレクタで失敗した場合はスクリプトを終了
 
 def save_to_json(videos, output_file):
     """
@@ -569,9 +623,9 @@ def main():
     # 動画情報を取得
     print(f"🔍 チャンネル '{CHANNEL_URL}' から動画情報を取得します...")
     videos = []
-    videos.extend(get_video_info(f'{CHANNEL_URL}/streams', get_length))
-    videos.extend(get_video_info(f'{CHANNEL_URL}/videos', get_length))
-    videos.extend(get_video_info(f'{CHANNEL_URL}/shorts', get_length))
+    videos.extend(get_video_info(f'{CHANNEL_URL}', 'streams', get_length))
+    videos.extend(get_video_info(f'{CHANNEL_URL}', 'videos', get_length))
+    videos.extend(get_video_info(f'{CHANNEL_URL}', 'shorts', get_length))
 
     if videos:
         # JSONファイルに保存
