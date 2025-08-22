@@ -11,7 +11,7 @@ import yt_dlp
 import re
 import time
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -78,7 +78,7 @@ def get_ydl_options():
         'max_sleep_interval': 15,  # 最大スリープ間隔
         'retries': 3,  # リトライ回数
         'fragment_retries': 3,  # フラグメントリトライ回数
-        'format': 'bestvideo+bestaudio/best',  # 最適なフォーマットを自動選択(エラー回避)
+        'ignore_no_formats_error': True, # フォーマットが見つからないエラーを無視
     }
 
 def get_detailed_video_info(video_id, ydl_opts):
@@ -100,7 +100,7 @@ def get_detailed_video_info(video_id, ydl_opts):
     for attempt in range(3):  # 3回まで再試行
         try:
             if attempt > 0:
-                print(f"    リトライ中... 試行 {attempt + 1}/3")
+                print(f"    リトライ中... 試行 {attempt + 1}/3", flush=True)
 
             with yt_dlp.YoutubeDL(video_ydl_opts) as video_ydl:
                 video_info = video_ydl.extract_info(
@@ -109,7 +109,7 @@ def get_detailed_video_info(video_id, ydl_opts):
                 )
             break  # 成功したらループを抜ける
         except Exception as retry_error:
-            print(f"    試行 {attempt + 1}/3 失敗: {str(retry_error)}")
+            print(f"    試行 {attempt + 1}/3 失敗: {str(retry_error)}", flush=True)
             if attempt < 2:  # 最後の試行でなければ待機
                 time.sleep(5)  # 5秒待機
             else:
@@ -137,10 +137,19 @@ def to_update_timestamp(timestamp):
     """
     if isinstance(timestamp, int):
         # 秒単位のタイムスタンプをISO形式に変換
-        return datetime.fromtimestamp(timestamp).isoformat()
+        convert_timestamp = datetime.fromtimestamp(timestamp).isoformat()
+        return convert_timestamp
     elif isinstance(timestamp, str):
-        # ISO形式の文字列をそのまま返す
-        return timestamp
+        # datetimeに変換
+        dt = datetime.fromisoformat(timestamp)
+        # タイムゾーン+9の時間に変換
+        dt = dt + timedelta(hours=9)
+        # strのISO形式に変換
+        convert_timestamp = dt.isoformat()
+        # 末尾のタイムゾーン情報を削除(末尾に+XX:XXか-XX:XXがある場合)
+        if re.search(r"[+-]\d{2}:\d{2}$", convert_timestamp):
+            convert_timestamp = convert_timestamp[:-6]
+        return convert_timestamp
     else:
         # 無効な形式の場合は空文字列を返す
         return ""
@@ -203,10 +212,13 @@ def create_video_data_from_detailed_info(video_info, video_id):
     # 「#」で始まるタグを抽出
     tags = imprecise_tags(title)
     upload_date = video_info.get('release_timestamp', None)
-    if upload_date is None:
-        upload_date = video_info.get('timestamp', 0)
-        if upload_date is None:
-            upload_date = get_live_date_info(f"https://www.youtube.com/watch?v={video_id}")
+    if upload_date is None or upload_date == '':
+        print(f"  → △ release_timestamp情報が空なのでtimestamp情報から取得(誤差許容)", flush=True)
+        upload_date = video_info.get('timestamp', None)
+    if upload_date is None or upload_date == '':
+        print(f"  → △ timestamp情報も空", flush=True)
+        # print(json.dumps(video_info, ensure_ascii=False, indent=2), flush=True)
+        upload_date = get_live_date_info(f"https://www.youtube.com/watch?v={video_id}")
     return {
         "title": title,
         "image": get_thumbnail_url(video_info, video_id),
@@ -246,12 +258,21 @@ def create_video_data_from_basic_info(entry: dict, membership_frag: bool = False
     video_url = entry.get('url', f"https://www.youtube.com/watch?v={video_id}")
     if membership_frag:
         # メンバー限定動画の場合、配信開始日時を取得
-        upload_date = to_update_timestamp(get_live_date_info(video_url))
+        print(f"  → ✓ メンバー限定動画", flush=True)
+        upload_date = get_live_date_info(video_url)
     else:
         # 通常動画の場合はリリースタイムスタンプを使用
-        upload_date = to_update_timestamp(entry.get('release_timestamp', None))
+        upload_date = entry.get('release_timestamp', None)
         if not upload_date or upload_date == "":
-            upload_date = to_update_timestamp(get_live_date_info(video_url))
+            print(f"  → △ release_timestamp情報が空", flush=True)
+            try:
+                upload_date = get_live_date_info(video_url)
+            except Exception as e:
+                error_message = str(e)
+                if error_message == "failed get_live_date_info":
+                    print('entry')
+                    print(json.dumps(entry, ensure_ascii=False, indent=2), flush=True)
+                    sys.exit(1)  # エラーが発生した場合はスクリプトを終了
     return {
         "title": title,
         "image": get_thumbnail_url(entry, video_id),
@@ -260,7 +281,7 @@ def create_video_data_from_basic_info(entry: dict, membership_frag: bool = False
         "videoId": video_id,
         "video_url": video_url,
         "tags": tags,
-        "upload_date": upload_date,
+        "upload_date": to_update_timestamp(upload_date),
     }
 
 def process_video_entry(entry, ydl_opts):
@@ -279,20 +300,20 @@ def process_video_entry(entry, ydl_opts):
     
     try:
         # 個別の動画情報を取得（エラーハンドリング強化）
-        print(f"動画ID {video_id} の情報取得")
+        print(f"動画ID {video_id} の情報取得", flush=True)
 
         if entry.get('availability') == 'subscriber_only':
-            print(f"  → ✓ メンバー限定動画: {entry.get('title', 'タイトル不明')} (ID: {video_id})")
+            print(f" → ✓ メンバー限定動画: {entry.get('title', 'タイトル不明')} (ID: {video_id})", flush=True)
             return create_video_data_from_basic_info(entry, membership_frag = True)
         
 
         elif entry.get('release_timestamp', None) and time.time() < entry.get('release_timestamp'):
-            print(f"  → ✓ 未放送枠: {entry.get('title', 'タイトル不明')} (ID: {video_id})")
+            print(f" → ✓ 未放送枠: {entry.get('title', 'タイトル不明')} (ID: {video_id})", flush=True)
             return create_video_data_from_basic_info(entry)
         
         else:
             video_info = get_detailed_video_info(video_id, ydl_opts)
-            print(f"  → ✓ アーカイブ: {entry.get('title', 'タイトル不明')} (ID: {video_id})")
+            print(f" → ✓ アーカイブ: {entry.get('title', 'タイトル不明')} (ID: {video_id})", flush=True)
             return create_video_data_from_detailed_info(video_info, video_id)
         
     except Exception as e: 
@@ -317,20 +338,19 @@ def process_video_entry(entry, ydl_opts):
         #         "upload_date": upload_date,
         #     }
 
-        print(f"  → ✗ 情報取得失敗: {entry.get('title', 'タイトル不明')} (ID: {video_id}) - {error_message}")
-        if video_info:
-            print("video_info:")
-            print(json.dumps(video_info, ensure_ascii=False, indent=2))
-        else:
-            print("entry:")
-            print(json.dumps(entry, ensure_ascii=False, indent=2))
+        print(f"  → △ 情報取得失敗: {entry.get('title', 'タイトル不明')} (ID: {video_id}) - {error_message}", flush=True)
         try:
             result = create_video_data_from_basic_info(entry, membership_frag = True)
-            print(f"   → ✓ 基本情報での動画データを作成")
+            print(f"   → ✓ 基本情報での動画データを作成", flush=True)
             return result
         except Exception as e:
-            print(f"   → ✗ 基本情報での動画データ作成失敗: {str(e)}")
-
+            print(f"   → ✗ 基本情報での動画データ作成失敗: {str(e)}", flush=True)
+            if video_info:
+                print("video_info:")
+                print(json.dumps(video_info, ensure_ascii=False, indent=2), flush=True)
+            else:
+                print("entry:")
+                print(json.dumps(entry, ensure_ascii=False, indent=2), flush=True)
             sys.exit(1)  # エラーが発生した場合はスクリプトを終了
 
 def get_video_info(channel_url: str, video_type: str, get_length: int):
@@ -352,7 +372,7 @@ def get_video_info(channel_url: str, video_type: str, get_length: int):
     
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            print(f"'{channel_url}/{video_type}' から動画情報を取得中...")
+            print(f"'{channel_url}/{video_type}' から動画情報を取得中...", flush=True)
 
             # チャンネルの動画一覧を取得
             info = ydl.extract_info(f'{channel_url}/{video_type}', download=False)
@@ -362,31 +382,31 @@ def get_video_info(channel_url: str, video_type: str, get_length: int):
                 entries = info['entries']
                 # デバッグ情報としてjson形式で保存
                 if debug_flag:
-                    print("デバッグモード: 動画エントリ情報を 'debug_entries.json' に保存します")
+                    print("デバッグモード: 動画エントリ情報を 'debug_entries.json' に保存します", flush=True)
                     with open('debug_entries.json', 'w', encoding='utf-8') as f:
                         json.dump(entries, f, ensure_ascii=False, indent=2)
-                print(f"発見された動画数: {len(entries)}")
+                print(f"発見された動画数: {len(entries)}", flush=True)
                 if get_length is None:
-                    print("動画数の制限なしで取得します")
+                    print("動画数の制限なしで取得します", flush=True)
                 elif get_length <= 0:
-                    print("動画数の制限数が無効です。全ての動画を取得します")
+                    print("動画数の制限数が無効です。全ての動画を取得します", flush=True)
                 elif len(entries) > get_length:
-                    print(f"最新の{get_length}件のみを更新します")
+                    print(f"最新の{get_length}件のみを更新します", flush=True)
                     entries = entries[:get_length]
                 # 各動画エントリを処理
-                print("更新動画数:", len(entries))
+                print("更新動画数:", len(entries), flush=True)
                 cnt = 0
                 for entry in entries:
                     if entry and 'id' in entry:
                         cnt = cnt + 1
-                        print(f"No. {cnt}", end=' ::: ')
+                        print(f"No. {cnt}", end=' ::: ', flush=True)
                         video_data = process_video_entry(entry, ydl_opts)
                         videos.append(video_data)
             else:
-                print("チャンネルに動画が見つかりませんでした。")
+                print("チャンネルに動画が見つかりませんでした。", flush=True)
                 
     except Exception as e:
-        print(f"エラーが発生しました: {str(e)}")
+        print(f"エラーが発生しました: {str(e)}", flush=True)
         return []
     
     return videos
@@ -407,16 +427,16 @@ def load_json(input_file):
             if 'items' in data and isinstance(data['items'], list):
                 return data
             else:
-                print(f"❌ 無効なJSON形式: {input_file} の内容が正しくありません")
+                print(f"❌ 無効なJSON形式: {input_file} の内容が正しくありません", flush=True)
                 return {}
     except json.JSONDecodeError as e:
-        print(f"❌ JSONデコードエラー: {str(e)} - {input_file} の内容が正しくありません")
+        print(f"❌ JSONデコードエラー: {str(e)} - {input_file} の内容が正しくありません", flush=True)
         return {}
     except FileNotFoundError:
-        print(f"❌ ファイルが見つかりません: {input_file}")
+        print(f"❌ ファイルが見つかりません: {input_file}", flush=True)
         return {}
     except Exception as e:
-        print(f"❌ 不明なエラー: {str(e)}")
+        print(f"❌ 不明なエラー: {str(e)}", flush=True)
         return {}
 
 def get_live_date_info(video_url: str):
@@ -442,7 +462,7 @@ def get_live_date_info(video_url: str):
         "#watch7-content > meta:nth-child(21)",
     ]
 
-    print(f"   → ✓ ブラウジングで開始日時を取得中: {video_url}")
+    print(f"   → ✓ ブラウジングで開始日時を取得中: {video_url}", flush=True)
     # SeleniumのWebDriverを使用してブラウジング
     options = Options()
     options.add_argument("--headless")  # ヘッドレスモードを使用
@@ -462,22 +482,22 @@ def get_live_date_info(video_url: str):
 
                     driver.quit()
                     if not start_time:
-                        print(f"     ┣ セレクタ '{sel}' で配信開始日時が取得できませんでした。")
+                        print(f"     ┣ セレクタ '{sel}' で配信開始日時が取得できませんでした。", flush=True)
                         continue
-                    print(f"    → ✓ セレクタ '{sel}' で配信開始日時を取得しました。")
+                    print(f"    → ✓ セレクタ '{sel}' で配信開始日時を取得しました。", flush=True)
                     return start_time
 
                 except Exception as e:
-                    print(f"     ┣ セレクタ '{sel}' での取得に失敗しました。")
+                    print(f"     ┣ セレクタ '{sel}' での取得に失敗しました。", flush=True)
             driver.quit()
-            print(f"❌ すべてのセレクタで配信開始日時の取得に失敗しました。")
+            print(f"     ┗ ✗ すべてのセレクタで配信開始日時の取得に失敗しました。", flush=True)
         except Exception as e:
-            print(f"   → ✗ ブラウジング試行 {attempt+1}/3 でエラー: {e}")
+            print(f"   → △ ブラウジング試行 {attempt+1}/3 でエラー: {e}", flush=True)
         if attempt < 2:
-            print(f"   → リトライします... ({attempt+2}/3)")
+            print(f"   → リトライします... ({attempt+2}/3)", flush=True)
             time.sleep(2)
-    print("❌ 3回試行しても配信開始日時の取得に失敗しました。")
-    sys.exit(1)  # すべてのセレクタで失敗した場合はスクリプトを終了
+    print("❌ 3回試行しても配信開始日時の取得に失敗しました。", flush=True)
+    raise Exception("failed get_live_date_info")
 
 def save_to_json(videos, output_file):
     """
@@ -532,11 +552,11 @@ def save_to_json(videos, output_file):
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(json_data, f, ensure_ascii=False, indent=2)
         
-        print(f"\n✅ 動画情報を {output_file} に保存しました")
-        print(f"📊 総動画数: {len(videos)}")
+        print(f"\n✅ 動画情報を {output_file} に保存しました", flush=True)
+        print(f"📊 総動画数: {len(videos)}", flush=True)
         
     except Exception as e:
-        print(f"❌ ファイル保存エラー: {str(e)}")
+        print(f"❌ ファイル保存エラー: {str(e)}", flush=True)
 
 def check_dependencies():
     """
@@ -547,12 +567,12 @@ def check_dependencies():
     """
     try:
         import yt_dlp
-        print(f"✅ yt-dlp バージョン: {yt_dlp.version.__version__}")
+        print(f"✅ yt-dlp バージョン: {yt_dlp.version.__version__}", flush=True)
         return True
     except ImportError:
-        print("❌ yt-dlpがインストールされていません。")
-        print("以下のコマンドでインストールしてください:")
-        print("pip install yt-dlp")
+        print("❌ yt-dlpがインストールされていません。", flush=True)
+        print("以下のコマンドでインストールしてください:", flush=True)
+        print("pip install yt-dlp", flush=True)
         return False
 
 def display_execution_environment():
@@ -561,8 +581,8 @@ def display_execution_environment():
     """
     import os
     if os.getenv('GITHUB_ACTIONS') == 'true':
-        print("🤖 GitHub Actions環境で実行中")
-        print(f"📁 キャッシュディレクトリ: {os.getenv('YT_DLP_CACHE_DIR', 'デフォルト')}")
+        print("🤖 GitHub Actions環境で実行中", flush=True)
+        print(f"📁 キャッシュディレクトリ: {os.getenv('YT_DLP_CACHE_DIR', 'デフォルト')}", flush=True)
 
 def display_video_samples(videos, sample_count=3):
     """
@@ -579,10 +599,10 @@ def display_video_samples(videos, sample_count=3):
         print(f"   説明: {video['description']}")
         if 'metadata' in video:
             print(f"   メタデータ: {', '.join(video['metadata'])}")
-        print(f"   クラス: {video.get('addAdditionalClass', [])}")
-    
+        print(f"   クラス: {video.get('addAdditionalClass', [])}", flush=True)
+
     if len(videos) > sample_count:
-        print(f"\n... 他 {len(videos) - sample_count} 個の動画情報を更新しました")
+        print(f"\n... 他 {len(videos) - sample_count} 個の動画情報を更新しました", flush=True)
 
 def main():
     """

@@ -41,6 +41,8 @@ check-venv:
 	@$(PYTHON) --version
 	@echo "📦 インストール済みパッケージ:"
 	@$(PYTHON) -m pip list | grep -E "(yt-dlp|pip)" || echo "   yt-dlpがインストールされていません"
+	@echo "⬆️ yt-dlpのアップデートを確認:"
+	@$(PYTHON) -m pip install --upgrade yt-dlp
 
 # 依存関係のセットアップ
 setup: check-venv
