@@ -1,13 +1,15 @@
 {
   "items": [
     {
-      "title": "録音前の声だし 2025-08-25 10:37",
+      "title": "【縦型歌枠】録音前の声だし【#男性Vtuber】 2025-08-25 11:37",
       "image": "https://i.ytimg.com/vi/UBhnzjNAzc8/sddefault.jpg?v=68abbcf2",
-      "alt": "録音前の声だし 2025-08-25 10:37",
+      "alt": "【縦型歌枠】録音前の声だし【#男性Vtuber】 2025-08-25 11:37",
       "description": "歌枠\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：カンカラナシ 様\nhttps://twitter.com/ka...",
       "videoId": "UBhnzjNAzc8",
       "video_url": "https://www.youtube.com/watch?v=UBhnzjNAzc8",
-      "tags": [],
+      "tags": [
+        "#男性Vtuber"
+      ],
       "upload_date": "2025-08-25T10:31:44"
     },
     {
@@ -4731,6 +4733,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-08-25T10:38:14.163046",
+  "last_updated": "2025-08-25T11:38:23.782714",
   "total_videos": 409
 }
