@@ -187,13 +187,6 @@ function setupEventListeners() {
     closeDetailsButton.addEventListener('click', () => {
         videoDetailsElement.style.display = 'none';
     });
-    
-    // モーダル外クリックで閉じる
-    videoDetailsElement.addEventListener('click', (e) => {
-        if (e.target === videoDetailsElement) {
-            videoDetailsElement.style.display = 'none';
-        }
-    });
 }
 
 // カレンダーをレンダリング
@@ -329,6 +322,12 @@ function showDayDetails(date, videos) {
     });
     
     videoDetailsElement.style.display = 'block';
+
+    // 既存のクリックリスナーを削除してから新しく追加
+    document.removeEventListener('click', handleOutsideClick);
+    setTimeout(() => {
+        document.addEventListener('click', handleOutsideClick);
+    }, 0);
 }
 
 // 動画詳細アイテムを作成
@@ -402,6 +401,14 @@ function updateSelectedCount() {
 // ローディング表示の切り替え
 function showLoading(show) {
     loadingElement.style.display = show ? 'flex' : 'none';
+}
+
+// 詳細パネル外クリックで閉じる処理
+function handleOutsideClick(e) {
+    if (!videoDetailsElement.contains(e.target) && videoDetailsElement.style.display === 'block') {
+        videoDetailsElement.style.display = 'none';
+        document.removeEventListener('click', handleOutsideClick);
+    }
 }
 
 // 初期化実行
