@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "title": "【 #歌ってみた 】あの夏が飽和する/カンザキイオリ #vtuber",
+      "image": "https://i.ytimg.com/vi/Q-Abch9mQBw/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLDQYfiDga_Wdy9tZVfvV7zvxshBqg",
+      "alt": "【 #歌ってみた 】あの夏が飽和する/カンザキイオリ #vtuber",
+      "description": "説明なし",
+      "videoId": "Q-Abch9mQBw",
+      "video_url": "https://www.youtube.com/watch?v=Q-Abch9mQBw",
+      "tags": [
+        "#vtuber",
+        "#歌ってみた"
+      ],
+      "upload_date": "2025-09-05T21:00:49"
+    },
+    {
       "title": "目があったね？#vtuber #蛇火 #ななはぴ",
       "image": "https://i.ytimg.com/vi/xuCp0SL6c94/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLBsd4_qgOzvrocGDyF61Z0naySnbQ",
       "alt": "目があったね？#vtuber #蛇火 #ななはぴ",
@@ -6364,9 +6377,9 @@
     "#雑談",
     "#新人vtuber",
     "#shorts",
+    "#歌ってみた",
     "#多声類",
     "#ラジオ",
-    "#歌ってみた",
     "#朝活",
     "#縦型配信",
     "#モンハンワイルズ",
@@ -6545,6 +6558,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2025-09-05T19:39:55.019282",
-  "total_videos": 474
+  "last_updated": "2025-09-05T21:40:34.251860",
+  "total_videos": 475
 }
