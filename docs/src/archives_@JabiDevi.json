@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "title": "#歌ってみた #vtuber  あの夏が飽和する/カンザキイオリ #蛇火",
+      "image": "https://i.ytimg.com/vi/FxIHCBea5ns/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLDmSqwUXVvwwcAkkijCgw-wipDeYg",
+      "alt": "#歌ってみた #vtuber  あの夏が飽和する/カンザキイオリ #蛇火",
+      "description": "説明なし",
+      "videoId": "FxIHCBea5ns",
+      "video_url": "https://www.youtube.com/watch?v=FxIHCBea5ns",
+      "tags": [
+        "#vtuber",
+        "#歌ってみた",
+        "#蛇火"
+      ],
+      "upload_date": "2025-09-07T12:00:15"
+    },
+    {
       "title": "#歌枠 ‖のんびり雑談歌枠🎙#蛇火 /#ななはぴ #karaoke",
       "image": "https://i.ytimg.com/vi/4NhXgxwGKLA/sddefault.jpg?v=68bbe76b",
       "alt": "#歌枠 ‖のんびり雑談歌枠🎙#蛇火 /#ななはぴ #karaoke",
@@ -6573,6 +6587,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2025-09-07T11:39:09.796010",
-  "total_videos": 476
+  "last_updated": "2025-09-07T12:39:17.130191",
+  "total_videos": 477
 }
