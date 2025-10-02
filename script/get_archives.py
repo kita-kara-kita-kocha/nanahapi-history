@@ -439,7 +439,7 @@ def load_json(input_file):
         print(f"❌ 不明なエラー: {str(e)}", flush=True)
         return {}
 
-def get_live_date_info(video_url: str):
+def get_live_date_info(video_url: str) -> str:
     """
     メンバー限定配信の開始日時はyt-dlpでは取得できないため、
     youtube動画サイトにブラウジングして、配信開始日時を取得
