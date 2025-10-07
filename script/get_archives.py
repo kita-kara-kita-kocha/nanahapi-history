@@ -457,6 +457,7 @@ def get_live_date_info(video_url: str) -> str:
     selectors = [
         "#watch7-content > span:nth-child(22) > meta:nth-child(2)",
         "#watch7-content > span:nth-child(23) > meta:nth-child(2)",
+        "#watch7-content > meta:nth-child(18)",
         "#watch7-content > meta:nth-child(19)",
         "#watch7-content > meta:nth-child(20)",
         "#watch7-content > meta:nth-child(21)",
@@ -483,6 +484,10 @@ def get_live_date_info(video_url: str) -> str:
                     driver.quit()
                     if not start_time:
                         print(f"     ┣ セレクタ '{sel}' で配信開始日時が取得できませんでした。", flush=True)
+                        continue
+                    # 取得した情報が有効か確認
+                    if not re.match(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})?$", start_time):
+                        print(f"     ┣ セレクタ '{sel}' で取得した配信開始日時 '{start_time}' は無効な形式です。", flush=True)
                         continue
                     print(f"    → ✓ セレクタ '{sel}' で配信開始日時を取得しました。", flush=True)
                     return start_time
