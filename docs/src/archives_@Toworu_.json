@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "title": "【#雑談】歌枠リレーとかショート動画とか【#男性vtuber】",
+      "image": "https://i.ytimg.com/vi/oPy0k0UJL7E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDnulBBZJEdfEknApjjAS3EOkXTCQ",
+      "alt": "【#雑談】歌枠リレーとかショート動画とか【#男性vtuber】",
+      "description": "雑な談\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：夏子 様\nhttps://twitter.com/blau6...",
+      "videoId": "oPy0k0UJL7E",
+      "video_url": "https://www.youtube.com/watch?v=oPy0k0UJL7E",
+      "tags": [
+        "#男性vtuber",
+        "#雑談"
+      ],
+      "upload_date": "2025-10-26T20:00:00"
+    },
+    {
       "title": "【#旅する花唄歌枠リレー】旅にもいろいろな形があるよね【#男性vtuber 】",
       "image": "https://i.ytimg.com/vi/9MbkCHqwT90/sddefault.jpg?v=68ed21e6",
       "alt": "【#旅する花唄歌枠リレー】旅にもいろいろな形があるよね【#男性vtuber 】",
@@ -4887,13 +4900,13 @@
     "#メン限",
     "#6",
     "#5",
+    "#雑談",
     "#第1回りぽまつり",
     "#R",
     "#splatoon3",
     "#狂気山脈",
     "#ハモリチャレンジ",
     "#縦型歌枠",
-    "#雑談",
     "#藤川まゆ",
     "#西乃うるり",
     "#雀魂",
@@ -4935,6 +4948,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-10-26T14:38:12.855353",
-  "total_videos": 425
+  "last_updated": "2025-10-26T15:38:13.911815",
+  "total_videos": 426
 }
