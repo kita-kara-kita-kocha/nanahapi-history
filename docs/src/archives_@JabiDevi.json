@@ -1,6 +1,33 @@
 {
   "items": [
     {
+      "title": "改変配信‖新しい子をお迎えしたので改変します！#vrchat #作業配信",
+      "image": "https://i.ytimg.com/vi/1RY-INgcs80/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC9h-Q1q85JKdjwCv4LIZSh5qkqzA",
+      "alt": "改変配信‖新しい子をお迎えしたので改変します！#vrchat #作業配信",
+      "description": "🔥Fire@bird Vol.1🔥\n\n🗓️2025.11.03(Mon)13:00〜\n会　場: 下北沢BREATH\nTicket: 現地チケット¥4500 \n           配信チケット¥350...",
+      "videoId": "1RY-INgcs80",
+      "video_url": "https://www.youtube.com/watch?v=1RY-INgcs80",
+      "tags": [
+        "#vrchat",
+        "#作業配信"
+      ],
+      "upload_date": "2025-10-29T21:00:00"
+    },
+    {
+      "title": "#歌ってみた 風になる/つじあやの#vtuber #shorts",
+      "image": "https://i.ytimg.com/vi/hBSd6Nqesjk/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLB0Jc8cKdMyO1jFrivt6jLxQyvGRw",
+      "alt": "#歌ってみた 風になる/つじあやの#vtuber #shorts",
+      "description": "説明なし",
+      "videoId": "hBSd6Nqesjk",
+      "video_url": "https://www.youtube.com/watch?v=hBSd6Nqesjk",
+      "tags": [
+        "#shorts",
+        "#vtuber",
+        "#歌ってみた"
+      ],
+      "upload_date": "2025-10-29T20:01:37"
+    },
+    {
       "title": "同接35人目標‖多声類が眠れない君に歌うチルな歌枠🎙#睡眠導入",
       "image": "https://i.ytimg.com/vi/8gVGOGUJp0A/sddefault.jpg?v=68ff55a8",
       "alt": "同接35人目標‖多声類が眠れない君に歌うチルな歌枠🎙#睡眠導入",
@@ -7118,8 +7145,8 @@
     "#歌枠",
     "#karaoke",
     "#vtuber",
-    "#雑談",
     "#shorts",
+    "#雑談",
     "#新人vtuber",
     "#縦型配信",
     "#歌ってみた",
@@ -7132,9 +7159,9 @@
     "#ゼンゼロ",
     "#コラボ",
     "#初見歓迎",
+    "#作業配信",
     "#耐久",
     "#japanesevtuber",
-    "#作業配信",
     "#ゼンレスゾーンゼロ",
     "#生歌",
     "#参加型",
@@ -7187,6 +7214,7 @@
     "#作業用",
     "#ミラフェス",
     "#推し対",
+    "#vrchat",
     "#ヴィランズ歌枠リレー5th",
     "#PR",
     "#オルぺウス",
@@ -7313,6 +7341,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2025-10-29T19:41:21.638986",
-  "total_videos": 531
+  "last_updated": "2025-10-29T20:41:51.304670",
+  "total_videos": 533
 }
