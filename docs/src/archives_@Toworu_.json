@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "title": "【#歌枠】喉いたわりつつ歌う！【#男性Vtuber】",
+      "image": "https://i.ytimg.com/vi/0va0w1vPYTE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBgR3NC8nUiQRCueivYPTH7rg2QyA",
+      "alt": "【#歌枠】喉いたわりつつ歌う！【#男性Vtuber】",
+      "description": "みじかめかも！\n\n=================\n\n▼Twitter\nhttps://twitter.com/Toworu___\n\n▼担当ママ：夏子 様\nhttps://twitter.com/b...",
+      "videoId": "0va0w1vPYTE",
+      "video_url": "https://www.youtube.com/watch?v=0va0w1vPYTE",
+      "tags": [
+        "#歌枠",
+        "#男性Vtuber"
+      ],
+      "upload_date": "2025-11-09T20:00:00"
+    },
+    {
       "title": "【メン限】参加型garticphone!【#男性Vtuber】",
       "image": "https://i.ytimg.com/vi/7215NZRtd1s/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAg8loyOm0Glx0yHp7JIHQjICDrOA",
       "alt": "【メン限】参加型garticphone!【#男性Vtuber】",
@@ -5071,8 +5084,8 @@
     "#男性vtuber",
     "#Minecraft",
     "#2",
-    "#ななクラV",
     "#歌枠",
+    "#ななクラV",
     "#1",
     "#アカペラ",
     "#3",
@@ -5133,6 +5146,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2025-11-09T07:37:11.301593",
-  "total_videos": 440
+  "last_updated": "2025-11-09T08:37:07.492617",
+  "total_videos": 441
 }
