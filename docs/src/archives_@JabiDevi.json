@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "title": "我のこと好き？#shorts #vtuber",
+      "image": "https://i.ytimg.com/vi/AYeijGy8kWU/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBYKGEwDw==&rs=AOn4CLBVzkv-eUYgtc3h08CsPkIakPSHgA",
+      "alt": "我のこと好き？#shorts #vtuber",
+      "description": "説明なし",
+      "videoId": "AYeijGy8kWU",
+      "video_url": "https://www.youtube.com/watch?v=AYeijGy8kWU",
+      "tags": [
+        "#shorts",
+        "#vtuber"
+      ],
+      "upload_date": "2025-11-23T17:00:17"
+    },
+    {
       "title": "【歌枠】初見さん30人に挨拶をしたいのでコメントください！！#蛇火 #ななはぴ",
       "image": "https://i.ytimg.com/vi/jKUVQlACCAs/sddefault.jpg?v=6920e69c",
       "alt": "【歌枠】初見さん30人に挨拶をしたいのでコメントください！！#蛇火 #ななはぴ",
@@ -7695,6 +7708,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2025-11-23T16:38:59.526458",
-  "total_videos": 561
+  "last_updated": "2025-11-23T17:39:38.836823",
+  "total_videos": 562
 }
