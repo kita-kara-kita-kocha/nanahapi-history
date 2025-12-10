@@ -2,9 +2,9 @@
   "items": [
     {
       "title": "【SILENT HILL f】完全初見サイレントヒルｆ実況配信その5#まどろみ酒場  【Vtuber】",
-      "image": "https://i.ytimg.com/vi/MtIGlTwpYtc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCPKEOSKXfHOtYn5fTlb2rYiVx5wQ",
+      "image": "https://i.ytimg.com/vi/MtIGlTwpYtc/sddefault.jpg?v=6939614a",
       "alt": "【SILENT HILL f】完全初見サイレントヒルｆ実況配信その5#まどろみ酒場  【Vtuber】",
-      "description": "普段ホラゲをやらないVtuberの初見サイレントヒルをお楽しみください！！\n※この配信には成人向け要素が含まれる場合があります。ご注意くださ......",
+      "description": "普段ホラゲをやらないVtuberの初見サイレントヒルをお楽しみください！！\n※この配信には成人向け要素が含まれる場合があります。ご注意ください。\n\n©Konami Digital Entertainm...",
       "videoId": "MtIGlTwpYtc",
       "video_url": "https://www.youtube.com/watch?v=MtIGlTwpYtc",
       "tags": [
@@ -51,6 +51,18 @@
       "upload_date": "2025-12-01T22:00:08"
     },
     {
+      "title": "【メンシ限定】11月振り返りとここだけのプライベートな話をする配信 #まどろみ酒場  【振り返り配信】",
+      "image": "https://i.ytimg.com/vi/ZJ0z1VxZBgs/sddefault.jpg?v=692937b6",
+      "alt": "【メンシ限定】11月振り返りとここだけのプライベートな話をする配信 #まどろみ酒場  【振り返り配信】",
+      "description": "わりと真面目な話が多い配信です！\n活動についてお姉さんが考えてることとか話すので気になる人はしっかりきいてってね✨\n\n\n\n#メン限\n#雑談配信\n★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆\n【まど...",
+      "videoId": "ZJ0z1VxZBgs",
+      "video_url": "https://www.youtube.com/watch?v=ZJ0z1VxZBgs",
+      "tags": [
+        "#まどろみ酒場"
+      ],
+      "upload_date": "2025-11-30T22:00:52"
+    },
+    {
       "title": "【飲酒雑談】ななはぴ学力テスト振り返り雑談 #まどろみ酒場  【Vtuber】",
       "image": "https://i.ytimg.com/vi/g_ntX6niLgg/sddefault.jpg?v=692935a4",
       "alt": "【飲酒雑談】ななはぴ学力テスト振り返り雑談 #まどろみ酒場  【Vtuber】",
@@ -61,19 +73,6 @@
         "#まどろみ酒場"
       ],
       "upload_date": "2025-11-28T22:01:17"
-    },
-    {
-      "title": "【メンシ限定】11月振り返りとここだけのプライベートな話をする配信 #まどろみ酒場  【振り返り配信】",
-      "image": "https://i.ytimg.com/vi/ZJ0z1VxZBgs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtkfJhAQCa7pLcN26DMlWwkDCUBQ",
-      "alt": "【メンシ限定】11月振り返りとここだけのプライベートな話をする配信 #まどろみ酒場  【振り返り配信】",
-      "description": "わりと真面目な話が多い配信です！\n活動についてお姉さんが考えてることとか話すので気になる人はしっかりきいてってね✨\n\n\n\n#メン限\n#雑談配信......",
-      "videoId": "ZJ0z1VxZBgs",
-      "video_url": "https://www.youtube.com/watch?v=ZJ0z1VxZBgs",
-      "tags": [
-        "#まどろみ酒場",
-        "#メン限"
-      ],
-      "upload_date": "2025-11-28T06:48:36"
     },
     {
       "title": "ななはぴ学力テスト ～おバカ王は誰だ2025～",
@@ -12823,6 +12822,6 @@
     "#12",
     "#11"
   ],
-  "last_updated": "2025-12-11T03:31:23.987069",
+  "last_updated": "2025-12-11T04:31:18.533086",
   "total_videos": 1095
 }
