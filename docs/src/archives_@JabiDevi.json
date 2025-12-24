@@ -2,7 +2,7 @@
   "items": [
     {
       "title": "🎥 12/22～12/28の配信スケジュール 🗓",
-      "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/sddefault.jpg?v=694a330d",
+      "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtVdw4Q_EfR6RfN9Fa4j1ohGXjQg",
       "alt": "🎥 12/22～12/28の配信スケジュール 🗓",
       "description": "#vsinger #vtuber \n\n♰ 再販グッズについて\nBOOTHはこちら\nhttps://seventhv.booth.pm/items/7727352\n\n♰ 蛇火【歌ってみた】\nhttps:...",
       "videoId": "M9MTA_K8wnc",
@@ -22,7 +22,7 @@
     },
     {
       "title": "記念グッズ【1部再販中】12/28 23:59まで",
-      "image": "https://i.ytimg.com/vi/xJCumi5EXOw/sddefault.jpg?v=693fc226",
+      "image": "https://i.ytimg.com/vi/xJCumi5EXOw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOp9nd0ffJ3zDaIiW9CBLRyr47lw",
       "alt": "記念グッズ【1部再販中】12/28 23:59まで",
       "description": "#vsinger #vtuber \n\n♰ 再販グッズについて\nBOOTHはこちら\nhttps://seventhv.booth.pm/items/7727352\n\n♰ 蛇火【歌ってみた】\nhttps:...",
       "videoId": "xJCumi5EXOw",
@@ -32,7 +32,7 @@
     },
     {
       "title": "【#干支歌枠リレー】我がこの年を締めくくる！【#蛇火 #歌枠 #vsinger #KARAOKE】",
-      "image": "https://i.ytimg.com/vi/8pwhp7SqIBU/sddefault.jpg?v=6943891e",
+      "image": "https://i.ytimg.com/vi/8pwhp7SqIBU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD3S1wF01Xt1QjPUhEEnOLZmfIJmg",
       "alt": "【#干支歌枠リレー】我がこの年を締めくくる！【#蛇火 #歌枠 #vsinger #KARAOKE】",
       "description": "次の方☞\n\n\n☜前の方\n\n+‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥+\n\n#vsinger #vtuber \n\n♰ 再販グッズについて\nBOOTHはこちら\nhttps://seventhv.booth.pm...",
       "videoId": "8pwhp7SqIBU",
@@ -108,12 +108,14 @@
     },
     {
       "title": "【メン限】雑談したりイラスト紹介したり…🐍🫧",
-      "image": "https://i.ytimg.com/vi/U3DmUpK9WhY/sddefault.jpg?v=69467ec3",
+      "image": "https://i.ytimg.com/vi/U3DmUpK9WhY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBAgDS-7G6ZpiMLz-EXMyCz84V6tQ",
       "alt": "【メン限】雑談したりイラスト紹介したり…🐍🫧",
       "description": "#vsinger #vtuber \n\n✟イラストレーター様✟\nイツキ様\nhttps://x.com/itsuki_illust\n\n+‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥+\n\n♰ 再販グッズについて\nBO...",
       "videoId": "U3DmUpK9WhY",
       "video_url": "https://www.youtube.com/watch?v=U3DmUpK9WhY",
-      "tags": [],
+      "tags": [
+        "#メン限"
+      ],
       "upload_date": "2025-12-20T21:00:53"
     },
     {
@@ -8172,6 +8174,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2025-12-25T03:37:51.734332",
+  "last_updated": "2025-12-25T04:38:05.486663",
   "total_videos": 602
 }
