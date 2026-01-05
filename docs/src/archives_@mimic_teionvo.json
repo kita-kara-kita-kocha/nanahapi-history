@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "title": "【FreeChat】今週のライブ配信予定【みみっく=わんだぁぼっくす/男性Vtuber】",
+      "image": "https://i.ytimg.com/vi/UlSesc2vYYE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCd4YkeuLXMc_R_Iy2m9w0ygveLUw",
+      "alt": "【FreeChat】今週のライブ配信予定【みみっく=わんだぁぼっくす/男性Vtuber】",
+      "description": "▼X(Twitter)でみみっくの最新情報をチェック！\nhttps://twitter.com/mimic_teionvo​​\n\n▼メンバーシップはコチラから(月額490円)\nhttps://www....",
+      "videoId": "UlSesc2vYYE",
+      "video_url": "https://www.youtube.com/watch?v=UlSesc2vYYE",
+      "tags": [],
+      "upload_date": "2026-12-31T12:00:00"
+    },
+    {
       "title": "新年一発目！！！👀🗝🌄あけみみご挨拶配信です！【みみっく=わんだぁぼっくす】【男性Vtuber】",
       "image": "https://i.ytimg.com/vi/nXXre5WKsfo/sddefault.jpg?v=6953e91e",
       "alt": "新年一発目！！！👀🗝🌄あけみみご挨拶配信です！【みみっく=わんだぁぼっくす】【男性Vtuber】",
@@ -9005,16 +9015,6 @@
       "upload_date": "2021-04-09T21:00:33"
     },
     {
-      "title": "【FreeChat】今週のライブ配信予定【みみっく=わんだぁぼっくす/男性Vtuber】",
-      "image": "https://i.ytimg.com/vi/UlSesc2vYYE/sddefault.jpg?v=694a5838",
-      "alt": "【FreeChat】今週のライブ配信予定【みみっく=わんだぁぼっくす/男性Vtuber】",
-      "description": "▼X(Twitter)でみみっくの最新情報をチェック！\nhttps://twitter.com/mimic_teionvo​​\n\n▼メンバーシップはコチラから(月額490円)\nhttps://www....",
-      "videoId": "UlSesc2vYYE",
-      "video_url": "https://www.youtube.com/watch?v=UlSesc2vYYE",
-      "tags": [],
-      "upload_date": "2021-04-05T11:57:14"
-    },
-    {
       "title": "【Stick Fight: The Game】男性Vが4人で大乱闘！己以外を殲滅せよ！！！",
       "image": "https://i.ytimg.com/vi/IsZ1yBEpA14/sddefault.jpg?v=6062ba17",
       "alt": "【Stick Fight: The Game】男性Vが4人で大乱闘！己以外を殲滅せよ！！！",
@@ -9833,6 +9833,6 @@
     "#女性向け",
     "#発掘V宇宙人狼"
   ],
-  "last_updated": "2026-01-05T18:32:32.144026",
+  "last_updated": "2026-01-05T19:32:35.439345",
   "total_videos": 881
 }
