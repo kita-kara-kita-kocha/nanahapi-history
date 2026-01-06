@@ -11,6 +11,8 @@ help:
 	@echo " make 10               - 全てのタレントの最新10件のアーカイブを取得"
 	@echo " make get-archives-all - 全てのタレントの全アーカイブを取得"
 	@echo " make get-archives-10  - 全てのタレントの最新10件のアーカイブを取得"
+	@echo " make check-links      - アーカイブ内の動画URLのリンク切れをチェック"
+	@echo " make check-links-fast - アーカイブ内の動画URLのリンク切れを高速チェック（サンプリング）"
 	@echo " make setup            - 依存関係をインストール"
 	@echo " make check-venv       - 仮想環境の状態を確認"
 	@echo " make show-talents     - 登録されているタレント一覧を表示"
@@ -87,3 +89,13 @@ get-single-all: check-venv
 	fi
 	@echo "📺 $(TALENT) のアーカイブを取得中..."
 	@$(PYTHON) $(SCRIPT_DIR)/get_archives.py $(TALENT)
+
+# 動画URLのリンク切れチェック
+check-links: check-venv
+	@echo "🔗 動画URLのリンク切れをチェック中..."
+	@$(PYTHON) $(SCRIPT_DIR)/check_video_links.py
+
+# 動画URLのリンク切れ高速チェック（サンプリング）
+check-links-fast: check-venv
+	@echo "🚀 動画URLのリンク切れを高速チェック中..."
+	@$(PYTHON) $(SCRIPT_DIR)/check_video_links_fast.py
