@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "title": "『孤島で暮らすMinecraft』Season2 #4【#男性vtuber】",
+      "image": "https://i.ytimg.com/vi/tQ2Y1LP8fYo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC5ImM1oUU8XsIhMZveBnqam-Srbg",
+      "alt": "『孤島で暮らすMinecraft』Season2 #4【#男性vtuber】",
+      "description": "『孤島で暮らすMinecraft』Season2の舞台はななはぴ鯖!!\n\n#ななクラV #ななはぴ #マイクラ #minecraft \n\n=================\n\n▼Twitter\nhtt...",
+      "videoId": "tQ2Y1LP8fYo",
+      "video_url": "https://www.youtube.com/watch?v=tQ2Y1LP8fYo",
+      "tags": [
+        "#4",
+        "#男性vtuber"
+      ],
+      "upload_date": "2026-01-08T23:00:00"
+    },
+    {
       "title": "【#雑談】水曜23時は定期雑談 #5【#男性vtuber】",
       "image": "https://i.ytimg.com/vi/UQLyRm5sPnY/sddefault.jpg?v=695e2e5f",
       "alt": "【#雑談】水曜23時は定期雑談 #5【#男性vtuber】",
@@ -5841,9 +5854,9 @@
     "#1",
     "#雑談",
     "#3",
+    "#4",
     "#アカペラ",
     "#vtuber",
-    "#4",
     "#バーチャルyoutuber",
     "#5",
     "#メン限",
@@ -5900,6 +5913,6 @@
     "#valorant男女対抗戦",
     "#夏フェスv歌リレー"
   ],
-  "last_updated": "2026-01-08T18:36:29.910815",
-  "total_videos": 498
+  "last_updated": "2026-01-08T19:36:48.203571",
+  "total_videos": 499
 }
