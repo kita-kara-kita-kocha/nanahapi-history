@@ -295,8 +295,8 @@ def main():
     print("=" * 50)
     
     # デフォルト設定
-    sample_size = 20  # 各ファイルから20件ずつサンプリング
-    delay = 0.2  # 0.2秒間隔
+    sample_size = 50  # 各ファイルから50件ずつサンプリング
+    delay = 0  # 0秒間隔
     
     # コマンドライン引数の処理
     if len(sys.argv) > 1:

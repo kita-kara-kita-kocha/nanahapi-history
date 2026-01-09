@@ -71,10 +71,11 @@ class VideoLinkChecker:
         except Exception as e:
             return False, 0, f"予期しないエラー: {str(e)}"
     
-    def _check_youtube_video(self, url: str) -> Tuple[bool, int, str]:
+    def _check_youtube_video(self, url: str, retry_count: int = 0) -> Tuple[bool, int, str]:
         """
         YouTube動画の詳細チェック
         削除・非公開・地域制限動画を検出
+        LOGIN_REQUIREDの場合は最大3回リトライ
         """
         try:
             headers = {
@@ -112,7 +113,12 @@ class VideoLinkChecker:
                     is_member_only = any(pattern in content for pattern in member_patterns)
                     
                     if status == 'LOGIN_REQUIRED':
-                        return False, response.status_code, f"非公開動画（ログイン必須）: status={status}"
+                        # LOGIN_REQUIREDの場合は最大3回リトライ
+                        if retry_count < 2:
+                            time.sleep(10)  # 10秒待機してからリトライ
+                            return self._check_youtube_video(url, retry_count + 1)
+                        else:
+                            return False, response.status_code, f"非公開動画: status={status} (3回リトライ後)"
                     elif status == 'UNPLAYABLE':
                         if is_member_only:
                             return True, response.status_code, ""  # メンバー限定動画は正常とみなす
@@ -174,9 +180,10 @@ class VideoLinkChecker:
         except Exception as e:
             return False, 0, f"チェックエラー: {str(e)}"
     
-    def check_all_links(self, delay: float = 1.0):
+    def check_all_links(self, delay: float = 1.0, limit: int = None):
         """
         すべての動画URLをチェック
+        limit: 各ファイルから最新N件だけチェックする場合の件数
         """
         logger.info("アーカイブファイルを読み込み中...")
         archives = self.load_archives()
@@ -185,16 +192,24 @@ class VideoLinkChecker:
             logger.error("アーカイブファイルが見つかりません")
             return
         
+        # 件数制限がある場合は各ファイルから最新N件だけを取得
+        if limit:
+            for file_name in archives:
+                archives[file_name] = archives[file_name][:limit]
+        
         # 総件数を計算
         self.total_count = sum(len(items) for items in archives.values())
-        logger.info(f"総チェック対象件数: {self.total_count}")
+        if limit:
+            logger.info(f"総チェック対象件数: {self.total_count} (各ファイル最新{limit}件)")
+        else:
+            logger.info(f"総チェック対象件数: {self.total_count}")
         
-        print("\\n" + "="*80)
+        print("="*80)
         print("動画URLリンク切れチェック開始")
         print("="*80)
         
         for archive_file, items in archives.items():
-            print(f"\\n📁 {archive_file}")
+            print(f"📁 {archive_file}")
             print("-" * 60)
             
             for idx, item in enumerate(items, 1):
@@ -221,9 +236,9 @@ class VideoLinkChecker:
                 is_valid, status_code, error_msg = self.check_video_url(video_url)
                 
                 if is_valid:
-                    print(f"\\r  ✅ [{idx:3d}] OK ({status_code}) - {title[:40]}...")
+                    print(f"  ✅ [{idx:3d}] OK ({status_code}) - {title[:40]}...")
                 else:
-                    print(f"\\r  ❌ [{idx:3d}] NG ({error_msg}) - {title[:40]}...")
+                    print(f"  ❌ [{idx:3d}] NG ({error_msg}) - {title[:40]}...")
                     self.broken_links.append({
                         'file': archive_file,
                         'title': title,
@@ -243,7 +258,7 @@ class VideoLinkChecker:
         """
         チェック結果のサマリーを出力
         """
-        print("\\n" + "="*80)
+        print("="*80)
         print("チェック結果サマリー")
         print("="*80)
         
@@ -252,7 +267,7 @@ class VideoLinkChecker:
         print(f"問題URL: {len(self.broken_links)}")
         
         if self.broken_links:
-            print("\\n❌ 問題のあるURL一覧:")
+            print("❌ 問題のあるURL一覧:")
             print("-" * 80)
             for i, link in enumerate(self.broken_links, 1):
                 print(f"{i:3d}. [{link['file']}]")
@@ -262,7 +277,7 @@ class VideoLinkChecker:
                 print(f"     エラー: {link['error']}")
                 print()
         else:
-            print("\\n✅ すべてのURLが正常です！")
+            print("✅ すべてのURLが正常です！")
     
     def _save_report(self):
         """
@@ -280,31 +295,41 @@ class VideoLinkChecker:
             with open(report_path, 'w', encoding='utf-8') as f:
                 json.dump(report, f, ensure_ascii=False, indent=2)
             
-            print(f"\\n📊 詳細レポートを保存しました: {report_path}")
+            print(f"📊 詳細レポートを保存しました: {report_path}")
 
 def main():
     """
     メイン関数
+    第1引数: リクエスト間隔（秒）
+    第2引数: チェックする件数（各ファイルから最新N件）
     """
     print("動画URLリンク切れチェックツール")
     print("=" * 50)
     
     # オプション指定
-    delay = 1.0  # リクエスト間隔（秒）
+    delay = 10  # リクエスト間隔（秒）
+    limit = None  # 件数制限
     
     if len(sys.argv) > 1:
         try:
             delay = float(sys.argv[1])
             print(f"リクエスト間隔: {delay}秒")
         except ValueError:
-            print("警告: 無効な間隔が指定されました。デフォルト値(1.0秒)を使用します。")
+            print("警告: 無効な間隔が指定されました。デフォルト値(10秒)を使用します。")
+    
+    if len(sys.argv) > 2:
+        try:
+            limit = int(sys.argv[2])
+            print(f"各ファイルから最新 {limit} 件をチェック")
+        except ValueError:
+            print("警告: 無効な件数が指定されました。全件をチェックします。")
     
     checker = VideoLinkChecker()
     
     try:
-        checker.check_all_links(delay=delay)
+        checker.check_all_links(delay=delay, limit=limit)
     except KeyboardInterrupt:
-        print("\\n\\n中断されました。")
+        print("中断されました。")
         if checker.broken_links:
             print("これまでに見つかった問題URL:")
             checker._print_summary()
