@@ -1,10 +1,10 @@
 {
   "items": [
     {
-      "title": "🎥 12/29~1/4(年末年始)の配信予定について",
+      "title": "🎥 1月12日~1月18日の配信予定について",
       "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtVdw4Q_EfR6RfN9Fa4j1ohGXjQg",
-      "alt": "🎥 12/29~1/4(年末年始)の配信予定について",
-      "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
+      "alt": "🎥 1月12日~1月18日の配信予定について",
+      "description": "#vsinger #vtuber \n\n♰ 蛇火生誕祭2026\n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PL...",
       "videoId": "M9MTA_K8wnc",
       "video_url": "https://www.youtube.com/watch?v=M9MTA_K8wnc",
       "tags": [],
@@ -19,6 +19,30 @@
       "video_url": "https://www.youtube.com/watch?v=xJCumi5EXOw",
       "tags": [],
       "upload_date": "2026-03-31T00:00:00"
+    },
+    {
+      "title": "#蛇火生誕祭2026  ♰ お披露目と告知、火の子たちにプレゼントを用意した。受け取れ",
+      "image": "https://i.ytimg.com/vi/Hdic2_of30A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZvhs15EmbacF9ONK2E4nVtSeN8w",
+      "alt": "#蛇火生誕祭2026  ♰ お披露目と告知、火の子たちにプレゼントを用意した。受け取れ",
+      "description": "#vsinger #vtuber \n\n✠ リアルライブ情報 ✠ ‥‥‥‥‥‥+\n\n推し対ライブ２開催決定‼\n🎫チケット販売開始\nhttps://t.co/wzVZVXCMyD\n\n✠ 期間限定グッズ情報...",
+      "videoId": "Hdic2_of30A",
+      "video_url": "https://www.youtube.com/watch?v=Hdic2_of30A",
+      "tags": [
+        "#蛇火生誕祭2026"
+      ],
+      "upload_date": "2026-01-14T21:00:00"
+    },
+    {
+      "title": "#蛇火生誕祭2026  ♰ 初めての誕生日カウントダウンだ！🎂",
+      "image": "https://i.ytimg.com/vi/v9CAQcIMc6E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHT6aMZDxePwPTKdmPb__E1BdeUg",
+      "alt": "#蛇火生誕祭2026  ♰ 初めての誕生日カウントダウンだ！🎂",
+      "description": "#vsinger #vtuber \n✠ リアルライブ情報 ✠ ‥‥‥‥‥‥+\n\n推し対ライブ２開催決定‼\n🎫チケット販売開始\nhttps://t.co/wzVZVXCMyD\n\n✠ 期間限定グッズ情報....",
+      "videoId": "v9CAQcIMc6E",
+      "video_url": "https://www.youtube.com/watch?v=v9CAQcIMc6E",
+      "tags": [
+        "#蛇火生誕祭2026"
+      ],
+      "upload_date": "2026-01-13T22:00:00"
     },
     {
       "title": "#SerpentFes 閉会式 ♰ 新春あけましておめでとうございます🎍",
@@ -8150,6 +8174,7 @@
     "#モンハンライズ",
     "#リトルナイトメア2",
     "#フォールガイズ",
+    "#蛇火生誕祭2026",
     "#KARAOKE",
     "#ほにはち2周年",
     "#雑談配信",
@@ -8307,6 +8332,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-01-11T22:39:34.237820",
-  "total_videos": 614
+  "last_updated": "2026-01-11T23:38:57.690802",
+  "total_videos": 616
 }
