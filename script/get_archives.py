@@ -470,7 +470,9 @@ def get_live_date_info(video_url: str) -> str:
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
 
+    result = "ページソースが取得できませんでした"
     for attempt in range(3):
+        driver = None
         try:
             driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
             driver.get(video_url)
@@ -481,7 +483,6 @@ def get_live_date_info(video_url: str) -> str:
                     start_time_element = driver.find_element("css selector", sel)
                     start_time = start_time_element.get_attribute("content")
 
-                    driver.quit()
                     if not start_time:
                         print(f"     ┣ セレクタ '{sel}' で配信開始日時が取得できませんでした。", flush=True)
                         continue
@@ -490,18 +491,34 @@ def get_live_date_info(video_url: str) -> str:
                         print(f"     ┣ セレクタ '{sel}' で取得した配信開始日時 '{start_time}' は無効な形式です。", flush=True)
                         continue
                     print(f"    → ✓ セレクタ '{sel}' で配信開始日時を取得しました。", flush=True)
+                    driver.quit()
                     return start_time
 
                 except Exception as e:
                     print(f"     ┣ セレクタ '{sel}' での取得に失敗しました。", flush=True)
+            
+            # result出力のため、すべての要素を取得
+            if driver:
+                result = driver.page_source
+                if not result:
+                    result = "ページソースの取得に失敗しました（空の結果）"
             driver.quit()
             print(f"     ┗ ✗ すべてのセレクタで配信開始日時の取得に失敗しました。", flush=True)
+            break  # 成功したセレクタがなくてもWebDriverは動作したのでリトライ不要
+            
         except Exception as e:
             print(f"   → △ ブラウジング試行 {attempt+1}/3 でエラー: {e}", flush=True)
+            if driver:
+                try:
+                    driver.quit()
+                except:
+                    pass
+        
         if attempt < 2:
             print(f"   → リトライします... ({attempt+2}/3)", flush=True)
             time.sleep(2)
     print("❌ 3回試行しても配信開始日時の取得に失敗しました。", flush=True)
+    print(result, flush=True)
     raise Exception("failed get_live_date_info")
 
 def save_to_json(videos, output_file):
