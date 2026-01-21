@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "title": "【週間スケジュール】めもあ/memoa",
+      "image": "https://i.ytimg.com/vi/9xa0Weagh6g/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2MsWW6EFiRm4QNQq2lscOYGZ0GQ",
+      "alt": "【週間スケジュール】めもあ/memoa",
+      "description": "------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh.com/memoa/\n------------\n[Hashta...",
+      "videoId": "9xa0Weagh6g",
+      "video_url": "https://www.youtube.com/watch?v=9xa0Weagh6g",
+      "tags": [],
+      "upload_date": "2026-04-22T18:00:00"
+    },
+    {
+      "title": "【歌枠/KARAOKE】まったりソング #めも遊び  #vtuber",
+      "image": "https://i.ytimg.com/vi/saXjg4uuARo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDzwmvRhTv68K0UPmiWXvq09-qHhA",
+      "alt": "【歌枠/KARAOKE】まったりソング #めも遊び  #vtuber",
+      "description": "------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh.com/memoa/\n------------\n[Hashta...",
+      "videoId": "saXjg4uuARo",
+      "video_url": "https://www.youtube.com/watch?v=saXjg4uuARo",
+      "tags": [
+        "#vtuber",
+        "#めも遊び"
+      ],
+      "upload_date": "2026-01-24T22:00:00"
+    },
+    {
+      "title": "【歌枠/KARAOKE】まったりソング #めも遊び  #vtuber",
+      "image": "https://i.ytimg.com/vi/510O6bE2pTY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCb7YGFJvj0cZ_n0RMT_tW7LH5CCQ",
+      "alt": "【歌枠/KARAOKE】まったりソング #めも遊び  #vtuber",
+      "description": "------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh.com/memoa/\n------------\n[Hashta...",
+      "videoId": "510O6bE2pTY",
+      "video_url": "https://www.youtube.com/watch?v=510O6bE2pTY",
+      "tags": [
+        "#vtuber",
+        "#めも遊び"
+      ],
+      "upload_date": "2026-01-24T01:00:00"
+    },
+    {
       "title": "【歌枠/KARAOKE】まったりソング #めも遊び  #vtuber",
       "image": "https://i.ytimg.com/vi/480vDT0S8wE/sddefault.jpg?v=6965e8fe",
       "alt": "【歌枠/KARAOKE】まったりソング #めも遊び  #vtuber",
@@ -2539,6 +2575,6 @@
     "#Vtuberと秋デートしませんか",
     "#2"
   ],
-  "last_updated": "2026-01-22T00:36:48.126403",
-  "total_videos": 197
+  "last_updated": "2026-01-22T01:35:53.325474",
+  "total_videos": 200
 }
