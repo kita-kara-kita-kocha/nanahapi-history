@@ -1,7 +1,42 @@
 {
-  "check_date": "2026-01-13 10:09:48",
+  "check_date": "2026-01-23 11:13:33",
   "total_checked": 420,
-  "broken_count": 3,
+  "broken_count": 5,
   "broken_links": [
+    {
+      "file": "archives_@mel_samui.json",
+      "title": "#minecraft⌇チル雑談 × 作業・睡眠BGM⛏️のんびり森の開拓をしたい☃️ #花鹿める / ななはぴ",
+      "video_url": "https://www.youtube.com/watch?v=qOpJFrOyvsU",
+      "upload_date": "2026-01-15T21:00:00",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@kokoroninonno.json",
+      "title": "おやおやが口癖のコロポックルと「おやおや？大家さん！」#4【ココロニ・ノンノ/ななはぴ】",
+      "video_url": "https://www.youtube.com/watch?v=LnpUeeyJWpQ",
+      "upload_date": "2026-01-26T18:00:00",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@kokoroninonno.json",
+      "title": "【同時視聴/名探偵津田】仮【ココロニ・ノンノ/ななはぴ】",
+      "video_url": "https://www.youtube.com/watch?v=VnMgrf_NfU8",
+      "upload_date": "2026-01-24T18:00:00",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@kokoroninonno.json",
+      "title": "【同時視聴】TVアニメ アルネの事件簿 第4話【ココロニ・ノンノ/ななはぴ】 2026-01-21 01:32",
+      "video_url": "https://www.youtube.com/watch?v=UhFGJhs8HZw",
+      "upload_date": "2026-01-21T01:20:12",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@kokoroninonno.json",
+      "title": "【歌枠】※アーカイブ残りません　メクルメ練習歌枠【ココロニ・ノンノ/ななはぴ】 2026-01-21 00:32",
+      "video_url": "https://www.youtube.com/watch?v=KP3SUAUD2Sk",
+      "upload_date": "2026-01-21T00:04:41",
+      "error": "動画エラー（削除済みの可能性）: status=ERROR"
+    }
   ]
 }
