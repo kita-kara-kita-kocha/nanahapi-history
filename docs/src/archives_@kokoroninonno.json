@@ -43,16 +43,6 @@
       "upload_date": "2026-02-04T21:00:00"
     },
     {
-      "title": "【同時視聴】TVアニメ アルネの事件簿 第4~6話【ココロニ・ノンノ/ななはぴ】",
-      "image": "https://i.ytimg.com/vi/NpY2tvnGkY4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBfeQFpNDu8gZjcEWsKf-WcIdJXrw",
-      "alt": "【同時視聴】TVアニメ アルネの事件簿 第4~6話【ココロニ・ノンノ/ななはぴ】",
-      "description": "📺 ＜配信の不調で中止していた4話と、5話6話をまとめて視聴します！\n📋 時間はずらすかもしれません。仮設定です。\n📚 https://www.hulu.jp/the-case-b......",
-      "videoId": "NpY2tvnGkY4",
-      "video_url": "https://www.youtube.com/watch?v=NpY2tvnGkY4",
-      "tags": [],
-      "upload_date": "2026-02-04T00:30:00"
-    },
-    {
       "title": "【Baba Is You】すごく難しいけど絶対にやってほしいと言われた謎解きパズルゲーム【ココロニ・ノンノ/ななはぴ】",
       "image": "https://i.ytimg.com/vi/1MbVoqEB9tA/sddefault.jpg?v=698009a8",
       "alt": "【Baba Is You】すごく難しいけど絶対にやってほしいと言われた謎解きパズルゲーム【ココロニ・ノンノ/ななはぴ】",
@@ -93,6 +83,16 @@
       "video_url": "https://www.youtube.com/watch?v=2OMZYfjA1g8",
       "tags": [],
       "upload_date": "2026-02-02T16:45:06"
+    },
+    {
+      "title": "【同時視聴】TVアニメ アルネの事件簿 第4~6話【ココロニ・ノンノ/ななはぴ】",
+      "image": "https://i.ytimg.com/vi/NpY2tvnGkY4/sddefault.jpg?v=69800e2e",
+      "alt": "【同時視聴】TVアニメ アルネの事件簿 第4~6話【ココロニ・ノンノ/ななはぴ】",
+      "description": "📺 ＜配信の不調で中止していた4話と、5話6話をまとめて視聴します！\n📋 時間はずらすかもしれません。仮設定です。\n📚 https://www.hulu.jp/the-case-book-of-arn...",
+      "videoId": "NpY2tvnGkY4",
+      "video_url": "https://www.youtube.com/watch?v=NpY2tvnGkY4",
+      "tags": [],
+      "upload_date": "2026-02-02T11:38:35"
     },
     {
       "title": "【作業雑談】おひるご飯をたべつつ、ゆるさぎょうに取り組む【ココロニ・ノンノ/ななはぴ】",
@@ -799,6 +799,6 @@
     "#コ古鬼乃ソノ死",
     "#TRPG配信者歌みたリレー"
   ],
-  "last_updated": "2026-02-03T23:32:57.711397",
+  "last_updated": "2026-02-04T00:32:34.032039",
   "total_videos": 69
 }
