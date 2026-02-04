@@ -12,7 +12,7 @@
     },
     {
       "title": "🎥 2月2日～2月8日の配信予定",
-      "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/sddefault.jpg?v=698196f2",
+      "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtVdw4Q_EfR6RfN9Fa4j1ohGXjQg",
       "alt": "🎥 2月2日～2月8日の配信予定",
       "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
       "videoId": "M9MTA_K8wnc",
@@ -73,12 +73,14 @@
     },
     {
       "title": "【メン限】雑談しながらアイコンお絵描き✎＿＿",
-      "image": "https://i.ytimg.com/vi/8CIFy_yWFLA/sddefault.jpg?v=697e2488",
+      "image": "https://i.ytimg.com/vi/8CIFy_yWFLA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCN3DA559GJskC2y2J93qRKKuosTQ",
       "alt": "【メン限】雑談しながらアイコンお絵描き✎＿＿",
       "description": "#vsinger #vtuber \n\n✠ リアルライブ情報 ✠ ‥‥‥‥‥‥+\n\n推し対ライブ２開催決定‼\n🎫チケット販売中\nhttps://t.co/wzVZVXCMyD\n\n+‥‥‥‥‥‥‥‥‥‥‥...",
       "videoId": "8CIFy_yWFLA",
       "video_url": "https://www.youtube.com/watch?v=8CIFy_yWFLA",
-      "tags": [],
+      "tags": [
+        "#メン限"
+      ],
       "upload_date": "2026-02-01T01:01:57"
     },
     {
@@ -8588,6 +8590,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-02-04T07:35:08.364136",
+  "last_updated": "2026-02-04T08:35:15.555508",
   "total_videos": 636
 }
