@@ -63,9 +63,9 @@ echo "📄 更新後のアーカイブファイル数: $AFTER_FILES"
 
 # 変更されたファイルを確認
 echo "🔍 変更されたファイルを確認中..."
-CHANGED_FILES=$(git status --porcelain docs/src/archives_@*.json | wc -l)
-NEW_FILES=$(git status --porcelain docs/src/archives_@*.json | grep "^??" | wc -l)
-MODIFIED_FILES=$(git status --porcelain docs/src/archives_@*.json | grep "^ M" | wc -l)
+CHANGED_FILES=$(git status --porcelain docs/src/archives_@*.json broken_video_links_report.json | wc -l)
+NEW_FILES=$(git status --porcelain docs/src/archives_@*.json broken_video_links_report.json | grep "^??" | wc -l)
+MODIFIED_FILES=$(git status --porcelain docs/src/archives_@*.json broken_video_links_report.json | grep "^ M" | wc -l)
 
 echo "📈 変更されたアーカイブファイル: $CHANGED_FILES個"
 echo "  - 新規ファイル: $NEW_FILES個"
@@ -79,13 +79,13 @@ fi
 
 # 変更されたファイルの詳細を表示
 echo "📋 変更されたファイル一覧:"
-git status --porcelain docs/src/archives_@*.json | while IFS= read -r line; do
+git status --porcelain docs/src/archives_@*.json broken_video_links_report.json | while IFS= read -r line; do
     echo "  $line"
 done
 
 # アーカイブファイルをステージング
 echo "📦 アーカイブファイルをステージング中..."
-if ! git add docs/src/archives_@*.json; then
+if ! git add docs/src/archives_@*.json broken_video_links_report.json; then
     echo "❌ ファイルのステージングに失敗しました"
     exit 1
 fi
