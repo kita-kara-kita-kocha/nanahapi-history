@@ -1,41 +1,40 @@
 {
-  "check_date": "2026-01-23 11:13:33",
   "total_checked": 420,
   "broken_count": 5,
   "broken_links": [
     {
-      "file": "archives_@mel_samui.json",
-      "title": "#minecraft⌇チル雑談 × 作業・睡眠BGM⛏️のんびり森の開拓をしたい☃️ #花鹿める / ななはぴ",
-      "video_url": "https://www.youtube.com/watch?v=qOpJFrOyvsU",
-      "upload_date": "2026-01-15T21:00:00",
+      "file": "archives_@memoa_923.json",
+      "title": "【朝活】あさごはん一緒に食べよ #めも遊び  #vtuber",
+      "video_url": "https://www.youtube.com/watch?v=SlgxNxnKXlU",
+      "upload_date": "2026-01-29T00:11:42",
+      "error": "動画エラー（削除済みの可能性）: status=ERROR"
+    },
+    {
+      "file": "archives_@amanosakatu.json",
+      "title": "【Minecraft】和風建築マイクラ朝活⛏️神社の形にそろそろなりそう #まどろみ酒場   #縦型配信 【Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=zgwVrUTismg",
+      "upload_date": "2026-02-06T07:00:00",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@amanosakatu.json",
+      "title": "【SILENT HILL f】完全初見サイレントヒルｆ実況配信 2周目その5 #まどろみ酒場  【Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=6Cp-nvD3hZE",
+      "upload_date": "2026-02-05T22:00:00",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
     },
     {
       "file": "archives_@kokoroninonno.json",
-      "title": "おやおやが口癖のコロポックルと「おやおや？大家さん！」#4【ココロニ・ノンノ/ななはぴ】",
-      "video_url": "https://www.youtube.com/watch?v=LnpUeeyJWpQ",
-      "upload_date": "2026-01-26T18:00:00",
-      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+      "title": "【朝活/作業雑談】おひるご飯代を決めつつ、ゆるさぎょうに取り組む【ココロニ・ノンノ/ななはぴ】",
+      "video_url": "https://www.youtube.com/watch?v=n8YDy9vv36s",
+      "upload_date": "2026-02-05T08:52:55",
+      "error": "動画エラー（削除済みの可能性）: status=ERROR"
     },
     {
-      "file": "archives_@kokoroninonno.json",
-      "title": "【同時視聴/名探偵津田】仮【ココロニ・ノンノ/ななはぴ】",
-      "video_url": "https://www.youtube.com/watch?v=VnMgrf_NfU8",
-      "upload_date": "2026-01-24T18:00:00",
-      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@kokoroninonno.json",
-      "title": "【同時視聴】TVアニメ アルネの事件簿 第4話【ココロニ・ノンノ/ななはぴ】 2026-01-21 01:32",
-      "video_url": "https://www.youtube.com/watch?v=UhFGJhs8HZw",
-      "upload_date": "2026-01-21T01:20:12",
-      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@kokoroninonno.json",
-      "title": "【歌枠】※アーカイブ残りません　メクルメ練習歌枠【ココロニ・ノンノ/ななはぴ】 2026-01-21 00:32",
-      "video_url": "https://www.youtube.com/watch?v=KP3SUAUD2Sk",
-      "upload_date": "2026-01-21T00:04:41",
+      "file": "archives_@JabiDevi.json",
+      "title": "♰ 期間限定 ♰ 蛇火生誕記念グッズ 販売中",
+      "video_url": "https://www.youtube.com/watch?v=h0GbUIBShew",
+      "upload_date": "2028-01-14T00:00:00",
       "error": "動画エラー（削除済みの可能性）: status=ERROR"
     }
   ]

@@ -285,7 +285,6 @@ class VideoLinkChecker:
         """
         if self.broken_links:
             report = {
-                'check_date': time.strftime('%Y-%m-%d %H:%M:%S'),
                 'total_checked': self.total_count,
                 'broken_count': len(self.broken_links),
                 'broken_links': self.broken_links
