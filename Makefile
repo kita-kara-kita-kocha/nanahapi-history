@@ -66,7 +66,12 @@ get-archives-10: check-venv
 		exit 1; \
 	fi
 	@$(PYTHON) -c "import json, subprocess, sys; talents = json.load(open('$(TALENT_INFO)', 'r', encoding='utf-8')); [print(f'📺 {t.get(\"name\", \"不明\")} ({t[\"yt\"]}) のアーカイブを取得中...') or subprocess.run([sys.executable, '$(SCRIPT_DIR)/get_archives.py', t['yt'], '10'], check=False) if t.get('yt') else print(f'⚠️  {t.get(\"name\", \"不明\")}: YouTubeチャンネル情報がありません') for t in talents]; print('🎉 全てのアーカイブ取得が完了しました!')"
-	@$(PYTHON) $(SCRIPT_DIR)/check_video_links.py 3 30
+	@if [ $$(date +%H) -eq 23 ]; then \
+		echo "🕚 現在時刻が23時のため、動画リンクチェックを実行します（1日1回）"; \
+		$(PYTHON) $(SCRIPT_DIR)/check_video_links.py 3 30; \
+	else \
+		echo "🕘 現在時刻が23時でないため、動画リンクチェックをスキップします（現在：$$(date +%H)時）"; \
+	fi
 get-archives-all: check-venv
 	@echo "🎬 全てのタレントのアーカイブ取得を開始します..."
 	@if [ ! -f "$(TALENT_INFO)" ]; then \
