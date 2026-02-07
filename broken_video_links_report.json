@@ -1,41 +1,13 @@
 {
   "total_checked": 420,
-  "broken_count": 5,
+  "broken_count": 1,
   "broken_links": [
     {
-      "file": "archives_@memoa_923.json",
-      "title": "【朝活】あさごはん一緒に食べよ #めも遊び  #vtuber",
-      "video_url": "https://www.youtube.com/watch?v=SlgxNxnKXlU",
-      "upload_date": "2026-01-29T00:11:42",
-      "error": "動画エラー（削除済みの可能性）: status=ERROR"
-    },
-    {
-      "file": "archives_@amanosakatu.json",
-      "title": "【Minecraft】和風建築マイクラ朝活⛏️神社の形にそろそろなりそう #まどろみ酒場   #縦型配信 【Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=zgwVrUTismg",
-      "upload_date": "2026-02-06T07:00:00",
+      "file": "archives_@nekono_chiyuru.json",
+      "title": "【 #歌枠  】アニソン！アイドル！なんでも歌う🎤🐱【 #猫野ちゆる  /  #Vtuber 】",
+      "video_url": "https://www.youtube.com/watch?v=9XBvmlp7N0A",
+      "upload_date": "2026-02-06T19:59:49",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@amanosakatu.json",
-      "title": "【SILENT HILL f】完全初見サイレントヒルｆ実況配信 2周目その5 #まどろみ酒場  【Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=6Cp-nvD3hZE",
-      "upload_date": "2026-02-05T22:00:00",
-      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@kokoroninonno.json",
-      "title": "【朝活/作業雑談】おひるご飯代を決めつつ、ゆるさぎょうに取り組む【ココロニ・ノンノ/ななはぴ】",
-      "video_url": "https://www.youtube.com/watch?v=n8YDy9vv36s",
-      "upload_date": "2026-02-05T08:52:55",
-      "error": "動画エラー（削除済みの可能性）: status=ERROR"
-    },
-    {
-      "file": "archives_@JabiDevi.json",
-      "title": "♰ 期間限定 ♰ 蛇火生誕記念グッズ 販売中",
-      "video_url": "https://www.youtube.com/watch?v=h0GbUIBShew",
-      "upload_date": "2028-01-14T00:00:00",
-      "error": "動画エラー（削除済みの可能性）: status=ERROR"
     }
   ]
 }
