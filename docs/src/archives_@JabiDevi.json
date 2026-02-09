@@ -1,14 +1,27 @@
 {
   "items": [
     {
-      "title": "🎥 2月2日～2月8日の配信予定",
+      "title": "🎥 2月9日～2月15日の配信予定",
       "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtVdw4Q_EfR6RfN9Fa4j1ohGXjQg",
-      "alt": "🎥 2月2日～2月8日の配信予定",
+      "alt": "🎥 2月9日～2月15日の配信予定",
       "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
       "videoId": "M9MTA_K8wnc",
       "video_url": "https://www.youtube.com/watch?v=M9MTA_K8wnc",
       "tags": [],
       "upload_date": "2027-12-16T00:00:00"
+    },
+    {
+      "title": "朝活 ♰ おはようくださいよろこびます。 #多声類 #低音女子",
+      "image": "https://i.ytimg.com/vi/ZzloDBAvULM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBE_QRcLMyBHeQ4G_9UA0XxWp1MZw",
+      "alt": "朝活 ♰ おはようくださいよろこびます。 #多声類 #低音女子",
+      "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
+      "videoId": "ZzloDBAvULM",
+      "video_url": "https://www.youtube.com/watch?v=ZzloDBAvULM",
+      "tags": [
+        "#低音女子",
+        "#多声類"
+      ],
+      "upload_date": "2026-02-10T06:00:00"
     },
     {
       "title": "ドレミファロンド/40mP どの声が好き？コメントで教えて！#歌ってみた #多声類 #shorts",
@@ -8441,8 +8454,8 @@
     "#モンハンワイルズ",
     "#作業配信",
     "#コラボ",
-    "#初見歓迎",
     "#低音女子",
+    "#初見歓迎",
     "#耐久",
     "#japanesevtuber",
     "#ゼンレスゾーンゼロ",
@@ -8635,6 +8648,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-02-10T01:35:28.614505",
-  "total_videos": 639
+  "last_updated": "2026-02-10T02:34:57.954641",
+  "total_videos": 640
 }
