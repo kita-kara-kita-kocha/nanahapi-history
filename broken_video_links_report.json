@@ -1,6 +1,6 @@
 {
   "total_checked": 420,
-  "broken_count": 4,
+  "broken_count": 1,
   "broken_links": [
     {
       "file": "archives_@nekono_chiyuru.json",
@@ -8,27 +8,6 @@
       "video_url": "https://www.youtube.com/watch?v=9XBvmlp7N0A",
       "upload_date": "2026-02-06T19:59:49",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@JabiDevi.json",
-      "title": "歌枠 ♰ 1万人目指して限界耐久歌枠🎙 #多声類 #低音女子",
-      "video_url": "https://www.youtube.com/watch?v=ZFo0WOnJsBQ",
-      "upload_date": "2026-02-03T22:17:09",
-      "error": "タイムアウト"
-    },
-    {
-      "file": "archives_@JabiDevi.json",
-      "title": "歌枠 ♰ HoneyWorksしばりで歌枠🎙 #多声類 #低音女子",
-      "video_url": "https://www.youtube.com/watch?v=fhwocp6kDV8",
-      "upload_date": "2026-02-03T17:04:07",
-      "error": "サーバーエラー (502)"
-    },
-    {
-      "file": "archives_@JabiDevi.json",
-      "title": "【コラボ企画】ぱーてぃーちゃん 信子にウロボロス踊ってもらった #shorts #踊ってみた",
-      "video_url": "https://www.youtube.com/watch?v=fnyk67Nq18g",
-      "upload_date": "2026-02-02T18:01:01",
-      "error": "タイムアウト"
     }
   ]
 }
