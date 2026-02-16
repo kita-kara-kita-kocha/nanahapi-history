@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "title": "#仮面ライダー555   【同時視聴】　第1～3話　#初見歓迎【ルシア・アラモード】",
+      "image": "https://i.ytimg.com/vi/7oz2kvpbsuM/sddefault.jpg?v=6992fb91",
+      "alt": "#仮面ライダー555   【同時視聴】　第1～3話　#初見歓迎【ルシア・アラモード】",
+      "description": "📺TTFCで視聴してます📺\n555はねぇ…リアタイで見てたんだけどもあんまり覚えてないんだよね…\nよみうりランドで555ショーの後に撮影してもらって一緒に写真撮ってもらったのは覚えてるんだけどね🤔🤔🤔...",
+      "videoId": "7oz2kvpbsuM",
+      "video_url": "https://www.youtube.com/watch?v=7oz2kvpbsuM",
+      "tags": [
+        "#仮面ライダー555",
+        "#初見歓迎"
+      ],
+      "upload_date": "2026-02-16T21:00:00"
+    },
+    {
       "title": "#特捜戦隊デカレンジャー  【同時視聴】　Episode1～3 　#初見歓迎【ルシア・アラモード】",
       "image": "https://i.ytimg.com/vi/4gU22gJ3bYk/sddefault.jpg?v=6991a7ff",
       "alt": "#特捜戦隊デカレンジャー  【同時視聴】　Episode1～3 　#初見歓迎【ルシア・アラモード】",
@@ -100,13 +113,12 @@
     },
     {
       "title": "#メン限【雑談】　今月初メン限！【ルシア・アラモード】",
-      "image": "https://i.ytimg.com/vi/6eO5R4YPNug/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCtywitQBvgxXXjWw_fQkx6NWzqEQ",
+      "image": "https://i.ytimg.com/vi/6eO5R4YPNug/sddefault.jpg?v=698485d3",
       "alt": "#メン限【雑談】　今月初メン限！【ルシア・アラモード】",
-      "description": "今日はカレンダー？クリエイティア関連頑張りながら配信！！\n\n🍮☀️Twitch配信始まってます！🍮☀️\n↓↓フォローよろしくね！↓↓\n https://m.twi......",
+      "description": "今日はカレンダー？クリエイティア関連頑張りながら配信！！\n\n🍮☀️Twitch配信始まってます！🍮☀️\n↓↓フォローよろしくね！↓↓\n https://m.twitch.tv/pieceofpuddi...",
       "videoId": "6eO5R4YPNug",
       "video_url": "https://www.youtube.com/watch?v=6eO5R4YPNug",
       "tags": [
-        "#メン限",
         "#メン限"
       ],
       "upload_date": "2026-02-05T21:00:01"
@@ -11170,6 +11182,7 @@
     "#フォールガイズ",
     "#仮面ライダーギーツ",
     "#開封の儀",
+    "#仮面ライダー555",
     "#特捜戦隊デカレンジャー",
     "#BEATRUNNERS",
     "#2026",
@@ -11259,6 +11272,6 @@
     "#5",
     "#4"
   ],
-  "last_updated": "2026-02-16T19:33:40.688831",
-  "total_videos": 964
+  "last_updated": "2026-02-16T20:33:42.677197",
+  "total_videos": 965
 }
