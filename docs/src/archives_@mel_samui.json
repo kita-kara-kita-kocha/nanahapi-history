@@ -21,9 +21,9 @@
       "upload_date": "2027-12-31T23:45:00"
     },
     {
-      "title": "歌枠⌇ほんのちょびっとだけよ、歌わせてね。 ̖́-#花鹿める / ななはぴ 2026-02-18 22:36",
+      "title": "歌枠⌇ほんのちょびっとだけよ、歌わせてね。 ̖́-#花鹿める / ななはぴ",
       "image": "https://i.ytimg.com/vi/Z3goBcW53lA/sddefault.jpg?v=6995b4a3",
-      "alt": "歌枠⌇ほんのちょびっとだけよ、歌わせてね。 ̖́-#花鹿める / ななはぴ 2026-02-18 22:36",
+      "alt": "歌枠⌇ほんのちょびっとだけよ、歌わせてね。 ̖́-#花鹿める / ななはぴ",
       "description": "ᵀᴼᴰᴬᵞ  ˢᵀᴿᴱᴬᴹ\n﹉﹉﹉﹉﹉﹉﹉﹉﹉\n\n\n∥　弾幕（ メンバーさんはぜひスタンプも使ってください ）\n🌳❄️🕯❄️🌳\n🦌🌳🕯🌳🦌\n\n\n\nᴵᴺᶠᴼᴿᴹᴬᵀᴵᴼᴺ\n﹉﹉﹉﹉﹉﹉﹉﹉﹉\n🎧 𝗇𝖾𝗐...",
       "videoId": "Z3goBcW53lA",
       "video_url": "https://www.youtube.com/watch?v=Z3goBcW53lA",
@@ -2681,13 +2681,15 @@
     },
     {
       "title": "夢の恋人",
-      "image": "https://i.ytimg.com/vi/X30mstolZgo/sddefault.jpg",
+      "image": "https://i.ytimg.com/vi/X30mstolZgo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwlCSXmElIB8uWiUOWUdjuAzqntw",
       "alt": "夢の恋人",
       "description": "あいしてるよ...",
       "videoId": "X30mstolZgo",
       "video_url": "https://www.youtube.com/watch?v=X30mstolZgo",
-      "tags": [],
-      "upload_date": "2025-05-23T05:24:52"
+      "tags": [
+        "#メン限"
+      ],
+      "upload_date": "2025-05-22T22:24:52"
     },
     {
       "title": "歌枠⌇ウィスパーボイスで睡眠導入、寝る前に一曲いかがですか？初見様大歓迎🕯️   ̖́-#花鹿める / ななはぴ",
@@ -5417,6 +5419,6 @@
     "#初配信",
     "#cover"
   ],
-  "last_updated": "2026-02-18T22:37:08.641457",
+  "last_updated": "2026-02-18T23:37:00.026594",
   "total_videos": 419
 }
