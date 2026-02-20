@@ -63,13 +63,16 @@
       "upload_date": "2026-02-22T09:00:00"
     },
     {
-      "title": "【謎解き】積みナゾ消化！1月号「あまりあり」をのんびり攻略【Mystery for You】",
+      "title": "【謎解き】積みナゾ消化！1月号「あまりあり」をのんびり攻略【#MysteryforYou/#積みナゾもぐ録】",
       "image": "https://i.ytimg.com/vi/Rjmk2Y8YPmI/sddefault.jpg?v=6993b835",
-      "alt": "【謎解き】積みナゾ消化！1月号「あまりあり」をのんびり攻略【Mystery for You】",
+      "alt": "【謎解き】積みナゾ消化！1月号「あまりあり」をのんびり攻略【#MysteryforYou/#積みナゾもぐ録】",
       "description": "📺 ＜ネタバレなしです。一緒に持ち寄って解くもよし、全然別のことをしながら作業配信として聞くもよし。\n📋 #積みナゾもぐ録\n📚 Mystery for Youとは　https://www.scrapm...",
       "videoId": "Rjmk2Y8YPmI",
       "video_url": "https://www.youtube.com/watch?v=Rjmk2Y8YPmI",
-      "tags": [],
+      "tags": [
+        "#MysteryforYou",
+        "#積みナゾもぐ録"
+      ],
       "upload_date": "2026-02-20T21:03:17"
     },
     {
@@ -1141,6 +1144,8 @@
     "#雑学",
     "#4",
     "#3",
+    "#MysteryforYou",
+    "#積みナゾもぐ録",
     "#27",
     "#アルゴウォッシャーズ",
     "#ウォーナゾ",
@@ -1157,6 +1162,6 @@
     "#コ古鬼乃ソノ死",
     "#TRPG配信者歌みたリレー"
   ],
-  "last_updated": "2026-02-21T00:32:34.059770",
+  "last_updated": "2026-02-21T01:32:18.903729",
   "total_videos": 103
 }
