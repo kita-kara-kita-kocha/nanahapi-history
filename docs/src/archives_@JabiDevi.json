@@ -1,14 +1,40 @@
 {
   "items": [
     {
-      "title": "🎥 2月9日～2月15日の配信予定",
+      "title": "🎥 2月23日～3月1日の配信予定",
       "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtVdw4Q_EfR6RfN9Fa4j1ohGXjQg",
-      "alt": "🎥 2月9日～2月15日の配信予定",
-      "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
+      "alt": "🎥 2月23日～3月1日の配信予定",
+      "description": "#vsinger #vtuber \n\n♰ バレンタインボイス🍫2月28日23:59まで\nhttps://seventhv.booth.pm/items/7982838\n\n♰ 蛇火【歌ってみた再生リスト...",
       "videoId": "M9MTA_K8wnc",
       "video_url": "https://www.youtube.com/watch?v=M9MTA_K8wnc",
       "tags": [],
       "upload_date": "2027-12-16T00:00:00"
+    },
+    {
+      "title": "ウミガリ ♰ 海洋恐怖症が本気で戦った結果・・・！？#チラズアート #ホラー",
+      "image": "https://i.ytimg.com/vi/RT8x2gqeCpU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4lxp8nHzPxT5tfjkUIIUFNAWjCQ",
+      "alt": "ウミガリ ♰ 海洋恐怖症が本気で戦った結果・・・！？#チラズアート #ホラー",
+      "description": "#vsinger #vtuber \nバレンタインボイス🍫販売中！2/28まで\nhttps://seventhv.booth.pm/items/7982838\n\n♰ 蛇火【歌ってみた再生リスト】\nhtt...",
+      "videoId": "RT8x2gqeCpU",
+      "video_url": "https://www.youtube.com/watch?v=RT8x2gqeCpU",
+      "tags": [
+        "#チラズアート",
+        "#ホラー"
+      ],
+      "upload_date": "2026-02-24T21:00:00"
+    },
+    {
+      "title": "歌枠 ♰ 目標8000人！低音女子がたくさん歌います！！🎙 #多声類 #低音女子",
+      "image": "https://i.ytimg.com/vi/iiiTOfrVU1s/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqGMOu9ERJM4e2nSQRKK6yS7Yadg",
+      "alt": "歌枠 ♰ 目標8000人！低音女子がたくさん歌います！！🎙 #多声類 #低音女子",
+      "description": "#vsinger #vtuber \n\n♰ 【限定販売】バレンタインボイス🍫 2026/02/14 18:00～2026/02/28 23:59\nhttps://booth.pm/ja/items/79...",
+      "videoId": "iiiTOfrVU1s",
+      "video_url": "https://www.youtube.com/watch?v=iiiTOfrVU1s",
+      "tags": [
+        "#低音女子",
+        "#多声類"
+      ],
+      "upload_date": "2026-02-24T17:00:00"
     },
     {
       "title": "#メロLADY歌枠リレー 『 愛 し て る 』",
@@ -8563,6 +8589,7 @@
     "#リトルナイトメア",
     "#ゲーム実況",
     "#ポケモンsv",
+    "#チラズアート",
     "#質問コーナー",
     "#asmr",
     "#同時視聴",
@@ -8570,7 +8597,7 @@
     "#monsterhunter",
     "#マリオカート8dx",
     "#スマブラsp",
-    "#チラズアート",
+    "#ホラー",
     "#踊ってみた",
     "#蛇火生誕祭2026",
     "#睡眠導入",
@@ -8582,7 +8609,6 @@
     "#モンハンライズ",
     "#リトルナイトメア2",
     "#フォールガイズ",
-    "#ホラー",
     "#KARAOKE",
     "#ほにはち2周年",
     "#雑談配信",
@@ -8740,6 +8766,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-02-24T13:35:38.794892",
-  "total_videos": 647
+  "last_updated": "2026-02-24T14:58:59.204128",
+  "total_videos": 649
 }
