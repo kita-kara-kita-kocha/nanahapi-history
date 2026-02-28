@@ -1,19 +1,12 @@
 {
-  "total_checked": 420,
-  "broken_count": 2,
+  "total_checked": 70,
+  "broken_count": 1,
   "broken_links": [
     {
-      "file": "archives_@nekono_chiyuru.json",
-      "title": "【 #歌枠  】アニソン！アイドル！なんでも歌う🎤🐱【 #猫野ちゆる  /  #Vtuber 】",
-      "video_url": "https://www.youtube.com/watch?v=9XBvmlp7N0A",
-      "upload_date": "2026-02-06T19:59:49",
-      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@amanosakatu.json",
-      "title": "【Minecraft】和風建築マイクラ朝活⛏️神社の形にそろそろなりそう #まどろみ酒場   #縦型配信 【Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=zgwVrUTismg",
-      "upload_date": "2026-02-04T21:02:04",
+      "file": "archives_@JabiDevi.json",
+      "title": "【メン限】嬉しい先行お披露目があります‼🐍✨",
+      "video_url": "https://www.youtube.com/watch?v=uWCsFtec-po",
+      "upload_date": "2026-02-28T06:58:58",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
     }
   ]
