@@ -1,14 +1,54 @@
 {
   "items": [
     {
-      "title": "🎥 3月2日～3月8日の配信予定",
+      "title": "🎥3月9日～3月15日の配信予定",
       "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtVdw4Q_EfR6RfN9Fa4j1ohGXjQg",
-      "alt": "🎥 3月2日～3月8日の配信予定",
+      "alt": "🎥3月9日～3月15日の配信予定",
       "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
       "videoId": "M9MTA_K8wnc",
       "video_url": "https://www.youtube.com/watch?v=M9MTA_K8wnc",
       "tags": [],
       "upload_date": "2027-12-16T00:00:00"
+    },
+    {
+      "title": "歌枠 ♰ 目標8500人！ねむいから全力で歌う！！🎙 #多声類 #低音女子",
+      "image": "https://i.ytimg.com/vi/UwBnu3lbyRk/sddefault.jpg?v=69affc47",
+      "alt": "歌枠 ♰ 目標8500人！ねむいから全力で歌う！！🎙 #多声類 #低音女子",
+      "description": "#vsinger #vtuber \n\n♰ リアルイベント【推し対Vol.8】チケット🎫\nhttps://livepocket.jp/e/w-bps\n\n⏰販売期間⏰\n2026年2月27日(金)18:00...",
+      "videoId": "UwBnu3lbyRk",
+      "video_url": "https://www.youtube.com/watch?v=UwBnu3lbyRk",
+      "tags": [
+        "#低音女子",
+        "#多声類"
+      ],
+      "upload_date": "2026-03-10T21:00:21"
+    },
+    {
+      "title": "歌枠 ♰ 目標8300！眠りに誘う本気のF分の１ゆらぎ聴いてけよ🎙 #多声類 #低音女子",
+      "image": "https://i.ytimg.com/vi/zMmKFJ1TAtQ/sddefault.jpg?v=69afc6c0",
+      "alt": "歌枠 ♰ 目標8300！眠りに誘う本気のF分の１ゆらぎ聴いてけよ🎙 #多声類 #低音女子",
+      "description": "#vsinger #vtuber \n\n♰ リアルイベント【推し対Vol.8】チケット🎫\nhttps://livepocket.jp/e/w-bps\n\n⏰販売期間⏰\n2026年2月27日(金)18:00...",
+      "videoId": "zMmKFJ1TAtQ",
+      "video_url": "https://www.youtube.com/watch?v=zMmKFJ1TAtQ",
+      "tags": [
+        "#低音女子",
+        "#多声類"
+      ],
+      "upload_date": "2026-03-10T17:08:23"
+    },
+    {
+      "title": "みんな何色が好き？#shorts #vtuber #蛇火",
+      "image": "https://i.ytimg.com/vi/m39wtlYC_OA/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYXCBcKFwwDw==&rs=AOn4CLBfm3kKbLigtYoz_4lcEmtquH9zbA",
+      "alt": "みんな何色が好き？#shorts #vtuber #蛇火",
+      "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
+      "videoId": "m39wtlYC_OA",
+      "video_url": "https://www.youtube.com/watch?v=m39wtlYC_OA",
+      "tags": [
+        "#shorts",
+        "#vtuber",
+        "#蛇火"
+      ],
+      "upload_date": "2026-03-09T17:00:46"
     },
     {
       "title": "歌枠 ♰ 初見大歓迎！ビンゴ大会みたいな歌枠！？🎙 #多声類 #低音女子",
@@ -8911,6 +8951,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-03-09T15:35:52.025239",
-  "total_videos": 660
+  "last_updated": "2026-03-11T00:36:06.252417",
+  "total_videos": 663
 }
