@@ -1,6 +1,6 @@
 {
   "total_checked": 70,
-  "broken_count": 1,
+  "broken_count": 2,
   "broken_links": [
     {
       "file": "archives_@mel_samui.json",
@@ -8,6 +8,13 @@
       "video_url": "https://www.youtube.com/watch?v=VjjmnsC9Q1w",
       "upload_date": "2027-12-31T23:45:00",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@JabiDevi.json",
+      "title": "歌枠 ♰ 目標8500！HoneyWorksを全力で歌いまくる🎙 #多声類 #低音女子",
+      "video_url": "https://www.youtube.com/watch?v=BMfGGeSPmc4",
+      "upload_date": "2026-03-13T17:59:53",
+      "error": "動画エラー（削除済みの可能性）: status=ERROR"
     }
   ]
 }
