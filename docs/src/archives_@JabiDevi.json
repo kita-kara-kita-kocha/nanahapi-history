@@ -2,7 +2,7 @@
   "items": [
     {
       "title": "🎥3月9日～3月15日の配信予定",
-      "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/sddefault.jpg?v=69afc535",
+      "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtVdw4Q_EfR6RfN9Fa4j1ohGXjQg",
       "alt": "🎥3月9日～3月15日の配信予定",
       "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
       "videoId": "M9MTA_K8wnc",
@@ -132,12 +132,14 @@
     },
     {
       "title": "【メン限】お前たちに手をふりたい！",
-      "image": "https://i.ytimg.com/vi/Tnp83MyAbVc/sddefault.jpg?v=69a6e119",
+      "image": "https://i.ytimg.com/vi/Tnp83MyAbVc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBUCDx--y2gVYd7OfXdFCc2dxLX_w",
       "alt": "【メン限】お前たちに手をふりたい！",
-      "description": "#vsinger #vtuber \n\n♰ \n弾幕\n🐍🔥🎶🐍🔥🎶🐍🔥🎶\n\nウロボロス➤レス\n・完全なる！永遠なる！不滅の！蛇火様ー！\n・輪廻転生\n・完全なる！永遠なる！不滅の！蛇火様ー！\n・ザザス・ザザ...",
+      "description": "#vsinger #vtuber \n\n♰ \n弾幕\n🐍🔥🎶🐍🔥🎶🐍🔥🎶\n\nウロボロス➤レス\n・完全なる！永遠なる！不滅の！蛇火様ー！\n・輪廻転生\n・完全なる！永遠......",
       "videoId": "Tnp83MyAbVc",
       "video_url": "https://www.youtube.com/watch?v=Tnp83MyAbVc",
-      "tags": [],
+      "tags": [
+        "#メン限"
+      ],
       "upload_date": "2026-03-03T22:29:07"
     },
     {
@@ -8988,6 +8990,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-03-13T09:34:55.706251",
+  "last_updated": "2026-03-13T12:35:45.784141",
   "total_videos": 666
 }
