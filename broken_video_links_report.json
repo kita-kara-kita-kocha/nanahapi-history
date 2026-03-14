@@ -1,6 +1,6 @@
 {
   "total_checked": 70,
-  "broken_count": 2,
+  "broken_count": 3,
   "broken_links": [
     {
       "file": "archives_@mel_samui.json",
@@ -8,6 +8,13 @@
       "video_url": "https://www.youtube.com/watch?v=VjjmnsC9Q1w",
       "upload_date": "2027-12-31T23:45:00",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@pieceofpudding3.json",
+      "title": "#メン限【雑談】　メン限雑談！【ルシア・アラモード】",
+      "video_url": "https://www.youtube.com/watch?v=FLZ79eKXWQg",
+      "upload_date": "2026-03-14T14:00:20",
+      "error": "動画エラー（削除済みの可能性）: status=ERROR"
     },
     {
       "file": "archives_@JabiDevi.json",
