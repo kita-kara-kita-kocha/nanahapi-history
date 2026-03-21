@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "title": "#歌配信【歌枠】久しぶりに歌います🎤【ルシア・アラモード】",
+      "image": "https://i.ytimg.com/vi/j6dDA6jbtBc/sddefault.jpg?v=69be69de",
+      "alt": "#歌配信【歌枠】久しぶりに歌います🎤【ルシア・アラモード】",
+      "description": "そうです！！きっと特撮の曲しか歌わないのでは？です\n\n🍮☀️Twitch配信始まってます！🍮☀️\n↓↓フォローよろしくね！↓↓\n https://m.twitch.tv/pieceofpudding3...",
+      "videoId": "j6dDA6jbtBc",
+      "video_url": "https://www.youtube.com/watch?v=j6dDA6jbtBc",
+      "tags": [
+        "#歌配信"
+      ],
+      "upload_date": "2026-03-21T19:00:44"
+    },
+    {
       "title": "#fgoガチャ　CBCモレーPU回すぞ🔁🔁🔁 【ルシア・アラモード】#初見歓迎",
       "image": "https://i.ytimg.com/vi/BTpTlqRTOng/sddefault.jpg?v=69bbde3c",
       "alt": "#fgoガチャ　CBCモレーPU回すぞ🔁🔁🔁 【ルシア・アラモード】#初見歓迎",
@@ -11396,12 +11408,12 @@
     "#雑談",
     "#FGO",
     "#初見さん大歓迎",
+    "#歌配信",
     "#特捜戦隊デカレンジャー",
     "#Fate",
     "#Shorts",
     "#壺おじ",
     "#仮面ライダー555",
-    "#歌配信",
     "#ウクレレ弾き語り",
     "#睡眠導入",
     "#フリーゲーム",
@@ -11520,6 +11532,6 @@
     "#5",
     "#4"
   ],
-  "last_updated": "2026-03-21T18:33:59.649543",
+  "last_updated": "2026-03-22T00:33:58.552395",
   "total_videos": 985
 }
