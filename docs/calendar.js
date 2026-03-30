@@ -413,3 +413,192 @@ function handleOutsideClick(e) {
 
 // 初期化実行
 document.addEventListener('DOMContentLoaded', init);
+
+// 画面を駆け巡る要素のアニメーション
+class BouncingElement {
+    constructor(elementId) {
+        this.element = document.getElementById(elementId);
+        
+        // 要素の実際のサイズを取得
+        const computedStyle = window.getComputedStyle(this.element);
+        this.elementWidth = parseInt(computedStyle.width);
+        this.elementHeight = parseInt(computedStyle.height);
+        
+        // 実際の要素サイズを考慮した初期位置設定
+        this.x = Math.random() * (window.innerWidth - this.elementWidth);
+        this.y = Math.random() * (window.innerHeight - this.elementHeight);
+        this.vx = (Math.random() - 0.5) * 15; // X方向の速度（超高速！）
+        this.vy = (Math.random() - 0.5) * 15; // Y方向の速度（超高速！）
+        this.rotationSpeed = (Math.random() - 0.5) * 5; // 回転速度（適切な速さ）
+        this.rotation = 0;
+        this.isFixed = false; // 固定状態フラグ
+        this.targetX = 0; // 目標位置X
+        this.targetY = 0; // 目標位置Y
+        this.targetRotation = 0; // 目標角度
+        this.isMovingToTarget = false; // 目標位置への移動中フラグ
+        
+        // 初期位置を設定
+        this.updatePosition();
+        
+        // 10秒後に右上に固定（テスト用）
+        setTimeout(() => this.moveToTopRight(), 10000);
+    }
+    
+    updatePosition() {
+        if (!this.element) return;
+        
+        this.element.style.left = this.x + 'px';
+        this.element.style.top = this.y + 'px';
+        this.element.style.transform = `rotate(${this.rotation}deg)`;
+    }
+    
+    moveToTopRight() {
+        // 右上の位置を計算（要素分オフセット）
+        const rightEdge = window.innerWidth - 80; // 右端から80px内側
+        const topEdge = 20; // 上端から20px
+        
+        // 各要素を少しずつずらして配置
+        const elements = bouncingElements;
+        const myIndex = elements.indexOf(this);
+        
+        this.targetX = rightEdge - (myIndex * 50); // 50pxずつ左にずらす
+        this.targetY = topEdge + (myIndex * 50); // 50pxずつ下にずらす
+        this.targetRotation = 0; // 角度も水平（0度）に戻す
+        
+        this.isMovingToTarget = true;
+        this.vx = 0;
+        this.vy = 0;
+        this.rotationSpeed = 0;
+        
+        // 固定完了のメッセージ
+        console.log(`${this.element.id} が右上に固定されました`);
+    }
+    
+    animate() {
+        if (!this.element) return;
+        
+        if (this.isMovingToTarget) {
+            // 目標位置への移動
+            const dx = this.targetX - this.x;
+            const dy = this.targetY - this.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            
+            // 角度の差も計算
+            const rotationDiff = this.targetRotation - this.rotation;
+            const rotationDistance = Math.abs(rotationDiff);
+            
+            if (distance < 2 && rotationDistance < 1) {
+                // 目標地点と角度に到達
+                this.x = this.targetX;
+                this.y = this.targetY;
+                this.rotation = this.targetRotation;
+                this.isFixed = true;
+                this.isMovingToTarget = false;
+                // 固定状態のクラスを追加し、閉じるボタンを表示
+                this.element.classList.add('fixed');
+                console.log(`${this.element.id} が固定完了し、ボタンを表示`);
+                // 固定状態のクラスを追加し、閉じるボタンを表示
+                this.element.classList.add('fixed');
+                console.log(`${this.element.id} が固定完了し、ボタンを表示`);
+            } else {
+                // 目標地点に向かって移動
+                const speed = 5;
+                this.x += (dx / distance) * speed;
+                this.y += (dy / distance) * speed;
+                
+                // 角度も徐々に水平に戻す
+                const rotationSpeed = 2;
+                if (rotationDistance > 0) {
+                    if (rotationDiff > 0) {
+                        this.rotation += Math.min(rotationSpeed, rotationDiff);
+                    } else {
+                        this.rotation -= Math.min(rotationSpeed, -rotationDiff);
+                    }
+                }
+            }
+        } else if (!this.isFixed) {
+            // 通常のバウンドアニメーション
+            this.x += this.vx;
+            this.y += this.vy;
+            this.rotation += this.rotationSpeed;
+            
+            // 画面端での跳ね返り（要素の実際のサイズを考慮）
+            if (this.x <= 0 || this.x >= window.innerWidth - this.elementWidth) {
+                this.vx = -this.vx;
+                this.x = Math.max(0, Math.min(window.innerWidth - this.elementWidth, this.x));
+            }
+            
+            if (this.y <= 0 || this.y >= window.innerHeight - this.elementHeight) {
+                this.vy = -this.vy;
+                this.y = Math.max(0, Math.min(window.innerHeight - this.elementHeight, this.y));
+            }
+        }
+        
+        // 位置を要素に適用
+        this.updatePosition();
+    }
+}
+
+// 跳ね回る要素の管理
+let bouncingElements = [];
+
+function initBouncingElements() {
+    const sakuraElementIds = ['sakura1', 'sakura2', 'sakura3'];
+    const discordlink = 'discordlink';
+    
+    sakuraElementIds.forEach(id => {
+        if (document.getElementById(id)) {
+            bouncingElements.push(new BouncingElement(id));
+        }
+    });
+    
+    if (document.getElementById(discordlink)) {
+        bouncingElements.push(new BouncingElement(discordlink));
+    }
+    
+    // アニメーションループを開始
+    animateElements();
+}
+
+function animateElements() {
+    bouncingElements.forEach(element => element.animate());
+    requestAnimationFrame(animateElements);
+}
+
+// ウィンドウリサイズ時に要素の境界を更新
+window.addEventListener('resize', () => {
+    bouncingElements.forEach(element => {
+        // 画面サイズが変わった時に要素が画面外に出ないよう調整（各要素の実際のサイズを考慮）
+        element.x = Math.min(element.x, window.innerWidth - element.elementWidth);
+        element.y = Math.min(element.y, window.innerHeight - element.elementHeight);
+        element.updatePosition();
+    });
+});
+
+// DOMContentLoaded後に跳ね回る要素を初期化
+document.addEventListener('DOMContentLoaded', () => {
+    // 少し遅延を入れて、他の初期化が完了してから開始
+    setTimeout(initBouncingElements, 1000);
+});
+
+// 跳ね回る要素を閉じる関数
+function closeBouncingElement(elementId) {
+    const element = document.getElementById(elementId);
+    if (element) {
+        // フェードアウト効果で非表示
+        element.style.opacity = '0';
+        element.style.transform = 'scale(0)';
+        element.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+        
+        // アニメーション後に完全に非表示
+        setTimeout(() => {
+            element.style.display = 'none';
+            
+            // bouncingElements配列からも削除
+            const index = bouncingElements.findIndex(el => el.element && el.element.id === elementId);
+            if (index > -1) {
+                bouncingElements.splice(index, 1);
+            }
+        }, 300);
+    }
+}
