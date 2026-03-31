@@ -441,7 +441,7 @@ class BouncingElement {
         this.updatePosition();
         
         // 10秒後に右上に固定（テスト用）
-        setTimeout(() => this.moveToTopRight(), 100000);
+        setTimeout(() => this.moveToTopRight(), 10000);
     }
     
     updatePosition() {
