@@ -684,8 +684,8 @@ class BouncingElement {
         // 初期位置を設定
         this.updatePosition();
         
-        // 10秒後に右上に固定（テスト用）
-        setTimeout(() => this.moveToTopRight(), 10000);
+        // 10秒後に消える（テスト用）
+        setTimeout(() => this.disappear(), 10000);
     }
     
     updatePosition() {
@@ -696,23 +696,22 @@ class BouncingElement {
         this.element.style.transform = `rotate(${this.rotation}deg)`;
     }
     
-    moveToTopRight() {
-        // 右上の位置を計算（要素分オフセット）
-        const rightEdge = window.innerWidth - 80; // 右端から80px内側
-        const topEdge = 20; // 上端から20px
+    disappear() {
+        // フェードアウトアニメーション
+        this.element.style.transition = 'opacity 0.8s ease';
+        this.element.style.opacity = '0';
         
-        // 各要素を少しずつずらして配置
-        const elements = bouncingElements;
-        const myIndex = elements.indexOf(this);
-        
-        this.targetX = rightEdge - (myIndex * 50); // 50pxずつ左にずらす
-        this.targetY = topEdge + (myIndex * 50); // 50pxずつ下にずらす
-        this.targetRotation = 0; // 角度も水平（0度）に戻す
-        
-        this.isMovingToTarget = true;
-        this.vx = 0;
-        this.vy = 0;
-        this.rotationSpeed = 0;
+        // フェードアウト完了後に要素を削除
+        setTimeout(() => {
+            if (this.element && this.element.parentNode) {
+                this.element.remove();
+                // 配列からも削除
+                const index = bouncingElements.indexOf(this);
+                if (index > -1) {
+                    bouncingElements.splice(index, 1);
+                }
+            }
+        }, 800);
         
         // 固定完了のメッセージ
         console.log(`${this.element.id} が右上に固定されました`);
@@ -787,7 +786,7 @@ class BouncingElement {
 let bouncingElements = [];
 
 function initBouncingElements() {
-    const sakuraElementIds = ['sakura1', 'sakura2', 'sakura3'];
+    const sakuraElementIds = ['sakura1', 'sakura2', 'sakura3', 'sakura4', 'sakura5', 'sakura6', 'sakura7', 'sakura8', 'sakura9', 'sakura10'];
     const discordlink = 'discordlink';
     
     sakuraElementIds.forEach(id => {
