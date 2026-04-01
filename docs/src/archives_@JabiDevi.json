@@ -1,14 +1,27 @@
 {
   "items": [
     {
-      "title": "🎥3月23日～3月29日の配信予定",
+      "title": "🎥3月30日～4月5日の配信予定",
       "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtVdw4Q_EfR6RfN9Fa4j1ohGXjQg",
-      "alt": "🎥3月23日～3月29日の配信予定",
+      "alt": "🎥3月30日～4月5日の配信予定",
       "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
       "videoId": "M9MTA_K8wnc",
       "video_url": "https://www.youtube.com/watch?v=M9MTA_K8wnc",
       "tags": [],
       "upload_date": "2027-12-16T00:00:00"
+    },
+    {
+      "title": "歌枠 ♰ 9000人目標！ボカロしばり歌枠🎙我復活だ！！！#多声類 #低音女子",
+      "image": "https://i.ytimg.com/vi/_YXX2LPnAVE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCbcDWbuX1Tx5nl4LrOqvmPROf36A",
+      "alt": "歌枠 ♰ 9000人目標！ボカロしばり歌枠🎙我復活だ！！！#多声類 #低音女子",
+      "description": "#vsinger #vtuber \n\n♰ リアルイベント【推し対Vol.8】チケット🎫\nhttps://livepocket.jp/e/w-bps\n\n⏰販売期間⏰\n2026年2月27日(金)18:00...",
+      "videoId": "_YXX2LPnAVE",
+      "video_url": "https://www.youtube.com/watch?v=_YXX2LPnAVE",
+      "tags": [
+        "#低音女子",
+        "#多声類"
+      ],
+      "upload_date": "2026-04-01T19:30:00"
     },
     {
       "title": "【#かっこいい女のコ歌枠リレー 】かっこいいうぉんナァアア",
@@ -9170,6 +9183,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-04-01T15:35:58.888178",
-  "total_videos": 680
+  "last_updated": "2026-04-01T18:36:42.577975",
+  "total_videos": 681
 }
