@@ -786,7 +786,7 @@ class BouncingElement {
 let bouncingElements = [];
 
 function initBouncingElements() {
-    const sakuraElementIds = ['sakura1', 'sakura2', 'sakura3', 'sakura4', 'sakura5', 'sakura6', 'sakura7', 'sakura8', 'sakura9', 'sakura10'];
+    const sakuraElementIds = ['sakura1', 'sakura2', 'sakura3', 'sakura4', 'sakura5', 'sakura6', 'sakura7', 'sakura8', 'sakura9', 'sakura10', 'sakura11', 'sakura12', 'sakura13', 'sakura14', 'sakura15', 'sakura16', 'sakura17', 'sakura18', 'sakura19', 'sakura20', 'sakura21', 'sakura22', 'sakura23', 'sakura24', 'sakura25', 'sakura26', 'sakura27', 'sakura28', 'sakura29', 'sakura30', 'sakura31', 'sakura32', 'sakura33', 'sakura34', 'sakura35', 'sakura36', 'sakura37', 'sakura38', 'sakura39', 'sakura40', 'sakura41', 'sakura42', 'sakura43', 'sakura44', 'sakura45', 'sakura46', 'sakura47', 'sakura48', 'sakura49', 'sakura50'];
     const discordlink = 'discordlink';
     
     sakuraElementIds.forEach(id => {
