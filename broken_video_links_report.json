@@ -1,6 +1,6 @@
 {
   "total_checked": 70,
-  "broken_count": 68,
+  "broken_count": 66,
   "broken_links": [
     {
       "file": "archives_@mel_samui.json",
@@ -46,6 +46,13 @@
     },
     {
       "file": "archives_@koyuchan_.json",
+      "title": "【 #歌枠 】今日はアニソン縛り‼️いろいろ歌うょ！【 #星降こゆ  #vtuber  #KARAOKE 】 2026-04-02 21:33",
+      "video_url": "https://www.youtube.com/watch?v=-T2PQ0mhIrQ",
+      "upload_date": "2026-04-02T21:00:19",
+      "error": "動画が削除されています: video unavailable"
+    },
+    {
+      "file": "archives_@koyuchan_.json",
       "title": "【 #桃源郷GTA 】　警察体験１日目！！ β3 第４話　 #星降こゆ",
       "video_url": "https://www.youtube.com/watch?v=X5GgOuQaRuk",
       "upload_date": "2026-04-01T21:00:33",
@@ -56,20 +63,6 @@
       "title": "【Hamsteria】なるか…ハムスターに。 with楠木トヲル 　#星降こゆ 【初見さん大歓迎】",
       "video_url": "https://www.youtube.com/watch?v=votsvdQ8uD4",
       "upload_date": "2026-03-29T21:00:23",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@koyuchan_.json",
-      "title": "【ポケモン ファイアレッド】完全初見！サントアンヌ号、のっちゃうょ~~~！ #星降こゆ 【初見さん大歓迎】",
-      "video_url": "https://www.youtube.com/watch?v=mLCG9MfVPoI",
-      "upload_date": "2026-03-28T21:00:56",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@koyuchan_.json",
-      "title": "【ぽこ あ ポケモン】いくぞ！４つめのエリア！！ #星降こゆ 【初見さん大歓迎】",
-      "video_url": "https://www.youtube.com/watch?v=lGi8b7MrFlQ",
-      "upload_date": "2026-03-27T21:00:13",
       "error": "動画が削除されています: video unavailable"
     },
     {
@@ -179,9 +172,9 @@
     },
     {
       "file": "archives_@nekono_chiyuru.json",
-      "title": "【 BLEACH Rebirth of Souls 】藍染たちが強すぎる😭一護そろそろ到着？空座決戦篇#2⚠️ネタバレ注意【  #猫野ちゆる  /  #Vtuber 】",
+      "title": "【 BLEACH Rebirth of Souls 】藍染たちが強すぎる😭一護そろそろ到着？空座決戦篇#2⚠️ネタバレ注意【  #猫野ちゆる  /  #Vtuber 】 2026-04-02 21:35",
       "video_url": "https://www.youtube.com/watch?v=RRXK8GWOd-4",
-      "upload_date": "2026-04-02T20:00:00",
+      "upload_date": "2026-04-02T20:00:37",
       "error": "動画が削除されています: video unavailable"
     },
     {
@@ -284,6 +277,13 @@
     },
     {
       "file": "archives_@pieceofpudding3.json",
+      "title": "#仮面ライダー555   【同時視聴】　第16～18話　#初見歓迎【ルシア・アラモード】 2026-04-02 21:33",
+      "video_url": "https://www.youtube.com/watch?v=Ewl-ffRw7KU",
+      "upload_date": "2026-04-02T21:01:23",
+      "error": "動画が削除されています: video unavailable"
+    },
+    {
+      "file": "archives_@pieceofpudding3.json",
       "title": "#ニチアサ同時視聴【同時視聴】3月29日放送分　#初見歓迎 　名探偵プリキュア！　仮面ライダーゼッツ　超宇宙刑事ギャバン【ルシア・アラモード】",
       "video_url": "https://www.youtube.com/watch?v=FD20GGtGr1M",
       "upload_date": "2026-04-01T21:01:48",
@@ -308,13 +308,6 @@
       "title": "#ニチアサ同時視聴【同時視聴】3月22日放送分　#初見歓迎 　名探偵プリキュア！　仮面ライダーゼッツ　超宇宙刑事ギャバン【ルシア・アラモード】",
       "video_url": "https://www.youtube.com/watch?v=pagjj_OpFVY",
       "upload_date": "2026-03-27T21:01:12",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@pieceofpudding3.json",
-      "title": "#誕生日【カウントダウン配信】皆から誕生日を祝ってほしい🎂(お知らせあり)",
-      "video_url": "https://www.youtube.com/watch?v=qGRUxRDWO-g",
-      "upload_date": "2026-03-24T23:31:02",
       "error": "動画が削除されています: video unavailable"
     },
     {
@@ -441,7 +434,7 @@
       "title": "#3 幼き日の記憶を追い求めて【アナザーコード リコレクション】ココロニ・ノンノ/ななはぴ",
       "video_url": "https://www.youtube.com/watch?v=eYOTP2Xp7Rw",
       "upload_date": "2026-04-02T21:00:00",
-      "error": "動画が削除されています: video unavailable"
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
     },
     {
       "file": "archives_@JabiDevi.json",
@@ -466,16 +459,9 @@
     },
     {
       "file": "archives_@JabiDevi.json",
-      "title": "#歌ってみた セレナーデ/なとり ルビィちゃんのキレ顔が忘れられません。#vtuber #shorts",
+      "title": "#歌ってみた セレナーデ/なとり ルビィちゃんのキレ顔が忘れられません。#推しの子  #shorts",
       "video_url": "https://www.youtube.com/watch?v=pACSwSucntc",
       "upload_date": "2026-03-27T18:00:00",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@JabiDevi.json",
-      "title": "ホグワーツレガシー ♰ サブクエ片づけないと進めないのか！？ #多声類 #低音女子",
-      "video_url": "https://www.youtube.com/watch?v=8-k8KgkyVQw",
-      "upload_date": "2026-03-25T21:00:58",
       "error": "動画が削除されています: video unavailable"
     }
   ]
