@@ -1,6 +1,6 @@
 {
   "total_checked": 70,
-  "broken_count": 66,
+  "broken_count": 67,
   "broken_links": [
     {
       "file": "archives_@mel_samui.json",
@@ -385,6 +385,13 @@
       "title": "#11【逆転検事1&2】声優Vの超アテレコ実況！👀🗝🎙🔥クールビューティと時々トノサマン。ネタバレ注意！【みみっく=わんだぁぼっくす】【男性Vtuber】",
       "video_url": "https://www.youtube.com/watch?v=_xc6KBLvKOM",
       "upload_date": "2026-04-05T22:00:00",
+      "error": "動画が削除されています: video unavailable"
+    },
+    {
+      "file": "archives_@mimic_teionvo.json",
+      "title": "【MIMICRAFT】イケオジのマイクラ実況！マイクラにちっちゃなヒヨコちゃん登場！？👀🗝⛏🐤✨【みみっく=わんだぁぼっくす】【男性Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=70Koh4zhu78",
+      "upload_date": "2026-04-04T22:00:00",
       "error": "動画が削除されています: video unavailable"
     },
     {
