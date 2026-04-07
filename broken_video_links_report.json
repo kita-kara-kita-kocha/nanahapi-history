@@ -1,152 +1,12 @@
 {
   "total_checked": 70,
-  "broken_count": 46,
+  "broken_count": 6,
   "broken_links": [
-    {
-      "file": "archives_@mel_samui.json",
-      "title": "歌枠⌇春歌うたおう～！新生活、おいでませ四月🌸 ̖́-#花鹿める / ななはぴ",
-      "video_url": "https://www.youtube.com/watch?v=OlRusvweNtM",
-      "upload_date": "2026-04-01T21:00:40",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@mel_samui.json",
-      "title": "歌枠⌇ねえ、まだ起きてるの？🕯️🌿 ̖́-#花鹿める / ななはぴ",
-      "video_url": "https://www.youtube.com/watch?v=UbIrfbdO7ek",
-      "upload_date": "2026-03-27T00:08:32",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@koyuchan_.json",
-      "title": "【Free Chat】3/23～3/29【  #星降こゆ ／新人Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=SjLv-384tSo",
-      "upload_date": "2026-07-31T00:00:00",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@koyuchan_.json",
-      "title": "【 #桃源郷GTA 】　β３最終日！駆け抜けょ~~~~~！！  β3 第６話　 #星降こゆ",
-      "video_url": "https://www.youtube.com/watch?v=BhqoJwLoUGU",
-      "upload_date": "2026-04-04T22:00:21",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@7_hapi_.json",
-      "title": "【4周年サマフェス】Division Battle Anthem【切札アタル】#shots #切り抜き",
-      "video_url": "https://www.youtube.com/watch?v=dmZtBKwawWs",
-      "upload_date": "2025-11-10T19:00:56",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@7_hapi_.json",
-      "title": "【4周年サマフェス】READY!!【まどろみ姉さん】#shots #切り抜き",
-      "video_url": "https://www.youtube.com/watch?v=QTrVjMfVkK0",
-      "upload_date": "2025-11-09T19:00:42",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@7_hapi_.json",
-      "title": "【4周年サマフェス】サインはB【蛇火】#shots #切り抜き",
-      "video_url": "https://www.youtube.com/watch?v=ka0RykdvkIs",
-      "upload_date": "2025-11-08T19:01:11",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@rinka__angel.json",
-      "title": "【ドッキリ神回避4】すれ違い回避  [ Prank god avoidance 4 ]  #games #ゲーム実況 #shorts",
-      "video_url": "https://www.youtube.com/watch?v=qMHTpVVGvHA",
-      "upload_date": "2025-11-23T15:53:22",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@rinka__angel.json",
-      "title": "【ドッキリ神回避4】はさまれ回避😇  [ Prank god avoidance 4 ]  #shorts #ゲーム #ゲーム実況",
-      "video_url": "https://www.youtube.com/watch?v=yjiOO_yBX6o",
-      "upload_date": "2025-11-23T15:30:38",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@rinka__angel.json",
-      "title": "【ハッピーキャンディ】ブーケとりたい💐次に結婚するのは私だ！！！[ Happy candy ] #games #スマホゲーム #shorts",
-      "video_url": "https://www.youtube.com/watch?v=4a-gTzunMYY",
-      "upload_date": "2025-11-23T15:30:05",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@rinka__angel.json",
-      "title": "【ハッピーキャンディ】注射怖い💉イケメンのお医者さんでも無理なもんは無理ー！😱[ Happy candy ] #games #スマホゲーム #shorts",
-      "video_url": "https://www.youtube.com/watch?v=c4kVo-ZBZqA",
-      "upload_date": "2025-11-22T15:30:23",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@nicola_aldin.json",
-      "title": "一番の宝物 ～Yui final ver.～ - Girls Dead Monster STARRING LiSA 【covered by ニコラ・アルディン】",
-      "video_url": "https://www.youtube.com/watch?v=KBgb1BChISo",
-      "upload_date": "2023-06-30T20:00:07",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@nicola_aldin.json",
-      "title": "【歌ってみた】ヒャダインのじょーじょーゆーじょー 【covered by ニコラ・アルディン＆ココロニ・ノンノ #ニコロニ】",
-      "video_url": "https://www.youtube.com/watch?v=Krw8Th9EKrs",
-      "upload_date": "2023-05-03T20:00:08",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@nekono_chiyuru.json",
-      "title": "【 #splatoon3 #識凪祭】今夜も対抗戦🔥いいとこ見せる！【 #猫野ちゆる  /  #Vtuber 】",
-      "video_url": "https://www.youtube.com/watch?v=Qzh8OOfQR7o",
-      "upload_date": "2026-04-08T21:00:00",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@nekono_chiyuru.json",
-      "title": "【 #お披露目 #雑談  】お待たせ！New猫野ちゆるです💛🐈【  #猫野ちゆる  /  #Vtuber 】",
-      "video_url": "https://www.youtube.com/watch?v=UXH_JuxL1X0",
-      "upload_date": "2026-04-05T19:59:19",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@nekono_chiyuru.json",
-      "title": "【 #gangbeasts 】スプキュア！げまぶいお疲れ様コラボ【 #猫野ちゆる  /  #Vtuber 】",
-      "video_url": "https://www.youtube.com/watch?v=s2KU1fGQ4XU",
-      "upload_date": "2026-04-04T20:59:27",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@nekono_chiyuru.json",
-      "title": "【 BLEACH Rebirth of Souls 】藍染たちが強すぎる😭一護そろそろ到着？空座決戦篇#2⚠️ネタバレ注意【  #猫野ちゆる  /  #Vtuber 】",
-      "video_url": "https://www.youtube.com/watch?v=RRXK8GWOd-4",
-      "upload_date": "2026-04-02T20:00:37",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@Toworu_.json",
-      "title": "【PEAK】元登山部が山の怖さを教えてくれるらしい【#男性Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=zCaamvfRf9c",
-      "upload_date": "2026-04-07T23:04:42",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@Toworu_.json",
-      "title": "【歌枠】うたうわよ【#男性Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=r9N06Q0rv6c",
-      "upload_date": "2026-03-30T23:16:13",
-      "error": "動画が削除されています: video unavailable"
-    },
     {
       "file": "archives_@Toworu_.json",
       "title": "【#雑談】祝四周年激嬉本気忘却謝罪【#男性vtuber】",
       "video_url": "https://www.youtube.com/watch?v=EHAxQA0uWME",
       "upload_date": "2026-03-19T23:02:16",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@Toworu_.json",
-      "title": "【歌枠】はらきつすぎて声でないのでは！？【#男性Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=OoRgG1IXuao",
-      "upload_date": "2026-03-17T23:17:48",
       "error": "動画が削除されています: video unavailable"
     },
     {
@@ -164,13 +24,6 @@
       "error": "動画が削除されています: video unavailable"
     },
     {
-      "file": "archives_@kirihuda_ataru.json",
-      "title": "【5日目】ウィッチマスター、最終Beyondランクにならなきゃ来月10万円競馬行きます【シャドウバースワールズビヨンド】#shadowverse #シャドバWB #連勝",
-      "video_url": "https://www.youtube.com/watch?v=yP21iJGCC5E",
-      "upload_date": "2026-03-23T22:00:46",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
       "file": "archives_@pieceofpudding3.json",
       "title": "#仮面ライダー555   【同時視聴】　第22～24話　#初見歓迎【ルシア・アラモード】",
       "video_url": "https://www.youtube.com/watch?v=dT9DlRTQYGw",
@@ -178,115 +31,10 @@
       "error": "動画が削除されています: video unavailable"
     },
     {
-      "file": "archives_@pieceofpudding3.json",
-      "title": "【誕生日グッズ買ってください！！】4月8日までの限定販売です〆",
-      "video_url": "https://www.youtube.com/watch?v=0xx0YqmyNK0",
-      "upload_date": "2026-04-05T21:00:53",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@pieceofpudding3.json",
-      "title": "#仮面ライダー555   【同時視聴】　第19～21話　#初見歓迎【ルシア・アラモード】",
-      "video_url": "https://www.youtube.com/watch?v=3Ol0aNqwT4k",
-      "upload_date": "2026-04-04T21:02:00",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@pieceofpudding3.json",
-      "title": "#特捜戦隊デカレンジャー  【同時視聴】　Episode19～21　#初見歓迎【ルシア・アラモード】",
-      "video_url": "https://www.youtube.com/watch?v=N8-EImHTdxQ",
-      "upload_date": "2026-04-03T21:00:16",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@memoa_923.json",
-      "title": "【週間スケジュール】めもあ/memoa",
-      "video_url": "https://www.youtube.com/watch?v=9xa0Weagh6g",
-      "upload_date": "2026-04-22T18:00:00",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@memoa_923.json",
-      "title": "【#歌枠 / #KARAOKE 】ゆったりお話とお歌とバレンタインと #shorts #めも遊び",
-      "video_url": "https://www.youtube.com/watch?v=WAXwpMylbEc",
-      "upload_date": "2026-02-14T23:00:07",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@memoa_923.json",
-      "title": "【歌枠/KARAOKE】オリ曲50回歌う耐久 #めも遊び  #vtuber",
-      "video_url": "https://www.youtube.com/watch?v=COVUwIv4BIY",
-      "upload_date": "2026-01-30T23:02:48",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@memoa_923.json",
-      "title": "【歌枠/KARAOKE】深夜だぞ！甘々な曲祭り #めも遊び  #vtuber",
-      "video_url": "https://www.youtube.com/watch?v=saXjg4uuARo",
-      "upload_date": "2026-01-25T00:54:56",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@amanosakatu.json",
-      "title": "【Minecraft】桜を眺める用の和風建築を追加したいマイクラ朝活⛩️ #まどろみ酒場   #縦型配信 【Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=6i127ojbS-k",
-      "upload_date": "2026-04-05T07:10:22",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@amanosakatu.json",
-      "title": "【初見歓迎！】2026年春アニメをみんなと一緒にチェックする配信！ #配雑談信 #まどろみ酒場 【Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=y7IZ0fSFP2I",
-      "upload_date": "2026-04-01T22:00:14",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@mimic_teionvo.json",
-      "title": "【FreeChat】今週のライブ配信予定【みみっく=わんだぁぼっくす/男性Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=UlSesc2vYYE",
-      "upload_date": "2026-12-31T12:00:00",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@mimic_teionvo.json",
-      "title": "#11【逆転検事1&2】声優Vの超アテレコ実況！👀🗝🎙🔥クールビューティと時々トノサマン。ネタバレ注意！【みみっく=わんだぁぼっくす】【男性Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=_xc6KBLvKOM",
-      "upload_date": "2026-04-10T22:00:00",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@mimic_teionvo.json",
-      "title": "【MIMICRAFT】イケオジのマイクラ実況！ウサギさんの可愛さが異常。👀🗝⛏🐇【みみっく=わんだぁぼっくす】【男性Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=TP9FtRtzapw",
-      "upload_date": "2026-04-09T22:00:00",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@mimic_teionvo.json",
-      "title": "イケオジがコンコンするヤツやらされました。",
-      "video_url": "https://www.youtube.com/watch?v=BSvn779XGp0",
-      "upload_date": "2026-04-06T13:55:42",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@mimic_teionvo.json",
-      "title": "イケオジVTuberのお出かけ必需品はコチラ。",
-      "video_url": "https://www.youtube.com/watch?v=rmJ9bk57Mu8",
-      "upload_date": "2026-04-05T15:22:03",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
       "file": "archives_@kokoroninonno.json",
-      "title": "- ̗̀📣今月のYouTube予報ですよ～！",
-      "video_url": "https://www.youtube.com/watch?v=Lqk8L6DvVFU",
-      "upload_date": "2026-07-05T23:45:00",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@kokoroninonno.json",
-      "title": "【10000人耐久配信】チャンネル登録増加するごとにルーレットで出た質問に答える【ココロニ・ノンノ/ななはぴ】",
-      "video_url": "https://www.youtube.com/watch?v=3KKnFi8wzfI",
-      "upload_date": "2026-04-26T10:00:00",
+      "title": "1st Single ポエトリーリーディング楽曲『ココロポレート』",
+      "video_url": "https://www.youtube.com/watch?v=3EW4iEFedwI",
+      "upload_date": "2027-07-05T00:00:00",
       "error": "動画が削除されています: video unavailable"
     },
     {
@@ -294,34 +42,6 @@
       "title": "【完全初見】名探偵プリキュア！11話 謎解きガチ勢が本気で考察しながら同時視聴🔎【ココロニ・ノンノ】",
       "video_url": "https://www.youtube.com/watch?v=5n4fEVWIy30",
       "upload_date": "2026-04-12T09:00:00",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@JabiDevi.json",
-      "title": "🎥4月6日～4月12日の配信予定",
-      "video_url": "https://www.youtube.com/watch?v=M9MTA_K8wnc",
-      "upload_date": "2027-12-16T00:00:00",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@JabiDevi.json",
-      "title": "ホグワーツレガシー ♰ ストーリー攻略！遂に手に入れたぞ！！ #多声類 #低音女子",
-      "video_url": "https://www.youtube.com/watch?v=-rIt8FHl9k8",
-      "upload_date": "2026-04-07T22:01:29",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@JabiDevi.json",
-      "title": "セレナーデ/なとり アカペラVer.#歌ってみた #vtuber #shorts",
-      "video_url": "https://www.youtube.com/watch?v=8cBehTlNEIg",
-      "upload_date": "2026-04-06T18:00:22",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@JabiDevi.json",
-      "title": "#overwatch ♰ はじめてのオーバーウォッチ🎮 #多声類 #低音女子",
-      "video_url": "https://www.youtube.com/watch?v=3Fiw5Ir3J5w",
-      "upload_date": "2026-04-05T21:02:45",
       "error": "動画が削除されています: video unavailable"
     }
   ]
