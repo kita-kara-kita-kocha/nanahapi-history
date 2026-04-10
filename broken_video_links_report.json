@@ -1,48 +1,13 @@
 {
   "total_checked": 70,
-  "broken_count": 6,
+  "broken_count": 1,
   "broken_links": [
     {
-      "file": "archives_@Toworu_.json",
-      "title": "【#雑談】祝四周年激嬉本気忘却謝罪【#男性vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=EHAxQA0uWME",
-      "upload_date": "2026-03-19T23:02:16",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@kirihuda_ataru.json",
-      "title": "【最終日】ウィッチマスター、最終Beyondランクにならなきゃ来月10万円競馬行きます【シャドウバースワールズビヨンド】#shadowverse #シャドバWB #連勝",
-      "video_url": "https://www.youtube.com/watch?v=LT0k96OKMw8",
-      "upload_date": "2026-03-29T23:05:34",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@kirihuda_ataru.json",
-      "title": "【6日目】ウィッチマスター、最終Beyondランクにならなきゃ来月10万円競馬行きます【シャドウバースワールズビヨンド】#shadowverse #シャドバWB #連勝",
-      "video_url": "https://www.youtube.com/watch?v=bLDIbTxQNwI",
-      "upload_date": "2026-03-25T23:00:03",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@pieceofpudding3.json",
-      "title": "#仮面ライダー555   【同時視聴】　第22～24話　#初見歓迎【ルシア・アラモード】",
-      "video_url": "https://www.youtube.com/watch?v=dT9DlRTQYGw",
-      "upload_date": "2026-04-07T21:02:56",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@kokoroninonno.json",
-      "title": "1st Single ポエトリーリーディング楽曲『ココロポレート』",
-      "video_url": "https://www.youtube.com/watch?v=3EW4iEFedwI",
-      "upload_date": "2027-07-05T00:00:00",
-      "error": "動画が削除されています: video unavailable"
-    },
-    {
-      "file": "archives_@kokoroninonno.json",
-      "title": "【完全初見】名探偵プリキュア！11話 謎解きガチ勢が本気で考察しながら同時視聴🔎【ココロニ・ノンノ】",
-      "video_url": "https://www.youtube.com/watch?v=5n4fEVWIy30",
-      "upload_date": "2026-04-12T09:00:00",
-      "error": "動画が削除されています: video unavailable"
+      "file": "archives_@nekono_chiyuru.json",
+      "title": "【 #omori  】この子たちはいったいなんなの？#2【 #猫野ちゆる  /  #Vtuber 】",
+      "video_url": "https://www.youtube.com/watch?v=2u7As0feUgc",
+      "upload_date": "2026-04-10T20:00:00",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
     }
   ]
 }
