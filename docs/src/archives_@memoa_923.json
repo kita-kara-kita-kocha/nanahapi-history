@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "title": "【#歌枠 / #KARAOKE 】ゆったりな夜をあなたと🌙 【＃めもあ】",
+      "image": "https://i.ytimg.com/vi/1yt4fXf7cRs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBn2uk3rTQ7Uv2ecl2WBBH_Nneb6g",
+      "alt": "【#歌枠 / #KARAOKE 】ゆったりな夜をあなたと🌙 【＃めもあ】",
+      "description": "------------\nめもあ公式X：https://x.com/memoa_923\nめもあ紹介：https://v.seventhh.com/memoa/\n------------\n[Hashta...",
+      "videoId": "1yt4fXf7cRs",
+      "video_url": "https://www.youtube.com/watch?v=1yt4fXf7cRs",
+      "tags": [
+        "#KARAOKE",
+        "#歌枠"
+      ],
+      "upload_date": "2026-04-30T23:00:00"
+    },
+    {
       "title": "【週間スケジュール】めもあ/memoa",
       "image": "https://i.ytimg.com/vi/9xa0Weagh6g/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2MsWW6EFiRm4QNQq2lscOYGZ0GQ",
       "alt": "【週間スケジュール】めもあ/memoa",
@@ -9,6 +22,18 @@
       "video_url": "https://www.youtube.com/watch?v=9xa0Weagh6g",
       "tags": [],
       "upload_date": "2026-04-22T18:00:00"
+    },
+    {
+      "title": "【#ななはぴリクエスト歌枠リレー】にばんて！いきま～すっ【＃めもあ】",
+      "image": "https://i.ytimg.com/vi/vp69BdBsnrc/sddefault.jpg?v=69dd06df",
+      "alt": "【#ななはぴリクエスト歌枠リレー】にばんて！いきま～すっ【＃めもあ】",
+      "description": "二番手は…めもあです～～\nみ～んなをめろめろにしちゃうよお～～っとな\n\n#ななはぴリクエスト歌枠リレー \n感想のポストや配信の共有をいただけると嬉しいです！\n\n【弾幕】めもおい！めもおい！\n\n●次枠：...",
+      "videoId": "vp69BdBsnrc",
+      "video_url": "https://www.youtube.com/watch?v=vp69BdBsnrc",
+      "tags": [
+        "#ななはぴリクエスト歌枠リレー"
+      ],
+      "upload_date": "2026-04-18T15:01:17"
     },
     {
       "title": "【#歌枠 / #KARAOKE 】ゆったりお話とお歌とバレンタインと #shorts #めも遊び",
@@ -2529,15 +2554,16 @@
     "#めもあ",
     "#めも遊び",
     "#踊ってみた",
+    "#KARAOKE",
     "#vsinger",
     "#live2d",
-    "#KARAOKE",
     "#karaoke",
     "#歌ってみた",
     "#オリ曲",
     "#cover",
     "#星街すいせい",
     "#ラップ",
+    "#ななはぴリクエスト歌枠リレー",
     "#dance",
     "#きゅーすと",
     "#宝鐘マリン",
@@ -2602,7 +2628,6 @@
     "#ポケモン",
     "#ホロライブ",
     "#縦型",
-    "#ななはぴリクエスト歌枠リレー",
     "#めもあ3D",
     "#めもあ生誕祭2023",
     "#歌うまV歌枠リレー1周年",
@@ -2618,6 +2643,6 @@
     "#Vtuberと秋デートしませんか",
     "#2"
   ],
-  "last_updated": "2026-04-10T21:35:31.540722",
-  "total_videos": 203
+  "last_updated": "2026-04-21T09:33:53.617984",
+  "total_videos": 205
 }
