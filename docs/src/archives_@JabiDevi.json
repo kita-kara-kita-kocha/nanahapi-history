@@ -1,14 +1,27 @@
 {
   "items": [
     {
-      "title": "🎥4月13日～4月19日の配信予定",
+      "title": "🎥4月20日～4月26日の配信予定",
       "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtVdw4Q_EfR6RfN9Fa4j1ohGXjQg",
-      "alt": "🎥4月13日～4月19日の配信予定",
+      "alt": "🎥4月20日～4月26日の配信予定",
       "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
       "videoId": "M9MTA_K8wnc",
       "video_url": "https://www.youtube.com/watch?v=M9MTA_K8wnc",
       "tags": [],
       "upload_date": "2027-12-16T00:00:00"
+    },
+    {
+      "title": "歌枠 ♰ 同接100人目標 我の歌を聴いてくれ🎙#多声類 #低音女子",
+      "image": "https://i.ytimg.com/vi/psbZTwg5zGQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAIU1SI82AZPkotfAqvQ3n8tCehUw",
+      "alt": "歌枠 ♰ 同接100人目標 我の歌を聴いてくれ🎙#多声類 #低音女子",
+      "description": "#vsinger #vtuber \n\n♰ 新年度応援ボイス🎙\nhttps://seventhv.booth.pm/items/8200067\n\n♰ リアルイベント【推し対Vol.8】チケット🎫\nhtt...",
+      "videoId": "psbZTwg5zGQ",
+      "video_url": "https://www.youtube.com/watch?v=psbZTwg5zGQ",
+      "tags": [
+        "#低音女子",
+        "#多声類"
+      ],
+      "upload_date": "2026-04-21T17:00:00"
     },
     {
       "title": "みんなは好きな人怒らせたらまずどうする？#ホグワーツレガシー #hogwartslegacy #shorts",
@@ -9425,6 +9438,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-04-21T12:35:28.126014",
-  "total_videos": 699
+  "last_updated": "2026-04-21T15:36:07.272188",
+  "total_videos": 700
 }
