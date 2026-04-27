@@ -1,14 +1,28 @@
 {
   "items": [
     {
-      "title": "🎥4月20日～4月26日の配信予定",
+      "title": "🎥4月27日～5月3日の配信予定",
       "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtVdw4Q_EfR6RfN9Fa4j1ohGXjQg",
-      "alt": "🎥4月20日～4月26日の配信予定",
+      "alt": "🎥4月27日～5月3日の配信予定",
       "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
       "videoId": "M9MTA_K8wnc",
       "video_url": "https://www.youtube.com/watch?v=M9MTA_K8wnc",
       "tags": [],
       "upload_date": "2027-12-16T00:00:00"
+    },
+    {
+      "title": "雑談 ♰ #推し対 ご来場大感謝‼土産話をもってきたぞ✨#多声類 #低音女子",
+      "image": "https://i.ytimg.com/vi/wUWCkrZGkUc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCmjl1kCAHzKm9p33IYYmnc6nXOig",
+      "alt": "雑談 ♰ #推し対 ご来場大感謝‼土産話をもってきたぞ✨#多声類 #低音女子",
+      "description": "#vsinger #vtuber \n\n♰ 新年度応援ボイス🎙\nhttps://seventhv.booth.pm/items/8200067\n\n+‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥+\n\n♰ 蛇火【歌っ...",
+      "videoId": "wUWCkrZGkUc",
+      "video_url": "https://www.youtube.com/watch?v=wUWCkrZGkUc",
+      "tags": [
+        "#低音女子",
+        "#多声類",
+        "#推し対"
+      ],
+      "upload_date": "2026-04-27T17:00:00"
     },
     {
       "title": "【アカペラVer.】メルト/ryo(supercell) #cover #歌ってみた #vtuber #shorts",
@@ -9331,6 +9345,7 @@
     "#monsterhunter",
     "#マリオカート8dx",
     "#スマブラsp",
+    "#推し対",
     "#garticphone",
     "#ホラー",
     "#踊ってみた",
@@ -9370,7 +9385,6 @@
     "#朝活配信",
     "#作業用",
     "#ミラフェス",
-    "#推し対",
     "#overwatch",
     "#かっこいい女のコ歌枠リレー",
     "#推しの子",
@@ -9507,6 +9521,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-04-27T13:04:46.843764",
-  "total_videos": 705
+  "last_updated": "2026-04-27T16:28:01.480302",
+  "total_videos": 706
 }
