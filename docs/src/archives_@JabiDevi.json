@@ -2,13 +2,26 @@
   "items": [
     {
       "title": "🎥4月27日～5月3日の配信予定",
-      "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtVdw4Q_EfR6RfN9Fa4j1ohGXjQg",
+      "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/sddefault.jpg?v=69eef613",
       "alt": "🎥4月27日～5月3日の配信予定",
       "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
       "videoId": "M9MTA_K8wnc",
       "video_url": "https://www.youtube.com/watch?v=M9MTA_K8wnc",
       "tags": [],
       "upload_date": "2027-12-16T00:00:00"
+    },
+    {
+      "title": "朝活 ♰ おはようください#多声類 #低音女子 2026-04-28 09:34",
+      "image": "https://i.ytimg.com/vi/iruAEGUDHfs/sddefault.jpg?v=69efe6e2",
+      "alt": "朝活 ♰ おはようください#多声類 #低音女子 2026-04-28 09:34",
+      "description": "#vsinger #vtuber \n\n♰ 新年度応援ボイス🎙\nhttps://seventhv.booth.pm/items/8200067\n\n+‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥+\n\n♰ 蛇火【歌っ...",
+      "videoId": "iruAEGUDHfs",
+      "video_url": "https://www.youtube.com/watch?v=iruAEGUDHfs",
+      "tags": [
+        "#低音女子",
+        "#多声類"
+      ],
+      "upload_date": "2026-04-28T07:48:19"
     },
     {
       "title": "雑談 ♰ #推し対 ご来場大感謝‼土産話をもってきたぞ✨#多声類 #低音女子",
@@ -9521,6 +9534,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-04-28T06:35:04.149431",
-  "total_videos": 706
+  "last_updated": "2026-04-28T09:35:04.851425",
+  "total_videos": 707
 }
