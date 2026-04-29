@@ -11,9 +11,9 @@
       "upload_date": "2027-12-31T23:45:00"
     },
     {
-      "title": "雑談⌇おなかすいた～～ #花鹿める / ななはぴ 2026-04-29 22:05",
+      "title": "雑談⌇おなかすいた～～ #花鹿める / ななはぴ",
       "image": "https://i.ytimg.com/vi/ZgnQs1xyfiI/sddefault.jpg?v=69f1e84b",
-      "alt": "雑談⌇おなかすいた～～ #花鹿める / ななはぴ 2026-04-29 22:05",
+      "alt": "雑談⌇おなかすいた～～ #花鹿める / ななはぴ",
       "description": "ᵀᴼᴰᴬᵞ  ˢᵀᴿᴱᴬᴹ\n﹉﹉﹉﹉﹉﹉﹉﹉﹉\n\n\n\nᴵᴺᶠᴼᴿᴹᴬᵀᴵᴼᴺ\n﹉﹉﹉﹉﹉﹉﹉﹉﹉\n🎧 𝗇𝖾𝗐 𝗌𝗈𝗇𝗀\n夢うつつ - 花鹿める\nhttps://youtu.be/30P_-4P24h8...",
       "videoId": "ZgnQs1xyfiI",
       "video_url": "https://www.youtube.com/watch?v=ZgnQs1xyfiI",
@@ -3046,13 +3046,15 @@
     },
     {
       "title": "夢の恋人",
-      "image": "https://i.ytimg.com/vi/X30mstolZgo/sddefault.jpg",
+      "image": "https://i.ytimg.com/vi/X30mstolZgo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwlCSXmElIB8uWiUOWUdjuAzqntw",
       "alt": "夢の恋人",
       "description": "あいしてるよ...",
       "videoId": "X30mstolZgo",
       "video_url": "https://www.youtube.com/watch?v=X30mstolZgo",
-      "tags": [],
-      "upload_date": "2025-05-23T05:24:52"
+      "tags": [
+        "#メン限"
+      ],
+      "upload_date": "2025-05-22T22:24:52"
     },
     {
       "title": "歌枠⌇ウィスパーボイスで睡眠導入、寝る前に一曲いかがですか？初見様大歓迎🕯️   ̖́-#花鹿める / ななはぴ",
@@ -5784,6 +5786,6 @@
     "#初配信",
     "#cover"
   ],
-  "last_updated": "2026-04-29T22:05:54.974174",
+  "last_updated": "2026-04-30T00:37:06.916801",
   "total_videos": 449
 }
