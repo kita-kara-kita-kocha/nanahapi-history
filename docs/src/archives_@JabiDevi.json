@@ -2,7 +2,7 @@
   "items": [
     {
       "title": "🎥4月27日～5月3日の配信予定",
-      "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtVdw4Q_EfR6RfN9Fa4j1ohGXjQg",
+      "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/sddefault.jpg?v=69eef613",
       "alt": "🎥4月27日～5月3日の配信予定",
       "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
       "videoId": "M9MTA_K8wnc",
@@ -12,7 +12,7 @@
     },
     {
       "title": "#蛇火１万人記念 ♰ プレゼント開封🎁とお知らせもあるぞ！🎙#多声類 #低音女子",
-      "image": "https://i.ytimg.com/vi/PFgCsI7RPe8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA4seyZy-knXhoAgSKD9WlesTXtkA",
+      "image": "https://i.ytimg.com/vi/PFgCsI7RPe8/sddefault.jpg?v=69f309a8",
       "alt": "#蛇火１万人記念 ♰ プレゼント開封🎁とお知らせもあるぞ！🎙#多声類 #低音女子",
       "description": "#vsinger #vtuber \n\n♰ マシュマロはこちら！\nhttps://marshmallow-qa.com/iak8wuk0d5xihwu?t=fPrFYI&utm_medium=url_t...",
       "videoId": "PFgCsI7RPe8",
@@ -23,6 +23,20 @@
         "#蛇火１万人記念"
       ],
       "upload_date": "2026-05-03T20:00:00"
+    },
+    {
+      "title": "パジャマパーティーズのうた 誰の声が好き？コメントで教えて✨#ちいかわ #cover #shorts",
+      "image": "https://i.ytimg.com/vi/RM3zSNSgrbE/sddefault.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYUSBPKGUwDw==&rs=AOn4CLCROI9LXf-w0XsJkuZInPzExxnmlw",
+      "alt": "パジャマパーティーズのうた 誰の声が好き？コメントで教えて✨#ちいかわ #cover #shorts",
+      "description": "#vsinger #vtuber \n\nNew オリジナルマイクが届きました🎙✨\nアトリエエム 様\nhttps://x.com/0atelier_m0?s=21&t=G6mj7EWi0jy9P2Mgw0...",
+      "videoId": "RM3zSNSgrbE",
+      "video_url": "https://www.youtube.com/watch?v=RM3zSNSgrbE",
+      "tags": [
+        "#cover",
+        "#shorts",
+        "#ちいかわ"
+      ],
+      "upload_date": "2026-04-30T19:00:47"
     },
     {
       "title": "#蛇火１万人記念 ♰ 記念配信前の仮会場はこちらです！マシュマロ読み🎙#多声類 #低音女子",
@@ -9399,6 +9413,7 @@
     "#monsterhunter",
     "#マリオカート8dx",
     "#スマブラsp",
+    "#cover",
     "#推し対",
     "#garticphone",
     "#ホラー",
@@ -9414,7 +9429,6 @@
     "#リトルナイトメア2",
     "#フォールガイズ",
     "#蛇火１万人記念",
-    "#cover",
     "#ボカロ",
     "#hogwartslegacy",
     "#ホグワーツレガシー",
@@ -9440,6 +9454,7 @@
     "#朝活配信",
     "#作業用",
     "#ミラフェス",
+    "#ちいかわ",
     "#overwatch",
     "#かっこいい女のコ歌枠リレー",
     "#推しの子",
@@ -9576,6 +9591,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-04-30T18:37:25.789699",
-  "total_videos": 710
+  "last_updated": "2026-04-30T21:38:34.479493",
+  "total_videos": 711
 }

@@ -2,13 +2,25 @@
   "items": [
     {
       "title": "【FreeChat】今週のライブ配信予定【みみっく=わんだぁぼっくす/男性Vtuber】",
-      "image": "https://i.ytimg.com/vi/UlSesc2vYYE/sddefault.jpg?v=69f09103",
+      "image": "https://i.ytimg.com/vi/UlSesc2vYYE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCd4YkeuLXMc_R_Iy2m9w0ygveLUw",
       "alt": "【FreeChat】今週のライブ配信予定【みみっく=わんだぁぼっくす/男性Vtuber】",
       "description": "▼X(Twitter)でみみっくの最新情報をチェック！\nhttps://twitter.com/mimic_teionvo​​\n\n▼メンバーシップはコチラから(月額490円)\nhttps://www....",
       "videoId": "UlSesc2vYYE",
       "video_url": "https://www.youtube.com/watch?v=UlSesc2vYYE",
       "tags": [],
       "upload_date": "2026-12-31T12:00:00"
+    },
+    {
+      "title": "#3【OFF】伝説のフリーゲームを超アテレコ実況！👀🗝🎙✨新たなステージは煙立ち上る工場地帯！？🔧【みみっく=わんだぁぼっくす】【男性Vtuber】",
+      "image": "https://i.ytimg.com/vi/B6Qn_SwadXg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsbLLc5lCHCmot_Zb7m0pIm_5gPQ",
+      "alt": "#3【OFF】伝説のフリーゲームを超アテレコ実況！👀🗝🎙✨新たなステージは煙立ち上る工場地帯！？🔧【みみっく=わんだぁぼっくす】【男性Vtuber】",
+      "description": "▼KU100で収録した高音質ASMRシチュボ販売中！▼\nhttp://official.creatia.cc/fanclubs/1663\n\n▼メンバーシップ登録(月額490円)▼\nhttps://ww...",
+      "videoId": "B6Qn_SwadXg",
+      "video_url": "https://www.youtube.com/watch?v=B6Qn_SwadXg",
+      "tags": [
+        "#3"
+      ],
+      "upload_date": "2026-05-01T22:00:00"
     },
     {
       "title": "#13【クロノ・クロス】声優Vの超アテレコ実況！👀🗝🎙🌊はじまりの浜辺へ。【みみっく=わんだぁぼっくす】ネタバレ注意！",
@@ -48,13 +60,14 @@
     },
     {
       "title": "#16【メン限】錠恋とみみっくの作業配信『イケオジただいま作業中』【みみっく=わんだぁぼっくす】【男性Vtuber】",
-      "image": "https://i.ytimg.com/vi/yWEHcsrQKjA/sddefault.jpg?v=69e4f929",
+      "image": "https://i.ytimg.com/vi/yWEHcsrQKjA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDvRFe9RToXYIdlbyXHqq0D8qsurg",
       "alt": "#16【メン限】錠恋とみみっくの作業配信『イケオジただいま作業中』【みみっく=わんだぁぼっくす】【男性Vtuber】",
       "description": "▼KU100で収録した高音質ASMRシチュボ販売中！▼\nhttp://official.creatia.cc/fanclubs/1663\n\n▼ななはぴ公式BOOTH▼\nhttps://seventhv...",
       "videoId": "yWEHcsrQKjA",
       "video_url": "https://www.youtube.com/watch?v=yWEHcsrQKjA",
       "tags": [
-        "#16"
+        "#16",
+        "#メン限"
       ],
       "upload_date": "2026-04-20T22:02:01"
     },
@@ -10435,6 +10448,6 @@
     "#女性向け",
     "#発掘V宇宙人狼"
   ],
-  "last_updated": "2026-04-30T18:32:17.455493",
-  "total_videos": 935
+  "last_updated": "2026-04-30T21:32:35.277412",
+  "total_videos": 936
 }
