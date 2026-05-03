@@ -2,13 +2,23 @@
   "items": [
     {
       "title": "ファンクラブ〘 森のおさんぽ通信 〙、はじめました🌳",
-      "image": "https://i.ytimg.com/vi/3V1L9n-ctpM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHRD2gUNk6R57dRlvOyvVQ-qXh0g",
+      "image": "https://i.ytimg.com/vi/3V1L9n-ctpM/sddefault.jpg?v=69394641",
       "alt": "ファンクラブ〘 森のおさんぽ通信 〙、はじめました🌳",
       "description": "🕊️ 𝖿𝖺𝗇 𝖼𝗅𝗎𝖻\n森のおさんぽ通信を開設しました\nhttps://official.creatia.cc/fanclubs/3734...",
       "videoId": "3V1L9n-ctpM",
       "video_url": "https://www.youtube.com/watch?v=3V1L9n-ctpM",
       "tags": [],
       "upload_date": "2027-12-31T23:45:00"
+    },
+    {
+      "title": "5/3",
+      "image": "https://i.ytimg.com/vi/f5SPou9iYjY/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFAgYShlMA8=&rs=AOn4CLBrCamKIs_hbDV-sBHwNtz634uyMA",
+      "alt": "5/3",
+      "description": "橙 / 岩見拓馬...",
+      "videoId": "f5SPou9iYjY",
+      "video_url": "https://www.youtube.com/watch?v=f5SPou9iYjY",
+      "tags": [],
+      "upload_date": "2026-05-03T20:01:04"
     },
     {
       "title": "雑談⌇おなかすいた～～ #花鹿める / ななはぴ",
@@ -3046,15 +3056,13 @@
     },
     {
       "title": "夢の恋人",
-      "image": "https://i.ytimg.com/vi/X30mstolZgo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwlCSXmElIB8uWiUOWUdjuAzqntw",
+      "image": "https://i.ytimg.com/vi/X30mstolZgo/sddefault.jpg",
       "alt": "夢の恋人",
       "description": "あいしてるよ...",
       "videoId": "X30mstolZgo",
       "video_url": "https://www.youtube.com/watch?v=X30mstolZgo",
-      "tags": [
-        "#メン限"
-      ],
-      "upload_date": "2025-05-22T22:24:52"
+      "tags": [],
+      "upload_date": "2025-05-23T05:24:52"
     },
     {
       "title": "歌枠⌇ウィスパーボイスで睡眠導入、寝る前に一曲いかがですか？初見様大歓迎🕯️   ̖́-#花鹿める / ななはぴ",
@@ -5786,6 +5794,6 @@
     "#初配信",
     "#cover"
   ],
-  "last_updated": "2026-05-03T18:37:07.833435",
-  "total_videos": 449
+  "last_updated": "2026-05-03T21:37:16.963426",
+  "total_videos": 450
 }
