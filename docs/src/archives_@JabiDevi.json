@@ -2,7 +2,7 @@
   "items": [
     {
       "title": "🎥4月27日～5月3日の配信予定",
-      "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/sddefault.jpg?v=69eef613",
+      "image": "https://i.ytimg.com/vi/M9MTA_K8wnc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtVdw4Q_EfR6RfN9Fa4j1ohGXjQg",
       "alt": "🎥4月27日～5月3日の配信予定",
       "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\nhttps://www.youtube.com/watch?v=gxRFKkq480s&list=PLPPm5alJq4y4ul...",
       "videoId": "M9MTA_K8wnc",
@@ -25,13 +25,29 @@
       "upload_date": "2026-05-03T20:00:00"
     },
     {
+      "title": "#蛇火１万人記念 ♰ プレゼント開封🎁とお知らせもあるぞ！🎙#多声類 #低音女子",
+      "image": "https://i.ytimg.com/vi/1bTl4S-Bmss/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0o1JJZOJdFRhSaNAob2Oj4TO5Hw",
+      "alt": "#蛇火１万人記念 ♰ プレゼント開封🎁とお知らせもあるぞ！🎙#多声類 #低音女子",
+      "description": "#vsinger #vtuber \n\n♰ マシュマロはこちら！\nhttps://marshmallow-qa.com/iak8wuk0d5xihwu?t=fPrFYI&utm_medium=url_t...",
+      "videoId": "1bTl4S-Bmss",
+      "video_url": "https://www.youtube.com/watch?v=1bTl4S-Bmss",
+      "tags": [
+        "#低音女子",
+        "#多声類",
+        "#蛇火１万人記念"
+      ],
+      "upload_date": "2026-05-03T17:00:00"
+    },
+    {
       "title": "【メン限】アイコンを一生懸命に描く！✎",
-      "image": "https://i.ytimg.com/vi/D_uqXaTfzIM/sddefault.jpg?v=69f5861a",
+      "image": "https://i.ytimg.com/vi/D_uqXaTfzIM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB0tEkFkGrLqVEn_Ykk5ez7IwX0xg",
       "alt": "【メン限】アイコンを一生懸命に描く！✎",
-      "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\n   • 【歌ってみた】KING / 蛇火（cover）  \n\n♰ オリジナル楽曲【ウロボロス】\n   • 【MV】ウロボロス ...",
+      "description": "#vsinger #vtuber \n\n♰ 蛇火【歌ってみた再生リスト】\n   • 【歌ってみた】KING / 蛇火（cover）  \n\n♰ オリジナル楽曲【ウロボロス】\n   • 【MV】ウロボロ.....",
       "videoId": "D_uqXaTfzIM",
       "video_url": "https://www.youtube.com/watch?v=D_uqXaTfzIM",
-      "tags": [],
+      "tags": [
+        "#メン限"
+      ],
       "upload_date": "2026-05-02T20:11:27"
     },
     {
@@ -9436,6 +9452,7 @@
     "#monsterhunter",
     "#マリオカート8dx",
     "#スマブラsp",
+    "#蛇火１万人記念",
     "#cover",
     "#推し対",
     "#garticphone",
@@ -9451,7 +9468,6 @@
     "#モンハンライズ",
     "#リトルナイトメア2",
     "#フォールガイズ",
-    "#蛇火１万人記念",
     "#ボカロ",
     "#hogwartslegacy",
     "#ホグワーツレガシー",
@@ -9614,6 +9630,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-05-03T09:34:58.477247",
-  "total_videos": 713
+  "last_updated": "2026-05-03T12:35:53.640140",
+  "total_videos": 714
 }
