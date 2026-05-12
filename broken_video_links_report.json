@@ -1,19 +1,12 @@
 {
   "total_checked": 70,
-  "broken_count": 2,
+  "broken_count": 1,
   "broken_links": [
     {
       "file": "archives_@memoa_923.json",
       "title": "【週間スケジュール】めもあ/memoa",
       "video_url": "https://www.youtube.com/watch?v=9xa0Weagh6g",
       "upload_date": "2026-04-22T18:00:00",
-      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@JabiDevi.json",
-      "title": "#蛇火１万人記念 ♰ プレゼント開封🎁とお知らせもあるぞ！🎙#多声類 #低音女子",
-      "video_url": "https://www.youtube.com/watch?v=PFgCsI7RPe8",
-      "upload_date": "2026-05-03T20:00:00",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
     }
   ]
