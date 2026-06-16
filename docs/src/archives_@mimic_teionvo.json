@@ -2,13 +2,25 @@
   "items": [
     {
       "title": "【FreeChat】今週のライブ配信予定【みみっく=わんだぁぼっくす/男性Vtuber】",
-      "image": "https://i.ytimg.com/vi/UlSesc2vYYE/sddefault.jpg?v=6a1ea089",
+      "image": "https://i.ytimg.com/vi/UlSesc2vYYE/sddefault.jpg?v=6a3144b6",
       "alt": "【FreeChat】今週のライブ配信予定【みみっく=わんだぁぼっくす/男性Vtuber】",
       "description": "▼X(Twitter)でみみっくの最新情報をチェック！\nhttps://twitter.com/mimic_teionvo​​\n\n▼メンバーシップはコチラから(月額490円)\nhttps://www....",
       "videoId": "UlSesc2vYYE",
       "video_url": "https://www.youtube.com/watch?v=UlSesc2vYYE",
       "tags": [],
       "upload_date": "2026-12-31T12:00:00"
+    },
+    {
+      "title": "#1【Poppy Playtime Chapter 5】ハギーワギー再び！？…工場の深淵へ。【みみっく=わんだぁぼっくす】【男性Vtuber】",
+      "image": "https://i.ytimg.com/vi/ov9SuRSQsc8/sddefault.jpg?v=6a315536",
+      "alt": "#1【Poppy Playtime Chapter 5】ハギーワギー再び！？…工場の深淵へ。【みみっく=わんだぁぼっくす】【男性Vtuber】",
+      "description": "▼KU100で収録した高音質ASMRシチュボ販売中！▼\nhttp://official.creatia.cc/fanclubs/1663\n\n▼メンバーシップ登録で応援してくれたら嬉しいぞ！▼\nhttp...",
+      "videoId": "ov9SuRSQsc8",
+      "video_url": "https://www.youtube.com/watch?v=ov9SuRSQsc8",
+      "tags": [
+        "#1"
+      ],
+      "upload_date": "2026-06-17T22:00:00"
     },
     {
       "title": "#5【BIOHAZARD RE:2】バイオヲタクの実況！シェリーを助けに！【みみっく=わんだぁぼっくす】【男性Vtuber】",
@@ -10655,6 +10667,6 @@
     "#女性向け",
     "#発掘V宇宙人狼"
   ],
-  "last_updated": "2026-06-16T21:32:22.880031",
-  "total_videos": 955
+  "last_updated": "2026-06-17T00:31:58.340666",
+  "total_videos": 956
 }
