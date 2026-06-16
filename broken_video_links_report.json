@@ -1,6 +1,6 @@
 {
   "total_checked": 70,
-  "broken_count": 3,
+  "broken_count": 1,
   "broken_links": [
     {
       "file": "archives_@memoa_923.json",
@@ -8,20 +8,6 @@
       "video_url": "https://www.youtube.com/watch?v=9xa0Weagh6g",
       "upload_date": "2026-04-22T18:00:00",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@amanosakatu.json",
-      "title": "【OMORI】青春ホラーゲームOMORI実況配信 その7 #まどろみ酒場  【Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=BbKh2yzxlJo",
-      "upload_date": "2026-06-11T22:00:00",
-      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@JabiDevi.json",
-      "title": "【歌ってみた】Femme Fatale/中王区 言の葉党 #shorts #cover",
-      "video_url": "https://www.youtube.com/watch?v=pbfkkT3fZlA",
-      "upload_date": "2026-06-14T18:00:02",
-      "error": "動画エラー（削除済みの可能性）: status=ERROR"
     }
   ]
 }
