@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "title": "【 #nte  実況 】カオスさんくるしそろそろポルシェほしいじゃん【 #猫野ちゆる  /  #Vtuber 】",
-      "image": "https://i.ytimg.com/vi/mqNtj7VSD2A/sddefault.jpg?v=6a369236",
-      "alt": "【 #nte  実況 】カオスさんくるしそろそろポルシェほしいじゃん【 #猫野ちゆる  /  #Vtuber 】",
-      "description": "いい車でお迎えしたいじゃん！？！\n前→ https://www.youtube.com/live/bUwH9Y9K_vY?si=H27PbYEl62vtX8GN\n再生リスト https://youtu...",
-      "videoId": "mqNtj7VSD2A",
-      "video_url": "https://www.youtube.com/watch?v=mqNtj7VSD2A",
-      "tags": [
-        "#Vtuber",
-        "#nte",
-        "#猫野ちゆる"
-      ],
-      "upload_date": "2026-06-22T20:00:00"
-    },
-    {
       "title": "【 #雑談 #メン限  】7月！夏がやってくるぞ~！！【 #猫野ちゆる  /  #Vtuber 】",
       "image": "https://i.ytimg.com/vi/gsPZCDyJIuk/sddefault.jpg?v=6a368942",
       "alt": "【 #雑談 #メン限  】7月！夏がやってくるぞ~！！【 #猫野ちゆる  /  #Vtuber 】",
@@ -27,7 +13,21 @@
         "#猫野ちゆる",
         "#雑談"
       ],
-      "upload_date": "2026-06-21T20:00:00"
+      "upload_date": "2026-06-26T20:00:00"
+    },
+    {
+      "title": "【 #nte  実況 】カオスさんくるしそろそろポルシェほしいじゃん【 #猫野ちゆる  /  #Vtuber 】",
+      "image": "https://i.ytimg.com/vi/mqNtj7VSD2A/sddefault.jpg?v=6a369236",
+      "alt": "【 #nte  実況 】カオスさんくるしそろそろポルシェほしいじゃん【 #猫野ちゆる  /  #Vtuber 】",
+      "description": "いい車でお迎えしたいじゃん！？！\n前→ https://www.youtube.com/live/bUwH9Y9K_vY?si=H27PbYEl62vtX8GN\n再生リスト https://youtu...",
+      "videoId": "mqNtj7VSD2A",
+      "video_url": "https://www.youtube.com/watch?v=mqNtj7VSD2A",
+      "tags": [
+        "#Vtuber",
+        "#nte",
+        "#猫野ちゆる"
+      ],
+      "upload_date": "2026-06-22T20:00:00"
     },
     {
       "title": "【 #めっちゃカメレオン #コラボ】色をぬってかくれんぼ！【  #猫野ちゆる  /  #Vtuber 】",
@@ -10250,6 +10250,6 @@
     "#KARAOKE",
     "#オーバーウォッチ2"
   ],
-  "last_updated": "2026-06-21T18:36:15.804049",
+  "last_updated": "2026-06-21T21:36:58.771121",
   "total_videos": 642
 }
