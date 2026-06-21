@@ -1,7 +1,42 @@
 {
   "total_checked": 70,
-  "broken_count": 1,
+  "broken_count": 6,
   "broken_links": [
+    {
+      "file": "archives_@rinka__angel.json",
+      "title": "【生誕記念】詳細は6月になってから🫶 #リンカおんエア",
+      "video_url": "https://www.youtube.com/watch?v=rcSfES5np3o",
+      "upload_date": "2026-06-25T20:00:00",
+      "error": "動画エラー（削除済みの可能性）: status=ERROR"
+    },
+    {
+      "file": "archives_@rinka__angel.json",
+      "title": "【本音】高級寿司をインスタに一貫ずつ載せる女ってぶっちゃけ…🍣🍷 #shorts #リンエア",
+      "video_url": "https://www.youtube.com/watch?v=9Mh0r3CQzJM",
+      "upload_date": "2026-06-05T21:00:00",
+      "error": "動画エラー（削除済みの可能性）: status=ERROR"
+    },
+    {
+      "file": "archives_@rinka__angel.json",
+      "title": "【縦型飲酒雑談】今夜は特別。シーバスリーガルと、普段は言わない本音の雑談。#short #リンカおんエア",
+      "video_url": "https://www.youtube.com/watch?v=eJR_7eRrNBg",
+      "upload_date": "2026-06-04T22:01:47",
+      "error": "動画エラー（削除済みの可能性）: status=ERROR"
+    },
+    {
+      "file": "archives_@rinka__angel.json",
+      "title": "好きな人の言葉に狂いそうになったことある？田山花袋『蒲団』📖 #shorts #リンエア",
+      "video_url": "https://www.youtube.com/watch?v=BfURZVWHYk8",
+      "upload_date": "2026-06-02T21:00:03",
+      "error": "動画エラー（削除済みの可能性）: status=ERROR"
+    },
+    {
+      "file": "archives_@rinka__angel.json",
+      "title": "どうしても手放せない未練ってある？田山花袋『蒲団』📖 #shorts #リンエア",
+      "video_url": "https://www.youtube.com/watch?v=rTpj97QJqwo",
+      "upload_date": "2026-06-01T21:00:36",
+      "error": "動画エラー（削除済みの可能性）: status=ERROR"
+    },
     {
       "file": "archives_@memoa_923.json",
       "title": "【週間スケジュール】めもあ/memoa",
