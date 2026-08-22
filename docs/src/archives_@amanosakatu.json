@@ -1,18 +1,6 @@
 {
   "items": [
     {
-      "title": "【筋トレ配信】チャンネル登録・高評価の数だけスクワットします！詳細は概要欄へ #まどろみ酒場  【Vtuber】",
-      "image": "https://i.ytimg.com/vi_webp/tCBncPZZN8s/maxresdefault.webp",
-      "alt": "【筋トレ配信】チャンネル登録・高評価の数だけスクワットします！詳細は概要欄へ #まどろみ酒場  【Vtuber】",
-      "description": "Xでもらった反応+リアルタイムに増えたチャンネル登録と高評価で\n筋トレする回数を決める配信です💪\n今回はライブリアクションも回数に追加！\n目標回数は200です🦿🦿\n\nいいね×１\nリポスト×１\n高評価×...",
-      "videoId": "tCBncPZZN8s",
-      "video_url": "https://www.youtube.com/watch?v=tCBncPZZN8s",
-      "tags": [
-        "#まどろみ酒場"
-      ],
-      "upload_date": "2026-08-22T22:00:00"
-    },
-    {
       "title": "【Minecraft】縦型マイクラ配信⛏️のんびりおしゃべりしつつ整地したり橋を架けたり✨ #まどろみ酒場   #縦型配信 【Vtuber】",
       "image": "https://i.ytimg.com/vi_webp/eBn02pnbDss/maxresdefault.webp",
       "alt": "【Minecraft】縦型マイクラ配信⛏️のんびりおしゃべりしつつ整地したり橋を架けたり✨ #まどろみ酒場   #縦型配信 【Vtuber】",
@@ -22,6 +10,18 @@
       "tags": [
         "#まどろみ酒場",
         "#縦型配信"
+      ],
+      "upload_date": "2026-08-22T22:00:17"
+    },
+    {
+      "title": "【筋トレ配信】チャンネル登録・高評価の数だけスクワットします！詳細は概要欄へ #まどろみ酒場  【Vtuber】",
+      "image": "https://i.ytimg.com/vi_webp/tCBncPZZN8s/maxresdefault.webp",
+      "alt": "【筋トレ配信】チャンネル登録・高評価の数だけスクワットします！詳細は概要欄へ #まどろみ酒場  【Vtuber】",
+      "description": "Xでもらった反応+リアルタイムに増えたチャンネル登録と高評価で\n筋トレする回数を決める配信です💪\n今回はライブリアクションも回数に追加！\n目標回数は200です🦿🦿\n\nいいね×１\nリポスト×１\n高評価×...",
+      "videoId": "tCBncPZZN8s",
+      "video_url": "https://www.youtube.com/watch?v=tCBncPZZN8s",
+      "tags": [
+        "#まどろみ酒場"
       ],
       "upload_date": "2026-08-22T22:00:00"
     },
@@ -14143,6 +14143,6 @@
     "#12",
     "#11"
   ],
-  "last_updated": "2026-08-22T15:31:35.386110",
+  "last_updated": "2026-08-23T00:31:38.366965",
   "total_videos": 1212
 }
