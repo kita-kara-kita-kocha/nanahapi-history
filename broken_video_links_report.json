@@ -1,19 +1,12 @@
 {
   "total_checked": 70,
-  "broken_count": 3,
+  "broken_count": 2,
   "broken_links": [
     {
       "file": "archives_@memoa_923.json",
       "title": "【週間スケジュール】めもあ/memoa",
       "video_url": "https://www.youtube.com/watch?v=9xa0Weagh6g",
       "upload_date": "2026-04-22T18:00:00",
-      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@amanosakatu.json",
-      "title": "【筋トレ配信】チャンネル登録・高評価の数だけスクワットします！詳細は概要欄へ #まどろみ酒場  【Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=tCBncPZZN8s",
-      "upload_date": "2026-08-22T22:00:00",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
     },
     {
