@@ -1,7 +1,308 @@
 {
   "total_checked": 70,
-  "broken_count": 2,
+  "broken_count": 60,
   "broken_links": [
+    {
+      "file": "archives_@mel_samui.json",
+      "title": "耐久歌枠⌇Ch登録11,000人耐久🎧どうかわたしを見つけてください！☕🌿⟡ ̖́-#花鹿める / ななはぴ",
+      "video_url": "https://www.youtube.com/watch?v=b3ijg4Gy2Oc",
+      "upload_date": "2026-08-29T21:00:59",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@mel_samui.json",
+      "title": "歌枠⌇1h NONSTOP🌻☁️ねむれるヨルシカ歌枠🎐 ̖́-#花鹿める",
+      "video_url": "https://www.youtube.com/watch?v=ktuwGW5Foic",
+      "upload_date": "2026-08-28T23:00:25",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@mel_samui.json",
+      "title": "歌枠⌇眠るまでウクレレ弾きでうたいます。#花鹿める",
+      "video_url": "https://www.youtube.com/watch?v=AtCZY0Z-sJ0",
+      "upload_date": "2026-08-27T00:31:29",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@koyuchan_.json",
+      "title": "【R.E.P.O.】くすのきせんせい、ｶﾞﾁｬひきたいです。【 #星降こゆ #repo  #初見さん大歓迎 】",
+      "video_url": "https://www.youtube.com/watch?v=x320GJ96QLE",
+      "upload_date": "2026-08-30T20:58:39",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@koyuchan_.json",
+      "title": "【R.E.P.O.】人と遊ぶりぽって、いいよね。。。【 #星降こゆ #repo  #初見さん大歓迎 】",
+      "video_url": "https://www.youtube.com/watch?v=MUviylHH3bs",
+      "upload_date": "2026-08-29T20:59:28",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@koyuchan_.json",
+      "title": "【R.E.P.O.】初めての、「ソロR.E.P.O.」（こわくなったら終了）【 #星降こゆ #repo  #初見さん大歓迎 】",
+      "video_url": "https://www.youtube.com/watch?v=g1siHzvN2UA",
+      "upload_date": "2026-08-27T20:59:11",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@koyuchan_.json",
+      "title": "【 #桃源郷GTAS2 】 ‪パージデイ最終日！私がギャングだった世界線。【 #星降こゆ / 月宮ゆず 】",
+      "video_url": "https://www.youtube.com/watch?v=MnL8opHB5oA",
+      "upload_date": "2026-08-25T20:59:51",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@7_hapi_.json",
+      "title": "【#ななはぴ5周年】シュガーソングとビターステップ/UNISON SQUARE GARDEN【合唱 / 歌ってみた】",
+      "video_url": "https://www.youtube.com/watch?v=80S4I2TCdCc",
+      "upload_date": "2026-07-18T20:00:06",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@7_hapi_.json",
+      "title": "【切り抜き動画】ななはぴメンバーでめっちゃカメレオンコラボ！【#ななはぴ】",
+      "video_url": "https://www.youtube.com/watch?v=yY1ueZTPDuE",
+      "upload_date": "2026-07-17T18:00:20",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@7_hapi_.json",
+      "title": "【4周年サマフェス】サインはB【星降こゆ】#shots #切り抜き",
+      "video_url": "https://www.youtube.com/watch?v=wCpme_Pa7Kw",
+      "upload_date": "2025-11-12T19:01:39",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@7_hapi_.json",
+      "title": "【4周年サマフェス】UNDEAD【花鹿める】#shots #切り抜き",
+      "video_url": "https://www.youtube.com/watch?v=S-YRh4XPJZE",
+      "upload_date": "2025-11-11T19:00:45",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@7_hapi_.json",
+      "title": "【4周年サマフェス】Division Battle Anthem【切札アタル】#shots #切り抜き",
+      "video_url": "https://www.youtube.com/watch?v=dmZtBKwawWs",
+      "upload_date": "2025-11-10T19:00:56",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@rinka__angel.json",
+      "title": "休むことに罪悪感を感じてしまう夜に。 #shorts #名言",
+      "video_url": "https://www.youtube.com/watch?v=KbU5S1Vssok",
+      "upload_date": "2026-08-16T20:00:18",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@rinka__angel.json",
+      "title": "理不尽な人に疲れた夜へ。自分を見失わないための『自省録』の言葉 #shorts",
+      "video_url": "https://www.youtube.com/watch?v=DmKlB2xo49w",
+      "upload_date": "2026-08-15T20:00:08",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@rinka__angel.json",
+      "title": "痛みと快楽の果て、魔物へと変わる少女。谷崎潤一郎『刺青』【朗読 / リンカ＝エンジェルズシェア】 #リンエア",
+      "video_url": "https://www.youtube.com/watch?v=7ksZ7BSMtFk",
+      "upload_date": "2026-08-14T20:00:23",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@rinka__angel.json",
+      "title": "恋愛の魔法が解けてしまった、すべての大人の夜に。坂口安吾『恋愛論』 #shorts",
+      "video_url": "https://www.youtube.com/watch?v=UpCJGtr_DHA",
+      "upload_date": "2026-08-14T20:00:16",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@rinka__angel.json",
+      "title": "誰だって見えない悩みを抱えている。夏目漱石『吾輩は猫である』 #shorts #名言",
+      "video_url": "https://www.youtube.com/watch?v=2Cxv7F9wxiI",
+      "upload_date": "2026-08-13T20:00:14",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@nicola_aldin.json",
+      "title": "一番の宝物 ～Yui final ver.～ - Girls Dead Monster STARRING LiSA 【covered by ニコラ・アルディン】",
+      "video_url": "https://www.youtube.com/watch?v=KBgb1BChISo",
+      "upload_date": "2023-06-30T20:00:07",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@nicola_aldin.json",
+      "title": "桜のあと (all quartets lead to the?) / ニコラ・アルディン【遠坂ユラ主催LIVE『MEMENTO U 2nd』2023/5/7 開催】#MEMENTO_U2nd",
+      "video_url": "https://www.youtube.com/watch?v=K2BVyjZuSeM",
+      "upload_date": "2023-05-22T20:00:23",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@nicola_aldin.json",
+      "title": "【歌ってみた】エライエライエライ！／キノシタ(kinoshita) 【covered by ニコラ・アルディン】",
+      "video_url": "https://www.youtube.com/watch?v=HXXRVFMpQb4",
+      "upload_date": "2023-05-21T20:00:20",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@nicola_aldin.json",
+      "title": "【歌ってみた】ヒャダインのじょーじょーゆーじょー 【covered by ニコラ・アルディン＆ココロニ・ノンノ #ニコロニ】",
+      "video_url": "https://www.youtube.com/watch?v=Krw8Th9EKrs",
+      "upload_date": "2023-05-03T20:00:08",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@nicola_aldin.json",
+      "title": "エイプリルと恋日記 / msyマスイ Covered by ニコラ・アルディン【歌ってみた / Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=x1zQSoxkYfI",
+      "upload_date": "2023-04-02T19:00:44",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@nekono_chiyuru.json",
+      "title": "【 超自然スクワッドBB杯 】仲間と肝試し👻勝つぞ~！！【  #猫野ちゆる  /  #Vtuber 】",
+      "video_url": "https://www.youtube.com/watch?v=EODRPdBGUSw",
+      "upload_date": "2026-08-30T19:28:32",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@nekono_chiyuru.json",
+      "title": "【 ななはぴ主催  】#推し対 Vol.10 Day1凸待ち配信！ in 東京・渋谷【 MC 猫野ちゆる】",
+      "video_url": "https://www.youtube.com/watch?v=hbpARERgSpk",
+      "upload_date": "2026-08-29T15:27:26",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@nekono_chiyuru.json",
+      "title": "【 #NTE 実況 】#21 第6章ストーリーすすめます！【 #猫野ちゆる  /  #Vtuber 】",
+      "video_url": "https://www.youtube.com/watch?v=-5SCQ36RTGU",
+      "upload_date": "2026-08-27T19:59:56",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@nekono_chiyuru.json",
+      "title": "【 Sticker DECO demo】かわいい動物たちとシール交換！【 #猫野ちゆる  /  #Vtuber 】",
+      "video_url": "https://www.youtube.com/watch?v=Y6-7gJxw5bA",
+      "upload_date": "2026-08-25T19:59:53",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@nekono_chiyuru.json",
+      "title": "【 #超自然スクワッド #コラボ】初めましての人たちと初めてのゲーム！【  #猫野ちゆる  /  #Vtuber 】",
+      "video_url": "https://www.youtube.com/watch?v=-rk77C0yBGs",
+      "upload_date": "2026-08-24T21:02:16",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@Toworu_.json",
+      "title": "Fire◎Flower/halyosy(covered by 楠木トヲル)#歌ってみた #男性vtuber",
+      "video_url": "https://www.youtube.com/watch?v=tjK56wke1g8",
+      "upload_date": "2026-08-20T18:00:14",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@Toworu_.json",
+      "title": "ヤミタイガール/れるりり(covered by 楠木トヲル)#歌ってみた #男性vtuber",
+      "video_url": "https://www.youtube.com/watch?v=S-tpiXHKwg0",
+      "upload_date": "2026-06-15T20:06:39",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@Toworu_.json",
+      "title": "【PICO PARK 2】ななはぴ麻雀部の協調性を試そう【新人Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=9oArNHmEmnc",
+      "upload_date": "2026-06-14T21:03:17",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@Toworu_.json",
+      "title": "【歌枠】1か月ぶり【#男性Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=UqL577ZcXME",
+      "upload_date": "2026-06-11T00:07:37",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@Toworu_.json",
+      "title": "【トモコレ実況】Vtuber事務所のメンバーでわくわく生活したら人間関係がカオスになる説 Part3【楠木トヲル】",
+      "video_url": "https://www.youtube.com/watch?v=u5XW6Vz9hO0",
+      "upload_date": "2026-05-06T20:01:41",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@kirihuda_ataru.json",
+      "title": "【ご報告】活動休止について少しだけお話します【#切札アタル】",
+      "video_url": "https://www.youtube.com/watch?v=g8O4Q8LJyw0",
+      "upload_date": "2026-08-11T23:01:33",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@kirihuda_ataru.json",
+      "title": "【スプラ3】超絶初心者です。指示待ってます【#新人Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=lphAt2tbNuU",
+      "upload_date": "2026-06-19T00:00:13",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@kirihuda_ataru.json",
+      "title": "【大コラボ】めっちゃカメレオンというゲームをみんなでやってみようの会【#新人Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=PqaoKJMhAWc",
+      "upload_date": "2026-06-18T21:00:31",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@kirihuda_ataru.json",
+      "title": "【雑談】せっかく誕生日なので少しお話しましょう【#新人Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=1l-16_RlA14",
+      "upload_date": "2026-06-18T00:33:13",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@kirihuda_ataru.json",
+      "title": "【PICO PARK2】初ピコパークコラボ！というか初プレイ！どうやんのこれ～！！（切札アタル視点）",
+      "video_url": "https://www.youtube.com/watch?v=ypbWOAhrjyQ",
+      "upload_date": "2026-06-14T21:02:46",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@pieceofpudding3.json",
+      "title": "#周年記念【凸待ち】㊗5周年記念初めての凸待ち配信【ルシア・アラモード】",
+      "video_url": "https://www.youtube.com/watch?v=WG38yv8eTnM",
+      "upload_date": "2026-08-28T21:00:47",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@pieceofpudding3.json",
+      "title": "#ニチアサ同時視聴【同時視聴】8月23日放送分　#初見歓迎 　名探偵プリキュア！　仮面ライダーゼッツ　角醒ハンターオメガホーン【ルシア・アラモード】",
+      "video_url": "https://www.youtube.com/watch?v=zy7RFOj7Vwg",
+      "upload_date": "2026-08-26T21:00:16",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@pieceofpudding3.json",
+      "title": "#毎月25日はプリンの日【プリンの日】ルシアと過ごすプリンの日【ルシア・アラモード】",
+      "video_url": "https://www.youtube.com/watch?v=mhQX-WwJOwA",
+      "upload_date": "2026-08-25T21:02:17",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@memoa_923.json",
+      "title": "【#歌枠/#karaoke 】ゆったりおうた #shorts",
+      "video_url": "https://www.youtube.com/watch?v=-3_3px9bYE4",
+      "upload_date": "2026-05-16T22:02:19",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@memoa_923.json",
+      "title": "【#歌枠 / #KARAOKE 】GWだし夜更かしだってこわくないもんっ 【＃めもあ】",
+      "video_url": "https://www.youtube.com/watch?v=xCltoy0YjjQ",
+      "upload_date": "2026-05-03T22:58:46",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@memoa_923.json",
+      "title": "【#歌枠 / #KARAOKE 】ゆったりな夜をあなたと🌙 【＃めもあ】",
+      "video_url": "https://www.youtube.com/watch?v=1yt4fXf7cRs",
+      "upload_date": "2026-04-30T22:59:47",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
     {
       "file": "archives_@memoa_923.json",
       "title": "【週間スケジュール】めもあ/memoa",
@@ -10,11 +311,116 @@
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
     },
     {
+      "file": "archives_@memoa_923.json",
+      "title": "【#ななはぴリクエスト歌枠リレー】にばんて！いきま～すっ【＃めもあ】",
+      "video_url": "https://www.youtube.com/watch?v=vp69BdBsnrc",
+      "upload_date": "2026-04-18T15:01:17",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@amanosakatu.json",
+      "title": "【ななはぴ主催】#推し対 Vol.10 DAY2凸待ち配信 in 渋谷【MC まどろみ姉さん】",
+      "video_url": "https://www.youtube.com/watch?v=Q__TbbI2lS4",
+      "upload_date": "2026-08-30T15:28:15",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@amanosakatu.json",
+      "title": "【 #オンライン線香花火 】視聴者参加型オンライン線香花火Steam版🎇持ってない人は概要欄からDLしてね #まどろみ酒場  【Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=BYrAFUJTusU",
+      "upload_date": "2026-08-28T22:01:21",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@amanosakatu.json",
+      "title": "【OMORI】青春ホラーゲームOMORI実況配信 その9 #まどろみ酒場  【Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=POYPk5tRRiU",
+      "upload_date": "2026-08-26T22:01:26",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@amanosakatu.json",
+      "title": "【Minecraft】朝活マイクラ⛏️今日は和風な橋を作りたい⛩️スパチャを投げるとおみくじが引けるよ✨ #まどろみ酒場   #縦型配信 【Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=ri5IKBIdoBI",
+      "upload_date": "2026-08-25T07:04:31",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@amanosakatu.json",
+      "title": "【Minecraft】縦型マイクラ配信⛏️のんびりおしゃべりしつつ整地したり橋を架けたり✨ #まどろみ酒場   #縦型配信 【Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=eBn02pnbDss",
+      "upload_date": "2026-08-22T22:00:17",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@mimic_teionvo.json",
+      "title": "ただいま！！！みんなで復活をお祝いしようー！👀🗝✨【みみっく=わんだぁぼっくす】【男性Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=weSkCMhGakY",
+      "upload_date": "2026-08-14T22:04:21",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
       "file": "archives_@mimic_teionvo.json",
       "title": "#18【逆転検事1&2】声優Vの超アテレコ実況！👀🗝🎙🔥ミクモちゃんの笑顔が眩しい📸ネタバレ注意！【みみっく=わんだぁぼっくす】【男性Vtuber】",
       "video_url": "https://www.youtube.com/watch?v=UM2fabWL2Ho",
       "upload_date": "2026-06-23T22:00:00",
       "error": "動画エラー（削除済みの可能性）: status=ERROR"
+    },
+    {
+      "file": "archives_@mimic_teionvo.json",
+      "title": "【めっちゃカメレオン】ななはぴコラボ🌈🍀擬態して背景に溶け込め！👀🗝🎨【みみっく=わんだぁぼっくす】【男性Vtuber】",
+      "video_url": "https://www.youtube.com/watch?v=3rNZ73d3flA",
+      "upload_date": "2026-06-18T21:00:33",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@kokoroninonno.json",
+      "title": "【謎解きASMR】廃村で “それ” と目が合ったら？ 〜真夏の謎解き怪談〜 #シチュボ謎【黒3dio/朗読/微ホラー/シチュエーションボイス/8月】",
+      "video_url": "https://www.youtube.com/watch?v=Q-JbUqtPhlw",
+      "upload_date": "2026-08-30T19:30:05",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@kokoroninonno.json",
+      "title": "【謎解きASMR】あまあま彼女と満天の星の下で謎解き！？ #シチュボ謎【黒3dio/耳ふぅ/ゼロ距離囁き/シチュエーションボイス/7月】",
+      "video_url": "https://www.youtube.com/watch?v=LrtzLPanKHg",
+      "upload_date": "2026-08-30T19:00:19",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@kokoroninonno.json",
+      "title": "【ほの暮しの庭】因習村の謎を解き明かします！#8【ココロニ・ノンノ/ななはぴ】",
+      "video_url": "https://www.youtube.com/watch?v=GZXt6hZXrus",
+      "upload_date": "2026-08-27T12:04:55",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@kokoroninonno.json",
+      "title": "【ほの暮しの庭】因習村の謎を解き明かします！#7【ココロニ・ノンノ/ななはぴ】",
+      "video_url": "https://www.youtube.com/watch?v=O0txTi67z6M",
+      "upload_date": "2026-08-25T22:47:15",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@JabiDevi.json",
+      "title": "#夏歌リレー  ♰ お前たちと最後の“夏”🔥",
+      "video_url": "https://www.youtube.com/watch?v=LvUJOg60Slc",
+      "upload_date": "2026-08-30T18:29:39",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@JabiDevi.json",
+      "title": "歌枠 ♰ 初見さん大歓迎！平成曲歌いたい🎙#低音女子",
+      "video_url": "https://www.youtube.com/watch?v=pkmn8DLXz4o",
+      "upload_date": "2026-08-28T17:01:03",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@JabiDevi.json",
+      "title": "サブノーティカ２ ♰ 緊急事態!?この海には何かがいるらしい。 #サブノーティカ2",
+      "video_url": "https://www.youtube.com/watch?v=l2tdpdg4p6E",
+      "upload_date": "2026-08-26T19:02:45",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
     }
   ]
 }
