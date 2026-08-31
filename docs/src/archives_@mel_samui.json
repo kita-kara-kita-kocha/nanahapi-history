@@ -436,7 +436,7 @@
     },
     {
       "title": "5/3",
-      "image": "https://i.ytimg.com/vi/f5SPou9iYjY/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhRIGAoZTAPuALzGA==&rs=AOn4CLAiJ_OmVeqVOT_StVEhmkszr3aSuA",
+      "image": "https://i.ytimg.com/vi/f5SPou9iYjY/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhRIGAoZTAPuAL3GA==&rs=AOn4CLArGho03jIwHXvzvMZ70lqDZmJtrg",
       "alt": "5/3",
       "description": "説明なし",
       "videoId": "f5SPou9iYjY",
@@ -3482,7 +3482,7 @@
     },
     {
       "title": "夢の恋人",
-      "image": "https://i.ytimg.com/vi/X30mstolZgo/hqdefault.jpg?sqp=-oaymwEgCOADEI4CSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCtZLrNaBgUHkChpeCApILAczVGVw",
+      "image": "https://i.ytimg.com/vi/X30mstolZgo/hqdefault.jpg?sqp=-oaymwEgCOADEI4CSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBk5HuweHWe3ejur748CFmdIUb2Zg",
       "alt": "夢の恋人",
       "description": "説明なし",
       "videoId": "X30mstolZgo",
@@ -6225,6 +6225,6 @@
     "#初配信",
     "#cover"
   ],
-  "last_updated": "2026-08-31T09:37:33.535064",
+  "last_updated": "2026-08-31T12:37:54.907735",
   "total_videos": 485
 }

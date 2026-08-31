@@ -11,9 +11,21 @@
       "upload_date": "2027-07-05T00:00:00"
     },
     {
-      "title": "【朝活/作業雑談】OBSが初期化してしまったので、配信画面を整える配信【ココロニ・ノンノ/ななはぴ】 2026-08-31 09:32",
-      "image": "https://i.ytimg.com/vi_webp/nSqZqIsFu8c/maxresdefault_live.webp",
-      "alt": "【朝活/作業雑談】OBSが初期化してしまったので、配信画面を整える配信【ココロニ・ノンノ/ななはぴ】 2026-08-31 09:32",
+      "title": "【ほの暮しの庭】因習村の謎を解き明かします！#9【ココロニ・ノンノ/ななはぴ】 2026-08-31 12:32",
+      "image": "https://i.ytimg.com/vi_webp/EyXdaeep1jc/maxresdefault_live.webp",
+      "alt": "【ほの暮しの庭】因習村の謎を解き明かします！#9【ココロニ・ノンノ/ななはぴ】 2026-08-31 12:32",
+      "description": "📺 ＜あんしん暮らしモードはプレイ済み　ほの暮らしモードでにゅーげーむ！\n📋 \n📚 https://nippon1.jp/consumer/honogurashi/\n💬 コメントお待ちしております！\n...",
+      "videoId": "EyXdaeep1jc",
+      "video_url": "https://www.youtube.com/watch?v=EyXdaeep1jc",
+      "tags": [
+        "#9"
+      ],
+      "upload_date": "2026-08-31T12:27:55"
+    },
+    {
+      "title": "【朝活/作業雑談】OBSが初期化してしまったので、配信画面を整える配信【ココロニ・ノンノ/ななはぴ】",
+      "image": "https://i.ytimg.com/vi_webp/nSqZqIsFu8c/maxresdefault.webp",
+      "alt": "【朝活/作業雑談】OBSが初期化してしまったので、配信画面を整える配信【ココロニ・ノンノ/ななはぴ】",
       "description": "📺 ＜最近PCのトラブルが多すぎる\n📋ころぽっくる解説：https://www.youtube.com/live/Pg0o9djFCRI?si=j6aVAoB-4nTixAbb\n作詞したもの：http...",
       "videoId": "nSqZqIsFu8c",
       "video_url": "https://www.youtube.com/watch?v=nSqZqIsFu8c",
@@ -2912,6 +2924,7 @@
     "#ココロニ",
     "#この中に犯人がいる歌枠リレー",
     "#28",
+    "#9",
     "#8",
     "#7",
     "#6",
@@ -2973,6 +2986,6 @@
     "#コ古鬼乃ソノ死",
     "#TRPG配信者歌みたリレー"
   ],
-  "last_updated": "2026-08-31T09:32:54.573733",
-  "total_videos": 261
+  "last_updated": "2026-08-31T12:32:57.034412",
+  "total_videos": 262
 }
