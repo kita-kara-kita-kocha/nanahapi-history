@@ -1,6 +1,6 @@
 {
   "total_checked": 70,
-  "broken_count": 2,
+  "broken_count": 1,
   "broken_links": [
     {
       "file": "archives_@memoa_923.json",
@@ -8,13 +8,6 @@
       "video_url": "https://www.youtube.com/watch?v=9xa0Weagh6g",
       "upload_date": "2026-04-22T18:00:00",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@mimic_teionvo.json",
-      "title": "#18【逆転検事1&2】声優Vの超アテレコ実況！👀🗝🎙🔥ミクモちゃんの笑顔が眩しい📸ネタバレ注意！【みみっく=わんだぁぼっくす】【男性Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=UM2fabWL2Ho",
-      "upload_date": "2026-06-23T22:00:00",
-      "error": "動画エラー（削除済みの可能性）: status=ERROR"
     }
   ]
 }
