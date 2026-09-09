@@ -1,7 +1,14 @@
 {
   "total_checked": 70,
-  "broken_count": 1,
+  "broken_count": 2,
   "broken_links": [
+    {
+      "file": "archives_@rinka__angel.json",
+      "title": "#リンエア",
+      "video_url": "https://www.youtube.com/watch?v=um1mhSKsmR0",
+      "upload_date": "2026-09-07T22:41:19",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
     {
       "file": "archives_@memoa_923.json",
       "title": "【週間スケジュール】めもあ/memoa",
