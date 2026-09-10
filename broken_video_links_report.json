@@ -1,55 +1,13 @@
 {
-  "total_checked": 420,
-  "broken_count": 7,
+  "total_checked": 70,
+  "broken_count": 1,
   "broken_links": [
     {
-      "file": "archives_@7_hapi_.json",
-      "title": "【4周年サマフェス】サインはB【リンカ=エンジェルズシェア】#shots #切り抜き",
-      "video_url": "https://www.youtube.com/watch?v=G9NZ5r2xIho",
-      "upload_date": "2025-11-04T19:00:32",
+      "file": "archives_@JabiDevi.json",
+      "title": "歌枠 ♰ 初見さん大歓迎 雨の日に聴きたい歌枠🎙#低音女子",
+      "video_url": "https://www.youtube.com/watch?v=Bt2OruxWCRo",
+      "upload_date": "2026-09-08T17:02:26",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@rinka__angel.json",
-      "title": "【生誕記念】詳細は6月になってから🫶 #リンカおんエア",
-      "video_url": "https://www.youtube.com/watch?v=rcSfES5np3o",
-      "upload_date": "2026-06-25T20:00:00",
-      "error": "動画エラー（削除済みの可能性）: status=ERROR"
-    },
-    {
-      "file": "archives_@rinka__angel.json",
-      "title": "【ドッキリ神回避4】すれ違い回避  [ Prank god avoidance 4 ]  #games #ゲーム実況 #shorts",
-      "video_url": "https://www.youtube.com/watch?v=qMHTpVVGvHA",
-      "upload_date": "2025-11-23T15:53:22",
-      "error": "動画エラー（削除済みの可能性）: status=ERROR"
-    },
-    {
-      "file": "archives_@rinka__angel.json",
-      "title": "【ドッキリ神回避4】はさまれ回避😇  [ Prank god avoidance 4 ]  #shorts #ゲーム #ゲーム実況",
-      "video_url": "https://www.youtube.com/watch?v=yjiOO_yBX6o",
-      "upload_date": "2025-11-23T15:30:38",
-      "error": "動画エラー（削除済みの可能性）: status=ERROR"
-    },
-    {
-      "file": "archives_@rinka__angel.json",
-      "title": "【ハッピーキャンディ】ブーケとりたい💐次に結婚するのは私だ！！！[ Happy candy ] #games #スマホゲーム #shorts",
-      "video_url": "https://www.youtube.com/watch?v=4a-gTzunMYY",
-      "upload_date": "2025-11-23T15:30:05",
-      "error": "動画エラー（削除済みの可能性）: status=ERROR"
-    },
-    {
-      "file": "archives_@amanosakatu.json",
-      "title": "【筋トレ配信】チャンネル登録・高評価の数だけスクワットします！詳細は概要欄へ #まどろみ酒場  【Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=tCBncPZZN8s",
-      "upload_date": "2026-08-22T22:00:00",
-      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@mimic_teionvo.json",
-      "title": "#18【逆転検事1&2】声優Vの超アテレコ実況！👀🗝🎙🔥ミクモちゃんの笑顔が眩しい📸ネタバレ注意！【みみっく=わんだぁぼっくす】【男性Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=UM2fabWL2Ho",
-      "upload_date": "2026-06-23T22:00:00",
-      "error": "動画エラー（削除済みの可能性）: status=ERROR"
     }
   ]
 }
