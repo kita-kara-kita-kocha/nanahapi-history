@@ -1,12 +1,19 @@
 {
   "total_checked": 70,
-  "broken_count": 1,
+  "broken_count": 2,
   "broken_links": [
     {
-      "file": "archives_@JabiDevi.json",
-      "title": "歌枠 ♰ 初見さん大歓迎 雨の日に聴きたい歌枠🎙#低音女子",
-      "video_url": "https://www.youtube.com/watch?v=Bt2OruxWCRo",
-      "upload_date": "2026-09-08T17:02:26",
+      "file": "archives_@koyuchan_.json",
+      "title": "【 #同時視聴 】Nintendo Direct 同時視聴するゎょ~~~！【 #星降こゆ  #freetalk  #初見歓迎 】",
+      "video_url": "https://www.youtube.com/watch?v=hDQ_LRBmhY8",
+      "upload_date": "2026-09-12T21:30:00",
+      "error": "動画エラー（削除済みの可能性）: status=ERROR"
+    },
+    {
+      "file": "archives_@rinka__angel.json",
+      "title": "【#ぐる輪カップ】はじめての競輪🔰ルールを学んでリスナーと予想対決！負けたら足つぼ！？ #リンエア 2026-09-11 21:40",
+      "video_url": "https://www.youtube.com/watch?v=um1mhSKsmR0",
+      "upload_date": "2026-09-11T21:00:54",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
     }
   ]
