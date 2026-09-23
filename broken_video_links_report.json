@@ -1,12 +1,19 @@
 {
   "total_checked": 70,
-  "broken_count": 1,
+  "broken_count": 2,
   "broken_links": [
     {
       "file": "archives_@koyuchan_.json",
-      "title": "【 #同時視聴 】Nintendo Direct 同時視聴するゎょ~~~！【 #星降こゆ  #freetalk  #初見歓迎 】",
-      "video_url": "https://www.youtube.com/watch?v=hDQ_LRBmhY8",
-      "upload_date": "2026-09-12T21:30:00",
+      "title": "【リズム天国 ミラクルスターズ】ななはぴりずむ担当（かもしれない）赤子です。　 #星降こゆ 【初見さん大歓迎】",
+      "video_url": "https://www.youtube.com/watch?v=I0geBkpgR0A",
+      "upload_date": "2026-09-23T21:00:00",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
+      "file": "archives_@JabiDevi.json",
+      "title": "サブノーティカ２ ♰ リヴァイアさんを怒らせる天才かもしれない。 #サブノーティカ2",
+      "video_url": "https://www.youtube.com/watch?v=-AMwyb9BCZg",
+      "upload_date": "2026-09-23T17:01:16",
       "error": "動画エラー（削除済みの可能性）: status=ERROR"
     }
   ]
