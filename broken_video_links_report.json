@@ -1,14 +1,7 @@
 {
   "total_checked": 70,
-  "broken_count": 4,
+  "broken_count": 2,
   "broken_links": [
-    {
-      "file": "archives_@koyuchan_.json",
-      "title": "【 #歌枠  】リクエストOKな、歌枠~~~！⭐【 #星降こゆ  #vtuber  #KARAOKE 】",
-      "video_url": "https://www.youtube.com/watch?v=gisIrC9pgFg",
-      "upload_date": "2026-10-11T21:00:00",
-      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
     {
       "file": "archives_@rinka__angel.json",
       "title": "ハロウィンパーティ🎃(予定) #リンエア",
@@ -22,13 +15,6 @@
       "video_url": "https://www.youtube.com/watch?v=hu1_j6tA2rQ",
       "upload_date": "2026-10-17T20:00:00",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@JabiDevi.json",
-      "title": "縦型配信 ♰ 女性アーティストしばりで歌います🎙#歌枠",
-      "video_url": "https://www.youtube.com/watch?v=3_ZMZyaR79s",
-      "upload_date": "2026-10-14T17:00:00",
-      "error": "動画エラー（削除済みの可能性）: status=ERROR"
     }
   ]
 }
