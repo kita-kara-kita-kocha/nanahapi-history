@@ -781,7 +781,7 @@
     },
     {
       "title": "5/3",
-      "image": "https://i.ytimg.com/vi/f5SPou9iYjY/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhRIGAoZTAPuALzGA==&rs=AOn4CLAiJ_OmVeqVOT_StVEhmkszr3aSuA",
+      "image": "https://i.ytimg.com/vi/f5SPou9iYjY/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhRIGAoZTAP&rs=AOn4CLCGvdeNSqpK1GRwdqXuXE3Sh9ZGUA",
       "alt": "5/3",
       "description": "説明なし",
       "videoId": "f5SPou9iYjY",
@@ -6573,6 +6573,6 @@
     "#初配信",
     "#cover"
   ],
-  "last_updated": "2026-10-28T06:37:14.277999",
+  "last_updated": "2026-10-28T09:37:24.243021",
   "total_videos": 513
 }
