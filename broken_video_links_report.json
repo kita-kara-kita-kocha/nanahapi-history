@@ -3,6 +3,13 @@
   "broken_count": 3,
   "broken_links": [
     {
+      "file": "archives_@mel_samui.json",
+      "title": "#minecraft 26.3⌇やりたいことが、おおすぎる。チル雑談 × 作業・睡眠BGM⛏️long play☕ #花鹿める / ななはぴ",
+      "video_url": "https://www.youtube.com/watch?v=TBHKJA_Pfso",
+      "upload_date": "2026-11-05T22:00:00",
+      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+    },
+    {
       "file": "archives_@rinka__angel.json",
       "title": "ハロウィンパーティ🎃(予定) #リンエア",
       "video_url": "https://www.youtube.com/watch?v=CDvPC_0CI9M",
@@ -15,13 +22,6 @@
       "video_url": "https://www.youtube.com/watch?v=hu1_j6tA2rQ",
       "upload_date": "2026-10-17T20:00:00",
       "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
-    },
-    {
-      "file": "archives_@amanosakatu.json",
-      "title": "【飲酒雑談】10月末にもらった誕生日プレゼントを開けていきます！🍻 #まどろみ酒場  【Vtuber】",
-      "video_url": "https://www.youtube.com/watch?v=GSetSBSfH8Q",
-      "upload_date": "2026-11-05T22:00:00",
-      "error": "動画エラー（削除済みの可能性）: status=ERROR"
     }
   ]
 }
