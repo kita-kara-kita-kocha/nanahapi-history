@@ -21,14 +21,14 @@
       "title": "ハロウィンパーティ🎃(予定) #リンエア",
       "video_url": "https://www.youtube.com/watch?v=CDvPC_0CI9M",
       "upload_date": "2026-10-31T16:00:00",
-      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+      "error": "動画エラー（削除済みの可能性）: status=ERROR"
     },
     {
       "file": "archives_@rinka__angel.json",
       "title": "【ホグワーツレガシー 実況】準備中…【#4 〇〇〇】 #リンエア",
       "video_url": "https://www.youtube.com/watch?v=hu1_j6tA2rQ",
       "upload_date": "2026-10-17T20:00:00",
-      "error": "非公開動画: status=LOGIN_REQUIRED (3回リトライ後)"
+      "error": "動画エラー（削除済みの可能性）: status=ERROR"
     }
   ]
 }
