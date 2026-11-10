@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "title": "【ほの暮しの庭】アプデ後。誕生日当日を迎えるべくほのぼの過ごしていく#19【ココロニ・ノンノ/ななはぴ】",
+      "image": "https://i.ytimg.com/vi_webp/7NV4QUvwoA0/maxresdefault.webp",
+      "alt": "【ほの暮しの庭】アプデ後。誕生日当日を迎えるべくほのぼの過ごしていく#19【ココロニ・ノンノ/ななはぴ】",
+      "description": "📺 ＜あんしん暮らしモードはプレイ済み　ほの暮らしモードでにゅーげーむ！\n📋 \n📚 https://nippon1.jp/consumer/honogurashi/\n💬 コメントお待ちしております！\n...",
+      "videoId": "7NV4QUvwoA0",
+      "video_url": "https://www.youtube.com/watch?v=7NV4QUvwoA0",
+      "tags": [
+        "#19"
+      ],
+      "upload_date": "2026-11-10T15:00:00"
+    },
+    {
       "title": "【見聞録🔎】『#思考実験展』『#逃げ若脱出』『#猫カフェ脱出』『#ナゾトキマーケット』とは💭📚謎解き行ってきました&開催しましたの記録！#43【ココロニ・ノンノ/ななはぴ】",
       "image": "https://i.ytimg.com/vi_webp/O4aCYO3RFTg/maxresdefault.webp",
       "alt": "【見聞録🔎】『#思考実験展』『#逃げ若脱出』『#猫カフェ脱出』『#ナゾトキマーケット』とは💭📚謎解き行ってきました&開催しましたの記録！#43【ココロニ・ノンノ/ななはぴ】",
@@ -120,7 +132,7 @@
     },
     {
       "title": "[Members Only] Hand-Cam Test Stream [Kokoroni Nonno / Nanahapi]",
-      "image": "https://i.ytimg.com/vi/rVPHMRI0bVU/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIF8oQTAP&rs=AOn4CLDBnHhG8TFXoBHG94-BbA7lu9hgVA",
+      "image": "https://i.ytimg.com/vi/rVPHMRI0bVU/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIF8oQTAPuAL3GA==&rs=AOn4CLD93MWxk8vntK1JKsWrnrwyLNZLTQ",
       "alt": "[Members Only] Hand-Cam Test Stream [Kokoroni Nonno / Nanahapi]",
       "description": "説明なし",
       "videoId": "rVPHMRI0bVU",
@@ -3391,6 +3403,7 @@
     "#ココロニ",
     "#この中に犯人がいる歌枠リレー",
     "#28",
+    "#19",
     "#43",
     "#ナゾトキマーケット",
     "#思考実験展",
@@ -3479,6 +3492,6 @@
     "#コ古鬼乃ソノ死",
     "#TRPG配信者歌みたリレー"
   ],
-  "last_updated": "2026-11-10T09:32:59.922729",
-  "total_videos": 302
+  "last_updated": "2026-11-10T12:33:06.963637",
+  "total_videos": 303
 }
