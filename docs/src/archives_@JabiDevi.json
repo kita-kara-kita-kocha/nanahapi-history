@@ -1,9 +1,9 @@
 {
   "items": [
     {
-      "title": "#歌枠 ♰ かわいい曲を可愛く歌います🎙#karaoke 2026-11-28 18:36",
-      "image": "https://i.ytimg.com/vi_webp/GPhBErxRroI/maxresdefault_live.webp",
-      "alt": "#歌枠 ♰ かわいい曲を可愛く歌います🎙#karaoke 2026-11-28 18:36",
+      "title": "#歌枠 ♰ かわいい曲を可愛く歌います🎙#karaoke",
+      "image": "https://i.ytimg.com/vi_webp/GPhBErxRroI/maxresdefault.webp",
+      "alt": "#歌枠 ♰ かわいい曲を可愛く歌います🎙#karaoke",
       "description": "#vsinger #vtuber \n\n弾幕\n🐍🔥🎶🐍🔥🎶\n\n①高評価・ハイプ\n②Xへの共有\n③コメント\nこの３つをしてくれると大変嬉しい。\n\n+‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥+\n\n♰ 蛇火【歌って...",
       "videoId": "GPhBErxRroI",
       "video_url": "https://www.youtube.com/watch?v=GPhBErxRroI",
@@ -26,6 +26,18 @@
         "#歌ってみた"
       ],
       "upload_date": "2026-11-28T16:00:18"
+    },
+    {
+      "title": "メン限 ♰ Repiが可愛すぎる…からみて！！！！！",
+      "image": "https://i.ytimg.com/vi/u6ccD44oEYk/hq720.jpg?v=6b0aad1b&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCu0GsnTz4i8Inp7F6yMu9O_8-tKw",
+      "alt": "メン限 ♰ Repiが可愛すぎる…からみて！！！！！",
+      "description": "説明なし",
+      "videoId": "u6ccD44oEYk",
+      "video_url": "https://www.youtube.com/watch?v=u6ccD44oEYk",
+      "tags": [
+        "#メン限"
+      ],
+      "upload_date": "2026-11-28T11:29:44"
     },
     {
       "title": "#歌枠 ♰ 同接奇数で地声⇔偶数カワボで歌います!!#karaoke",
@@ -11834,6 +11846,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-11-28T18:37:35.368808",
-  "total_videos": 890
+  "last_updated": "2026-11-28T21:38:51.326455",
+  "total_videos": 891
 }
