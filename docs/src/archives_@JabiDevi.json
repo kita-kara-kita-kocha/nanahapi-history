@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "title": "メン限 ♰ Repiが可愛すぎる…からみて！！！！！",
+      "image": "https://i.ytimg.com/vi/u6ccD44oEYk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCu0GsnTz4i8Inp7F6yMu9O_8-tKw",
+      "alt": "メン限 ♰ Repiが可愛すぎる…からみて！！！！！",
+      "description": "説明なし",
+      "videoId": "u6ccD44oEYk",
+      "video_url": "https://www.youtube.com/watch?v=u6ccD44oEYk",
+      "tags": [
+        "#メン限"
+      ],
+      "upload_date": "2026-11-28T21:02:30"
+    },
+    {
       "title": "#歌枠 ♰ かわいい曲を可愛く歌います🎙#karaoke",
       "image": "https://i.ytimg.com/vi_webp/GPhBErxRroI/maxresdefault.webp",
       "alt": "#歌枠 ♰ かわいい曲を可愛く歌います🎙#karaoke",
@@ -26,18 +38,6 @@
         "#歌ってみた"
       ],
       "upload_date": "2026-11-28T16:00:18"
-    },
-    {
-      "title": "メン限 ♰ Repiが可愛すぎる…からみて！！！！！",
-      "image": "https://i.ytimg.com/vi/u6ccD44oEYk/hq720.jpg?v=6b0aad1b&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCu0GsnTz4i8Inp7F6yMu9O_8-tKw",
-      "alt": "メン限 ♰ Repiが可愛すぎる…からみて！！！！！",
-      "description": "説明なし",
-      "videoId": "u6ccD44oEYk",
-      "video_url": "https://www.youtube.com/watch?v=u6ccD44oEYk",
-      "tags": [
-        "#メン限"
-      ],
-      "upload_date": "2026-11-28T11:29:44"
     },
     {
       "title": "#歌枠 ♰ 同接奇数で地声⇔偶数カワボで歌います!!#karaoke",
@@ -11846,6 +11846,6 @@
     "#Vtuber",
     "#ななはぴリクエスト歌枠リレー"
   ],
-  "last_updated": "2026-11-28T21:38:51.326455",
+  "last_updated": "2026-11-29T00:37:28.445805",
   "total_videos": 891
 }
